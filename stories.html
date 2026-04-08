@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Second Voice | Stories</title>
+  <meta
+    name="description"
+    content="Browse the Project Second Voice story archive, a growing collection of immigrant stories shared through digital media."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="stories">
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="container">
+        <nav class="navbar" aria-label="Main navigation">
+          <a class="brand" href="index.html" aria-label="Project Second Voice home">
+            <img class="brand-mark" src="assets/project-second-voice-logo.png" alt="Project Second Voice logo">
+            <span>Project Second Voice</span>
+          </a>
+          <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+            <span class="sr-only">Toggle navigation</span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="nav-links" id="site-menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="impact.html">Impact</a>
+            <a class="is-active" href="stories.html">Stories</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero section">
+        <div class="container narrow reveal">
+          <p class="eyebrow">Story archive</p>
+          <h1>A growing collection of voices, memories, and lived experience.</h1>
+          <p class="section-intro">
+            The archive is structured to grow over time, making it easy to add new stories while keeping the
+            presentation warm, readable, and consistent.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="submission-banner reveal" id="submit-story">
+            <div class="submission-copy">
+              <p class="eyebrow">Share your story</p>
+              <h2>Share Your Story</h2>
+              <p>
+                This platform exists to preserve and amplify immigrant voices. Project Second Voice invites community
+                members to share stories, reflections, and lived experiences that deserve to be remembered and heard.
+              </p>
+            </div>
+            <div class="submission-actions">
+              <a class="button button-primary submission-button" data-story-submit-link href="https://docs.google.com/forms/d/e/1FAIpQLSfCem22HQOIS5jlcQKeNLmisV8W1oXVRd6TmXMJii0-VJpMfw/viewform?usp=dialog" target="_blank" rel="noreferrer">
+                Share Your Story
+              </a>
+              <p class="submission-note">
+                This button takes you to a Google Form where you can request that we cover a story. All submissions
+                will be evaluated, and we will do our best to implement as many of them as possible.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-soft">
+        <div class="container">
+          <div class="story-focus reveal" id="story-focus-panel" data-story-focus></div>
+          <div class="story-grid" data-story-archive></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>Every story in the archive is part of a larger record of resilience, identity, and belonging.</p>
+        <a href="contact.html">Submit an inquiry</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
