@@ -2,6 +2,8 @@ document.documentElement.classList.add("js");
 
 const STORY_SUBMISSION_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfCem22HQOIS5jlcQKeNLmisV8W1oXVRd6TmXMJii0-VJpMfw/viewform?usp=dialog";
 const CONTACT_EMAIL = "projectsecondvoice@gmail.com";
+const EXTERNAL_LINK_REL = "noopener noreferrer";
+const FEATURED_STORY_PREVIEW_COUNT = 5;
 
 const stories = [
   {
@@ -146,9 +148,18 @@ const stories = [
 
 stories.sort((left, right) => left.order - right.order);
 
+function getExternalLinkAttributes(url) {
+  if (!/^https?:\/\//.test(url)) {
+    return "";
+  }
+
+  return ` target="_blank" rel="${EXTERNAL_LINK_REL}"`;
+}
+
 function validateStoriesData() {
   const seenSlugs = new Set();
   const seenOrders = new Set();
+  const seenTikTokLinks = new Set();
   let newestCount = 0;
 
   stories.forEach((story) => {
@@ -164,6 +175,17 @@ function validateStoriesData() {
 
     if (story.isNewest) {
       newestCount += 1;
+    }
+
+    if (story.tiktokLink) {
+      if (seenTikTokLinks.has(story.tiktokLink)) {
+        console.warn(`Duplicate TikTok link detected for ${story.title}.`);
+      }
+      seenTikTokLinks.add(story.tiktokLink);
+
+      if (!/^https:\/\/www\.tiktok\.com\/@projectsecondvoice\//.test(story.tiktokLink)) {
+        console.warn(`Unexpected TikTok link format for ${story.title}: ${story.tiktokLink}`);
+      }
     }
 
     story.images.forEach((imagePath) => {
@@ -210,7 +232,6 @@ function createStoryCard(story, isArchive = false) {
   const card = document.createElement("article");
   card.className = "story-card reveal";
   const storyHref = getStoryHref(story, isArchive);
-  const isExternalLink = /^https?:\/\//.test(storyHref);
   const primaryImage = story.images[0];
   const imageMarkup = primaryImage
     ? `<img class="story-card-image" src="${primaryImage}" alt="${story.title}" loading="lazy" decoding="async">`
@@ -221,7 +242,7 @@ function createStoryCard(story, isArchive = false) {
     <span class="story-card-badge">${getStoryBadge(story)}</span>
     <h3>${story.title}</h3>
     <p>${getStoryPreviewText(story.summary)}</p>
-    <a class="button button-secondary" href="${storyHref}" data-story-slug="${story.slug}"${isExternalLink ? ' target="_blank" rel="noreferrer"' : ""}>View Story</a>
+    <a class="button button-secondary" href="${storyHref}" data-story-slug="${story.slug}"${getExternalLinkAttributes(storyHref)}>View Story</a>
   `;
   return card;
 }
@@ -235,10 +256,9 @@ function renderNewestStory() {
 
   const newestStory = stories.find((story) => story.isNewest) || stories[0];
   const newestHref = getStoryHref(newestStory);
-  const isExternalLink = /^https?:\/\//.test(newestHref);
   const primaryImage = newestStory.images[0];
   const imageMarkup = primaryImage
-    ? `<img class="newest-story-image" src="${primaryImage}" alt="${newestStory.title}">`
+    ? `<img class="newest-story-image" src="${primaryImage}" alt="${newestStory.title}" loading="lazy" decoding="async">`
     : `<div class="newest-story-image newest-story-image-placeholder" aria-hidden="true"></div>`;
 
   newestContainer.innerHTML = `
@@ -247,7 +267,7 @@ function renderNewestStory() {
         <span class="story-focus-pill">Newest story</span>
         <h3>${newestStory.title}</h3>
         <p>${getStoryPreviewText(newestStory.summary, 260)}</p>
-        <a class="button button-primary" href="${newestHref}"${isExternalLink ? ' target="_blank" rel="noreferrer"' : ""}>Read Newest Story</a>
+        <a class="button button-primary" href="${newestHref}"${getExternalLinkAttributes(newestHref)}>Read Newest Story</a>
       </div>
       <div class="newest-story-visual">
         ${imageMarkup}
@@ -269,7 +289,7 @@ function renderStoryFocus() {
     ? `
       <div class="story-gallery">
         ${story.images.map((image, index) => `
-          <a class="story-gallery-item" href="${image}" target="_blank" rel="noreferrer" aria-label="Open ${story.title} image ${index + 1}">
+          <a class="story-gallery-item" href="${image}" target="_blank" rel="${EXTERNAL_LINK_REL}" aria-label="Open ${story.title} image ${index + 1}">
             <img src="${image}" alt="${story.title} slide ${index + 1}" loading="lazy" decoding="async">
           </a>
         `).join("")}
@@ -277,7 +297,7 @@ function renderStoryFocus() {
     `
     : "";
   const tiktokMarkup = story.tiktokLink
-    ? `<a class="button button-secondary" href="${story.tiktokLink}" target="_blank" rel="noreferrer">View on TikTok</a>`
+    ? `<a class="button button-secondary" href="${story.tiktokLink}" target="_blank" rel="${EXTERNAL_LINK_REL}">View on TikTok</a>`
     : "";
   const actionsMarkup = tiktokMarkup
     ? `<div class="story-focus-actions">${tiktokMarkup}</div>`
@@ -317,7 +337,7 @@ function initSubmissionLinks() {
   document.querySelectorAll("[data-story-submit-link]").forEach((link) => {
     link.href = STORY_SUBMISSION_FORM_URL;
     link.target = "_blank";
-    link.rel = "noreferrer";
+    link.rel = EXTERNAL_LINK_REL;
   });
 }
 
@@ -332,7 +352,9 @@ function initContactLinks() {
 function renderStories() {
   const archive = document.querySelector("[data-story-archive]");
   const preview = document.querySelector("[data-stories-preview]");
-  const featuredStories = stories.filter((story) => story.featured && !story.isNewest).slice(0, 5);
+  const featuredStories = stories
+    .filter((story) => story.featured && !story.isNewest)
+    .slice(0, FEATURED_STORY_PREVIEW_COUNT);
 
   if (archive) {
     archive.innerHTML = "";
