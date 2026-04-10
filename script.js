@@ -163,7 +163,7 @@ const stories = [
       "stories/kilmar-abrego-garcia-story/13.png",
       "stories/kilmar-abrego-garcia-story/14.png"
     ],
-    featured: true,
+    featured: false,
     isNewest: false,
     title: "Kilmar Abrego Garcia's Story",
     summary: "Today, we are sharing the story of Kilmar Abrego Garcia. Garcia came to the United States from El Salvador after repeated gang threats from infamous gangs in his home country. Garcia decided to come to the United States during his teenage years because his brother had already been a U.S resident, and Garcia believed it would be a safer place to build a life. Garcia moved to Maryland with his wife and children, who are U.S citizens. Garcia worked in construction to provide for his family, consisting of his wife, children, and stepchildren. In 2019, while waiting for a ride in a Home Depot parking lot, Garcia was picked up by police officers. Immigration officers tried to deport him in speculation that he was a part of a notorious El Salvadorian gang, not due to concrete evidence, but because of the clothes he wore. An immigration judge stopped this unlawful deportation, stating that his deportation would not be credible under the gang-threats he was facing in EL Salvador if he returned. Despite the ruling, Garcia continued to check in with immigration officers annually. In March of 2025, despite the ruling in 2019, Garcia’s lack of a criminal record, and his continuous visits with immigration officers, Garcia was deported and sent to El Salvador. Once in El Salvador, Garcia was put into an infamous maximum security prison called the CECOT. In prison, Garcia faced brutal beatings, sleep deprivation, and psychological torment. Garcia was brought back after officials realized the huge mistake they made in June of 2025. After returning, Garcia had multiple federal criminal charges filed against him. The allegations were tied to speculation back in 2016 and gang involvement, which Garcia already denied repeatedly. After returning, Garcia faced multiple arrests and detentions, even being threatened with deportation to Uganda, a country to which he had no ties. However, in December 2025, things took a turn for the better, and a judge ruled Garcia’s detention unlawful and prohibited the unnecessary detention and arrest of Garcia. Garcia was finally able to go back to his family in Maryland. The sources we used for this post come from the organizations Christian Century, Bloomberg, Maryland Matters, Tennessee Outlook, Human Rights Watch, ABC, CNN, CBS, and The New York Times. If you would like to learn more about Garcia’s story, we encourage you to check out the stories published by these organizations.",
@@ -173,6 +173,25 @@ const stories = [
 ];
 
 stories.sort((left, right) => left.order - right.order);
+
+function sortStoriesByOrder(left, right) {
+  return left.order - right.order;
+}
+
+function getFeaturedStories() {
+  return stories
+    .filter((story) => story.featured)
+    .sort(sortStoriesByOrder);
+}
+
+function getArchiveStories() {
+  const featuredStories = getFeaturedStories();
+  const archiveOnlyStories = stories
+    .filter((story) => !story.featured)
+    .sort(sortStoriesByOrder);
+
+  return [...featuredStories, ...archiveOnlyStories];
+}
 
 function getExternalLinkAttributes(url) {
   if (!/^https?:\/\//.test(url)) {
@@ -311,6 +330,7 @@ function renderStoryFocus() {
 
   const activeSlug = window.location.hash.replace("#", "");
   const story = stories.find((entry) => entry.slug === activeSlug) || stories[0];
+  const storyBadge = getStoryBadge(story);
   const galleryMarkup = story.images.length
     ? `
       <div class="story-gallery">
@@ -331,7 +351,7 @@ function renderStoryFocus() {
 
   focus.innerHTML = `
     <div class="story-focus-copy">
-      <span class="story-focus-pill">Featured archive entry</span>
+      <span class="story-focus-pill">${storyBadge}</span>
       <h2>${story.title}</h2>
       <p>${story.summary}</p>
       ${actionsMarkup}
@@ -378,14 +398,15 @@ function initContactLinks() {
 function renderStories() {
   const archive = document.querySelector("[data-story-archive]");
   const preview = document.querySelector("[data-stories-preview]");
-  const featuredStories = stories
-    .filter((story) => story.featured && !story.isNewest)
+  const featuredStories = getFeaturedStories()
+    .filter((story) => !story.isNewest)
     .slice(0, FEATURED_STORY_PREVIEW_COUNT);
+  const archiveStories = getArchiveStories();
 
   if (archive) {
     archive.innerHTML = "";
     const archiveFragment = document.createDocumentFragment();
-    stories.forEach((story) => archiveFragment.appendChild(createStoryCard(story, true)));
+    archiveStories.forEach((story) => archiveFragment.appendChild(createStoryCard(story, true)));
     archive.appendChild(archiveFragment);
   }
 
