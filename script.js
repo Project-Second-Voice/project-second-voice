@@ -242,7 +242,7 @@ function createStoryCard(story, isArchive = false) {
     <span class="story-card-badge">${getStoryBadge(story)}</span>
     <h3>${story.title}</h3>
     <p>${getStoryPreviewText(story.summary)}</p>
-    <a class="button button-secondary" href="${storyHref}" data-story-slug="${story.slug}"${getExternalLinkAttributes(storyHref)}>View Story</a>
+    <a class="button button-secondary" href="${storyHref}" data-story-slug="${story.slug}"${getExternalLinkAttributes(storyHref)}>Read Story</a>
   `;
   return card;
 }
@@ -358,12 +358,16 @@ function renderStories() {
 
   if (archive) {
     archive.innerHTML = "";
-    stories.forEach((story) => archive.appendChild(createStoryCard(story, true)));
+    const archiveFragment = document.createDocumentFragment();
+    stories.forEach((story) => archiveFragment.appendChild(createStoryCard(story, true)));
+    archive.appendChild(archiveFragment);
   }
 
   if (preview) {
     preview.innerHTML = "";
-    featuredStories.forEach((story) => preview.appendChild(createStoryCard(story)));
+    const previewFragment = document.createDocumentFragment();
+    featuredStories.forEach((story) => previewFragment.appendChild(createStoryCard(story)));
+    preview.appendChild(previewFragment);
   }
 }
 
