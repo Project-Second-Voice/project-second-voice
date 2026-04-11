@@ -270,7 +270,17 @@ function getStoryBadge(story) {
     return "Featured story";
   }
 
-  return "Archive entry";
+  return "";
+}
+
+function getStoryBadgeMarkup(story, className) {
+  const badge = getStoryBadge(story);
+
+  if (!badge) {
+    return "";
+  }
+
+  return `<span class="${className}">${badge}</span>`;
 }
 
 function createStoryCard(story, isArchive = false) {
@@ -278,13 +288,14 @@ function createStoryCard(story, isArchive = false) {
   card.className = "story-card reveal";
   const storyHref = getStoryHref(story, isArchive);
   const primaryImage = story.images[0];
+  const badgeMarkup = getStoryBadgeMarkup(story, "story-card-badge");
   const imageMarkup = primaryImage
     ? `<img class="story-card-image" src="${primaryImage}" alt="${story.title}" loading="lazy" decoding="async">`
     : `<div class="story-card-image story-card-image-placeholder" aria-hidden="true"></div>`;
 
   card.innerHTML = `
     ${imageMarkup}
-    <span class="story-card-badge">${getStoryBadge(story)}</span>
+    ${badgeMarkup}
     <h3>${story.title}</h3>
     <p>${getStoryPreviewText(story.summary)}</p>
     <a class="button button-secondary" href="${storyHref}" data-story-slug="${story.slug}"${getExternalLinkAttributes(storyHref)}>Read Story</a>
@@ -330,7 +341,7 @@ function renderStoryFocus() {
 
   const activeSlug = window.location.hash.replace("#", "");
   const story = stories.find((entry) => entry.slug === activeSlug) || stories[0];
-  const storyBadge = getStoryBadge(story);
+  const storyBadgeMarkup = getStoryBadgeMarkup(story, "story-focus-pill");
   const galleryMarkup = story.images.length
     ? `
       <div class="story-gallery">
@@ -351,7 +362,7 @@ function renderStoryFocus() {
 
   focus.innerHTML = `
     <div class="story-focus-copy">
-      <span class="story-focus-pill">${storyBadge}</span>
+      ${storyBadgeMarkup}
       <h2>${story.title}</h2>
       <p>${story.summary}</p>
       ${actionsMarkup}
