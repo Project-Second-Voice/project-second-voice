@@ -333,6 +333,27 @@ const stories = [
     summary: "Today, we are sharing the story of Luis Fernandez. Fernandez came to the United States from Ecuador in 1994. In the United States, he started working at a restraunt called the Square Diner. He has a wife and two children, one of whom is 17 years old, and another who is 9 years old. Fernandez was known as a hard worker amongst his co-workers, and he would commonly work overtime to provide for his family. Fernandez had also applied for asylum and was waiting for the status. Fernandez worked hard, had been in the United States for a very long time, paid taxes, and had two U.S citizen children. Fernandez would never expect to be detained during a regular appointment regarding his status. Fernandez was detained due to two charges, one from 2003 and another from 2014. Fernandez had called his daughter when he was being detained, assuring her to stay calm and that he was going to be detained and arrested for some time. His daughter also had to take extra shifts at a retail store to provide for their family with Fernandez gone. Fernandez was released on bond, and this made the family very excited. However, when his daughter went to pay it, a judge said he was no longer eligible to be released. Right now, with the main provider of the family gone, the family needs all the help they can get. If you would like to donate, feel free to donate to the GoFundMe here:https://www.gofundme.com/f/help-bring-luis-fernandez-back-home The sources we used for this post come from the organizations CBS, The Guardian, and The Tribeca Citizen. If you would like to learn more about Fernandez’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7544571591485672734?is_from_webapp=1&sender_device=pc",
     link: "stories.html#luis-fernandez-story-against-ice"
+  },
+  {
+    order: 15,
+    slug: "junior-dioses-story-against-ice",
+    images: [
+      "stories/junior-dioses-story-against-ice/1.png",
+      "stories/junior-dioses-story-against-ice/2.png",
+      "stories/junior-dioses-story-against-ice/3.png",
+      "stories/junior-dioses-story-against-ice/4.png",
+      "stories/junior-dioses-story-against-ice/5.png",
+      "stories/junior-dioses-story-against-ice/6.png",
+      "stories/junior-dioses-story-against-ice/7.png",
+      "stories/junior-dioses-story-against-ice/8.png",
+      "stories/junior-dioses-story-against-ice/9.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Junior Dioses's Story",
+    summary: "Today, we are sharing the story of Junior Dioses. Dioses came to the United States 23 years ago from Peru. He holds a valid green card and has had no deportation orders. He has two minor convictions that did not qualify as grounds for deportation. Dioses graduated from Highland High School and runs a small business in Utah. He has a family and is a father of 5 children. Dioses had been coming home from a trip to Peru, where immigration officers would detain him. He was detained due to two prior convictions that were very minor and did not qualify as grounds for deportation. The convictions that Dioses was charged with were very minor: failing to stop for a police officer, and a disorderly conduct charge, one of which was in 2006 and another in 2019, respectively. Dioses was held in detention centers for 50 days before finally being released and able to go back home. The sources we used for this post come from the organizations KSLTV, FOX 13, and WCNC. If you would like to learn more about Dioses’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7536035196093648141?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#junior-dioses-story-against-ice"
   }
 ];
 
