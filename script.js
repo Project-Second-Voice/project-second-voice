@@ -216,6 +216,33 @@ const stories = [
     summary: "In light of the recent protests and raids going on in Los Angeles, Project Second Voice felt that it was necessary to share some of the stories of our local San Diego community and bring awareness to the inhumane and immoral acts ICE have committed against innocent legal immigrants. We hope that everybody tries their best to advocate and share the stories they have heard and seen with others on platforms such as TikTok to spread awareness and hopefully put a stop to these unlawful acts that violate our civil rights. The resource used in this slideshow comes from a fantastic nonprofit organization called the San Diego Immigrant Rights Consortium (SDIRC), dedicated to advocating for policies that advance the human and civil rights of immigrants and refugees. If you want to learn more about Robert's story, you can find a link to the post on the last slide that brings you to the SDIRC post. We encourage you to spread the message and share your own stories with the hashtag #breakthesilence.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7518954804215811358?is_from_webapp=1&sender_device=pc",
     link: "stories.html#robert-vivar-story"
+  },
+  {
+    order: 10,
+    slug: "rodney-taylor-story",
+    images: [
+      "stories/rodney-taylor-story/1.png",
+      "stories/rodney-taylor-story/2.png",
+      "stories/rodney-taylor-story/3.png",
+      "stories/rodney-taylor-story/4.png",
+      "stories/rodney-taylor-story/5.png",
+      "stories/rodney-taylor-story/6.png",
+      "stories/rodney-taylor-story/7.png",
+      "stories/rodney-taylor-story/8.png",
+      "stories/rodney-taylor-story/9.png",
+      "stories/rodney-taylor-story/10.png",
+      "stories/rodney-taylor-story/11.png",
+      "stories/rodney-taylor-story/12.png",
+      "stories/rodney-taylor-story/13.png",
+      "stories/rodney-taylor-story/14.png",
+      "stories/rodney-taylor-story/15.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Rodney Taylor’s Story",
+    summary: "Today, we are sharing the story of Rodney Taylor. Taylor came to the United States from Liberia with his family when he was only 2 years old. He came to the United States on a medical visa due to needing medical surgery for a condition that affected his hands and feet since he was born. Now, Taylor is a double amputee and has been thriving in the United States. Taylor had applied for a green card and was awaiting approval during his time in the United States. He was a beloved barber in his community and had built a barber shop that also acted as a way for Taylor to educate his community on lung cancer risks and screenings. Taylor had also been engaged not too long ago and believed that this was the start of a beautiful and happy life. However, he would never expect to be detained at his doorstep by immigration officers days after his engagement. They treated him like a criminal and treated him like he were not a person. The reason for his detainment was due to a burglary charge that Taylor had gotten when he was only 16 years old. Taylor had pleaded guilty, and the judge who was responsible for the case had dismissed it. Taylor was not given due process and was scheduled to be deported immediately. A GoFundMe has been set up for Taylor and his family in this time of need. If you would like to support Taylor and help in funding his legal battle, feel free to donate here: https://www.gofundme.com/f/help-bring-rodney-home-support-his-legal-defense?attribution_id=sl:2e3213d1-ed19-43c5-819a-f369024e84f1&lang=en_US&utm_campaign=man_sharesheet_dash&utm_medium=customer&utm_source=instagram_story The sources we used for the post come from the organizations CNN, The Dallas Examiner, The Guardian, Fox 5, and 11 Alive. If you would like to learn more about Taylor’s story, we encourage you to read the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7532312762131828023?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#rodney-taylor-story"
   }
 ];
 
