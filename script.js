@@ -287,6 +287,26 @@ const stories = [
     summary: "Today, we are sharing the story of Amalia and her family. Amalia is an 18-month-old toddler who was detained with her family early in December of this year and was just released recently. Her family fled from Venezuela due to political persecution because of their opposition to the political ideas of the president. They went on a long journey to the United States, and during this journey, Amalia was born in Mexico. The family would apply for asylum through the CBP One App and would wait in El Paso for further confirmation on their status. They would go to routine immigration check-ins and follow everything they needed to do. During one of these check-ins on December 11th, the family would be detained by immigration officials and sent to a detention facility in San Antonio, 500 miles away from the place they originally lived. Once inside the facility, Amalia's health deteriorated quickly, and she had conditions such as very high fevers, vomiting, and a struggle to breathe. Her worried parents would take her to the facility's medical center as her condition worsened. Each time, the medical center would dismiss threatening conditions and only provide the family with standard fever medication. Amalia's condition would turn life-threatening as her blood oxygen levels dropped to dangerous levels, forcing the facility to allow Amalia and her mother to go to a children's hospital, while her father waited in the facility, not knowing what would happen to his wife and daughter. Even during hospitalization, immigration officials monitored Amalia and her mother closely. Amalia's mother was terrified to find out that after treatment, she and Amalia would be sent back to the detention facility. During care, doctors gave Amalia special medical interventions to treat her breathing conditions; however, after returning to detention, immigration officials stripped Amalia of her interventions, worsening her condition and putting her back right where she started. Thankfully, after persistent advocacy and battling, Amalia and her family were released on Friday evening; however, this has been a traumatic experience that they will remember forever. The sources we used for this post come from the organizations NBC LA, PBS, The People, MPR News, and Reuters. If you would like to learn more about Amalia's story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7607957632581635341?is_from_webapp=1&sender_device=pc",
     link: "stories.html#amalias-story"
+  },
+  {
+    order: 13,
+    slug: "chaofeng-ge-story",
+    images: [
+      "stories/chaofeng-ge-story/1.png",
+      "stories/chaofeng-ge-story/2.png",
+      "stories/chaofeng-ge-story/3.png",
+      "stories/chaofeng-ge-story/4.png",
+      "stories/chaofeng-ge-story/5.png",
+      "stories/chaofeng-ge-story/6.png",
+      "stories/chaofeng-ge-story/7.png",
+      "stories/chaofeng-ge-story/8.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Chaofeng Ge's Story",
+    summary: "Today, we are sharing the story of Chaofeng Ge. Chaofeng Ge came to the United States-Mexico Border when he was 32 years old, immigrating from China with his family. He was arrested for unlawful entry and had a court date scheduled for a later date. After this, Ge started living in Queens, New York, where he was charged with unauthorized use and misuse of electronic devices. Ge was convicted for these charges and was sentenced to 6-12 months, and was handed over to immigration authorities from local custody. Ge was taken to a Pennsylvania detention center, where a Mandarin interpreter ensured that Ge had no past medical problems or complications. Four days later, in detention, however, Ge would be found with his hands and ankles tied up. Resuscitation methods were used, but to no avail, and Ge sadly passed away. Ge's brother was deeply hurt by Ge's passing and demands justice for the actions that led to Ge's unfortunate passing. The sources we used for this post come from the organizations Newsweek, South China Morning Post, Reuters, and Spectrum News. If you would like to learn more about Ge's story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7577557719222127886?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#chaofeng-ge-story"
   }
 ];
 
