@@ -354,6 +354,30 @@ const stories = [
     summary: "Today, we are sharing the story of Junior Dioses. Dioses came to the United States 23 years ago from Peru. He holds a valid green card and has had no deportation orders. He has two minor convictions that did not qualify as grounds for deportation. Dioses graduated from Highland High School and runs a small business in Utah. He has a family and is a father of 5 children. Dioses had been coming home from a trip to Peru, where immigration officers would detain him. He was detained due to two prior convictions that were very minor and did not qualify as grounds for deportation. The convictions that Dioses was charged with were very minor: failing to stop for a police officer, and a disorderly conduct charge, one of which was in 2006 and another in 2019, respectively. Dioses was held in detention centers for 50 days before finally being released and able to go back home. The sources we used for this post come from the organizations KSLTV, FOX 13, and WCNC. If you would like to learn more about Dioses’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7536035196093648141?is_from_webapp=1&sender_device=pc",
     link: "stories.html#junior-dioses-story-against-ice"
+  },
+  {
+    order: 16,
+    slug: "narciso-barranco-story",
+    images: [
+      "stories/narciso-barranco-story/1.png",
+      "stories/narciso-barranco-story/2.png",
+      "stories/narciso-barranco-story/3.png",
+      "stories/narciso-barranco-story/4.png",
+      "stories/narciso-barranco-story/5.png",
+      "stories/narciso-barranco-story/6.png",
+      "stories/narciso-barranco-story/7.png",
+      "stories/narciso-barranco-story/8.png",
+      "stories/narciso-barranco-story/9.png",
+      "stories/narciso-barranco-story/10.png",
+      "stories/narciso-barranco-story/11.png",
+      "stories/narciso-barranco-story/12.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Narciso Barranco’s Story",
+    summary: "Today, we are sharing the story of Narciso Barranco. Barranco is an undocumented father of three Marines and has lived in the United States for over 3 decades. He had never had a clear path to citizenship until recently, when he applied to a program called Parole in Place, which would speed up his journey to citizenship. Barranco knows the risk posed by working and living in the United States undocumented, but he feels as if he needs to support his family and work. Barranco is a landscape worker and an upstanding Samaritan and father. Barranco would be approached by immigration officers and detained. While immigration officers were approaching Barranco, the nervous Barranco instinctively defended himself from being pepper-sprayed. While being handcuffed, Barranco is seen being punched by immigration officers while already on the ground. Thankfully, Barranco is scheduled to be released soon, and a bond has been placed to get Barranco out of jail. The sources we used for this post come from NBC LA, FOX LA, and The Guardian. If you would like to learn more about Barranco’s story, we suggest you read the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7526766206578117901?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#narciso-barranco-story"
   }
 ];
 
