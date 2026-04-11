@@ -265,6 +265,28 @@ const stories = [
     summary: "Today, we wanted to share how immigration raids and immigration injustice have been hurting local small business owners in Los Angeles. As a lot of people already know, Los Angeles has been facing an excess deportation activity and immigrants in Los Angeles are afraid due to the situation. This has not only affected individuals and families, but Los Angeles communities. Small business owners are the heart of many communities in Los Angeles and are being affected as many of them are run by hard working immigrants looking to make a living. We wanted to spread awareness on what the recent immigration raids have done to these small business owners. This is something that not only affects immigrants, but communities as a whole. We used information from CalMatters, LAist, Eater, and Reuters. If you would like to learn more on this ongoing situation, we suggest you look into the articles by CalMatters and LAist. #breakthesilence",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7519658061863193869?is_from_webapp=1&sender_device=pc",
     link: "stories.html#la-small-business-owners-story"
+  },
+  {
+    order: 12,
+    slug: "amalias-story",
+    images: [
+      "stories/amalias-story/1.png",
+      "stories/amalias-story/2.png",
+      "stories/amalias-story/3.png",
+      "stories/amalias-story/4.png",
+      "stories/amalias-story/5.png",
+      "stories/amalias-story/6.png",
+      "stories/amalias-story/7.png",
+      "stories/amalias-story/8.png",
+      "stories/amalias-story/9.png",
+      "stories/amalias-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Amalia's Story",
+    summary: "Today, we are sharing the story of Amalia and her family. Amalia is an 18-month-old toddler who was detained with her family early in December of this year and was just released recently. Her family fled from Venezuela due to political persecution because of their opposition to the political ideas of the president. They went on a long journey to the United States, and during this journey, Amalia was born in Mexico. The family would apply for asylum through the CBP One App and would wait in El Paso for further confirmation on their status. They would go to routine immigration check-ins and follow everything they needed to do. During one of these check-ins on December 11th, the family would be detained by immigration officials and sent to a detention facility in San Antonio, 500 miles away from the place they originally lived. Once inside the facility, Amalia's health deteriorated quickly, and she had conditions such as very high fevers, vomiting, and a struggle to breathe. Her worried parents would take her to the facility's medical center as her condition worsened. Each time, the medical center would dismiss threatening conditions and only provide the family with standard fever medication. Amalia's condition would turn life-threatening as her blood oxygen levels dropped to dangerous levels, forcing the facility to allow Amalia and her mother to go to a children's hospital, while her father waited in the facility, not knowing what would happen to his wife and daughter. Even during hospitalization, immigration officials monitored Amalia and her mother closely. Amalia's mother was terrified to find out that after treatment, she and Amalia would be sent back to the detention facility. During care, doctors gave Amalia special medical interventions to treat her breathing conditions; however, after returning to detention, immigration officials stripped Amalia of her interventions, worsening her condition and putting her back right where she started. Thankfully, after persistent advocacy and battling, Amalia and her family were released on Friday evening; however, this has been a traumatic experience that they will remember forever. The sources we used for this post come from the organizations NBC LA, PBS, The People, MPR News, and Reuters. If you would like to learn more about Amalia's story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7607957632581635341?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#amalias-story"
   }
 ];
 
