@@ -307,6 +307,32 @@ const stories = [
     summary: "Today, we are sharing the story of Chaofeng Ge. Chaofeng Ge came to the United States-Mexico Border when he was 32 years old, immigrating from China with his family. He was arrested for unlawful entry and had a court date scheduled for a later date. After this, Ge started living in Queens, New York, where he was charged with unauthorized use and misuse of electronic devices. Ge was convicted for these charges and was sentenced to 6-12 months, and was handed over to immigration authorities from local custody. Ge was taken to a Pennsylvania detention center, where a Mandarin interpreter ensured that Ge had no past medical problems or complications. Four days later, in detention, however, Ge would be found with his hands and ankles tied up. Resuscitation methods were used, but to no avail, and Ge sadly passed away. Ge's brother was deeply hurt by Ge's passing and demands justice for the actions that led to Ge's unfortunate passing. The sources we used for this post come from the organizations Newsweek, South China Morning Post, Reuters, and Spectrum News. If you would like to learn more about Ge's story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7577557719222127886?is_from_webapp=1&sender_device=pc",
     link: "stories.html#chaofeng-ge-story"
+  },
+  {
+    order: 14,
+    slug: "luis-fernandez-story-against-ice",
+    images: [
+      "stories/luis-fernandez-story-against-ice/1.png",
+      "stories/luis-fernandez-story-against-ice/2.png",
+      "stories/luis-fernandez-story-against-ice/3.png",
+      "stories/luis-fernandez-story-against-ice/4.png",
+      "stories/luis-fernandez-story-against-ice/5.png",
+      "stories/luis-fernandez-story-against-ice/6.png",
+      "stories/luis-fernandez-story-against-ice/7.png",
+      "stories/luis-fernandez-story-against-ice/8.png",
+      "stories/luis-fernandez-story-against-ice/9.png",
+      "stories/luis-fernandez-story-against-ice/10.png",
+      "stories/luis-fernandez-story-against-ice/11.png",
+      "stories/luis-fernandez-story-against-ice/12.png",
+      "stories/luis-fernandez-story-against-ice/13.png",
+      "stories/luis-fernandez-story-against-ice/14.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Luis Fernandez's Story Against ICE",
+    summary: "Today, we are sharing the story of Luis Fernandez. Fernandez came to the United States from Ecuador in 1994. In the United States, he started working at a restraunt called the Square Diner. He has a wife and two children, one of whom is 17 years old, and another who is 9 years old. Fernandez was known as a hard worker amongst his co-workers, and he would commonly work overtime to provide for his family. Fernandez had also applied for asylum and was waiting for the status. Fernandez worked hard, had been in the United States for a very long time, paid taxes, and had two U.S citizen children. Fernandez would never expect to be detained during a regular appointment regarding his status. Fernandez was detained due to two charges, one from 2003 and another from 2014. Fernandez had called his daughter when he was being detained, assuring her to stay calm and that he was going to be detained and arrested for some time. His daughter also had to take extra shifts at a retail store to provide for their family with Fernandez gone. Fernandez was released on bond, and this made the family very excited. However, when his daughter went to pay it, a judge said he was no longer eligible to be released. Right now, with the main provider of the family gone, the family needs all the help they can get. If you would like to donate, feel free to donate to the GoFundMe here:https://www.gofundme.com/f/help-bring-luis-fernandez-back-home The sources we used for this post come from the organizations CBS, The Guardian, and The Tribeca Citizen. If you would like to learn more about Fernandez’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7544571591485672734?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#luis-fernandez-story-against-ice"
   }
 ];
 
