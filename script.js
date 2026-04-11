@@ -378,6 +378,31 @@ const stories = [
     summary: "Today, we are sharing the story of Narciso Barranco. Barranco is an undocumented father of three Marines and has lived in the United States for over 3 decades. He had never had a clear path to citizenship until recently, when he applied to a program called Parole in Place, which would speed up his journey to citizenship. Barranco knows the risk posed by working and living in the United States undocumented, but he feels as if he needs to support his family and work. Barranco is a landscape worker and an upstanding Samaritan and father. Barranco would be approached by immigration officers and detained. While immigration officers were approaching Barranco, the nervous Barranco instinctively defended himself from being pepper-sprayed. While being handcuffed, Barranco is seen being punched by immigration officers while already on the ground. Thankfully, Barranco is scheduled to be released soon, and a bond has been placed to get Barranco out of jail. The sources we used for this post come from NBC LA, FOX LA, and The Guardian. If you would like to learn more about Barranco’s story, we suggest you read the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7526766206578117901?is_from_webapp=1&sender_device=pc",
     link: "stories.html#narciso-barranco-story"
+  },
+  {
+    order: 17,
+    slug: "ward-sakeik-story",
+    images: [
+      "stories/ward-sakeik-story/1.png",
+      "stories/ward-sakeik-story/2.png",
+      "stories/ward-sakeik-story/3.png",
+      "stories/ward-sakeik-story/4.png",
+      "stories/ward-sakeik-story/5.png",
+      "stories/ward-sakeik-story/6.png",
+      "stories/ward-sakeik-story/7.png",
+      "stories/ward-sakeik-story/8.png",
+      "stories/ward-sakeik-story/9.png",
+      "stories/ward-sakeik-story/10.png",
+      "stories/ward-sakeik-story/11.png",
+      "stories/ward-sakeik-story/12.png",
+      "stories/ward-sakeik-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Ward Sakeik’s Story",
+    summary: "Today, we are sharing the story of Ward Sakeik. Sakiek came to the United States with her family when she was only 8 years old. Her family had applied for asylum, but were denied. The United States government could not legally deport them due to the fact that their family was considered stateless. Instead of deportation, the family was allowed to stay in the United States as long as they checked in annually with immigration officers. Sakeik complied and graduated from UT Arlington before becoming a wedding photographer. She would meet her newlywed husband Shaikh. Despite being allowed to stay in the United States, Sakeik still went through the process of applying for permanent residency and was waiting on her green card status. She had complied with U.S immigration laws for over 14 years and had checked in annually without missing an appointment. She also did not have a criminal record. Sakeik and Shaikh would go to the U.S Virgin Islands for their honeymoon. They would never expect that Sakeik would be detained by immigration officers when they returned home after the honeymoon. Sakiek was detained for over 5 months before being released. The sources we used for this post come from the organizations NBC, News Week, Kera News,  Voyage Dallas, Dallas News, Star Telegram, ABC, and NZ Herald. If you would like to learn more about Sakeik’s story, we encourage you to read the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7530492480374967607?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#ward-sakeik-story"
   }
 ];
 
