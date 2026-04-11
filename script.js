@@ -4,6 +4,7 @@ const STORY_SUBMISSION_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfCe
 const CONTACT_EMAIL = "projectsecondvoice@gmail.com";
 const EXTERNAL_LINK_REL = "noopener noreferrer";
 const FEATURED_STORY_PREVIEW_COUNT = 5;
+const HOMEPAGE_PRIORITY_FEATURED_SLUG = "robert-vivar-story";
 
 const stories = [
   {
@@ -239,6 +240,21 @@ function getArchiveStories() {
   return [...featuredStories, ...archiveOnlyStories];
 }
 
+function getHomepagePreviewStories() {
+  const featuredStories = getFeaturedStories().filter((story) => !story.isNewest);
+  const previewStories = featuredStories.slice(0, FEATURED_STORY_PREVIEW_COUNT);
+  const priorityStory = featuredStories.find((story) => story.slug === HOMEPAGE_PRIORITY_FEATURED_SLUG);
+
+  if (!priorityStory || previewStories.some((story) => story.slug === priorityStory.slug)) {
+    return previewStories;
+  }
+
+  return [
+    ...previewStories.slice(0, FEATURED_STORY_PREVIEW_COUNT - 1),
+    priorityStory
+  ];
+}
+
 function getExternalLinkAttributes(url) {
   if (!/^https?:\/\//.test(url)) {
     return "";
@@ -455,9 +471,7 @@ function initContactLinks() {
 function renderStories() {
   const archive = document.querySelector("[data-story-archive]");
   const preview = document.querySelector("[data-stories-preview]");
-  const featuredStories = getFeaturedStories()
-    .filter((story) => !story.isNewest)
-    .slice(0, FEATURED_STORY_PREVIEW_COUNT);
+  const featuredStories = getHomepagePreviewStories();
   const archiveStories = getArchiveStories();
 
   if (archive) {
