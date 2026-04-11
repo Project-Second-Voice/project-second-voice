@@ -192,6 +192,29 @@ const stories = [
     summary: "Today, we are sharing the story of Mahdi Khanbabazadeh. Mahdi came to the United States from Iran on a student visa. After marrying his wife, who is a U.S citizen, Mahdi was sponsored for a green card and had already applied and finished his interview. He and his wife had a child who was still in preschool. Mahdi would be stopped by immigration officers when he was on his way to drop off his kid at preschool. Immigration officers would forcefully break his window, even after repeated statements by Mahdi that he was already coming out. Mahdi is a 38-year-old chiropractor. Immigration officers reported that they had detained Mahdi due to his visa expiring, but close family relatives had already stated numerous times that Mahdi was awaiting his green card status. If you would like to support Mahdi’s family in this time of need, feel free to donate to their GoFundMe page here: https://www.gofundme.com/f/stand-with-mahdi-khanbabazadeh-donate-now The sources we used for this post come from the organizations The Guardian, NBC, GoFundMe, and Oregon Public Broadcasting Service. If you would like to learn more about Mahdi’s story, we encourage you to read the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7532699778174553399?is_from_webapp=1&sender_device=pc",
     link: "stories.html#mahdi-khanbabazadeh-story"
+  },
+  {
+    order: 9,
+    slug: "robert-vivar-story",
+    images: [
+      "stories/robert-vivar-story/1.png",
+      "stories/robert-vivar-story/2.png",
+      "stories/robert-vivar-story/3.png",
+      "stories/robert-vivar-story/4.png",
+      "stories/robert-vivar-story/5.png",
+      "stories/robert-vivar-story/6.png",
+      "stories/robert-vivar-story/7.png",
+      "stories/robert-vivar-story/8.png",
+      "stories/robert-vivar-story/9.png",
+      "stories/robert-vivar-story/10.png",
+      "stories/robert-vivar-story/11.png"
+    ],
+    featured: true,
+    isNewest: false,
+    title: "Robert Vivar's Story",
+    summary: "In light of the recent protests and raids going on in Los Angeles, Project Second Voice felt that it was necessary to share some of the stories of our local San Diego community and bring awareness to the inhumane and immoral acts ICE have committed against innocent legal immigrants. We hope that everybody tries their best to advocate and share the stories they have heard and seen with others on platforms such as TikTok to spread awareness and hopefully put a stop to these unlawful acts that violate our civil rights. The resource used in this slideshow comes from a fantastic nonprofit organization called the San Diego Immigrant Rights Consortium (SDIRC), dedicated to advocating for policies that advance the human and civil rights of immigrants and refugees. If you want to learn more about Robert's story, you can find a link to the post on the last slide that brings you to the SDIRC post. We encourage you to spread the message and share your own stories with the hashtag #breakthesilence.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7518954804215811358?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#robert-vivar-story"
   }
 ];
 
