@@ -568,6 +568,31 @@ const stories = [
     summary: "Today, we are sharing the story of Reza Zavvar. Zavvar came to the United States from Iran when he was only 12 years old. His family was seeking higher education and wanted Zavvar to have a better education, so they came to the United States to give him this opportunity. Zavvar worked hard on his legal status and eventually secured a green card. He is a very caring uncle, friend, and son. The 54-year-old Zavvar recently moved back in with his mother to take care of his 94-year-old grandmother. While he was walking the family dog, he would be stopped by immigration officers and detained. The officers would then bring the dog back on the leash to the family’s house, much to the family’s shock and horror, seeing Zavvar missing. Zavvar was detained and sent to a detention center in Texas. The reason for his deportation was because of a misdemeanor dating back in the late 1990's. Zavvar had been flagged because of this misdemeanor in 2004 and was unable to come back to the United States as he had been travelling during this time. This issue would be resolved in 2007, and Zavvar was granted a withholding of removal, which allowed him to continue working and living in the United States. Zavvar is scheduled to be deported to a country that he has never known, such as Romania or Australia. The sources we used for this post come from the organizations NBC, News Week, and ABC. If you would like to learn more about Zavvar’s story, we encourage you to read the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7537145410050084151?is_from_webapp=1&sender_device=pc",
     link: "stories.html#reza-zavvar-story"
+  },
+  {
+    order: 25,
+    slug: "david-valdez-story",
+    images: [
+      "stories/david-valdez-story/1.png",
+      "stories/david-valdez-story/2.png",
+      "stories/david-valdez-story/3.png",
+      "stories/david-valdez-story/4.png",
+      "stories/david-valdez-story/5.png",
+      "stories/david-valdez-story/6.png",
+      "stories/david-valdez-story/7.png",
+      "stories/david-valdez-story/8.png",
+      "stories/david-valdez-story/9.png",
+      "stories/david-valdez-story/10.png",
+      "stories/david-valdez-story/11.png",
+      "stories/david-valdez-story/12.png",
+      "stories/david-valdez-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "David Valdéz's Story",
+    summary: "Stories like David’s emphasize a need to speak out and raise awareness on such a serious topic in the United States. Hardworking, legal immigrants shouldn't be treated without respect and without empathy. David was legally allowed to be in the United States because of the sponsorship given to him by his son, who is a U.S citizen. He was allowed to live and work in the United States till he got his green card. David was also allowed to travel. David used this opportunity to visit his mother, whom he had not visited in a long time. He was detained when he returned and deported without a trial. The sources we used in this post come from the organizations NBC and KYMA. If you would like to learn more about David’s story, we encourage you to read the stories posted by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7523436837621320991?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#david-valdez-story"
   }
 ];
 
