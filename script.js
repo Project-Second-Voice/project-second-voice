@@ -450,6 +450,31 @@ const stories = [
     summary: "Today, we are sharing the story of Ray Anderson Avila Ramirez. Ray came to the United States in 2013, migrating from Peru. He loves to go to the gym, walk his dog, and visit various beaches and parks with his fiancée. He and his fiancée had planned a future together in the United States, hoping to get married. Ray pays taxes, works hard, and has already applied for U.S citizenship and is awaiting the approval of his status. Ray and his fiancée’s dream was shattered right in front of them when he was detained by immigration officers in New York. Ray has no criminal record. Ray’s future is filled with ambiguity and concern from his family, with a scheduled meeting in Orange County coming up soon. Ray is in dire need of legal representation, and his case is very much winnable if he gets the proper attention and help. His friends and family are worried sick for him. If you would like to support Ray’s legal fees and pay for Ray’s legal representation, feel free to donate to the GoFundMe here: https://www.gofundme.com/f/help-ray-fight-ice-detention?attribution_id=sl:1d85ec39-3c9c-4746-92db-b9df162ac593&lang=en_US&ts=1758507592&utm_campaign=fp_sharesheet&utm_content=amp13_t1-amp17_ta&utm_medium=customer&utm_source=copy_link We are very grateful to be able to share Ray’s story, and we would like to thank @savingrayavilia for contacting us and providing us with information about Ray. If you would like to learn more about Ray Avilia’s story, we encourage you to check out their page.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7555325050837126431?is_from_webapp=1&sender_device=pc",
     link: "stories.html#ray-anderson-story"
+  },
+  {
+    order: 20,
+    slug: "heidys-story",
+    images: [
+      "stories/heidys-story/1.png",
+      "stories/heidys-story/2.png",
+      "stories/heidys-story/3.png",
+      "stories/heidys-story/4.png",
+      "stories/heidys-story/5.png",
+      "stories/heidys-story/6.png",
+      "stories/heidys-story/7.png",
+      "stories/heidys-story/8.png",
+      "stories/heidys-story/9.png",
+      "stories/heidys-story/10.png",
+      "stories/heidys-story/11.png",
+      "stories/heidys-story/12.png",
+      "stories/heidys-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Heidy's Story",
+    summary: "Today, we are sharing the story of Heidy, a refugee from Honduras. Heidy had been studying to become a teacher in Honduras before coming to the United States. She was in a toxic marriage and was being abused by her ex-husband. Heidy could not bear to witness her two-year-old daughter grow up in such a situation and decided to flee from Honduras and escape to the United States. Heidy’s journey to the United States was treacherous, having to cross rivers even when she didn’t know how to swim. Her two-year-old daughter gave her the courage and resolve to push through, however, and she and her daughter safely escaped to the United States. They would be stopped by immigration officials, however, and be put into a detention center. Even after repeated pleading and explaining her situation, Heidy was denied asylum by immigration officials. However, thankfully, Heidy was finally freed by legal service providers that pushed for Heidy’s asylum. Heidy would then be connected to NIJC’s legal team, helping her to create an asylum case, eventually getting her asylum and even citizenship in the United States. Now, Heidy is pursuing her dream of becoming a teacher in the United States, in her second semester of university. The source we used for this post comes from the organization NIJC. If you would like to learn more about Heidy’s story, we encourage you to check out the story they posted. If you would like to help individuals such as Heidy achieve their dreams, feel free to donate to NIJC at immigrantjustice.org/Ways-to-Help.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7568341557284261175?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#heidys-story"
   }
 ];
 
