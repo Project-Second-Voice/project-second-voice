@@ -520,6 +520,30 @@ const stories = [
     summary: "Today, we are sharing the story of Mahmoud Khalil. Khalil was born in Syria to Palestinian refugees and witnessed the mistreatment and injustice occurring from a young age. He wanted to do something about it; he wanted to advocate and bring change in the face of injustice. Khalil would work hard and earn a degree in computer science at Lebanese American University. After, he would work at Jusoor, a Syrian-American non-profit. Khalil would work in the UK Foreign Office before moving to the United States and pursuing a master’s degree at Columbia University’s School of International and Public Affairs. He would meet his soon-to-be wife and get married, expecting a child in April. Khalil played an influential role in the protests at Columbia University in 2024, acting as a mediator between university officials and student activists. Although Khalil protested, he refrained from participating in student encampments out of fear of having his student visa revoked. Khalil would also secure his green card and permanent residency, but it is unclear when he did so. Khalil would never have expected to be detained outside his house and transferred to the Louisiana Detention Facility, where he would stay in poor conditions for 104 days. He would miss his child’s birth. Thankfully, after 104 days, he was released on bail; however, Khalil’s legal battle does not end here. The sources we used for this post come from the organizations NPR, BBC, AP News, and NBC. If you would like to learn more about Khalil’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7570898620472364301?is_from_webapp=1&sender_device=pc",
     link: "stories.html#mahmoud-khalil-story"
+  },
+  {
+    order: 23,
+    slug: "george-retes-story",
+    images: [
+      "stories/george-retes-story/1.png",
+      "stories/george-retes-story/2.png",
+      "stories/george-retes-story/3.png",
+      "stories/george-retes-story/4.png",
+      "stories/george-retes-story/5.png",
+      "stories/george-retes-story/6.png",
+      "stories/george-retes-story/7.png",
+      "stories/george-retes-story/8.png",
+      "stories/george-retes-story/9.png",
+      "stories/george-retes-story/10.png",
+      "stories/george-retes-story/11.png",
+      "stories/george-retes-story/12.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "George Retes's Story",
+    summary: "Today, we are sharing the story of George Retes. Retes is a U.S. citizen and an army veteran. He is a father of 2 children, one of whom had just turned 3 years old. Retes joined the military when he was only 18 years old, serving 4 years. In those 4 years, he had also been deployed to Iraq. Now 25, Retes works as a security guard at Glass House Farms in Camarillo. Retes had been driving to work when he was stopped by immigration officers. The officers would break his window, pepper-spray him, and drag him out of the car, even after Retes repeated numerous times that he was a U.S. citizen. Retes was detained and sent to a detention center in downtown Los Angeles. During this time in detainment, he would miss his 3-year-old daughter’s birthday party. Retes had no charges against him. During his time in his cell, he was not allowed to shower or change clothes, despite being pepper-sprayed and being tear-gassed. Thankfully, after 3 days, he was released without any explanation for why he was detained and locked for 3 days. The sources we used for this post come from the organizations NBC, AP News, Military Times, ABC7, Click on Detroit, and TMZ. If you would like to learn more about Retes’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7537886432342428983?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#george-retes-story"
   }
 ];
 
