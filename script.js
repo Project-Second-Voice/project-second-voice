@@ -428,6 +428,28 @@ const stories = [
     summary: "Just yesterday, United States Purple Heart Army Veteran Sae Joon Park had no choice but to leave the United States due to his past drug conviction. Although his drug conviction could be argued to be entirely his fault for ignoring his PTSD, his service in the military and dedication to the country he grew up in should not be overlooked. We believe everyone should be given second chances, and Sae Joon Park is a prime example of someone who deserved the benefit of the doubt. Park didn’t know he was suffering from PTSD, and looked towards drugs in hopes of destressing and helping him calm himself. He was convicted and put into jail for 3 years, where he served 2 and a half. In that time, he completely turned away from drugs and overcame his addiction. When he came out of prison, he was a new man. He had turned his life around and had become a loving son and dad. Yet, despite all the progress and sacrifices he has shown, he was forced to self-deport himself out of the United States, never being able to come back and see his children or parents again. He will be sent to a country where he has no family and no connections. We believe Sae Joon Park deserves a second chance, and his story deserves to be shared. We encourage you to share this story in hopes of spreading awareness and giving immigrants such as Sae Joon Park the chance they deserve. In this post, we used articles from NPR, Spectrum News, Local 12, KKTV, La Voce Di New York, and HuffPost. If you want to learn more about Park’s situation and story, we encourage you to read the articles by these organizations. Thank you, everyone, for the support, and we will continue to share the voices of immigrants and give them the awareness they deserve.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7520074438830738719?is_from_webapp=1&sender_device=pc",
     link: "stories.html#sae-joon-park-story"
+  },
+  {
+    order: 19,
+    slug: "ray-anderson-story",
+    images: [
+      "stories/ray-anderson-story/1.png",
+      "stories/ray-anderson-story/2.png",
+      "stories/ray-anderson-story/3.png",
+      "stories/ray-anderson-story/4.png",
+      "stories/ray-anderson-story/5.png",
+      "stories/ray-anderson-story/6.png",
+      "stories/ray-anderson-story/7.png",
+      "stories/ray-anderson-story/8.png",
+      "stories/ray-anderson-story/9.png",
+      "stories/ray-anderson-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Ray Anderson's Story",
+    summary: "Today, we are sharing the story of Ray Anderson Avila Ramirez. Ray came to the United States in 2013, migrating from Peru. He loves to go to the gym, walk his dog, and visit various beaches and parks with his fiancée. He and his fiancée had planned a future together in the United States, hoping to get married. Ray pays taxes, works hard, and has already applied for U.S citizenship and is awaiting the approval of his status. Ray and his fiancée’s dream was shattered right in front of them when he was detained by immigration officers in New York. Ray has no criminal record. Ray’s future is filled with ambiguity and concern from his family, with a scheduled meeting in Orange County coming up soon. Ray is in dire need of legal representation, and his case is very much winnable if he gets the proper attention and help. His friends and family are worried sick for him. If you would like to support Ray’s legal fees and pay for Ray’s legal representation, feel free to donate to the GoFundMe here: https://www.gofundme.com/f/help-ray-fight-ice-detention?attribution_id=sl:1d85ec39-3c9c-4746-92db-b9df162ac593&lang=en_US&ts=1758507592&utm_campaign=fp_sharesheet&utm_content=amp13_t1-amp17_ta&utm_medium=customer&utm_source=copy_link We are very grateful to be able to share Ray’s story, and we would like to thank @savingrayavilia for contacting us and providing us with information about Ray. If you would like to learn more about Ray Avilia’s story, we encourage you to check out their page.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7555325050837126431?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#ray-anderson-story"
   }
 ];
 
