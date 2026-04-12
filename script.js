@@ -544,6 +544,30 @@ const stories = [
     summary: "Today, we are sharing the story of George Retes. Retes is a U.S. citizen and an army veteran. He is a father of 2 children, one of whom had just turned 3 years old. Retes joined the military when he was only 18 years old, serving 4 years. In those 4 years, he had also been deployed to Iraq. Now 25, Retes works as a security guard at Glass House Farms in Camarillo. Retes had been driving to work when he was stopped by immigration officers. The officers would break his window, pepper-spray him, and drag him out of the car, even after Retes repeated numerous times that he was a U.S. citizen. Retes was detained and sent to a detention center in downtown Los Angeles. During this time in detainment, he would miss his 3-year-old daughter’s birthday party. Retes had no charges against him. During his time in his cell, he was not allowed to shower or change clothes, despite being pepper-sprayed and being tear-gassed. Thankfully, after 3 days, he was released without any explanation for why he was detained and locked for 3 days. The sources we used for this post come from the organizations NBC, AP News, Military Times, ABC7, Click on Detroit, and TMZ. If you would like to learn more about Retes’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7537886432342428983?is_from_webapp=1&sender_device=pc",
     link: "stories.html#george-retes-story"
+  },
+  {
+    order: 24,
+    slug: "reza-zavvar-story",
+    images: [
+      "stories/reza-zavvar-story/1.png",
+      "stories/reza-zavvar-story/2.png",
+      "stories/reza-zavvar-story/3.png",
+      "stories/reza-zavvar-story/4.png",
+      "stories/reza-zavvar-story/5.png",
+      "stories/reza-zavvar-story/6.png",
+      "stories/reza-zavvar-story/7.png",
+      "stories/reza-zavvar-story/8.png",
+      "stories/reza-zavvar-story/9.png",
+      "stories/reza-zavvar-story/10.png",
+      "stories/reza-zavvar-story/11.png",
+      "stories/reza-zavvar-story/12.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Reza Zavvar’s Story",
+    summary: "Today, we are sharing the story of Reza Zavvar. Zavvar came to the United States from Iran when he was only 12 years old. His family was seeking higher education and wanted Zavvar to have a better education, so they came to the United States to give him this opportunity. Zavvar worked hard on his legal status and eventually secured a green card. He is a very caring uncle, friend, and son. The 54-year-old Zavvar recently moved back in with his mother to take care of his 94-year-old grandmother. While he was walking the family dog, he would be stopped by immigration officers and detained. The officers would then bring the dog back on the leash to the family’s house, much to the family’s shock and horror, seeing Zavvar missing. Zavvar was detained and sent to a detention center in Texas. The reason for his deportation was because of a misdemeanor dating back in the late 1990's. Zavvar had been flagged because of this misdemeanor in 2004 and was unable to come back to the United States as he had been travelling during this time. This issue would be resolved in 2007, and Zavvar was granted a withholding of removal, which allowed him to continue working and living in the United States. Zavvar is scheduled to be deported to a country that he has never known, such as Romania or Australia. The sources we used for this post come from the organizations NBC, News Week, and ABC. If you would like to learn more about Zavvar’s story, we encourage you to read the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7537145410050084151?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#reza-zavvar-story"
   }
 ];
 
