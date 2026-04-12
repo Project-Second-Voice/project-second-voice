@@ -497,6 +497,29 @@ const stories = [
     summary: "Today, we are sharing the story of Rosario Gonzalez. Gonzalez had moved to the United States from Mexico and has lived in the United States for over 28 years. In that time, he has become a beloved grandfather and father of 5 children, one of which had graduated from high school the day after he was detained. Gonazalez had been trying to find work so he could provide for his family, as he was the main provider for his family. He had trouble finding construction jobs recently due to the immigration raids that were sweeping the country. The family had advised and urged Gonzalez not to try and find work near areas that had been known for immigration raids, but the desperate Gonzalez felt a need to find work and provide for his family. He would be detained near a Home Depot and transferred to an immigration facility in Texas. Gonzalez’s daughter, Yamilet, had just graduated from high school the day after he was detained. Yamilet expresses her and her families devestation from the situation and prays that her father returns back home. Gonzalez is just one of the 330 innocent immigrants detained forcefully by immigration raids all across Los Angeles. If you would like to support and help Gonzalez’s family, feel free to donate to their GoFundMe to support Gonzalez’s journey back home here:https://www.gofundme.com/f/help-bring-rosario-home-support-his-family The sources we used for this post come from the organizations NBC LA and SIG TRIB. If you would like to learn more about Gonzalez’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7527548595566955789?is_from_webapp=1&sender_device=pc",
     link: "stories.html#rosario-gonzalez-story"
+  },
+  {
+    order: 22,
+    slug: "mahmoud-khalil-story",
+    images: [
+      "stories/mahmoud-khalil-story/1.png",
+      "stories/mahmoud-khalil-story/2.png",
+      "stories/mahmoud-khalil-story/3.png",
+      "stories/mahmoud-khalil-story/4.png",
+      "stories/mahmoud-khalil-story/5.png",
+      "stories/mahmoud-khalil-story/6.png",
+      "stories/mahmoud-khalil-story/7.png",
+      "stories/mahmoud-khalil-story/8.png",
+      "stories/mahmoud-khalil-story/9.png",
+      "stories/mahmoud-khalil-story/10.png",
+      "stories/mahmoud-khalil-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Mahmoud Khalil’s Story",
+    summary: "Today, we are sharing the story of Mahmoud Khalil. Khalil was born in Syria to Palestinian refugees and witnessed the mistreatment and injustice occurring from a young age. He wanted to do something about it; he wanted to advocate and bring change in the face of injustice. Khalil would work hard and earn a degree in computer science at Lebanese American University. After, he would work at Jusoor, a Syrian-American non-profit. Khalil would work in the UK Foreign Office before moving to the United States and pursuing a master’s degree at Columbia University’s School of International and Public Affairs. He would meet his soon-to-be wife and get married, expecting a child in April. Khalil played an influential role in the protests at Columbia University in 2024, acting as a mediator between university officials and student activists. Although Khalil protested, he refrained from participating in student encampments out of fear of having his student visa revoked. Khalil would also secure his green card and permanent residency, but it is unclear when he did so. Khalil would never have expected to be detained outside his house and transferred to the Louisiana Detention Facility, where he would stay in poor conditions for 104 days. He would miss his child’s birth. Thankfully, after 104 days, he was released on bail; however, Khalil’s legal battle does not end here. The sources we used for this post come from the organizations NPR, BBC, AP News, and NBC. If you would like to learn more about Khalil’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7570898620472364301?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#mahmoud-khalil-story"
   }
 ];
 
