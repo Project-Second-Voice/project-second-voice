@@ -593,6 +593,27 @@ const stories = [
     summary: "Stories like David’s emphasize a need to speak out and raise awareness on such a serious topic in the United States. Hardworking, legal immigrants shouldn't be treated without respect and without empathy. David was legally allowed to be in the United States because of the sponsorship given to him by his son, who is a U.S citizen. He was allowed to live and work in the United States till he got his green card. David was also allowed to travel. David used this opportunity to visit his mother, whom he had not visited in a long time. He was detained when he returned and deported without a trial. The sources we used in this post come from the organizations NBC and KYMA. If you would like to learn more about David’s story, we encourage you to read the stories posted by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7523436837621320991?is_from_webapp=1&sender_device=pc",
     link: "stories.html#david-valdez-story"
+  },
+  {
+    order: 26,
+    slug: "felipe-de-jesus-hernandez-marcelo-story",
+    images: [
+      "stories/felipe-de-jesus-hernandez-marcelo-story/1.png",
+      "stories/felipe-de-jesus-hernandez-marcelo-story/2.png",
+      "stories/felipe-de-jesus-hernandez-marcelo-story/3.png",
+      "stories/felipe-de-jesus-hernandez-marcelo-story/4.png",
+      "stories/felipe-de-jesus-hernandez-marcelo-story/5.png",
+      "stories/felipe-de-jesus-hernandez-marcelo-story/6.png",
+      "stories/felipe-de-jesus-hernandez-marcelo-story/7.png",
+      "stories/felipe-de-jesus-hernandez-marcelo-story/8.png",
+      "stories/felipe-de-jesus-hernandez-marcelo-story/9.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Felipe de Jesus Hernandez Marcelo’s Story",
+    summary: "Today, we are sharing the story of Felipe de Jesus Hernandez Marcelo. Marcelo came to the United States from his native country, Mexico, in 2021. He came to the United States seeking a better life for himself and his 9-year-old child. After coming to the United States, Marcelo settled in Iowa, where he worked a job in construction and provided for his son as a single father. Marcelo would be mugged on June 21, surviving a fatal shootout, and fleeing by car. He would drive away before collapsing on the streets, where he would be picked up and treated. When Marcelo went to the Iowa police station to retrieve his belongings, such as his cash and car, he was denied his belongings and detained due to an unpaid traffic ticket. Marcelo would be put into a detention facility where he was denied medication for five days, putting him in excruciating pain. Marcelo would be stuck in the detention center for 3 months, denied bond, unable to visit his 9-year-old son, unable to work his construction job to pay the bills, and unable to go to medical meetings for his wounds. Marcelo’s future in the United States is ambiguous and not certain; however, he is working hard to secure a visa so he can stay in the United States. The sources we used for this post come from the organizations NBC, The Independent, AP News, and Newsweek. If you would like to learn more about Marcelo’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7573519690446769421?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#felipe-de-jesus-hernandez-marcelo-story"
   }
 ];
 
