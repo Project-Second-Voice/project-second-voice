@@ -804,6 +804,30 @@ const stories = [
     summary: "Today, we are sharing the story of Catalina “Xochitl” Santiago. Catalina came to the United States from Mexico when she was just a child. She came under the Deferred Action for Childhood Arrivals Program (DACA) and was allowed to work and study in the United States. She was raised in Southern Florida, where she became very invested and passionate about advocating for undocumented immigrant rights. Catalina was a member of the group Movimiento Cosecha, which advocated for immigrant rights. Just this year, Catalina also got married to her wife, Desiree Miller. The couple owned a community garden, where they would teach kids about agriculture and the medicinal uses of plants. In August of this year, however, Catalina would never have expected that she would be detained at El Paso airport while waiting to board a domestic flight. While she was detained, she was repeatedly questioned about her work authorization. She was detained due to a trespassing conviction and allegations of substance which never amounted to anything in court. The trespassing convictions were due to being at a rally, which was not a criminal offense, but rather a civil offense. The sources we used for this post come from the organizations NBC News and The Texas Tribune. If you would like to learn more about Catalina’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7552696908557389070?is_from_webapp=1&sender_device=pc",
     link: "stories.html#catalina-xochitl-santiago-story"
+  },
+  {
+    order: 35,
+    slug: "margarita-avila-story",
+    images: [
+      "stories/margarita-avila-story/1.png",
+      "stories/margarita-avila-story/2.png",
+      "stories/margarita-avila-story/3.png",
+      "stories/margarita-avila-story/4.png",
+      "stories/margarita-avila-story/5.png",
+      "stories/margarita-avila-story/6.png",
+      "stories/margarita-avila-story/7.png",
+      "stories/margarita-avila-story/8.png",
+      "stories/margarita-avila-story/9.png",
+      "stories/margarita-avila-story/10.png",
+      "stories/margarita-avila-story/11.png",
+      "stories/margarita-avila-story/12.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Margarita Avila’s Story",
+    summary: "Today, we are sharing the story of Margarita Avila. Margartia came to the United States from Belize due to threats to her family, namely being sent a letter demanding $10,000 or her family would be hurt. Trying to escape this, Margarita and her husband, Jose, would come to the United States, requesting asylum due to fear of being hurt. Their request for asylum has been pending ever since. This did not stop Margarita and Jose from building a life in the United States; however, Margarita and Jose would buy a house in Houston and start their own landscaping business, and have five children who are all American citizens. However, they would never expect that their good life would come to an end due to a miscommunication between Margarita and a postal worker. Margarita had been using the weed clipper when a postal worker would ask her to turn it off due to the sound. Amongst the sound, Margarita did not hear the worker, and the worker started to yell at her. A situation went down, and Margarita was accused of assault, a charge that would later be dropped. Nevertheless, the damage had been done, and Margarita had been taken by immigration officers from the deputy office after seeing her Belize identification. Margarita didn’t know what to do, whether she should voluntarily deport or try her best to fight for her case. If she were to deport, her family would have ot make the tough decision of leaving behind everything, or staying behind. The source we used for this post comes from the organization The Texas Tribune. If you would like to learn more about Margarita’s story, we encourage you to check out the organization.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7557951962289868087?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#margarita-avila-story"
   }
 ];
 
