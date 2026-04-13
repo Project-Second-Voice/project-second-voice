@@ -759,6 +759,28 @@ const stories = [
     summary: "Today, we are sharing the story of Silverio Villegas Gonzalez. Gonzalez was born in Irimbo, Mexico, and moved to the United States, living in Chicago for over twenty years. He lived with his girlfriend and two sons, one who was 3 and another who was 7 years old. Gonzalez had no criminal record, but he did have a few traffic violations, which labelled him as a “reckless driver,” which his family has come out to say is not true. Gonzalez had pleaded guilty to these violations and ensured he met all the requirements needed to make up for his mistakes. He was very compliant with athe uthorities. Gonzalez was a line cook for a restraunt in Chicago. On a Friday morning, Gonzalez was driving to work after dropping his kids off at daycare and school, respectively, when he was stopped during a traffic stop run by immigration officials. During their encounter, it is allegedly said that Gonzalez, fearing arrest, fled the scene, injuring an officer while doing so. This caused the other officers to fire at him, which eventually led to his passing. The officers, however, had not been wearing body cameras, even though they were required to do so, casting ambiguity onto the situation. Gonzalez’s passing sparked massive outrage in the Chicago community and led to protests and memorials being built in his name. The sources we used for this post come from the organizations NBC LA, Wikipedia, WTTW, Chicago Sun Times, and WBEZ. If you would like to learn more about Gonzalez’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7609106144442830093?is_from_webapp=1&sender_device=pc",
     link: "stories.html#silverio-villegas-gonzalez-story"
+  },
+  {
+    order: 33,
+    slug: "merwil-gutierrez-story",
+    images: [
+      "stories/merwil-gutierrez-story/1.png",
+      "stories/merwil-gutierrez-story/2.png",
+      "stories/merwil-gutierrez-story/3.png",
+      "stories/merwil-gutierrez-story/4.png",
+      "stories/merwil-gutierrez-story/5.png",
+      "stories/merwil-gutierrez-story/6.png",
+      "stories/merwil-gutierrez-story/7.png",
+      "stories/merwil-gutierrez-story/8.png",
+      "stories/merwil-gutierrez-story/9.png",
+      "stories/merwil-gutierrez-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Merwil Gutiérrez's Story",
+    summary: "Today, we are sharing the story of Merwil Gutiérrez. Gutiérrez came to the United States in 2023 from Venezuela, escaping economic and political turmoil and hardship that were plaguing the country. When arriving in the United States, Gutiérrez was scheduled for a court hearing in 2027 regarding his immigration situation. On February 24, 2025, officers would apprehend Gutiérrez and two of his friends despite them not being the ones they had been looking for. Gutiérrez was detained and forcefully removed under speculation that he was a part of an infamous gang in Venezuela, despite repeated insistences from his family that he was not a part of the gang. Gutiérrez had no criminal history, no ties with gangs, and no tattoos, often a sign of the notorious gang that Gutiérrez was speculated to be in. Initially, Gutiérrez had been told that he would be sent back to Venezuela, but unbeknownst to him, Gutiérrez would be sent to a country where he had no ties, El Salvador, to the CECOT, a maximum-security prison. Gutiérrez was only able to be removed without due process through the Alien Enemies Act of 179,8 which allowed for the removal of immigrants who were under suspicion of gang affiliation, even though Gutiérrez had repeatedly insisted otherwise, and there was no evidence pointing to these affiliations. His father continues to worry about Gutiérrez’s situation at the CECOT, hearing of the horrible physical conditions and the abuse suffered in the prison. He is working to get documentation on the removal and more information on Gutiérrez’s case. The sources we used for this post come from the organizations Truthout, The Guardian, Documented, Gonzalez Olivieri, ABC 7, League of United Latin American Citizens, The New York Times, and NPR. If you would like to learn more about Gutiérrez’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7586518502903778615?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#merwil-gutierrez-story"
   }
 ];
 
