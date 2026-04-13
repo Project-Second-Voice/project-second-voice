@@ -641,6 +641,29 @@ const stories = [
     summary: "Today, we are sharing the story of Nory Sontay Ramos. Ramos is a 17-year-old high schooler in Westlake. Like any other kid, she was excited and looking forward to the upcoming school year, where she would be graduating from high school. Ramos immigrated to the United States with her mother when she was only 6 years old. They immigrated here without documents due to a lot of gang violence back in their home country, Guatemala. Ramos explains how many gangs had threatened her mother and her family, and their family had made the choice to leave the country in hopes of making a better life in the United States. Ramos’s father did not come with them and unfortunately passed away a few weeks after Ramos and her mother made it to the United States. Ramos and her mother did not know English or Spanish at all, and had to learn English from the ground up with the help of some of her cousins. Ramos grew up like every other kid in the United States. She loved listening to music from artists such as The Weeknd, and loved to watch Netflix shows such as \"Cobra Kai\" and \"Stranger Things\". Ramos lived here for over a decade and was an honor student and athlete at her high school in Westlake. This would all change, however, when Ramos and her mother were detained during an immigration check-in. They were detained and deported to Guatemala. Ramos and her mother were not criminals and had escaped Guatemala, seeking asylum. They had no path to citizenship but still did the best they could with what they were offered. We believe immigrants deserve a chance and a pathway to citizenship should not be so inaccessible to many immigrants who seek to live in the United States. Ramos was just 17 years old when she was deported to Guatemala and separated from all her friends and the country she had grown up in. The sources we used for this post come from the organizations 19th News, NBC LA, and Teen Vogue. If you would like to learn more about Ramos’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7526032097249692958?is_from_webapp=1&sender_device=pc",
     link: "stories.html#nory-sontay-ramos-story"
+  },
+  {
+    order: 28,
+    slug: "brenda-martinez-story",
+    images: [
+      "stories/brenda-martinez-story/1.png",
+      "stories/brenda-martinez-story/2.png",
+      "stories/brenda-martinez-story/3.png",
+      "stories/brenda-martinez-story/4.png",
+      "stories/brenda-martinez-story/5.png",
+      "stories/brenda-martinez-story/6.png",
+      "stories/brenda-martinez-story/7.png",
+      "stories/brenda-martinez-story/8.png",
+      "stories/brenda-martinez-story/9.png",
+      "stories/brenda-martinez-story/10.png",
+      "stories/brenda-martinez-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Brenda Martinez’s Story",
+    summary: "People like Brenda Martinez emphasize a need for immigration policies to change. Brenda was taken to the U.S. when she was just a toddler, and having to accept the fact that she isn’t like the rest of her peers is heartbreaking. Martinez is not a criminal, nor has she gotten any deportation orders, yet she still has no clear path to citizenship. The only path she was offered was due to her husband's sponsorship as an American citizen, but this can take years before being accepted, something Martinez and her family can’t risk. Martinez’s only choice is to leave the U.S. with her husband and move to a country she has hardly known, leaving everyone and everything behind. We believe there needs to be a change that better equips immigrants with the necessary tools to be able to make a path towards citizenship that doesn’t have such a length process. Martinez had no choice but to leave the place she grew up in and go to a foreign country. The sources we used for this post are from Newsbusters and CBS News. If you want to learn more about Martinez’s story, we encourage you to read the stories that were published by these organizations. If you or anyone you know, have any stories they would like to share about their experience as immigrants, we would love to hear it. If you feel comfortable, feel free to message us and we will gladly share your story to spread awareness for the millions of immigrants that deserve a change.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7522323064671980814?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#brenda-martinez-story"
   }
 ];
 
