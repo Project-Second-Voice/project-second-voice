@@ -690,6 +690,26 @@ const stories = [
     summary: "Today, we are sharing the story of Jose Gregorio Gonzalez. Gonzalez is of Venezuelan nationality and came to the United States to accompany his sick younger brother, who is suffering from end-stage renal disease. This is a disease that affects the kidneys, and his brother is in dire need of a transplant. Gonzalez came to the United States to accompany him in his health care, while also being his kidney donor. By transplanting his kidney through a paired kidney exchange, Gonzalez would be saving both his brother’s and another person’s lives. Gonzalez’s brother has to go through multiple 4-hour dialysis appointments every week to stay alive. Gonzalez would come to the United States and apply for asylum. He would not be granted asylum due to not passing an initial interview. Gonzalez was given a deportation order. While accompanying his brother to a dialysis appointment, Gonzalez would be detained by officers and put in a detention facility to await removal orders. With the advocacy of thousands of individuals, Gonzalez would be given a temporary stay to undergo the kidney transplant procedure, saving two lives. Although Gonzalez may very well be removed this year, even though he has no criminal record, his story serves as a major step forward for immigrant justice and a major victory for humanity and compassion. The sources we used for this post come from the organizations NBC, CNN, TRP Immigrant Justice, Chicago Sun Times, Compassion Crossing, UC Davis Health, ABC 7, The DePaulia, Chicago Tribune, and USA Today. If you would like to learn more about Gonzalez’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7588349833350483214?is_from_webapp=1&sender_device=pc",
     link: "stories.html#jose-gregorio-gonzalez-story"
+  },
+  {
+    order: 30,
+    slug: "jose-manuel-ramos-bastidas-story",
+    images: [
+      "stories/jose-manuel-ramos-bastidas-story/1.png",
+      "stories/jose-manuel-ramos-bastidas-story/2.png",
+      "stories/jose-manuel-ramos-bastidas-story/3.png",
+      "stories/jose-manuel-ramos-bastidas-story/4.png",
+      "stories/jose-manuel-ramos-bastidas-story/5.png",
+      "stories/jose-manuel-ramos-bastidas-story/6.png",
+      "stories/jose-manuel-ramos-bastidas-story/7.png",
+      "stories/jose-manuel-ramos-bastidas-story/8.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "José Manuel Ramos Bastidas’s Story",
+    summary: "Today, we are sharing the story of José Manuel Ramos Bastidas. Ramos came to the United States because he needed to make money for his newborn son, who had many medical problems to attend to. His meager salary as a car washer in Venezuela’s poor economy was not sufficient to pay for the medication his son needed. His son was called the family’s “milagrito,” or “little miracle.” Because of this, Ramos trekked thousands of miles, crossing numerous countries, to get to the United States border. He applied for asylum using the CBP One App, but was denied asylum. He was immediately detained due to his tattoos, which were labelled as the mark of potential gangs in Venezuela. Ramos’s family could not see him for months, until they got a phone call one day. It was Ramos, he explained that he was being deported back to Venezelua and he would be back soon. The family celebrated and prepared for his arrival back home: baking a cake, praying, and cooking his favorite chicken dish. Little did they know, this would be the last time they would talk to Ramos. Ramos and 230 other Venezuelans were sent to a maximum security prison due to the potential that they were affiliated with gangs because of their tattoos. Ramos’s family sits anxiously, waiting for any word from him. Ramos’s mother is bombarded with numerous questions, asking whether her son was okay, whether he was being fed, and if he was still alive. The sources we used for this post come from the organization The Texas Tribune and ProPublica. If you would like to learn more about Ramos’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7550114490973474062?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#jose-manuel-ramos-bastidas-story"
   }
 ];
 
