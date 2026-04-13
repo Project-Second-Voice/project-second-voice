@@ -614,6 +614,33 @@ const stories = [
     summary: "Today, we are sharing the story of Felipe de Jesus Hernandez Marcelo. Marcelo came to the United States from his native country, Mexico, in 2021. He came to the United States seeking a better life for himself and his 9-year-old child. After coming to the United States, Marcelo settled in Iowa, where he worked a job in construction and provided for his son as a single father. Marcelo would be mugged on June 21, surviving a fatal shootout, and fleeing by car. He would drive away before collapsing on the streets, where he would be picked up and treated. When Marcelo went to the Iowa police station to retrieve his belongings, such as his cash and car, he was denied his belongings and detained due to an unpaid traffic ticket. Marcelo would be put into a detention facility where he was denied medication for five days, putting him in excruciating pain. Marcelo would be stuck in the detention center for 3 months, denied bond, unable to visit his 9-year-old son, unable to work his construction job to pay the bills, and unable to go to medical meetings for his wounds. Marcelo’s future in the United States is ambiguous and not certain; however, he is working hard to secure a visa so he can stay in the United States. The sources we used for this post come from the organizations NBC, The Independent, AP News, and Newsweek. If you would like to learn more about Marcelo’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7573519690446769421?is_from_webapp=1&sender_device=pc",
     link: "stories.html#felipe-de-jesus-hernandez-marcelo-story"
+  },
+  {
+    order: 27,
+    slug: "nory-sontay-ramos-story",
+    images: [
+      "stories/nory-sontay-ramos-story/1.png",
+      "stories/nory-sontay-ramos-story/2.png",
+      "stories/nory-sontay-ramos-story/3.png",
+      "stories/nory-sontay-ramos-story/4.png",
+      "stories/nory-sontay-ramos-story/5.png",
+      "stories/nory-sontay-ramos-story/6.png",
+      "stories/nory-sontay-ramos-story/7.png",
+      "stories/nory-sontay-ramos-story/8.png",
+      "stories/nory-sontay-ramos-story/9.png",
+      "stories/nory-sontay-ramos-story/10.png",
+      "stories/nory-sontay-ramos-story/11.png",
+      "stories/nory-sontay-ramos-story/12.png",
+      "stories/nory-sontay-ramos-story/13.png",
+      "stories/nory-sontay-ramos-story/14.png",
+      "stories/nory-sontay-ramos-story/15.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Nory Sontay Ramos’s Story",
+    summary: "Today, we are sharing the story of Nory Sontay Ramos. Ramos is a 17-year-old high schooler in Westlake. Like any other kid, she was excited and looking forward to the upcoming school year, where she would be graduating from high school. Ramos immigrated to the United States with her mother when she was only 6 years old. They immigrated here without documents due to a lot of gang violence back in their home country, Guatemala. Ramos explains how many gangs had threatened her mother and her family, and their family had made the choice to leave the country in hopes of making a better life in the United States. Ramos’s father did not come with them and unfortunately passed away a few weeks after Ramos and her mother made it to the United States. Ramos and her mother did not know English or Spanish at all, and had to learn English from the ground up with the help of some of her cousins. Ramos grew up like every other kid in the United States. She loved listening to music from artists such as The Weeknd, and loved to watch Netflix shows such as \"Cobra Kai\" and \"Stranger Things\". Ramos lived here for over a decade and was an honor student and athlete at her high school in Westlake. This would all change, however, when Ramos and her mother were detained during an immigration check-in. They were detained and deported to Guatemala. Ramos and her mother were not criminals and had escaped Guatemala, seeking asylum. They had no path to citizenship but still did the best they could with what they were offered. We believe immigrants deserve a chance and a pathway to citizenship should not be so inaccessible to many immigrants who seek to live in the United States. Ramos was just 17 years old when she was deported to Guatemala and separated from all her friends and the country she had grown up in. The sources we used for this post come from the organizations 19th News, NBC LA, and Teen Vogue. If you would like to learn more about Ramos’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7526032097249692958?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#nory-sontay-ramos-story"
   }
 ];
 
