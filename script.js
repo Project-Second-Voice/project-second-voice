@@ -710,6 +710,33 @@ const stories = [
     summary: "Today, we are sharing the story of José Manuel Ramos Bastidas. Ramos came to the United States because he needed to make money for his newborn son, who had many medical problems to attend to. His meager salary as a car washer in Venezuela’s poor economy was not sufficient to pay for the medication his son needed. His son was called the family’s “milagrito,” or “little miracle.” Because of this, Ramos trekked thousands of miles, crossing numerous countries, to get to the United States border. He applied for asylum using the CBP One App, but was denied asylum. He was immediately detained due to his tattoos, which were labelled as the mark of potential gangs in Venezuela. Ramos’s family could not see him for months, until they got a phone call one day. It was Ramos, he explained that he was being deported back to Venezelua and he would be back soon. The family celebrated and prepared for his arrival back home: baking a cake, praying, and cooking his favorite chicken dish. Little did they know, this would be the last time they would talk to Ramos. Ramos and 230 other Venezuelans were sent to a maximum security prison due to the potential that they were affiliated with gangs because of their tattoos. Ramos’s family sits anxiously, waiting for any word from him. Ramos’s mother is bombarded with numerous questions, asking whether her son was okay, whether he was being fed, and if he was still alive. The sources we used for this post come from the organization The Texas Tribune and ProPublica. If you would like to learn more about Ramos’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7550114490973474062?is_from_webapp=1&sender_device=pc",
     link: "stories.html#jose-manuel-ramos-bastidas-story"
+  },
+  {
+    order: 31,
+    slug: "alfredo-lelo-juarez-zeferino-story",
+    images: [
+      "stories/alfredo-lelo-juarez-zeferino-story/1.png",
+      "stories/alfredo-lelo-juarez-zeferino-story/2.png",
+      "stories/alfredo-lelo-juarez-zeferino-story/3.png",
+      "stories/alfredo-lelo-juarez-zeferino-story/4.png",
+      "stories/alfredo-lelo-juarez-zeferino-story/5.png",
+      "stories/alfredo-lelo-juarez-zeferino-story/6.png",
+      "stories/alfredo-lelo-juarez-zeferino-story/7.png",
+      "stories/alfredo-lelo-juarez-zeferino-story/8.png",
+      "stories/alfredo-lelo-juarez-zeferino-story/9.png",
+      "stories/alfredo-lelo-juarez-zeferino-story/10.png",
+      "stories/alfredo-lelo-juarez-zeferino-story/11.png",
+      "stories/alfredo-lelo-juarez-zeferino-story/12.png",
+      "stories/alfredo-lelo-juarez-zeferino-story/13.png",
+      "stories/alfredo-lelo-juarez-zeferino-story/14.png",
+      "stories/alfredo-lelo-juarez-zeferino-story/15.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Alfredo “Lelo” Juarez Zeferino’s Story",
+    summary: "Today, we are sharing the story of Alfredo “Lelo” Juarez Zeferino. Zeferino grew up in Mexico and came to the United States with his family when he was only a child. Once he turned 12 years old, he started working in the fields, working in Whatcom and Skagit counties. Alfredo was an activist for his people and his job, advocating for his fellow farm workers, such as advocating against exploitation, overtime labour, and also heat change. Alfredo, who is now 25 years old, had been driving his coworker to their tulip farm for work when he was stopped by an unmarked vehicle. Alfredo had pulled over and was putting his window down to ask the officer if he had a warrant and why he was being stopped. This was when the immigration officer would break Alfredo’s window, shattering it, and pulling Alfredo out of the car, detaining him. Alfredo was sent to a detention center, where he was locked up. News about Alfredo’s arrest spread like wildfire, and his community had started to step up and advocate for his release. Alfredo’s detainment was due to a traffic stop he had gotten when he had only a minor offense. Alfredo had been detained for 24 hours, but later sued due to racial discrimination. Alfredo had no idea that because of the traffic stop, he would get a deportation order mailed to his address, a letter that he never got, as it had been bounced back to the government. The sources we used for this post come from the organizations Tribuno Del Pueblo, Seattle Times, El País, King 5, The Guardian, Bellingham Herald, KUOW, Cascadia Daily News, CNN, The Northern Light, and Salish Current. If you would like to learn more about Alfredo’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7543458552313056543?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#alfredo-lelo-juarez-zeferino-story"
   }
 ];
 
