@@ -781,6 +781,29 @@ const stories = [
     summary: "Today, we are sharing the story of Merwil Gutiérrez. Gutiérrez came to the United States in 2023 from Venezuela, escaping economic and political turmoil and hardship that were plaguing the country. When arriving in the United States, Gutiérrez was scheduled for a court hearing in 2027 regarding his immigration situation. On February 24, 2025, officers would apprehend Gutiérrez and two of his friends despite them not being the ones they had been looking for. Gutiérrez was detained and forcefully removed under speculation that he was a part of an infamous gang in Venezuela, despite repeated insistences from his family that he was not a part of the gang. Gutiérrez had no criminal history, no ties with gangs, and no tattoos, often a sign of the notorious gang that Gutiérrez was speculated to be in. Initially, Gutiérrez had been told that he would be sent back to Venezuela, but unbeknownst to him, Gutiérrez would be sent to a country where he had no ties, El Salvador, to the CECOT, a maximum-security prison. Gutiérrez was only able to be removed without due process through the Alien Enemies Act of 179,8 which allowed for the removal of immigrants who were under suspicion of gang affiliation, even though Gutiérrez had repeatedly insisted otherwise, and there was no evidence pointing to these affiliations. His father continues to worry about Gutiérrez’s situation at the CECOT, hearing of the horrible physical conditions and the abuse suffered in the prison. He is working to get documentation on the removal and more information on Gutiérrez’s case. The sources we used for this post come from the organizations Truthout, The Guardian, Documented, Gonzalez Olivieri, ABC 7, League of United Latin American Citizens, The New York Times, and NPR. If you would like to learn more about Gutiérrez’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7586518502903778615?is_from_webapp=1&sender_device=pc",
     link: "stories.html#merwil-gutierrez-story"
+  },
+  {
+    order: 34,
+    slug: "catalina-xochitl-santiago-story",
+    images: [
+      "stories/catalina-xochitl-santiago-story/1.png",
+      "stories/catalina-xochitl-santiago-story/2.png",
+      "stories/catalina-xochitl-santiago-story/3.png",
+      "stories/catalina-xochitl-santiago-story/4.png",
+      "stories/catalina-xochitl-santiago-story/5.png",
+      "stories/catalina-xochitl-santiago-story/6.png",
+      "stories/catalina-xochitl-santiago-story/7.png",
+      "stories/catalina-xochitl-santiago-story/8.png",
+      "stories/catalina-xochitl-santiago-story/9.png",
+      "stories/catalina-xochitl-santiago-story/10.png",
+      "stories/catalina-xochitl-santiago-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Catalina \"Xochitl\" Santiago’s Story",
+    summary: "Today, we are sharing the story of Catalina “Xochitl” Santiago. Catalina came to the United States from Mexico when she was just a child. She came under the Deferred Action for Childhood Arrivals Program (DACA) and was allowed to work and study in the United States. She was raised in Southern Florida, where she became very invested and passionate about advocating for undocumented immigrant rights. Catalina was a member of the group Movimiento Cosecha, which advocated for immigrant rights. Just this year, Catalina also got married to her wife, Desiree Miller. The couple owned a community garden, where they would teach kids about agriculture and the medicinal uses of plants. In August of this year, however, Catalina would never have expected that she would be detained at El Paso airport while waiting to board a domestic flight. While she was detained, she was repeatedly questioned about her work authorization. She was detained due to a trespassing conviction and allegations of substance which never amounted to anything in court. The trespassing convictions were due to being at a rally, which was not a criminal offense, but rather a civil offense. The sources we used for this post come from the organizations NBC News and The Texas Tribune. If you would like to learn more about Catalina’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7552696908557389070?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#catalina-xochitl-santiago-story"
   }
 ];
 
