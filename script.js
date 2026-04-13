@@ -828,6 +828,31 @@ const stories = [
     summary: "Today, we are sharing the story of Margarita Avila. Margartia came to the United States from Belize due to threats to her family, namely being sent a letter demanding $10,000 or her family would be hurt. Trying to escape this, Margarita and her husband, Jose, would come to the United States, requesting asylum due to fear of being hurt. Their request for asylum has been pending ever since. This did not stop Margarita and Jose from building a life in the United States; however, Margarita and Jose would buy a house in Houston and start their own landscaping business, and have five children who are all American citizens. However, they would never expect that their good life would come to an end due to a miscommunication between Margarita and a postal worker. Margarita had been using the weed clipper when a postal worker would ask her to turn it off due to the sound. Amongst the sound, Margarita did not hear the worker, and the worker started to yell at her. A situation went down, and Margarita was accused of assault, a charge that would later be dropped. Nevertheless, the damage had been done, and Margarita had been taken by immigration officers from the deputy office after seeing her Belize identification. Margarita didn’t know what to do, whether she should voluntarily deport or try her best to fight for her case. If she were to deport, her family would have ot make the tough decision of leaving behind everything, or staying behind. The source we used for this post comes from the organization The Texas Tribune. If you would like to learn more about Margarita’s story, we encourage you to check out the organization.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7557951962289868087?is_from_webapp=1&sender_device=pc",
     link: "stories.html#margarita-avila-story"
+  },
+  {
+    order: 36,
+    slug: "yessenia-ruano-story",
+    images: [
+      "stories/yessenia-ruano-story/1.png",
+      "stories/yessenia-ruano-story/2.png",
+      "stories/yessenia-ruano-story/3.png",
+      "stories/yessenia-ruano-story/4.png",
+      "stories/yessenia-ruano-story/5.png",
+      "stories/yessenia-ruano-story/6.png",
+      "stories/yessenia-ruano-story/7.png",
+      "stories/yessenia-ruano-story/8.png",
+      "stories/yessenia-ruano-story/9.png",
+      "stories/yessenia-ruano-story/10.png",
+      "stories/yessenia-ruano-story/11.png",
+      "stories/yessenia-ruano-story/12.png",
+      "stories/yessenia-ruano-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Yessenia Ruano’s Story",
+    summary: "Today, we are sharing the story of Yessenia Ruano. Ruano was originally born in El Salvador, but from a young age, she knew that she wanted to leave her country. Her home was filled with poverty and violence, and after many dangerous situations of theft and mugging, Ruano decided that she would go to the United States. Ruano paid a smuggler to get her into the United States; however, she would never expect to be threatened and held against her will due to a debt she had not paid. After this harrowing experience, Ruano decided to apply for a T-visa, a visa designated for individuals affected by trafficking. Ruano built a life she had always dreamed of in the United States: marrying a Salvadoran man, having two twin daughters, and buying her very own house in Milwaukee. In EL Salvador, she had never gotten the chance to pursue her dream career of being a teacher; however, in America, there was a need for teachers, and she and her husband were able to become teachers. However, due to recent immigration policy changes, Ruano’s pending status was not enough for her to stay in the United States. The fear of deportation was too much to bear for the family, and Ruano and her husband had to make the tough decision of voluntarily moving back to El Salvador. After news of her self-deportation spread, many Milwaukee residents marched and protested for Ruano. Ruano also got many letters of support from her students and co-workers. Ruano also had to sit down and tell her two daughters about the situation and the need to move to a place they had never been to. Ruano hopes that once her daughters turn 18, their family can have another chance at the American dream. The sources used for this post come from the organizations Reuters, 19thn News, Rolling Stone, and Wisconsin Examiner. If you would like to learn more about Ruano’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7563088369727638797?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#yessenia-ruano-story"
   }
 ];
 
