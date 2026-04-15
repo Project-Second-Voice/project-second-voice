@@ -928,6 +928,29 @@ const stories = [
     summary: "Today, we are sharing the story of Jeanette Vizguerra. Vizguerra came to the United States from Mexico with her husband and daughter after being threatened. She wanted to give her daughter a safer life with more opportunities, choosing to cross the border for those chances. After coming to the United States, Vizguerra had three more children and now also has three grandchildren.\n\nAfter arriving in the United States, Vizguerra worked as a janitor before becoming a member and organizer with SEIU Local 105, where she advocated for better benefits and pay for custodial workers. She also joined Rights for All People, working to improve the relationship between immigrants and immigration officials. Vizguerra and her husband later started a moving and cleaning company. She was eventually pulled over and detained over convictions related to falsifying a Social Security number and possession of a forged instrument. Vizguerra has said she did not know the Social Security number belonged to anyone and that it was a mistake.\n\nVizguerra received a removal order based on that conviction and later applied for a stay of removal. After the stay was denied, she sought sanctuary at the First Unitarian Society Church, where she stayed for more than three months while continuing to advocate for immigrant rights. She was later named one of Time magazine’s 100 most influential people and received a two-year reprieve allowing her to remain in the United States temporarily, though her U-visa application was later denied. Vizguerra was later detained near her workplace at Target and held for over nine months before being released on bail just before Christmas. She continues to advocate for immigrant rights and has become a prominent and influential immigrant activist. The sources we used for this post come from Denver 7, Colorado Sun, Colorado Newsline, CPR, ABC, Time, RFK Human Rights, AP News, and The New York Times. If you would like to learn more about Vizguerra’s story, we encourage you to read the reporting published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7594297376290999566?is_from_webapp=1&sender_device=pc",
     link: "stories.html#jeanette-vizguerras-story"
+  },
+  {
+    order: 40,
+    slug: "francisco-galicias-story",
+    images: [
+      "stories/francisco-galicias-story/1.png",
+      "stories/francisco-galicias-story/2.png",
+      "stories/francisco-galicias-story/3.png",
+      "stories/francisco-galicias-story/4.png",
+      "stories/francisco-galicias-story/5.png",
+      "stories/francisco-galicias-story/6.png",
+      "stories/francisco-galicias-story/7.png",
+      "stories/francisco-galicias-story/8.png",
+      "stories/francisco-galicias-story/9.png",
+      "stories/francisco-galicias-story/10.png",
+      "stories/francisco-galicias-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Francisco Galicia's Story",
+    summary: "Today, we are sharing the story of Francisco Galicia. Galicia is an 18-year-old U.S. citizen who was born in Dallas and lives with his mother and his 17-year-old brother, who was born in Mexico and later moved to the United States. Galicia and his brother are best friends and avid soccer players. Galicia had dreams of becoming a businessman and pursuing higher education through college. He, his brother, and their friends planned to travel to Fort Worth to meet with coaches from Ranger College and hopefully secure scholarship opportunities.\n\nWhile driving to Fort Worth, Galicia and his friends were stopped at a federal checkpoint. Galicia showed his state-issued identification, birth certificate, and Social Security number, but officers claimed the documents were fake and took both Galicia and his brother into custody. They were placed in a detention facility under poor conditions. Without their mother knowing, the brothers had no access to communication with her or a lawyer, were crowded with around 60 others, and had no proper access to necessities like a bed, toilet, or shower. They were also pressured to self-deport even though Galicia is a U.S. citizen.\n\nGalicia’s brother could no longer bear the conditions and voluntarily self-deported, later contacting their mother to tell her what had happened. After 23 days, Galicia was finally released, having lost 26 pounds in the process. Galicia and his mother continue trying to get justice for what happened and to bring his brother back home. The sources we used for this post come from ABC, The Guardian, Texas Tribune, PBS, CNN, and CBS. If you would like to learn more about Galicia’s story, we encourage you to read the reporting published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7578302177182027038?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#francisco-galicias-story"
   }
 ];
 
