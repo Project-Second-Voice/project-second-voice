@@ -998,6 +998,29 @@ const stories = [
     summary: "Today, we are sharing the story of Daniela Vargas. Vargas grew up in Argentina and came to the United States in 2001. Vargas came to the United States through the Deferred Action for Childhood Arrivals (DACA) program. She dreamed of continuing her education, going to college, and becoming a math teacher in the United States.\n\nVargas’s DACA status had recently expired, and she had saved enough money to renew it. She had already submitted her renewal application, and it was pending. After attending and speaking at a local press conference on undocumented immigrant rights, Vargas was detained by immigration officers. Vargas has also spoken about the fear she felt when her brother and father were detained by immigration officers.\n\nThankfully, Vargas was released after a court hearing. The sources we used for this post come from The Guardian, ABC News, BBC News, and the National Immigration Law Center. If you would like to learn more about Vargas’s story, we encourage you to read the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7578718250511486238?is_from_webapp=1&sender_device=pc",
     link: "stories.html#daniela-vargass-story"
+  },
+  {
+    order: 43,
+    slug: "alejandra-juarezs-story",
+    images: [
+      "stories/alejandra-juarezs-story/1.png",
+      "stories/alejandra-juarezs-story/2.png",
+      "stories/alejandra-juarezs-story/3.png",
+      "stories/alejandra-juarezs-story/4.png",
+      "stories/alejandra-juarezs-story/5.png",
+      "stories/alejandra-juarezs-story/6.png",
+      "stories/alejandra-juarezs-story/7.png",
+      "stories/alejandra-juarezs-story/8.png",
+      "stories/alejandra-juarezs-story/9.png",
+      "stories/alejandra-juarezs-story/10.png",
+      "stories/alejandra-juarezs-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Alejandra Juarez’s Story",
+    summary: "Today, we are sharing the story of Alejandra Juarez. Juarez was born in Mexico and came to the United States as a teenager. While crossing the border, she was led to sign a document written in English, without fully understanding what it meant. Years later, she learned that the document had effectively signed away her right to legal status in the United States. By then, she had married her husband, Temo, and they had two daughters who were both born in the United States.\n\nTemo was also born in Mexico and came to the United States as a child. He was naturalized in 2002, shortly before serving a 16-month deployment in Iraq as a U.S. Marine Corps veteran. Juarez lived with her husband in Florida until a 2013 traffic stop exposed her undocumented status. She was then allowed to remain in the country as long as she checked in with immigration officials twice a year. In 2018, after the change in administration, Juarez chose to return to Mexico with her youngest daughter, while her husband and oldest daughter stayed in the United States so the older daughter could finish high school.\n\nAt first, the family made frequent trips to stay connected, but as finances became tighter, the visits grew less frequent. When the pandemic hit, Juarez’s work teaching English slowed down, and her youngest daughter returned to Florida. Juarez fell into a deep depression, grieving the lost time and distance from her family. After three years of separation, persistent lobbying, and advocacy, Juarez was finally allowed to return to the United States under the Protect Patriot Spouse Act, just before Mother’s Day. She is now working to make up for the time she lost with her family. The sources we used for this post come from The 74 Million, NBC News, The Guardian, Stripes, Military Times, KVUE, Orlando Sentinel, FWD, and The Ledger. If you would like to learn more about Juarez’s story, we encourage you to read the reporting published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7590193132310891790?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#alejandra-juarezs-story"
   }
 ];
 
