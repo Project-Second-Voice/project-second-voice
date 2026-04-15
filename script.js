@@ -880,6 +880,31 @@ const stories = [
     summary: "Today, we are sharing the story of a Quinceañera that was affected by recent immigration enforcement in Rowland Heights. Denise Alvarez was getting ready to celebrate her Sweet 16 through a traditional Latino party called a Quinceañera, a milestone celebration that honored her transition from girlhood into adulthood. Her family spent months preparing for the event and invested more than $15,000 to make the day as special as possible. Alvarez was excited to show off her dress to the more than 200 guests invited to celebrate with her.\n\nJust days before the Quinceañera, immigration enforcement was reported to be in the area, causing many guests to cancel. The family not only lost a significant amount of money, but also experienced emotional, mental, and cultural harm. We believe immigrants should not have to live in fear of stepping outside their homes because immigration enforcement is nearby. People should not be scared of being abducted and detained because of their race or status. The source we used for this post comes from NBC LA. If you would like to learn more about Denise Alvarez’s Quinceañera and the details of her story, we encourage you to read the reporting they published.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7526423315565645111?is_from_webapp=1&sender_device=pc",
     link: "stories.html#quinceanera-guests-stay-home-due-to-recent-immigration-story"
+  },
+  {
+    order: 38,
+    slug: "paolas-story-with-immigration-story",
+    images: [
+      "stories/paolas-story-with-immigration-story/1.png",
+      "stories/paolas-story-with-immigration-story/2.png",
+      "stories/paolas-story-with-immigration-story/3.png",
+      "stories/paolas-story-with-immigration-story/4.png",
+      "stories/paolas-story-with-immigration-story/5.png",
+      "stories/paolas-story-with-immigration-story/6.png",
+      "stories/paolas-story-with-immigration-story/7.png",
+      "stories/paolas-story-with-immigration-story/8.png",
+      "stories/paolas-story-with-immigration-story/9.png",
+      "stories/paolas-story-with-immigration-story/10.png",
+      "stories/paolas-story-with-immigration-story/11.png",
+      "stories/paolas-story-with-immigration-story/12.png",
+      "stories/paolas-story-with-immigration-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Paola's Story with Immigration",
+    summary: "Today, we are sharing the story of Paola and her U.S. Navy veteran husband, Adrian Clouatre. Paola immigrated to the United States as a teenager with her mother, from whom she is now very distant. After arriving in the United States, Paola faced a difficult period living in homeless shelters. During that time, a deportation order was issued without her knowledge after her mother skipped the hearing and never told her about it.\n\nPaola later married her U.S. Navy veteran husband and the couple had two children, one of whom is a toddler. This gave Paola a path to citizenship, and they still wanted to do the right thing and get her green card. During the green card interview, however, Paola was detained after a supervisor told her she had done very well and to wait in the waiting room. Adrian has described how their children cry for their mother every day. The sources we used for this post come from NBC, Newsweek, and CBS. If you would like to learn more about Paola’s story, we encourage you to read the articles published by these organizations. We believe Paola deserved empathy and a chance to fix a situation she had no control over.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7522655544184786231?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#paolas-story-with-immigration-story"
   }
 ];
 
