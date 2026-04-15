@@ -951,6 +951,32 @@ const stories = [
     summary: "Today, we are sharing the story of Francisco Galicia. Galicia is an 18-year-old U.S. citizen who was born in Dallas and lives with his mother and his 17-year-old brother, who was born in Mexico and later moved to the United States. Galicia and his brother are best friends and avid soccer players. Galicia had dreams of becoming a businessman and pursuing higher education through college. He, his brother, and their friends planned to travel to Fort Worth to meet with coaches from Ranger College and hopefully secure scholarship opportunities.\n\nWhile driving to Fort Worth, Galicia and his friends were stopped at a federal checkpoint. Galicia showed his state-issued identification, birth certificate, and Social Security number, but officers claimed the documents were fake and took both Galicia and his brother into custody. They were placed in a detention facility under poor conditions. Without their mother knowing, the brothers had no access to communication with her or a lawyer, were crowded with around 60 others, and had no proper access to necessities like a bed, toilet, or shower. They were also pressured to self-deport even though Galicia is a U.S. citizen.\n\nGalicia’s brother could no longer bear the conditions and voluntarily self-deported, later contacting their mother to tell her what had happened. After 23 days, Galicia was finally released, having lost 26 pounds in the process. Galicia and his mother continue trying to get justice for what happened and to bring his brother back home. The sources we used for this post come from ABC, The Guardian, Texas Tribune, PBS, CNN, and CBS. If you would like to learn more about Galicia’s story, we encourage you to read the reporting published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7578302177182027038?is_from_webapp=1&sender_device=pc",
     link: "stories.html#francisco-galicias-story"
+  },
+  {
+    order: 41,
+    slug: "artist-in-la-creates-paintings-to-protest-recent-immigration-injustice-story",
+    images: [
+      "stories/artist-in-la-creates-paintings-to-protest-recent-immigration-injustice-story/1.png",
+      "stories/artist-in-la-creates-paintings-to-protest-recent-immigration-injustice-story/2.png",
+      "stories/artist-in-la-creates-paintings-to-protest-recent-immigration-injustice-story/3.png",
+      "stories/artist-in-la-creates-paintings-to-protest-recent-immigration-injustice-story/4.png",
+      "stories/artist-in-la-creates-paintings-to-protest-recent-immigration-injustice-story/5.png",
+      "stories/artist-in-la-creates-paintings-to-protest-recent-immigration-injustice-story/6.png",
+      "stories/artist-in-la-creates-paintings-to-protest-recent-immigration-injustice-story/7.png",
+      "stories/artist-in-la-creates-paintings-to-protest-recent-immigration-injustice-story/8.png",
+      "stories/artist-in-la-creates-paintings-to-protest-recent-immigration-injustice-story/9.png",
+      "stories/artist-in-la-creates-paintings-to-protest-recent-immigration-injustice-story/10.png",
+      "stories/artist-in-la-creates-paintings-to-protest-recent-immigration-injustice-story/11.png",
+      "stories/artist-in-la-creates-paintings-to-protest-recent-immigration-injustice-story/12.png",
+      "stories/artist-in-la-creates-paintings-to-protest-recent-immigration-injustice-story/13.png",
+      "stories/artist-in-la-creates-paintings-to-protest-recent-immigration-injustice-story/14.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Artist in LA Creates Paintings to Protest Recent Immigration Injustice",
+    summary: "Today, we are sharing the story of an artist in Los Angeles who is creating paintings to protest recent immigration injustice in his community. Lalo Alcaraz is a well-known cartoonist and painter in Los Angeles. A recent ice cream cart inspired him to create a painting reflecting the immigration injustice being faced in the city. His painting, “Summer of ICE,” shows a lone ice cream cart on the streets of Los Angeles.\n\nThe painting symbolizes both the sudden and harsh reality faced by people detained by immigration enforcement and the personal story behind the abandoned cart. The cart belonged to Enrique Lozano, an ice cream vendor in Culver City. He was reportedly taken away by force while selling ice cream, removed in an unnamed vehicle, and the only thing left behind was his cart on the side of the street.\n\nA GoFundMe has been set up for Enrique’s family, and if you would like to support them, you can donate here: https://www.gofundme.com/f/fundraiser-for-enrique-paletero-in-culver-city. The source we used for this post comes from NBC LA. If you would like to learn more about Alcaraz’s painting and Enrique’s story, we encourage you to read the reporting published by NBC LA.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7527168523609623821?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#artist-in-la-creates-paintings-to-protest-recent-immigration-injustice-story"
   }
 ];
 
