@@ -977,6 +977,27 @@ const stories = [
     summary: "Today, we are sharing the story of an artist in Los Angeles who is creating paintings to protest recent immigration injustice in his community. Lalo Alcaraz is a well-known cartoonist and painter in Los Angeles. A recent ice cream cart inspired him to create a painting reflecting the immigration injustice being faced in the city. His painting, “Summer of ICE,” shows a lone ice cream cart on the streets of Los Angeles.\n\nThe painting symbolizes both the sudden and harsh reality faced by people detained by immigration enforcement and the personal story behind the abandoned cart. The cart belonged to Enrique Lozano, an ice cream vendor in Culver City. He was reportedly taken away by force while selling ice cream, removed in an unnamed vehicle, and the only thing left behind was his cart on the side of the street.\n\nA GoFundMe has been set up for Enrique’s family, and if you would like to support them, you can donate here: https://www.gofundme.com/f/fundraiser-for-enrique-paletero-in-culver-city. The source we used for this post comes from NBC LA. If you would like to learn more about Alcaraz’s painting and Enrique’s story, we encourage you to read the reporting published by NBC LA.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7527168523609623821?is_from_webapp=1&sender_device=pc",
     link: "stories.html#artist-in-la-creates-paintings-to-protest-recent-immigration-injustice-story"
+  },
+  {
+    order: 42,
+    slug: "daniela-vargass-story",
+    images: [
+      "stories/daniela-vargass-story/1.png",
+      "stories/daniela-vargass-story/2.png",
+      "stories/daniela-vargass-story/3.png",
+      "stories/daniela-vargass-story/4.png",
+      "stories/daniela-vargass-story/5.png",
+      "stories/daniela-vargass-story/6.png",
+      "stories/daniela-vargass-story/7.png",
+      "stories/daniela-vargass-story/8.png",
+      "stories/daniela-vargass-story/9.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Daniela Vargas's Story",
+    summary: "Today, we are sharing the story of Daniela Vargas. Vargas grew up in Argentina and came to the United States in 2001. Vargas came to the United States through the Deferred Action for Childhood Arrivals (DACA) program. She dreamed of continuing her education, going to college, and becoming a math teacher in the United States.\n\nVargas’s DACA status had recently expired, and she had saved enough money to renew it. She had already submitted her renewal application, and it was pending. After attending and speaking at a local press conference on undocumented immigrant rights, Vargas was detained by immigration officers. Vargas has also spoken about the fear she felt when her brother and father were detained by immigration officers.\n\nThankfully, Vargas was released after a court hearing. The sources we used for this post come from The Guardian, ABC News, BBC News, and the National Immigration Law Center. If you would like to learn more about Vargas’s story, we encourage you to read the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7578718250511486238?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#daniela-vargass-story"
   }
 ];
 
