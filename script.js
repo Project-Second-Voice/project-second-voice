@@ -1021,6 +1021,33 @@ const stories = [
     summary: "Today, we are sharing the story of Alejandra Juarez. Juarez was born in Mexico and came to the United States as a teenager. While crossing the border, she was led to sign a document written in English, without fully understanding what it meant. Years later, she learned that the document had effectively signed away her right to legal status in the United States. By then, she had married her husband, Temo, and they had two daughters who were both born in the United States.\n\nTemo was also born in Mexico and came to the United States as a child. He was naturalized in 2002, shortly before serving a 16-month deployment in Iraq as a U.S. Marine Corps veteran. Juarez lived with her husband in Florida until a 2013 traffic stop exposed her undocumented status. She was then allowed to remain in the country as long as she checked in with immigration officials twice a year. In 2018, after the change in administration, Juarez chose to return to Mexico with her youngest daughter, while her husband and oldest daughter stayed in the United States so the older daughter could finish high school.\n\nAt first, the family made frequent trips to stay connected, but as finances became tighter, the visits grew less frequent. When the pandemic hit, Juarez’s work teaching English slowed down, and her youngest daughter returned to Florida. Juarez fell into a deep depression, grieving the lost time and distance from her family. After three years of separation, persistent lobbying, and advocacy, Juarez was finally allowed to return to the United States under the Protect Patriot Spouse Act, just before Mother’s Day. She is now working to make up for the time she lost with her family. The sources we used for this post come from The 74 Million, NBC News, The Guardian, Stripes, Military Times, KVUE, Orlando Sentinel, FWD, and The Ledger. If you would like to learn more about Juarez’s story, we encourage you to read the reporting published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7590193132310891790?is_from_webapp=1&sender_device=pc",
     link: "stories.html#alejandra-juarezs-story"
+  },
+  {
+    order: 44,
+    slug: "javier-diaz-santanas-story-against-ice",
+    images: [
+      "stories/javier-diaz-santanas-story-against-ice/1.png",
+      "stories/javier-diaz-santanas-story-against-ice/2.png",
+      "stories/javier-diaz-santanas-story-against-ice/3.png",
+      "stories/javier-diaz-santanas-story-against-ice/4.png",
+      "stories/javier-diaz-santanas-story-against-ice/5.png",
+      "stories/javier-diaz-santanas-story-against-ice/6.png",
+      "stories/javier-diaz-santanas-story-against-ice/7.png",
+      "stories/javier-diaz-santanas-story-against-ice/8.png",
+      "stories/javier-diaz-santanas-story-against-ice/9.png",
+      "stories/javier-diaz-santanas-story-against-ice/10.png",
+      "stories/javier-diaz-santanas-story-against-ice/11.png",
+      "stories/javier-diaz-santanas-story-against-ice/12.png",
+      "stories/javier-diaz-santanas-story-against-ice/13.png",
+      "stories/javier-diaz-santanas-story-against-ice/14.png",
+      "stories/javier-diaz-santanas-story-against-ice/15.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Javier Diaz Santana’s Story",
+    summary: "Today, we are sharing the story of Javier Diaz Santana. Diaz was born deaf and mute, and he communicates through sign language. Wanting better opportunities and access to learning for their child, Diaz’s parents immigrated to the United States from Mexico when he was only 5 years old. Diaz was protected under the Deferred Action for Childhood Arrivals program. He attended Marlton School, a school for deaf and mute children, where he loved participating in track and soccer and graduated in 2011.\n\nAfter graduating, Diaz found work as a car washer and built a community in Temple City. By then he was 34 years old. One day, while washing his car, he saw people around him suddenly running away. His co-workers signaled for him to flee. Immigration officers were raiding his workplace. Diaz tried to run, but an ankle injury made it difficult. He also tried to communicate with officers through sign language and his cellphone, but officers took both his wallet and cellphone and handcuffed him, leaving him unable to communicate effectively.\n\nDiaz was placed into a white SUV and transferred to a detention facility, despite having no criminal record. After major efforts by lawyers and protesters, he was granted bail and released with an ankle monitor. Diaz’s story is one of many showing how disabled immigrants can be mistreated. The sources we used for this post come from the Los Angeles Times and NBCLA. If you would like to learn more about Diaz’s story, we encourage you to read the reporting published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7547145595358596407?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#javier-diaz-santanas-story-against-ice"
   }
 ];
 
