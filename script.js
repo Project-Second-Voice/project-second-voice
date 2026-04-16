@@ -1048,6 +1048,32 @@ const stories = [
     summary: "Today, we are sharing the story of Javier Diaz Santana. Diaz was born deaf and mute, and he communicates through sign language. Wanting better opportunities and access to learning for their child, Diaz’s parents immigrated to the United States from Mexico when he was only 5 years old. Diaz was protected under the Deferred Action for Childhood Arrivals program. He attended Marlton School, a school for deaf and mute children, where he loved participating in track and soccer and graduated in 2011.\n\nAfter graduating, Diaz found work as a car washer and built a community in Temple City. By then he was 34 years old. One day, while washing his car, he saw people around him suddenly running away. His co-workers signaled for him to flee. Immigration officers were raiding his workplace. Diaz tried to run, but an ankle injury made it difficult. He also tried to communicate with officers through sign language and his cellphone, but officers took both his wallet and cellphone and handcuffed him, leaving him unable to communicate effectively.\n\nDiaz was placed into a white SUV and transferred to a detention facility, despite having no criminal record. After major efforts by lawyers and protesters, he was granted bail and released with an ankle monitor. Diaz’s story is one of many showing how disabled immigrants can be mistreated. The sources we used for this post come from the Los Angeles Times and NBCLA. If you would like to learn more about Diaz’s story, we encourage you to read the reporting published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7547145595358596407?is_from_webapp=1&sender_device=pc",
     link: "stories.html#javier-diaz-santanas-story-against-ice"
+  },
+  {
+    order: 45,
+    slug: "josue-aguilar-valles-story-against-ice",
+    images: [
+      "stories/josue-aguilar-valles-story-against-ice/1.png",
+      "stories/josue-aguilar-valles-story-against-ice/2.png",
+      "stories/josue-aguilar-valles-story-against-ice/3.png",
+      "stories/josue-aguilar-valles-story-against-ice/4.png",
+      "stories/josue-aguilar-valles-story-against-ice/5.png",
+      "stories/josue-aguilar-valles-story-against-ice/6.png",
+      "stories/josue-aguilar-valles-story-against-ice/7.png",
+      "stories/josue-aguilar-valles-story-against-ice/8.png",
+      "stories/josue-aguilar-valles-story-against-ice/9.png",
+      "stories/josue-aguilar-valles-story-against-ice/10.png",
+      "stories/josue-aguilar-valles-story-against-ice/11.png",
+      "stories/josue-aguilar-valles-story-against-ice/12.png",
+      "stories/josue-aguilar-valles-story-against-ice/13.png",
+      "stories/josue-aguilar-valles-story-against-ice/14.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Josué Aguilar Valle's Story Against ICE",
+    summary: "Today, we are sharing the story of Josué Aguilar Valle. Twelve years ago, when Aguilar was only 14 years old, he fled Honduras and came to the United States alone, seeking asylum from gang violence. Gangs had tried to recruit him, and out of fear he made the journey by himself. He later lived with documented relatives in Florida and built a life similar to that of many other young people in the United States. Aguilar attended Miami Beach Senior High School, played on the soccer team, later worked as a manager at a Miami Beach restaurant, and met his now beloved wife, Rodriguez. Together they have a 2-year-old son.\n\nAguilar and Rodriguez, who is a U.S. citizen, had been actively working on his path to citizenship, and his legal immigration status had been approved. The couple celebrated when they heard the news while at an immigration facility. However, Rodriguez and their son were then asked to leave the room, and Aguilar was detained because of a 2018 deportation order. Just when Aguilar believed he was entering a new chapter of his life with legal status, that hope was taken away. Aguilar had no criminal record, was law-abiding, and paid taxes.\n\nThe sources we used for this post come from WLRN, Latin Times, Parriva, and VPl TV. If you would like to learn more about Aguilar’s story, we encourage you to read the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7533068327732792589?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#josue-aguilar-valles-story-against-ice"
   }
 ];
 
