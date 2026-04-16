@@ -1098,6 +1098,34 @@ const stories = [
     summary: "Today, we are sharing the story of Caroline Dias Goncalves. Goncalves immigrated to the United States from Brazil at only 7 years old. Because of her early age, she was eligible to be under the protection of the Deferred Action for Childhood Arrivals (DACA) program. This allowed her to be safe from immigration situations. The DACA program also allowed her to get scholarships for University. Goncalves used these scholarships to fund her education at the University of Utah. Even though she was legally allowed to be in the United States, ICE agents would still arrest and detain her in June. They chained her up and sent her to a warehouse, before being transferred into a detention center. Goncalves emphasizes the harsh and brutal treatment she was subjected to and also explains how, because she knew how to speak English, she was treated better than the rest of the inmates. Thankfully, Goncalves is now safe at home. If you would like to support her cause and provide resources for her transition back to normal life, and in her journey to get a green card, you can donate to her GoFundMe here: https://www.gofundme.com/f/bring-caroline-dias-goncalves-home-safely\n\nThe sources we used for this post come from the organizations NBC, ABC4, The Salt Lake Tribune, and The Dream. If you would like to learn more about Goncalves’ story, we encourage you to check out these organizations and read the stories they published on this topic. We believe immigrants should be treated equally and given the chances and opportunities that every U.S citizen has. Stories like Goncalves emphasize a need to speak out and advocate for better immigrant policies and better pathways in getting citizenship.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7523009049269456141?is_from_webapp=1&sender_device=pc",
     link: "stories.html#caroline-dias-goncalves-story"
+  },
+  {
+    order: 47,
+    slug: "camila-munozs-story",
+    images: [
+      "stories/camila-munozs-story/1.png",
+      "stories/camila-munozs-story/2.png",
+      "stories/camila-munozs-story/3.png",
+      "stories/camila-munozs-story/4.png",
+      "stories/camila-munozs-story/5.png",
+      "stories/camila-munozs-story/6.png",
+      "stories/camila-munozs-story/7.png",
+      "stories/camila-munozs-story/8.png",
+      "stories/camila-munozs-story/9.png",
+      "stories/camila-munozs-story/10.png",
+      "stories/camila-munozs-story/11.png",
+      "stories/camila-munozs-story/12.png",
+      "stories/camila-munozs-story/13.png",
+      "stories/camila-munozs-story/14.png",
+      "stories/camila-munozs-story/15.png",
+      "stories/camila-munozs-story/16.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Camila Muñoz’s Story",
+    summary: "Today, we are sharing the story of Camila Muñoz and her husband Bartell. Camila Muñoz is a Peruvian immigrant who came to the United States in 2019 via a work-study visa. Unfortunatley, when she had wanted to leave, COVID hit and flights were canceled, making her unable to travel back home. This made her overstay her visa. During this time, she met her husband, which began an amazing relationship. During this time, Camila Muñoz and her husband also applied for her to get her green card. Due to COVID, the couple wasn’t able to have a honeymoon and were only able to have one around April of this year. When traveling back to the U.S, the couple was stopped by immigration officers who demanded to know Camila Muñoz’s legal status. She said that she was not documented, but was waiting for her green card. While Camila Muñoz was trying to explain, immigration officers detained her. A GoFundMe has been set up for Camila Muñoz and her husband. If you would like to donate and support their battle for citizenship, feel free to donate: https://www.gofundme.com/f/help-free-my-wife-legal-and-bond-support\n\nThe sources we used for this post come from the organizations USAToday and NewsWeek. If you would like to learn more about Camila Muñoz’s Story, we suggest you read the stories posted by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7524467745367330062?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#camila-munozs-story"
   }
 ];
 
