@@ -1126,6 +1126,26 @@ const stories = [
     summary: "Today, we are sharing the story of Camila Muñoz and her husband Bartell. Camila Muñoz is a Peruvian immigrant who came to the United States in 2019 via a work-study visa. Unfortunatley, when she had wanted to leave, COVID hit and flights were canceled, making her unable to travel back home. This made her overstay her visa. During this time, she met her husband, which began an amazing relationship. During this time, Camila Muñoz and her husband also applied for her to get her green card. Due to COVID, the couple wasn’t able to have a honeymoon and were only able to have one around April of this year. When traveling back to the U.S, the couple was stopped by immigration officers who demanded to know Camila Muñoz’s legal status. She said that she was not documented, but was waiting for her green card. While Camila Muñoz was trying to explain, immigration officers detained her. A GoFundMe has been set up for Camila Muñoz and her husband. If you would like to donate and support their battle for citizenship, feel free to donate: https://www.gofundme.com/f/help-free-my-wife-legal-and-bond-support\n\nThe sources we used for this post come from the organizations USAToday and NewsWeek. If you would like to learn more about Camila Muñoz’s Story, we suggest you read the stories posted by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7524467745367330062?is_from_webapp=1&sender_device=pc",
     link: "stories.html#camila-munozs-story"
+  },
+  {
+    order: 48,
+    slug: "joseph-lodano-rodriguezs-story",
+    images: [
+      "stories/joseph-lodano-rodriguezs-story/1.png",
+      "stories/joseph-lodano-rodriguezs-story/2.png",
+      "stories/joseph-lodano-rodriguezs-story/3.png",
+      "stories/joseph-lodano-rodriguezs-story/4.png",
+      "stories/joseph-lodano-rodriguezs-story/5.png",
+      "stories/joseph-lodano-rodriguezs-story/6.png",
+      "stories/joseph-lodano-rodriguezs-story/7.png",
+      "stories/joseph-lodano-rodriguezs-story/8.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Joseph Lodano Rodriguez's Story",
+    summary: "Today, we are sharing the story of Joseph Lodano Rodriguez. Rodriguez came to the United States from Colombia with his brother and mother. His mother, Gutierrez, applied for asylum due to domestic violence. The family lived in the Bay Area for over 4 years. Rodriguez started learning American Sign Language at the California School of the Deaf in Fremont, California, 3 years ago. Now 6 years old, Rodriguez wears hearing aids and cochlear implants and is learning English. His mother works very hard, working two jobs as a cleaner and child worker to provide sufficient income for her family and also to provide for Rodriguez’s medical costs. Gutierrez has no criminal record. The family would attend a regular scheduled immigration check-in on March 3rd. Gutierrez was told ahead of time to bring her children because they allegedly needed their photos to be renewed. During the check-in, she was forced to sign documents, and also fingerprints and photos of the family were taken. The family would be put into an unmarked vehicle and sent on a flight across the country to a detention facility, where they would be deported to Colombia. Rodriguez was sent away without a medical assistant and his hearing aids. He is in a precarious and perilous situation because his condition and cochlear implant make it crucial for him to receive proper care, or he could suffer life-threatening diseases such as meningitis, which could infect his brain and cause death. Rodriguez is also forced to learn Colombian Sign Language, a sign language that is foreign to him because he had only been learning American Sign Language. Communication between him and his family has also been difficult because his mother had only just started learning sign language to communicate with Rodriguez, and Rodriguez knows little Spanish. He doesn’t have the ability to communicate with many people in Colombia. The sources we used for this post come from the organizations The Los Angeles Times, KRON 4, Ed Source, KCRA 3, ABC 7, and News Herald. If you would like to learn more about Rodriguez’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7622840645094280461?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#joseph-lodano-rodriguezs-story"
   }
 ];
 
