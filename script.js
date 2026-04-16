@@ -1074,6 +1074,30 @@ const stories = [
     summary: "Today, we are sharing the story of Josué Aguilar Valle. Twelve years ago, when Aguilar was only 14 years old, he fled Honduras and came to the United States alone, seeking asylum from gang violence. Gangs had tried to recruit him, and out of fear he made the journey by himself. He later lived with documented relatives in Florida and built a life similar to that of many other young people in the United States. Aguilar attended Miami Beach Senior High School, played on the soccer team, later worked as a manager at a Miami Beach restaurant, and met his now beloved wife, Rodriguez. Together they have a 2-year-old son.\n\nAguilar and Rodriguez, who is a U.S. citizen, had been actively working on his path to citizenship, and his legal immigration status had been approved. The couple celebrated when they heard the news while at an immigration facility. However, Rodriguez and their son were then asked to leave the room, and Aguilar was detained because of a 2018 deportation order. Just when Aguilar believed he was entering a new chapter of his life with legal status, that hope was taken away. Aguilar had no criminal record, was law-abiding, and paid taxes.\n\nThe sources we used for this post come from WLRN, Latin Times, Parriva, and VPl TV. If you would like to learn more about Aguilar’s story, we encourage you to read the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7533068327732792589?is_from_webapp=1&sender_device=pc",
     link: "stories.html#josue-aguilar-valles-story-against-ice"
+  },
+  {
+    order: 46,
+    slug: "caroline-dias-goncalves-story",
+    images: [
+      "stories/caroline-dias-goncalves-story/1.png",
+      "stories/caroline-dias-goncalves-story/2.png",
+      "stories/caroline-dias-goncalves-story/3.png",
+      "stories/caroline-dias-goncalves-story/4.png",
+      "stories/caroline-dias-goncalves-story/5.png",
+      "stories/caroline-dias-goncalves-story/6.png",
+      "stories/caroline-dias-goncalves-story/7.png",
+      "stories/caroline-dias-goncalves-story/8.png",
+      "stories/caroline-dias-goncalves-story/9.png",
+      "stories/caroline-dias-goncalves-story/10.png",
+      "stories/caroline-dias-goncalves-story/11.png",
+      "stories/caroline-dias-goncalves-story/12.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Caroline Dias Goncalves’ Story",
+    summary: "Today, we are sharing the story of Caroline Dias Goncalves. Goncalves immigrated to the United States from Brazil at only 7 years old. Because of her early age, she was eligible to be under the protection of the Deferred Action for Childhood Arrivals (DACA) program. This allowed her to be safe from immigration situations. The DACA program also allowed her to get scholarships for University. Goncalves used these scholarships to fund her education at the University of Utah. Even though she was legally allowed to be in the United States, ICE agents would still arrest and detain her in June. They chained her up and sent her to a warehouse, before being transferred into a detention center. Goncalves emphasizes the harsh and brutal treatment she was subjected to and also explains how, because she knew how to speak English, she was treated better than the rest of the inmates. Thankfully, Goncalves is now safe at home. If you would like to support her cause and provide resources for her transition back to normal life, and in her journey to get a green card, you can donate to her GoFundMe here: https://www.gofundme.com/f/bring-caroline-dias-goncalves-home-safely\n\nThe sources we used for this post come from the organizations NBC, ABC4, The Salt Lake Tribune, and The Dream. If you would like to learn more about Goncalves’ story, we encourage you to check out these organizations and read the stories they published on this topic. We believe immigrants should be treated equally and given the chances and opportunities that every U.S citizen has. Stories like Goncalves emphasize a need to speak out and advocate for better immigrant policies and better pathways in getting citizenship.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7523009049269456141?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#caroline-dias-goncalves-story"
   }
 ];
 
