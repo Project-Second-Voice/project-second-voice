@@ -1146,6 +1146,29 @@ const stories = [
     summary: "Today, we are sharing the story of Joseph Lodano Rodriguez. Rodriguez came to the United States from Colombia with his brother and mother. His mother, Gutierrez, applied for asylum due to domestic violence. The family lived in the Bay Area for over 4 years. Rodriguez started learning American Sign Language at the California School of the Deaf in Fremont, California, 3 years ago. Now 6 years old, Rodriguez wears hearing aids and cochlear implants and is learning English. His mother works very hard, working two jobs as a cleaner and child worker to provide sufficient income for her family and also to provide for Rodriguez’s medical costs. Gutierrez has no criminal record. The family would attend a regular scheduled immigration check-in on March 3rd. Gutierrez was told ahead of time to bring her children because they allegedly needed their photos to be renewed. During the check-in, she was forced to sign documents, and also fingerprints and photos of the family were taken. The family would be put into an unmarked vehicle and sent on a flight across the country to a detention facility, where they would be deported to Colombia. Rodriguez was sent away without a medical assistant and his hearing aids. He is in a precarious and perilous situation because his condition and cochlear implant make it crucial for him to receive proper care, or he could suffer life-threatening diseases such as meningitis, which could infect his brain and cause death. Rodriguez is also forced to learn Colombian Sign Language, a sign language that is foreign to him because he had only been learning American Sign Language. Communication between him and his family has also been difficult because his mother had only just started learning sign language to communicate with Rodriguez, and Rodriguez knows little Spanish. He doesn’t have the ability to communicate with many people in Colombia. The sources we used for this post come from the organizations The Los Angeles Times, KRON 4, Ed Source, KCRA 3, ABC 7, and News Herald. If you would like to learn more about Rodriguez’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7622840645094280461?is_from_webapp=1&sender_device=pc",
     link: "stories.html#joseph-lodano-rodriguezs-story"
+  },
+  {
+    order: 49,
+    slug: "estefany-rodriguezs-story",
+    images: [
+      "stories/estefany-rodriguezs-story/1.png",
+      "stories/estefany-rodriguezs-story/2.png",
+      "stories/estefany-rodriguezs-story/3.png",
+      "stories/estefany-rodriguezs-story/4.png",
+      "stories/estefany-rodriguezs-story/5.png",
+      "stories/estefany-rodriguezs-story/6.png",
+      "stories/estefany-rodriguezs-story/7.png",
+      "stories/estefany-rodriguezs-story/8.png",
+      "stories/estefany-rodriguezs-story/9.png",
+      "stories/estefany-rodriguezs-story/10.png",
+      "stories/estefany-rodriguezs-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Estefany Rodriguez's Story",
+    summary: "Today, we are sharing the story of Estefany Rodriguez. Rodriguez was born in Colombia and became a reporter, reporting on topics such as armed militia, corruption, and government authorities. These topics garnered attention from the government, causing her to be put on the radar and to receive threats sent towards her and her family. After her daughter turned one, Rodriguez moved to America to provide her daughter a safer and healthier upbringing, coming to America on a tourist visa before applying for poltiical asylum. Rodriguez would also be sponsored by her husband, who is a U.S citizen, applying for a green card.  Rodriguez would also be granted work authorization in America. She became a reporter in Nashville, covering recent topics of immigration detention and the sudden arrests of immigrants in America. This Wednesday, immigration authorities would swarm Rodriguez and her husband while they were in their car, detaining Rodriguez because she had missed two immigration appointments. This was not the case, however, as during the first of those appointments, a snowstorm had enabled the immigration office to close, and after they had rescheduled and gone to the second appointment, databases showed that they had no appointment on that date. Rodriguez had done her best to meet and follow the regulatory protocols for her immigration status. Rodriguez was held in the detention facility in Alabama before being scheduled to be sent to Louisiana. Currently, Rodriguez is in custody as her case is processed and sent through the court. The sources we used for this post come from the organizations CNN News, The New York Times, Fox 17, The People, WKRN, News Channel 5, Migrant Insider, The Guardian, WHSV, and Nashville Banner. If you would like to learn more about Rodriguez’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7615060279038070029?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#estefany-rodriguezs-story"
   }
 ];
 
