@@ -1268,6 +1268,29 @@ const stories = [
     summary: "Today, we are sharing the story of Benjamin Marcelo Guerrero-Cruz. Cruz came to the United States from Chile under the Visa Waiver Program, which allowed Chilean nationals to enter the United States for some time without a visa. Cruz had turned 18 years old recently and was preparing for his senior year in high school. At home, he takes care of his 6-month-old twin brothers and 6-year-old sibling. He is very active in his community and is a part of his high school soccer team. When Cruz was walking his dog in his neighborhood, he would be detained by immigration officers. The officers would also tie his dog to a nearby tree, leaving the dog out to roam by itself. Cruz was detained and transferred to a detention center. Apparently, Cruz had overstayed his visa. A GoFundMe has been set up for Cruz’s family as they face this dire situation. The money will go towards legal fees for Cruz and basic essentials that are needed as the family struggles financially. If you would like to donate, feel free to support the family here:https://www.gofundme.com/f/help-support-a-family-in-crisis-after-ice-detention\n\nThe sources we used for this post come from the organizations GoFundMe, ABC 7, and Newsweek. If you would like to learn more about Cruz’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7539740837358472462?is_from_webapp=1&sender_device=pc",
     link: "stories.html#benjamin-marcelo-guerrero-cruzs-story-against-ice"
+  },
+  {
+    order: 54,
+    slug: "hendricks-story",
+    images: [
+      "stories/hendricks-story/1.png",
+      "stories/hendricks-story/2.png",
+      "stories/hendricks-story/3.png",
+      "stories/hendricks-story/4.png",
+      "stories/hendricks-story/5.png",
+      "stories/hendricks-story/6.png",
+      "stories/hendricks-story/7.png",
+      "stories/hendricks-story/8.png",
+      "stories/hendricks-story/9.png",
+      "stories/hendricks-story/10.png",
+      "stories/hendricks-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Hendrick's Story",
+    summary: "Today, we are sharing an immigration story about a 2-year-old boy who is stranded in the United States while his family is forced to leave the U.S. for Honduras. Hendrick is a 2-year-old U.S. citizen and because he lacks the proper documentation to travel, he has to be left in the United States while their family leaves indefinitely. For Hendrick to get a passport, he would need both of his parent’s signatures to be able to register for one. Unfortunately, Hendrick’s father had already been deported to Honduras 2 months ago despite lacking any criminal history. Their family has 3 children, all of whom are U.S. citizens, but Hendrick is the only one who lacks a passport. The family has no other choice but to leave Hendrick behind due to the fact that they have not been able to get him a passport by the deadline they have to deport him to Honduras. If they don’t comply with deportation orders, they run the risk of being forcefully deported to a foreign country they have never been to. Stories like Hendrick's emphasize a need for immigration policies to change. Immigrants need to be treated with humanity, compassion, and empathy. Families should not be separated permanently like this. The source we used for this post comes from the organization WTHR. If you would like to learn more about Hendrick’s story, we encourage you to check out the story they published.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7524181223317556535?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#hendricks-story"
   }
 ];
 
