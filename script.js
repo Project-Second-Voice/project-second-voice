@@ -1406,6 +1406,39 @@ const stories = [
     summary: "Today, we are sharing the story of Ray Anderson Avila Ramirez. Ray came to the United States in 2013, migrating from Peru. He loves to go to the gym, walk his dog, and visit various beaches and parks with his fiancée. He and his fiancée had planned a future together in the United States, hoping to get married. Ray pays taxes, works hard, and has already applied for U.S citizenship and is awaiting the approval of his status. Ray and his fiancée’s dream was shattered right in front of them when he was detained by immigration officers in New York. Ray has no criminal record. Ray’s future is filled with ambiguity and concern from his family, with a scheduled meeting in Orange County coming up soon. Ray is in dire need of legal representation, and his case is very much winnable if he gets the proper attention and help. His friends and family are worried sick for him. If you would like to support Ray’s legal fees and pay for Ray’s legal representation, feel free to donate to the GoFundMe here:\nhttps://www.gofundme.com/f/help-ray-fight-ice-detention?attribution_id=sl:1d85ec39-3c9c-4746-92db-b9df162ac593&lang=en_US&ts=1758507592&utm_campaign=fp_sharesheet&utm_content=amp13_t1-amp17_ta&utm_medium=customer&utm_source=copy_link\nWe are very grateful to be able to share Ray’s story, and we would like to thank @savingrayavilia for contacting us and providing us with information about Ray. If you would like to learn more about Ray Avilia’s story, we encourage you to check out their page.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7555325050837126431?is_from_webapp=1&sender_device=pc",
     link: "stories.html#ray-andersons-story"
+  },
+  {
+    order: 60,
+    slug: "jaime-galvan-sanchezs-story-against-ice",
+    images: [
+      "stories/jaime-galvan-sanchezs-story-against-ice/1.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/2.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/3.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/4.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/5.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/6.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/7.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/8.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/9.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/10.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/11.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/12.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/13.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/14.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/15.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/16.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/17.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/18.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/19.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/20.png",
+      "stories/jaime-galvan-sanchezs-story-against-ice/21.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Jaime Galvan Sanchez's Story",
+    summary: "Today, we are sharing the story of Jaime Galvan Sanchez and his daughter, Geovanna. Jaime was born in Mexico and had 5 siblings. After turning 12 years old, he would work as a seasonal agricultural worker. When he was 18 years old, he would meet his wife, and a couple of years later, they would get married and have a daughter named Geovanna. Geovanna always wished to learn English, so in order for Geovanna to get a better education and have a better opportunity in life, Jaime made the decision to bring his family to the United States. They came on a visa. Geovanna had come to the United States undocumented, but was under the protection of the Deferred Action for Childhood Arrivals program, and later got permanent residency. Jaime and his wife worked day and night to provide for their growing family, working from the crack of dawn to fund Geovanna’s education and save money to buy a plot of land and materials for a house. One of Jaime’s long-term goals was to build a house, and he was able to accomplish this with a little savings. Unfortunately, the family would never expect that Jaime would be detained by immigration officers while he was working on a tractor. Jaime was also deported without due process, but was later brought back after recognition of mistakes. Jaime’s deportation had a massive impact on the family, causing Geovanna to have to provide for the family by herself. Geovanna had initially dreamed of going to nursing school, but college financial aid wasn’t sufficient for her to pursue higher education, so she could only work in the fields with her father and mother and later get a job at a pizza restaurant. The family is now struggling to stay financially afloat, especially due to the addition of legal fees and application costs for a green card and work permit for Jaime. The sources we used for this post come from the organizations Texas Tribune, CNN, and DACA. If you would like to learn more about Jaime and Geovanna’s story, we encourage you to check out the story published by the Texas Tribune.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7538643122549460279?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#jaime-galvan-sanchezs-story-against-ice"
   }
 ];
 
