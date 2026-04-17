@@ -1291,6 +1291,29 @@ const stories = [
     summary: "Today, we are sharing an immigration story about a 2-year-old boy who is stranded in the United States while his family is forced to leave the U.S. for Honduras. Hendrick is a 2-year-old U.S. citizen and because he lacks the proper documentation to travel, he has to be left in the United States while their family leaves indefinitely. For Hendrick to get a passport, he would need both of his parent’s signatures to be able to register for one. Unfortunately, Hendrick’s father had already been deported to Honduras 2 months ago despite lacking any criminal history. Their family has 3 children, all of whom are U.S. citizens, but Hendrick is the only one who lacks a passport. The family has no other choice but to leave Hendrick behind due to the fact that they have not been able to get him a passport by the deadline they have to deport him to Honduras. If they don’t comply with deportation orders, they run the risk of being forcefully deported to a foreign country they have never been to. Stories like Hendrick's emphasize a need for immigration policies to change. Immigrants need to be treated with humanity, compassion, and empathy. Families should not be separated permanently like this. The source we used for this post comes from the organization WTHR. If you would like to learn more about Hendrick’s story, we encourage you to check out the story they published.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7524181223317556535?is_from_webapp=1&sender_device=pc",
     link: "stories.html#hendricks-story"
+  },
+  {
+    order: 55,
+    slug: "wilfredo-jesus-riveros-story-against-ice",
+    images: [
+      "stories/wilfredo-jesus-riveros-story-against-ice/1.png",
+      "stories/wilfredo-jesus-riveros-story-against-ice/2.png",
+      "stories/wilfredo-jesus-riveros-story-against-ice/3.png",
+      "stories/wilfredo-jesus-riveros-story-against-ice/4.png",
+      "stories/wilfredo-jesus-riveros-story-against-ice/5.png",
+      "stories/wilfredo-jesus-riveros-story-against-ice/6.png",
+      "stories/wilfredo-jesus-riveros-story-against-ice/7.png",
+      "stories/wilfredo-jesus-riveros-story-against-ice/8.png",
+      "stories/wilfredo-jesus-riveros-story-against-ice/9.png",
+      "stories/wilfredo-jesus-riveros-story-against-ice/10.png",
+      "stories/wilfredo-jesus-riveros-story-against-ice/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Wilfredo Jesus Rivero's Story",
+    summary: "Today, we are sharing the story of Wilfredo Jesus Rivero. Rivero came to the United States from Venezuela legally via the CBP One Mobile Application. He was seeking asylum, and his court hearing for his asylum status was scheduled for a date in 2027. In his time in the United States, Rivero worked as a car detailer and coached a local youth soccer team in his community. He also met his now fiancée, Victoria. Due to an address change, the couple went to the immigration office to request that the court hearing be held at a location closer to them. This was when immigration officers would take Rivero into a separate room, causing Victoria to start becoming suspicious. Rivero was detained due to allegedly coming to the United States illegally. Even after repeated explanations that Rivero had come legally via the CBP One App, immigration officers still continued with the arrest and set Rivero to a detention center. Victoria was heartbroken and shockingly also found out she was pregnant a few days after Rivero’s detainment. The sources we used for this post come from the organizations KRCR and ABC 10. If you would like to learn more about Rivero’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7534560598567243021?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#wilfredo-jesus-riveros-story-against-ice"
   }
 ];
 
