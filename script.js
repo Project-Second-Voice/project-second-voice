@@ -1169,6 +1169,31 @@ const stories = [
     summary: "Today, we are sharing the story of Estefany Rodriguez. Rodriguez was born in Colombia and became a reporter, reporting on topics such as armed militia, corruption, and government authorities. These topics garnered attention from the government, causing her to be put on the radar and to receive threats sent towards her and her family. After her daughter turned one, Rodriguez moved to America to provide her daughter a safer and healthier upbringing, coming to America on a tourist visa before applying for poltiical asylum. Rodriguez would also be sponsored by her husband, who is a U.S citizen, applying for a green card.  Rodriguez would also be granted work authorization in America. She became a reporter in Nashville, covering recent topics of immigration detention and the sudden arrests of immigrants in America. This Wednesday, immigration authorities would swarm Rodriguez and her husband while they were in their car, detaining Rodriguez because she had missed two immigration appointments. This was not the case, however, as during the first of those appointments, a snowstorm had enabled the immigration office to close, and after they had rescheduled and gone to the second appointment, databases showed that they had no appointment on that date. Rodriguez had done her best to meet and follow the regulatory protocols for her immigration status. Rodriguez was held in the detention facility in Alabama before being scheduled to be sent to Louisiana. Currently, Rodriguez is in custody as her case is processed and sent through the court. The sources we used for this post come from the organizations CNN News, The New York Times, Fox 17, The People, WKRN, News Channel 5, Migrant Insider, The Guardian, WHSV, and Nashville Banner. If you would like to learn more about Rodriguez’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7615060279038070029?is_from_webapp=1&sender_device=pc",
     link: "stories.html#estefany-rodriguezs-story"
+  },
+  {
+    order: 50,
+    slug: "claudio-rojass-story",
+    images: [
+      "stories/claudio-rojass-story/1.png",
+      "stories/claudio-rojass-story/2.png",
+      "stories/claudio-rojass-story/3.png",
+      "stories/claudio-rojass-story/4.png",
+      "stories/claudio-rojass-story/5.png",
+      "stories/claudio-rojass-story/6.png",
+      "stories/claudio-rojass-story/7.png",
+      "stories/claudio-rojass-story/8.png",
+      "stories/claudio-rojass-story/9.png",
+      "stories/claudio-rojass-story/10.png",
+      "stories/claudio-rojass-story/11.png",
+      "stories/claudio-rojass-story/12.png",
+      "stories/claudio-rojass-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Claudio Rojas's Story",
+    summary: "Today, we are sharing the story of Claudio Rojas. Rojas was born in Argentina and came to the United States in 2000 under a 90-day visa. Rojas had two sons in the United States and lives in Florida with his wife and newborn grandson. In 2012, Rojas was detained by immigration officials in the Broward Transitional Center, a detention center for non-violent immigrants, because he had overstayed his visa. Despite his detention, Rojas had no criminal record and was expected to be released very soon under the Obama administration’s directive of only detaining and removing dangerous criminals. During his time in detention, Rojas got to know a lot of individuals who came from diverse backgrounds, but all were in the same boat as him. Rojas started to compile these stories and funnel them out to the National Immigrant Youth Alliance, an immigrants right group. His story and the story of the other underrepresented individuals became inspiring and caught the attention of film directors Alex Rivera and Christina Ibarra. His journey through immigration and detention became a part of a movie called The Infiltrators, which was set to premiere at Sundance in late Janurary and Rojas was invited to introduce the movie at the Miami Film Festival. Unexpectedly, Rojas was detained by immigration officials during a routine immigration check-in. Rojas had no criminal record and was in the process of acquiring a T-visa, a visa for individuals who have been subjected to trafficking. Rojas would be sent to Argentina. Thankfully, through the hard work and dedication of his lawyers, Rojas would be allowed to return to the United States and reunite with his family. Now, Rojas is working towards citizenship and continues to advocate for underrepresented immigrants and urge for positive changes to immigration policy. The sources we used for this post come from the organizations CBC, Iowa Public Radio, NPR, GoFundMe, Miami Herald, AP News, KPBS, Documentary, and USCitizenPod. If you would like to learn more about Rojas’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7591688298322529549?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#claudio-rojass-story"
   }
 ];
 
