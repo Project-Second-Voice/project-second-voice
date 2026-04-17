@@ -1362,6 +1362,28 @@ const stories = [
     summary: "Today, we are sharing the story of Rümeysa Öztürk. Öztürk was born in Turkey and grew up with a passion for refugee representation. She was also very passionate about pursuing education, earning a degree in Psychology and Turkish Literature at Istanbul Şehir University. She was also awarded the Fulbright Scholarship, which allowed her to pursue higher education in the United States. Öztürk came to the United States on a student visa and got her master’s degree at Columbia University. Now, she is pursuing her PhD in Child Study and Human Development and Tufts University. Öztürk would never expect, however, to be arrested while she was going to her friend's house for Iftar, the evening meal breaking for Ramadan. Öztürk was detained and transferred through many detention facilities. The detention facility's poor conditions caused an array of health conditions for Öztürk, worsening her asthma. She reported that she had multiple attacks during her stay in the detention facilities. Allegedly, Öztürk was detained because her visa had been revoked on the premise that she had affiliations with certain organizations. There was no evidence that supported or gave any link that Öztürk was affiliated with these organizations, however. Öztürk would be later released on bail on the premise that there was no sufficient evidence for detaining her, and it was a breach of her freedom of speech. The sources we used for this post come from the organizations Tufts University, Vanity Fair, and TIME. If you would like to learn more about Öztürk’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7565738833547889975?is_from_webapp=1&sender_device=pc",
     link: "stories.html#rumeysa-ozturks-story"
+  },
+  {
+    order: 58,
+    slug: "ellie-aghayevas-story",
+    images: [
+      "stories/ellie-aghayevas-story/1.png",
+      "stories/ellie-aghayevas-story/2.png",
+      "stories/ellie-aghayevas-story/3.png",
+      "stories/ellie-aghayevas-story/4.png",
+      "stories/ellie-aghayevas-story/5.png",
+      "stories/ellie-aghayevas-story/6.png",
+      "stories/ellie-aghayevas-story/7.png",
+      "stories/ellie-aghayevas-story/8.png",
+      "stories/ellie-aghayevas-story/9.png",
+      "stories/ellie-aghayevas-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Ellie Aghayeva's Story",
+    summary: "Today, we are sharing the story of Ellie Aghayeva. Aghayeva came to the United States from Azerbaijan in 2016 under a student visa. She is currently a senior at Columbia University and is double-majoring in neuroscience and political science. Aside from schoolwork, Aghayeva has amassed a large social media following, with more than 200 thousand followers across various social media platforms such as TikTok and Instagram. Aghayeva has faced legal issues with her immigration status. Allegedly, as DHS reports, Aghayeva had her student visa revoked because she had missed too many classes in 2016. On February 27th, immigration officers came searching for Aghayeva, entering her apartment complex at Columbia University by lying and misinterpreting the reason why they were there. The officers said that they were searching for a missing child, and it was only after coming in contact with Aghayeva that they revealed the real reason they were there. Aghayeva was detained by immigration officers around 6 am. Aghayeva would message her friends about her fear and distress and would also share her experience online on her various social media platforms. Widespread outrage online and in New York spread, demanding Aghayeva’s release. Thankfully, her detention was only hours before Mayor Zohran Mamdani met up with the President, and Mamdani voiced his concerns about the case of Aghayeva and also other similar cases of Colombian students being detained by immigration officers for no clear reason. Thankfully, Aghayeva was released shortly after. The sources we used for this post come from the organizations The Daily Beast, Gulf News, The People, NDTV, The Guardian, CNN, Columbia Spectator, NPR, and The New York Times. If you would like to learn more about Aghayeva’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7612425628918238477?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#ellie-aghayevas-story"
   }
 ];
 
