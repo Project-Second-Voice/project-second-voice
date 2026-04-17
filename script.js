@@ -1340,6 +1340,28 @@ const stories = [
     summary: "Today, we are sharing the story of Yeonsoo Go. Yeonsoo Go is a 20-year-old student at Purdue University College of Pharmacy. She came to the United States in 2021 with her mother under a Religious Worker’s Dependent visa. She was able to get this visa because her mother was a priest of a local church in their Manhattan community. After graduating from high school, Yeonsoo was able to go to college at Purdue University. Wanting to switch her visa, Yeonsoo had a routine visa hearing to switch her current visa for a student visa. After the hearing, however, immigration officers would show up and detain her on the spot, quickly transferring her to a detention center in Louisiana right after. Allegedly, Yeonsoo’s visa had expired 2 years ago, and she had overstayed her stay. This was not true, and Yeonsoo’s visa was good until December of this year. Yeonsoo’s story spread throughout her community, and protests were set up, protesting for Yeonsoo’s release. Thankfully, after 5 days of detention, Yeonsoo was finally released and able to go home. The sources we used for this post come from the organizations ABC, CNN, Washington Post, WTHR, and Episcopal News Service. If you would like to learn more about Yeonsoo’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7535660533228260621?is_from_webapp=1&sender_device=pc",
     link: "stories.html#yeonsoo-gos-story-against-ice"
+  },
+  {
+    order: 57,
+    slug: "rumeysa-ozturks-story",
+    images: [
+      "stories/rumeysa-ozturks-story/1.png",
+      "stories/rumeysa-ozturks-story/2.png",
+      "stories/rumeysa-ozturks-story/3.png",
+      "stories/rumeysa-ozturks-story/4.png",
+      "stories/rumeysa-ozturks-story/5.png",
+      "stories/rumeysa-ozturks-story/6.png",
+      "stories/rumeysa-ozturks-story/7.png",
+      "stories/rumeysa-ozturks-story/8.png",
+      "stories/rumeysa-ozturks-story/9.png",
+      "stories/rumeysa-ozturks-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Rümeysa Öztürk's Story",
+    summary: "Today, we are sharing the story of Rümeysa Öztürk. Öztürk was born in Turkey and grew up with a passion for refugee representation. She was also very passionate about pursuing education, earning a degree in Psychology and Turkish Literature at Istanbul Şehir University. She was also awarded the Fulbright Scholarship, which allowed her to pursue higher education in the United States. Öztürk came to the United States on a student visa and got her master’s degree at Columbia University. Now, she is pursuing her PhD in Child Study and Human Development and Tufts University. Öztürk would never expect, however, to be arrested while she was going to her friend's house for Iftar, the evening meal breaking for Ramadan. Öztürk was detained and transferred through many detention facilities. The detention facility's poor conditions caused an array of health conditions for Öztürk, worsening her asthma. She reported that she had multiple attacks during her stay in the detention facilities. Allegedly, Öztürk was detained because her visa had been revoked on the premise that she had affiliations with certain organizations. There was no evidence that supported or gave any link that Öztürk was affiliated with these organizations, however. Öztürk would be later released on bail on the premise that there was no sufficient evidence for detaining her, and it was a breach of her freedom of speech. The sources we used for this post come from the organizations Tufts University, Vanity Fair, and TIME. If you would like to learn more about Öztürk’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7565738833547889975?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#rumeysa-ozturks-story"
   }
 ];
 
