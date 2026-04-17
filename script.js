@@ -1463,6 +1463,30 @@ const stories = [
     summary: "Today, we are sharing the story of Madonna Kashanian. Madonna Kashanian is an immigrant from Iran. She came to the United States through a student visa and soon after, applied for permanent residency. Due to a past marriage that the government deemed fraudulent, Kashanian was denied permanent residency. Kashanian’s husband notes how she was forced into that marriage at a very young age. Although she was not allowed to get permanent residency, Kashanian was given a stay of removal. As long as she complied with immigration rules and met up with immigration officers annually, she would be legally allowed to work and live in the United States. Even so, Kashanian was detained by immigration officers when she was gardening outside her house on Sunday. Right now, she is held in immigration detention as her family tries to get as much information about the situation as possible. Kashanian had not done anything illegal and had complied with immigration regulations, making sure to do everything they asked for. The sources we used for this post come from The Guardian, AP, and Raw Story. If you would like to learn more about Kashanian’s story, we encourage you to read the stories published by these organizations. We believe it is not fair to wrongly treat immigrants, such as Kashanian, that have done nothing wrong and have not broken any laws. Kashanian was legally allowed to remain in the United States, yet was punished even though she was following and complying with rules and regulations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7521556233384447287?is_from_webapp=1&sender_device=pc",
     link: "stories.html#madonna-donna-kashanians-story-with-ice"
+  },
+  {
+    order: 62,
+    slug: "fatima-issela-velasquez-antonios-story",
+    images: [
+      "stories/fatima-issela-velasquez-antonios-story/1.png",
+      "stories/fatima-issela-velasquez-antonios-story/2.png",
+      "stories/fatima-issela-velasquez-antonios-story/3.png",
+      "stories/fatima-issela-velasquez-antonios-story/4.png",
+      "stories/fatima-issela-velasquez-antonios-story/5.png",
+      "stories/fatima-issela-velasquez-antonios-story/6.png",
+      "stories/fatima-issela-velasquez-antonios-story/7.png",
+      "stories/fatima-issela-velasquez-antonios-story/8.png",
+      "stories/fatima-issela-velasquez-antonios-story/9.png",
+      "stories/fatima-issela-velasquez-antonios-story/10.png",
+      "stories/fatima-issela-velasquez-antonios-story/11.png",
+      "stories/fatima-issela-velasquez-antonios-story/12.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Fatima Issela Velasquez-Antonio's Story",
+    summary: "Today, we are sharing the story of Fatima Issela Velasquez-Antonio. Fatima is originally from Honduras, a country where gang violence runs rampant. Fatima always thought that Honduras was not the place for her, seeking a way out. Fatima’s mom would sadly pass away when she was only 12 years old due to cancer. Shortly after, Fatima would also lose her father due to gang violence. 14-year-old Fatima decided to run away from Honduras, traveling to the United States and seeking asylum as an unaccompanied minor. Family in The Triangle, a region in central North Carolina that is anchored by three major cities: Raleigh, Durham, and Chapel Hill, would help to take care of Fatima as she transitioned to her new life in America. Over the course of nearly a decade, Fatima would work, study, and live in North Carolina. She would graduate from Corinth Holders High School in Johnston County and started supporting herself through her job in an HVAC company. 23-year-old Fatima and her boyfriend would pool their money together to afford their first house, dreaming of starting a family in the U.S. Just around Thanksgiving of this year, Fatima would be detained by officers during an immigration sweep in Raleigh, and taken into a detention facility in Georgia. Fatima had no criminal record, only had two minor traffic violations throughout her time in the U.S. Fatima also had a work permit. Fatima and her family took her case to court and sought her release by bond, but judges would deny their request. Individuals in Wendell were furious about Fatima’s detention, advocating for her release in a rally, drawing in over 150 supporters who demanded Fatima to be released. Thankfully, after a month in detention, Fatima would be released from detention and allowed to go home. Fatima’s immigration journey is not over yet, but this is a huge step towards the right path. The sources we used for this post come from the organizations Charlotte Observer, News Observer, PBS, The Marshall Project, WRAL, ABC 11, and GoFundMe. If you would like to learn more about Fatima’s story, we encourage you to check out the stories published by these organizations. The link to Fatima’s GoFundMe page will be linked here: https://www.gofundme.com/f/support-fatimas-fight-against-deportation?attribution_id=sl%3Ad9386d8c-8b43-451a-97cb-7b5e566274a7&lang=en_US&utm_campaign=man_ss_icons&utm_medium=customer&utm_source=copy_link.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7589073748628622647?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#fatima-issela-velasquez-antonios-story"
   }
 ];
 
