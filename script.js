@@ -1439,6 +1439,30 @@ const stories = [
     summary: "Today, we are sharing the story of Jaime Galvan Sanchez and his daughter, Geovanna. Jaime was born in Mexico and had 5 siblings. After turning 12 years old, he would work as a seasonal agricultural worker. When he was 18 years old, he would meet his wife, and a couple of years later, they would get married and have a daughter named Geovanna. Geovanna always wished to learn English, so in order for Geovanna to get a better education and have a better opportunity in life, Jaime made the decision to bring his family to the United States. They came on a visa. Geovanna had come to the United States undocumented, but was under the protection of the Deferred Action for Childhood Arrivals program, and later got permanent residency. Jaime and his wife worked day and night to provide for their growing family, working from the crack of dawn to fund Geovanna’s education and save money to buy a plot of land and materials for a house. One of Jaime’s long-term goals was to build a house, and he was able to accomplish this with a little savings. Unfortunately, the family would never expect that Jaime would be detained by immigration officers while he was working on a tractor. Jaime was also deported without due process, but was later brought back after recognition of mistakes. Jaime’s deportation had a massive impact on the family, causing Geovanna to have to provide for the family by herself. Geovanna had initially dreamed of going to nursing school, but college financial aid wasn’t sufficient for her to pursue higher education, so she could only work in the fields with her father and mother and later get a job at a pizza restaurant. The family is now struggling to stay financially afloat, especially due to the addition of legal fees and application costs for a green card and work permit for Jaime. The sources we used for this post come from the organizations Texas Tribune, CNN, and DACA. If you would like to learn more about Jaime and Geovanna’s story, we encourage you to check out the story published by the Texas Tribune.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7538643122549460279?is_from_webapp=1&sender_device=pc",
     link: "stories.html#jaime-galvan-sanchezs-story-against-ice"
+  },
+  {
+    order: 61,
+    slug: "madonna-donna-kashanians-story-with-ice",
+    images: [
+      "stories/madonna-donna-kashanians-story-with-ice/1.png",
+      "stories/madonna-donna-kashanians-story-with-ice/2.png",
+      "stories/madonna-donna-kashanians-story-with-ice/3.png",
+      "stories/madonna-donna-kashanians-story-with-ice/4.png",
+      "stories/madonna-donna-kashanians-story-with-ice/5.png",
+      "stories/madonna-donna-kashanians-story-with-ice/6.png",
+      "stories/madonna-donna-kashanians-story-with-ice/7.png",
+      "stories/madonna-donna-kashanians-story-with-ice/8.png",
+      "stories/madonna-donna-kashanians-story-with-ice/9.png",
+      "stories/madonna-donna-kashanians-story-with-ice/10.png",
+      "stories/madonna-donna-kashanians-story-with-ice/11.png",
+      "stories/madonna-donna-kashanians-story-with-ice/12.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Mandonna “Donna” Kashanian's Story",
+    summary: "Today, we are sharing the story of Madonna Kashanian. Madonna Kashanian is an immigrant from Iran. She came to the United States through a student visa and soon after, applied for permanent residency. Due to a past marriage that the government deemed fraudulent, Kashanian was denied permanent residency. Kashanian’s husband notes how she was forced into that marriage at a very young age. Although she was not allowed to get permanent residency, Kashanian was given a stay of removal. As long as she complied with immigration rules and met up with immigration officers annually, she would be legally allowed to work and live in the United States. Even so, Kashanian was detained by immigration officers when she was gardening outside her house on Sunday. Right now, she is held in immigration detention as her family tries to get as much information about the situation as possible. Kashanian had not done anything illegal and had complied with immigration regulations, making sure to do everything they asked for. The sources we used for this post come from The Guardian, AP, and Raw Story. If you would like to learn more about Kashanian’s story, we encourage you to read the stories published by these organizations. We believe it is not fair to wrongly treat immigrants, such as Kashanian, that have done nothing wrong and have not broken any laws. Kashanian was legally allowed to remain in the United States, yet was punished even though she was following and complying with rules and regulations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7521556233384447287?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#madonna-donna-kashanians-story-with-ice"
   }
 ];
 
