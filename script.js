@@ -1314,6 +1314,32 @@ const stories = [
     summary: "Today, we are sharing the story of Wilfredo Jesus Rivero. Rivero came to the United States from Venezuela legally via the CBP One Mobile Application. He was seeking asylum, and his court hearing for his asylum status was scheduled for a date in 2027. In his time in the United States, Rivero worked as a car detailer and coached a local youth soccer team in his community. He also met his now fiancée, Victoria. Due to an address change, the couple went to the immigration office to request that the court hearing be held at a location closer to them. This was when immigration officers would take Rivero into a separate room, causing Victoria to start becoming suspicious. Rivero was detained due to allegedly coming to the United States illegally. Even after repeated explanations that Rivero had come legally via the CBP One App, immigration officers still continued with the arrest and set Rivero to a detention center. Victoria was heartbroken and shockingly also found out she was pregnant a few days after Rivero’s detainment. The sources we used for this post come from the organizations KRCR and ABC 10. If you would like to learn more about Rivero’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7534560598567243021?is_from_webapp=1&sender_device=pc",
     link: "stories.html#wilfredo-jesus-riveros-story-against-ice"
+  },
+  {
+    order: 56,
+    slug: "yeonsoo-gos-story-against-ice",
+    images: [
+      "stories/yeonsoo-gos-story-against-ice/1.png",
+      "stories/yeonsoo-gos-story-against-ice/2.png",
+      "stories/yeonsoo-gos-story-against-ice/3.png",
+      "stories/yeonsoo-gos-story-against-ice/4.png",
+      "stories/yeonsoo-gos-story-against-ice/5.png",
+      "stories/yeonsoo-gos-story-against-ice/6.png",
+      "stories/yeonsoo-gos-story-against-ice/7.png",
+      "stories/yeonsoo-gos-story-against-ice/8.png",
+      "stories/yeonsoo-gos-story-against-ice/9.png",
+      "stories/yeonsoo-gos-story-against-ice/10.png",
+      "stories/yeonsoo-gos-story-against-ice/11.png",
+      "stories/yeonsoo-gos-story-against-ice/12.png",
+      "stories/yeonsoo-gos-story-against-ice/13.png",
+      "stories/yeonsoo-gos-story-against-ice/14.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Yeonsoo Go's Story",
+    summary: "Today, we are sharing the story of Yeonsoo Go. Yeonsoo Go is a 20-year-old student at Purdue University College of Pharmacy. She came to the United States in 2021 with her mother under a Religious Worker’s Dependent visa. She was able to get this visa because her mother was a priest of a local church in their Manhattan community. After graduating from high school, Yeonsoo was able to go to college at Purdue University. Wanting to switch her visa, Yeonsoo had a routine visa hearing to switch her current visa for a student visa. After the hearing, however, immigration officers would show up and detain her on the spot, quickly transferring her to a detention center in Louisiana right after. Allegedly, Yeonsoo’s visa had expired 2 years ago, and she had overstayed her stay. This was not true, and Yeonsoo’s visa was good until December of this year. Yeonsoo’s story spread throughout her community, and protests were set up, protesting for Yeonsoo’s release. Thankfully, after 5 days of detention, Yeonsoo was finally released and able to go home. The sources we used for this post come from the organizations ABC, CNN, Washington Post, WTHR, and Episcopal News Service. If you would like to learn more about Yeonsoo’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7535660533228260621?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#yeonsoo-gos-story-against-ice"
   }
 ];
 
