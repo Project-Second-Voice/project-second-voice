@@ -1243,6 +1243,31 @@ const stories = [
     summary: "Today, we are sharing the story of Andry José Hernández Romero. Romero is an LGBTQ+ Venezuelan makeup artist. Romero faced harassment from the government due to poltiical reasons as he tried to pursue his career in Venezuela as a government-affiliated TV program makeup artist. Romero chose to move to the United States to continue to grow his career and to be free of certain stigmas in his home country. Romero bade his mother, father, and little brother goodbye and travelled to the United States with an appointment made with the CBP One App. As soon as Romero arrived in the United States, he was detained and sent to a detention facility, even though he had no criminal history and he had an appointment. Apparently, the new administration had revoked any appointments that had been scheduled with the CBP One App, even ones that had already been scheduled a long time ago. Romero was kept in detention for several months before being forcibly removed to the maximum-security prison facility known as the CECOT in El Salvador. His family didn’t know he had been sent to the CECOT, and he thought Romero was returning home after they were called by Romero before he was removed. They only realized that Romero was not sent home after seeing pictures of Romero having his head shaved while crying and praying for his mother in prison. They were heartbroken and had no way of contacting him. Romero had been removed without due process and was not allowed to plead his case. He was removed under the Alien Enemies Act, which allowed the government to forcibly remove immigrants without due process under speculation that they were affiliated with a notorious Venezuelan gang. Romero, however, had not been affiliated and was only speculated due to a tattoo of a crown. Romero’s family has also repeatedly explained that Romero and they are not a part of any criminal gangs. Across the United States, individuals across the country protested for the release of Romero and other Venezuelan victims of the Alien Enemies Act. Thankfully, after 125 days of confinement, Romero was finally released and felt the warm embrace of family. The sources we used for this post come from the organizations The Guardian, Congressional Equality Caucus, Human Rights Campaign, Advocate, ABC 10, Business of Fashion, New Yorker, Democracy Now, 60 Minutes, and Los Angeles LGBT Center. If you would like to learn more about Romero’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7587247993431035191?is_from_webapp=1&sender_device=pc",
     link: "stories.html#andry-jose-hernandez-romeros-story"
+  },
+  {
+    order: 53,
+    slug: "benjamin-marcelo-guerrero-cruzs-story-against-ice",
+    images: [
+      "stories/benjamin-marcelo-guerrero-cruzs-story-against-ice/1.png",
+      "stories/benjamin-marcelo-guerrero-cruzs-story-against-ice/2.png",
+      "stories/benjamin-marcelo-guerrero-cruzs-story-against-ice/3.png",
+      "stories/benjamin-marcelo-guerrero-cruzs-story-against-ice/4.png",
+      "stories/benjamin-marcelo-guerrero-cruzs-story-against-ice/5.png",
+      "stories/benjamin-marcelo-guerrero-cruzs-story-against-ice/6.png",
+      "stories/benjamin-marcelo-guerrero-cruzs-story-against-ice/7.png",
+      "stories/benjamin-marcelo-guerrero-cruzs-story-against-ice/8.png",
+      "stories/benjamin-marcelo-guerrero-cruzs-story-against-ice/9.png",
+      "stories/benjamin-marcelo-guerrero-cruzs-story-against-ice/10.png",
+      "stories/benjamin-marcelo-guerrero-cruzs-story-against-ice/11.png",
+      "stories/benjamin-marcelo-guerrero-cruzs-story-against-ice/12.png",
+      "stories/benjamin-marcelo-guerrero-cruzs-story-against-ice/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Benjamin Marcelo Guerrero-Cruz's Story",
+    summary: "Today, we are sharing the story of Benjamin Marcelo Guerrero-Cruz. Cruz came to the United States from Chile under the Visa Waiver Program, which allowed Chilean nationals to enter the United States for some time without a visa. Cruz had turned 18 years old recently and was preparing for his senior year in high school. At home, he takes care of his 6-month-old twin brothers and 6-year-old sibling. He is very active in his community and is a part of his high school soccer team. When Cruz was walking his dog in his neighborhood, he would be detained by immigration officers. The officers would also tie his dog to a nearby tree, leaving the dog out to roam by itself. Cruz was detained and transferred to a detention center. Apparently, Cruz had overstayed his visa. A GoFundMe has been set up for Cruz’s family as they face this dire situation. The money will go towards legal fees for Cruz and basic essentials that are needed as the family struggles financially. If you would like to donate, feel free to support the family here:https://www.gofundme.com/f/help-support-a-family-in-crisis-after-ice-detention\n\nThe sources we used for this post come from the organizations GoFundMe, ABC 7, and Newsweek. If you would like to learn more about Cruz’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7539740837358472462?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#benjamin-marcelo-guerrero-cruzs-story-against-ice"
   }
 ];
 
