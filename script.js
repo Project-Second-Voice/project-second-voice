@@ -1487,6 +1487,32 @@ const stories = [
     summary: "Today, we are sharing the story of Fatima Issela Velasquez-Antonio. Fatima is originally from Honduras, a country where gang violence runs rampant. Fatima always thought that Honduras was not the place for her, seeking a way out. Fatima’s mom would sadly pass away when she was only 12 years old due to cancer. Shortly after, Fatima would also lose her father due to gang violence. 14-year-old Fatima decided to run away from Honduras, traveling to the United States and seeking asylum as an unaccompanied minor. Family in The Triangle, a region in central North Carolina that is anchored by three major cities: Raleigh, Durham, and Chapel Hill, would help to take care of Fatima as she transitioned to her new life in America. Over the course of nearly a decade, Fatima would work, study, and live in North Carolina. She would graduate from Corinth Holders High School in Johnston County and started supporting herself through her job in an HVAC company. 23-year-old Fatima and her boyfriend would pool their money together to afford their first house, dreaming of starting a family in the U.S. Just around Thanksgiving of this year, Fatima would be detained by officers during an immigration sweep in Raleigh, and taken into a detention facility in Georgia. Fatima had no criminal record, only had two minor traffic violations throughout her time in the U.S. Fatima also had a work permit. Fatima and her family took her case to court and sought her release by bond, but judges would deny their request. Individuals in Wendell were furious about Fatima’s detention, advocating for her release in a rally, drawing in over 150 supporters who demanded Fatima to be released. Thankfully, after a month in detention, Fatima would be released from detention and allowed to go home. Fatima’s immigration journey is not over yet, but this is a huge step towards the right path. The sources we used for this post come from the organizations Charlotte Observer, News Observer, PBS, The Marshall Project, WRAL, ABC 11, and GoFundMe. If you would like to learn more about Fatima’s story, we encourage you to check out the stories published by these organizations. The link to Fatima’s GoFundMe page will be linked here: https://www.gofundme.com/f/support-fatimas-fight-against-deportation?attribution_id=sl%3Ad9386d8c-8b43-451a-97cb-7b5e566274a7&lang=en_US&utm_campaign=man_ss_icons&utm_medium=customer&utm_source=copy_link.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7589073748628622647?is_from_webapp=1&sender_device=pc",
     link: "stories.html#fatima-issela-velasquez-antonios-story"
+  },
+  {
+    order: 63,
+    slug: "guilherme-lemes-cardoso-e-silvas-story-against-ice",
+    images: [
+      "stories/guilherme-lemes-cardoso-e-silvas-story-against-ice/1.png",
+      "stories/guilherme-lemes-cardoso-e-silvas-story-against-ice/2.png",
+      "stories/guilherme-lemes-cardoso-e-silvas-story-against-ice/3.png",
+      "stories/guilherme-lemes-cardoso-e-silvas-story-against-ice/4.png",
+      "stories/guilherme-lemes-cardoso-e-silvas-story-against-ice/5.png",
+      "stories/guilherme-lemes-cardoso-e-silvas-story-against-ice/6.png",
+      "stories/guilherme-lemes-cardoso-e-silvas-story-against-ice/7.png",
+      "stories/guilherme-lemes-cardoso-e-silvas-story-against-ice/8.png",
+      "stories/guilherme-lemes-cardoso-e-silvas-story-against-ice/9.png",
+      "stories/guilherme-lemes-cardoso-e-silvas-story-against-ice/10.png",
+      "stories/guilherme-lemes-cardoso-e-silvas-story-against-ice/11.png",
+      "stories/guilherme-lemes-cardoso-e-silvas-story-against-ice/12.png",
+      "stories/guilherme-lemes-cardoso-e-silvas-story-against-ice/13.png",
+      "stories/guilherme-lemes-cardoso-e-silvas-story-against-ice/14.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Guilherme Lemes Cardoso E Silva's Story",
+    summary: "Today, we are sharing the story of Guilherme Lemes Cardoso E Silva. Silva came to the United States from Brazil. He is a 35-year-old visual artist in Washington State. He frequently engages in drawing murals, which are drawn all over Washington State. Silva and his wife, Rachel, are expecting a baby boy in October. Silva and Rachel are working with immigration lawyers on his green card status so he can be a permanent resident. As he was in the process of applying and waiting for approval, he had also been taking strides to renew his working visa. Silva has no criminal record and no warrant for arrest or deportation. When Silva drove to meet and pick up his daughter, whom he shares custody of with his ex-wife, he was stopped and detained by immigration officers. While being detained, Silva had tried to record the incident, but his phone was taken away by an immigration officer. The immigration agents laughed as they took away his phone, stating how they were lucky they would not be on the news this time. Silva would be detained and sent to a detention center with his soon-to-be expecting wife trying her hardest to try and get Silva out. We don’t believe families should be torn apart like this, especially if they have not done anything inherently wrong and are trying their best to make a life in the United States and get their citizenship. Immigrants should not feel fear of going outside just to be picked up by immigration officers and treated like they are not human. If you would like to support Silva and Rachel’s family and help a family in need, feel free to donate to their GoFundMe here: https://www.gofundme.com/f/legal-aid-for-gui-and-rachel\nThe sources we used for this post come from the organizations NBC, The Daily Beast, and Terra Brazil. If you would like to learn more about Silva’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7528209549912771854?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#guilherme-lemes-cardoso-e-silvas-story-against-ice"
   }
 ];
 
