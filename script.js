@@ -1656,6 +1656,28 @@ const stories = [
     summary: "Today, we are sharing the story of Shirly Guardado, the wife of a U.S Army Sergeant. Guardado came to the United States, fleeing Honduras, when she was only 16 years old. After arriving at the border, she was apprehended and given an expedited removal order, but allowed to enter. Guardado would meet her now husband, Correa, in a coffee shop in Houston in 2020. The two would fall in love and get married in 2022, eventually having a son who is currently 10 months old. A lawyer would help with Guardado’s paperwork to be sponsored by Correa, who was a U.S citizen and also a U.S. Army sergeant, to get a green card. Correa would also be granted a work permit so long as she regularly went to immigration check-ins. Because of Correa’s military status, the couple also applied to Guardado for military parole, allowing her to stay in the U.S while she secures permanent residency. Although Guardado had no criminal record, had work authorization, and was sponsored by Correa, her military parole was denied by the military because of her expedited removal order, which was issued a decade ago. This forced her to apply for military parole through immigration officials, and her application had been pending for over a year. On a regular morning, Guardado and Correa woke up early to get their son ready for the day and also to hand him off to Guardado’s mother to take care of when they went to work. However, that day, Guardado would receive an unexpected phone call from a public service officer telling her to meet them in the parking lot. There, they would tell her that her car had been involved in an accident, and when Guardado would step closer, three men dressed in plain clothes would handcuff her and reveal that they were immigration agents who were there to detain her. Guardado was taken away, and Correa had no idea of her whereabouts for over three days before finally receiving confirmation that she was held in a cell in Conroe. Because of their situation, Correa believed that this was all a misunderstanding and that Guardado would be released very soon. Days turned into weeks, which turned into over three months. Eventually, Guardado would be deported to Honduras on her 28th birthday. Correa plans to take their 10-month-old son and move to Honduras, selling all their belongings to reunite the family. Guardado has struggled after being sent to Honduras, where she had no family left because she had left when she was so young, having to jump between hotels. The sources we used for this post come from the organizations The Texas Tribune, Newsweek, Fox 26, Latin Times, and Jonathan Mejia. If you would like to learn more about Guardado’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7620621213794176269?is_from_webapp=1&sender_device=pc",
     link: "stories.html#shirly-guardados-story"
+  },
+  {
+    order: 70,
+    slug: "carlos-garcias-story",
+    images: [
+      "stories/carlos-garcias-story/1.png",
+      "stories/carlos-garcias-story/2.png",
+      "stories/carlos-garcias-story/3.png",
+      "stories/carlos-garcias-story/4.png",
+      "stories/carlos-garcias-story/5.png",
+      "stories/carlos-garcias-story/6.png",
+      "stories/carlos-garcias-story/7.png",
+      "stories/carlos-garcias-story/8.png",
+      "stories/carlos-garcias-story/9.png",
+      "stories/carlos-garcias-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Carlos Garcia's Story",
+    summary: "Today, we are sharing the story of Carlos Roberto Garcia. Garcia is a former Venezuelan mayor who fled Venezuela due to tensiosn adn conflicts that arose when Garcia didn’t follow orders given by the Venezuelan President to silence the people of Venezuela who were heated due to implementations. Garica did not want to silence the voices of his people. This caused him to be politically persecuted, and Garcia and his wife would flee to Colombia, where they would apply for asylum to come to the United States. Garica and his family would be granted temporary asylum under the Biden administration in 2022, and Garcia would apply for asylum and also be granted a work permit in the U.S which would last till 2030. Garica had made sure to follow all the necessary procedures to be granted asylum. He would participate in routine immigration check-ins, participating in 28 of them. Garcia also had no criminal record. Garica worked as an Amazon delivery driver and would often work overtime so that he could donate to people in need in Venezuela. Even though he had long cut ties with Venezuela, he still cared deeply about his people and still worried for them. Garica would never expect to be detained during a routine immigration check-in. His future is still unsure; however, if Garcia is sent back to Venezuela, it could mean at minimum 15 months in prison for going against the President and could also lead to Garcia being harmed. The sources we used for this post come from the organizations CNN, WCPO, The New York Times, WLWT, and ELPAIS. If you would like to learn more about Garcia’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7610241516967103757?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#carlos-garcias-story"
   }
 ];
 
