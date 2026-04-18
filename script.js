@@ -1584,6 +1584,31 @@ const stories = [
     summary: "Thank you so much for the support on the recent post. We are very grateful to see that many of you also believe and support in fighting against immigrant injustice. to clarify, we hope to encourage others to speak up about immigrant injustice through our posts. in the future, we hope to be able to organize fundraisers (such as gofundmes) to help support inidivduals and families that have been impacted by the mass deportations recently. Yunseo Chung is a 21 year old Korean American student at columbia university who was protesting her pro-palestinian beliefs at her university. She was targetted by ICE and pursued for alleged criminal acts and was in danger of deportation. She’s lived in the U.S. since she was 7. She has no criminal record. She was standing up for what she believed in. And for that, she faced detention and deportation. The sources we used in our post are from The Guardian and CUNYClear. If you would like to learn more about Yunseo’s story, we strongly encourage you to check out the articles they have published. We will continue to share stories of individuals affected by these recent mass deportations. If you, or anyone that you know has been impacted by these deportations, please feel free to reach out and message us. We would love to hear their stories and post about it to spread awareness and potentially raise money for individuals in need. #breakthesilence",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7519348722879302943?is_from_webapp=1&sender_device=pc",
     link: "stories.html#yunseo-chungs-story"
+  },
+  {
+    order: 67,
+    slug: "johanny-lacruzs-story",
+    images: [
+      "stories/johanny-lacruzs-story/1.png",
+      "stories/johanny-lacruzs-story/2.png",
+      "stories/johanny-lacruzs-story/3.png",
+      "stories/johanny-lacruzs-story/4.png",
+      "stories/johanny-lacruzs-story/5.png",
+      "stories/johanny-lacruzs-story/6.png",
+      "stories/johanny-lacruzs-story/7.png",
+      "stories/johanny-lacruzs-story/8.png",
+      "stories/johanny-lacruzs-story/9.png",
+      "stories/johanny-lacruzs-story/10.png",
+      "stories/johanny-lacruzs-story/11.png",
+      "stories/johanny-lacruzs-story/12.png",
+      "stories/johanny-lacruzs-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Johanny Lacruz's Story",
+    summary: "Today, we are sharing the story of Johanny Lacruz. Lacruz came to the United States from Venezuela after suffering political threats due to her affiliation with the party Voluntad Popular, a progressive and democratic party in Venezuela. Lacruz successfully applied for asylum under the CBP One App in November of 2023 and would very quickly meet Rodriguez. Rodriguez and Lacruz quickly hit it off and started dating. The couple travels across the country together, going to Arizona, Portland, and then Rodriguez’s hometown. Lacruz quickly became a part of Rodriguez’s family and would routinely celebrate with them and host birthday parties for Rodriguez’s mother and sister. Rodriguez planned to propose to Lacruz on their trip to San Antonio on Valentine's Day at the top of the Tower of the Americas. This dream would be shattered when Lacruz and Rodriguez would be pulled over during an immigration checkpoint on their drive to San Antonio. The patrol officer asked Lacruz for identification, and she showed him her work permit, which would expire in 2030. Lacruz would be put in custody and sent to a detention facility, less than a month prior to her asylum hearing in March. Lacruz had an asylum case, had a work permit, paid taxes, and had no criminal record, and she was still detained. Lacruz has kept in contact with Rodriguez and often tells him about the poor conditions in the detention facility. They are often underfed, and medical assistance is very slow. Lacruz has thought of voluntarily departing, which would allow her to return and resume her case for asylum. Rodriguez has emphasized his frustration that cases just like his fiancée’s are dropped, and individuals are taken out of detention because of media presence. The sources we used for this post come from the organizations The Texas Tribune, KRGV, and Law Group International. If you would like to learn more about Lacruz’s story, we encourage you to check out the story published by The Texas Tribune.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7617645660099104014?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#johanny-lacruzs-story"
   }
 ];
 
