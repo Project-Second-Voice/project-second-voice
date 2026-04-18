@@ -1633,6 +1633,29 @@ const stories = [
     summary: "Today, we are sharing the story of Alfredo Linares and his wife Raegan Klien. Alfredo Linares was an undocumented immigrant from the United States and had moved here when he was only 17 to go and be with his father. When he came to the U.S., he didn’t understand the system or the path to citizenship very well. Linares built a life in the U.S. throughout his 20 years in the country. He started off as a dishwasher and eventually became a chef for a fine dining, Michelin-starred restaurant. Linares had no path to citizenship until he married his wife, who is a U.S. citizen, last year. Still, the only path to citizenship meant going back to Mexico and living for a decade before being eligible, something that seemed impossible to do without leaving his wife behind. Linares had no criminal records and had no deportation orders, yet he was faced with only one choice: self-deporting back to Mexico. Linares and Klein made the decision to move together to Mexico in hopes of not risking the chance of immigration officers taking Linares and deporting him, or worse, detaining him and sending him to El Salvador. We believe that immigrants like Linares should have the opportunity and the path to citizenship. Linares came to the U.S. when he was only 17 years old, having no idea about the immigration rules and policies. Now, after building his whole life in the U.S., the only choice he had was to leave willingly or forcefully. In this story, we used sources from NY Times, NBC, and The Guardian. If you would like to learn more about Linares’ story, we encourage you to read the stories published by those organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7521918447454817549?is_from_webapp=1&sender_device=pc",
     link: "stories.html#alfredo-linares-story"
+  },
+  {
+    order: 69,
+    slug: "shirly-guardados-story",
+    images: [
+      "stories/shirly-guardados-story/1.png",
+      "stories/shirly-guardados-story/2.png",
+      "stories/shirly-guardados-story/3.png",
+      "stories/shirly-guardados-story/4.png",
+      "stories/shirly-guardados-story/5.png",
+      "stories/shirly-guardados-story/6.png",
+      "stories/shirly-guardados-story/7.png",
+      "stories/shirly-guardados-story/8.png",
+      "stories/shirly-guardados-story/9.png",
+      "stories/shirly-guardados-story/10.png",
+      "stories/shirly-guardados-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Shirly Guardado's Story",
+    summary: "Today, we are sharing the story of Shirly Guardado, the wife of a U.S Army Sergeant. Guardado came to the United States, fleeing Honduras, when she was only 16 years old. After arriving at the border, she was apprehended and given an expedited removal order, but allowed to enter. Guardado would meet her now husband, Correa, in a coffee shop in Houston in 2020. The two would fall in love and get married in 2022, eventually having a son who is currently 10 months old. A lawyer would help with Guardado’s paperwork to be sponsored by Correa, who was a U.S citizen and also a U.S. Army sergeant, to get a green card. Correa would also be granted a work permit so long as she regularly went to immigration check-ins. Because of Correa’s military status, the couple also applied to Guardado for military parole, allowing her to stay in the U.S while she secures permanent residency. Although Guardado had no criminal record, had work authorization, and was sponsored by Correa, her military parole was denied by the military because of her expedited removal order, which was issued a decade ago. This forced her to apply for military parole through immigration officials, and her application had been pending for over a year. On a regular morning, Guardado and Correa woke up early to get their son ready for the day and also to hand him off to Guardado’s mother to take care of when they went to work. However, that day, Guardado would receive an unexpected phone call from a public service officer telling her to meet them in the parking lot. There, they would tell her that her car had been involved in an accident, and when Guardado would step closer, three men dressed in plain clothes would handcuff her and reveal that they were immigration agents who were there to detain her. Guardado was taken away, and Correa had no idea of her whereabouts for over three days before finally receiving confirmation that she was held in a cell in Conroe. Because of their situation, Correa believed that this was all a misunderstanding and that Guardado would be released very soon. Days turned into weeks, which turned into over three months. Eventually, Guardado would be deported to Honduras on her 28th birthday. Correa plans to take their 10-month-old son and move to Honduras, selling all their belongings to reunite the family. Guardado has struggled after being sent to Honduras, where she had no family left because she had left when she was so young, having to jump between hotels. The sources we used for this post come from the organizations The Texas Tribune, Newsweek, Fox 26, Latin Times, and Jonathan Mejia. If you would like to learn more about Guardado’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7620621213794176269?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#shirly-guardados-story"
   }
 ];
 
