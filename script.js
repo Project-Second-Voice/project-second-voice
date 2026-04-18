@@ -1704,6 +1704,31 @@ const stories = [
     summary: "Today, we are sharing the story of Keneth Mena Torres. Torres came to the United States from Honduras when he was only 11 years old. Growing up in Campo Cielo, a neighborhood in Honduras that was riddled by gang-violence and economic hardship, Torres really wanted to escape this nightmare. When he was only 6 years old, his mother couldn’t bear the violence and economic hardship any longer, and left for the United States. Torres would later join his mother in a treacherous journey that brought him to the U.S-Mexico Border. Torres had initially been accompanied by his uncle, who also wanted to come to the United States, but after putting Torres in line to get in, his uncle was never seen again. After coming to the United States, Torres rejoined his mother, who was granted asylum. Torres also applied for asylum, and the application had been in process. In the United States, Torres paid taxes, obeyed the laws, worked a job, and helped contribute to her mother’s mortgage. Torres had been a law-abiding individual and done everything he needed to do. Torres would never expect that, during an early summer morning, officers would swarm his house, demanding that he open his door and come outside with his mother. The officers pointed weapons at them, telling them to kneel. While they were being handcuffed, other officers stormed the house, ripping mattresses, flipping over furniture, and breaking cabinets. It turns out that they had a warrant to investigate two wanted individuals in possession of substances; however, Torres and his mother were suspects in the case. Nevertheless, Torres was detained alongside his friend, who suffered from severe intellectual and developmental disabilities. In the detention facility, Torres suffered horrible facility conditions, only being able to shower in scalding hot water, fed meager meals, sleeping on mattresses that were very thin, and living in cells that were frigid cold. Torres at times felt like voluntarily deporting due to the mental and physical burden of living in the facility. Thankfully, after 62 days of the nightmare, Torres was released and granted asylum sometime later. The sources we used for this post come from the organization San Francisco Chronicle. If you would like to learn more about Keneth Mena Torres’s story, we encourage you to check out the story published by this organization.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7582813141050887454?is_from_webapp=1&sender_device=pc",
     link: "stories.html#keneth-mena-torress-story"
+  },
+  {
+    order: 72,
+    slug: "howard-dean-baileys-story",
+    images: [
+      "stories/howard-dean-baileys-story/1.png",
+      "stories/howard-dean-baileys-story/2.png",
+      "stories/howard-dean-baileys-story/3.png",
+      "stories/howard-dean-baileys-story/4.png",
+      "stories/howard-dean-baileys-story/5.png",
+      "stories/howard-dean-baileys-story/6.png",
+      "stories/howard-dean-baileys-story/7.png",
+      "stories/howard-dean-baileys-story/8.png",
+      "stories/howard-dean-baileys-story/9.png",
+      "stories/howard-dean-baileys-story/10.png",
+      "stories/howard-dean-baileys-story/11.png",
+      "stories/howard-dean-baileys-story/12.png",
+      "stories/howard-dean-baileys-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Howard Dean Bailey’s Story",
+    summary: "Today, we are sharing the story of Howard Dean Bailey. This is an old story from 2014, but it still holds a lot of value towards spreading awareness of immigrant injustice. Second Voice is a nonpartisan nonprofit organization dedicated to sharing the voices of immigrants who have been wrongly mistreated and spreading awareness. We don’t support or argue against any political party, and we are strictly here to spread awareness and try to better immigrant regulations and immigrant policies. We want to see immigrants thrive and be accpeted as Americans. Howard Dean Bailey was a U.S Navy Veteran that was sabatoged into pleeing guilty for a drug conviction decades ago after he honestly told immigration services of his crimes in the past while applying for citizenship. There was no evidence at all for his drug conviction and yet, Bailey was honest and admitted to a crime that would have never been uncovered if he kept quiet otherwise. His military service and his honest mistake meant nothing, and he was deported anyway. During the deportation, Bailey faced brutal treatment along with the other deportees. The sources we used in this post are from The Immigrants Defense Project and NPR. There is a GoFundMe up for Howard’s return to the United States if you are interested in helping.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7520445535065574711?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#howard-dean-baileys-story"
   }
 ];
 
