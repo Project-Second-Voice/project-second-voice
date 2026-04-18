@@ -1678,6 +1678,32 @@ const stories = [
     summary: "Today, we are sharing the story of Carlos Roberto Garcia. Garcia is a former Venezuelan mayor who fled Venezuela due to tensiosn adn conflicts that arose when Garcia didn’t follow orders given by the Venezuelan President to silence the people of Venezuela who were heated due to implementations. Garica did not want to silence the voices of his people. This caused him to be politically persecuted, and Garcia and his wife would flee to Colombia, where they would apply for asylum to come to the United States. Garica and his family would be granted temporary asylum under the Biden administration in 2022, and Garcia would apply for asylum and also be granted a work permit in the U.S which would last till 2030. Garica had made sure to follow all the necessary procedures to be granted asylum. He would participate in routine immigration check-ins, participating in 28 of them. Garcia also had no criminal record. Garica worked as an Amazon delivery driver and would often work overtime so that he could donate to people in need in Venezuela. Even though he had long cut ties with Venezuela, he still cared deeply about his people and still worried for them. Garica would never expect to be detained during a routine immigration check-in. His future is still unsure; however, if Garcia is sent back to Venezuela, it could mean at minimum 15 months in prison for going against the President and could also lead to Garcia being harmed. The sources we used for this post come from the organizations CNN, WCPO, The New York Times, WLWT, and ELPAIS. If you would like to learn more about Garcia’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7610241516967103757?is_from_webapp=1&sender_device=pc",
     link: "stories.html#carlos-garcias-story"
+  },
+  {
+    order: 71,
+    slug: "keneth-mena-torress-story",
+    images: [
+      "stories/keneth-mena-torress-story/1.png",
+      "stories/keneth-mena-torress-story/2.png",
+      "stories/keneth-mena-torress-story/3.png",
+      "stories/keneth-mena-torress-story/4.png",
+      "stories/keneth-mena-torress-story/5.png",
+      "stories/keneth-mena-torress-story/6.png",
+      "stories/keneth-mena-torress-story/7.png",
+      "stories/keneth-mena-torress-story/8.png",
+      "stories/keneth-mena-torress-story/9.png",
+      "stories/keneth-mena-torress-story/10.png",
+      "stories/keneth-mena-torress-story/11.png",
+      "stories/keneth-mena-torress-story/12.png",
+      "stories/keneth-mena-torress-story/13.png",
+      "stories/keneth-mena-torress-story/14.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Keneth Mena Torres's Story",
+    summary: "Today, we are sharing the story of Keneth Mena Torres. Torres came to the United States from Honduras when he was only 11 years old. Growing up in Campo Cielo, a neighborhood in Honduras that was riddled by gang-violence and economic hardship, Torres really wanted to escape this nightmare. When he was only 6 years old, his mother couldn’t bear the violence and economic hardship any longer, and left for the United States. Torres would later join his mother in a treacherous journey that brought him to the U.S-Mexico Border. Torres had initially been accompanied by his uncle, who also wanted to come to the United States, but after putting Torres in line to get in, his uncle was never seen again. After coming to the United States, Torres rejoined his mother, who was granted asylum. Torres also applied for asylum, and the application had been in process. In the United States, Torres paid taxes, obeyed the laws, worked a job, and helped contribute to her mother’s mortgage. Torres had been a law-abiding individual and done everything he needed to do. Torres would never expect that, during an early summer morning, officers would swarm his house, demanding that he open his door and come outside with his mother. The officers pointed weapons at them, telling them to kneel. While they were being handcuffed, other officers stormed the house, ripping mattresses, flipping over furniture, and breaking cabinets. It turns out that they had a warrant to investigate two wanted individuals in possession of substances; however, Torres and his mother were suspects in the case. Nevertheless, Torres was detained alongside his friend, who suffered from severe intellectual and developmental disabilities. In the detention facility, Torres suffered horrible facility conditions, only being able to shower in scalding hot water, fed meager meals, sleeping on mattresses that were very thin, and living in cells that were frigid cold. Torres at times felt like voluntarily deporting due to the mental and physical burden of living in the facility. Thankfully, after 62 days of the nightmare, Torres was released and granted asylum sometime later. The sources we used for this post come from the organization San Francisco Chronicle. If you would like to learn more about Keneth Mena Torres’s story, we encourage you to check out the story published by this organization.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7582813141050887454?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#keneth-mena-torress-story"
   }
 ];
 
