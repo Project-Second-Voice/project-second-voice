@@ -1513,6 +1513,30 @@ const stories = [
     summary: "Today, we are sharing the story of Guilherme Lemes Cardoso E Silva. Silva came to the United States from Brazil. He is a 35-year-old visual artist in Washington State. He frequently engages in drawing murals, which are drawn all over Washington State. Silva and his wife, Rachel, are expecting a baby boy in October. Silva and Rachel are working with immigration lawyers on his green card status so he can be a permanent resident. As he was in the process of applying and waiting for approval, he had also been taking strides to renew his working visa. Silva has no criminal record and no warrant for arrest or deportation. When Silva drove to meet and pick up his daughter, whom he shares custody of with his ex-wife, he was stopped and detained by immigration officers. While being detained, Silva had tried to record the incident, but his phone was taken away by an immigration officer. The immigration agents laughed as they took away his phone, stating how they were lucky they would not be on the news this time. Silva would be detained and sent to a detention center with his soon-to-be expecting wife trying her hardest to try and get Silva out. We don’t believe families should be torn apart like this, especially if they have not done anything inherently wrong and are trying their best to make a life in the United States and get their citizenship. Immigrants should not feel fear of going outside just to be picked up by immigration officers and treated like they are not human. If you would like to support Silva and Rachel’s family and help a family in need, feel free to donate to their GoFundMe here: https://www.gofundme.com/f/legal-aid-for-gui-and-rachel\nThe sources we used for this post come from the organizations NBC, The Daily Beast, and Terra Brazil. If you would like to learn more about Silva’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7528209549912771854?is_from_webapp=1&sender_device=pc",
     link: "stories.html#guilherme-lemes-cardoso-e-silvas-story-against-ice"
+  },
+  {
+    order: 64,
+    slug: "nuvia-martinez-ventura-story",
+    images: [
+      "stories/nuvia-martinez-ventura-story/1.png",
+      "stories/nuvia-martinez-ventura-story/2.png",
+      "stories/nuvia-martinez-ventura-story/3.png",
+      "stories/nuvia-martinez-ventura-story/4.png",
+      "stories/nuvia-martinez-ventura-story/5.png",
+      "stories/nuvia-martinez-ventura-story/6.png",
+      "stories/nuvia-martinez-ventura-story/7.png",
+      "stories/nuvia-martinez-ventura-story/8.png",
+      "stories/nuvia-martinez-ventura-story/9.png",
+      "stories/nuvia-martinez-ventura-story/10.png",
+      "stories/nuvia-martinez-ventura-story/11.png",
+      "stories/nuvia-martinez-ventura-story/12.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Nuvia Martinez Ventura Story",
+    summary: "Today, we are sharing the story of Nuvia Martinez Ventura. Ventura is a 30-year-old who fled El Salvador in 2016 and came to the United States. She fled El Salvador due to gang violence, reporting that gangs had taken the life of her husband, something that would prompt her to move to the United States. Ventura had no clear path to citizenship as her asylum had been denied twice, even though she had a clear reason for applying for asylum, and she had no criminal record. She would still make the most of what she had and still worked with lawyers on getting legal status for herself. She has 5 children, ranging from 3-11 years old. Many of the children struggle with medical complications such as learning disabilities and diabetes. Ventura had already struggled with this due to their financial situation, but didn’t complain and still abided by the law. She also would check in with immigration officers routinely and never missed an appointment. This would all change, however. Ventura was detained by immigration officers during a routine check-in and put into a detention center. Immigration officers are working to deport her back to El Salvador. If you would like to support Ventura’s family in this time of need, there is a petition that is being held to help get Ventura out of the detention center and away from deportation. If you would like to sign the petition, feel free to sign here: https://www.change.org/p/free-nuvia-reunite-a-detained-mother-with-her-hospitalized-child We already have 156 signatures, and your signature would possibly be one step closer to her release. The sources we used from this post come from the organizations NBC NY, Change, Newsday, and News 12. If you would like to learn more about Ventura’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7530085732665265463?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#nuvia-martinez-ventura-story"
   }
 ];
 
