@@ -1562,6 +1562,28 @@ const stories = [
     summary: "Today, we are sharing the story of Momodou Taal. Momodou Taal is a Cornell student and pro-Palestinian activist. He is a dual citizen of the United Kingdom and Gambia. Momodou Taal is legally allowed to be in the United States through a student visa as he is a student at Cornell University. Momodou Taal had been involved in numerous protests and activism activities on campus. Recently, immigration officers showed up at his apartment and demanded to know where he was. Momodou Taal’s student-visa had also been revoked due to his protesting. During court, Momodou asked for his deportation order to be blocked but a judge declined this request. Because of this, Momodou voluntarily left the United States. We believe that immigrants, such as Momodou Taal, should not be treated this way. Immigrants and activists should be comfortable advocating for what they believe in and protesting. They should not be scared to speak their mind and share their opinions. The sources we used for this post come from the organizations CNN, NBC, The Nation, and AfricaSaCountry. If you would like to learn more about Momodou’s story, we encourage you to check out the stories posted by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7524878445113806111?is_from_webapp=1&sender_device=pc",
     link: "stories.html#momodou-taals-story"
+  },
+  {
+    order: 66,
+    slug: "yunseo-chungs-story",
+    images: [
+      "stories/yunseo-chungs-story/1.png",
+      "stories/yunseo-chungs-story/2.png",
+      "stories/yunseo-chungs-story/3.png",
+      "stories/yunseo-chungs-story/4.png",
+      "stories/yunseo-chungs-story/5.png",
+      "stories/yunseo-chungs-story/6.png",
+      "stories/yunseo-chungs-story/7.png",
+      "stories/yunseo-chungs-story/8.png",
+      "stories/yunseo-chungs-story/9.png",
+      "stories/yunseo-chungs-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Yunseo Chung's Story",
+    summary: "Thank you so much for the support on the recent post. We are very grateful to see that many of you also believe and support in fighting against immigrant injustice. to clarify, we hope to encourage others to speak up about immigrant injustice through our posts. in the future, we hope to be able to organize fundraisers (such as gofundmes) to help support inidivduals and families that have been impacted by the mass deportations recently. Yunseo Chung is a 21 year old Korean American student at columbia university who was protesting her pro-palestinian beliefs at her university. She was targetted by ICE and pursued for alleged criminal acts and was in danger of deportation. She’s lived in the U.S. since she was 7. She has no criminal record. She was standing up for what she believed in. And for that, she faced detention and deportation. The sources we used in our post are from The Guardian and CUNYClear. If you would like to learn more about Yunseo’s story, we strongly encourage you to check out the articles they have published. We will continue to share stories of individuals affected by these recent mass deportations. If you, or anyone that you know has been impacted by these deportations, please feel free to reach out and message us. We would love to hear their stories and post about it to spread awareness and potentially raise money for individuals in need. #breakthesilence",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7519348722879302943?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#yunseo-chungs-story"
   }
 ];
 
