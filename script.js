@@ -1609,6 +1609,30 @@ const stories = [
     summary: "Today, we are sharing the story of Johanny Lacruz. Lacruz came to the United States from Venezuela after suffering political threats due to her affiliation with the party Voluntad Popular, a progressive and democratic party in Venezuela. Lacruz successfully applied for asylum under the CBP One App in November of 2023 and would very quickly meet Rodriguez. Rodriguez and Lacruz quickly hit it off and started dating. The couple travels across the country together, going to Arizona, Portland, and then Rodriguez’s hometown. Lacruz quickly became a part of Rodriguez’s family and would routinely celebrate with them and host birthday parties for Rodriguez’s mother and sister. Rodriguez planned to propose to Lacruz on their trip to San Antonio on Valentine's Day at the top of the Tower of the Americas. This dream would be shattered when Lacruz and Rodriguez would be pulled over during an immigration checkpoint on their drive to San Antonio. The patrol officer asked Lacruz for identification, and she showed him her work permit, which would expire in 2030. Lacruz would be put in custody and sent to a detention facility, less than a month prior to her asylum hearing in March. Lacruz had an asylum case, had a work permit, paid taxes, and had no criminal record, and she was still detained. Lacruz has kept in contact with Rodriguez and often tells him about the poor conditions in the detention facility. They are often underfed, and medical assistance is very slow. Lacruz has thought of voluntarily departing, which would allow her to return and resume her case for asylum. Rodriguez has emphasized his frustration that cases just like his fiancée’s are dropped, and individuals are taken out of detention because of media presence. The sources we used for this post come from the organizations The Texas Tribune, KRGV, and Law Group International. If you would like to learn more about Lacruz’s story, we encourage you to check out the story published by The Texas Tribune.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7617645660099104014?is_from_webapp=1&sender_device=pc",
     link: "stories.html#johanny-lacruzs-story"
+  },
+  {
+    order: 68,
+    slug: "alfredo-linares-story",
+    images: [
+      "stories/alfredo-linares-story/1.png",
+      "stories/alfredo-linares-story/2.png",
+      "stories/alfredo-linares-story/3.png",
+      "stories/alfredo-linares-story/4.png",
+      "stories/alfredo-linares-story/5.png",
+      "stories/alfredo-linares-story/6.png",
+      "stories/alfredo-linares-story/7.png",
+      "stories/alfredo-linares-story/8.png",
+      "stories/alfredo-linares-story/9.png",
+      "stories/alfredo-linares-story/10.png",
+      "stories/alfredo-linares-story/11.png",
+      "stories/alfredo-linares-story/12.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Alfredo Linares Story",
+    summary: "Today, we are sharing the story of Alfredo Linares and his wife Raegan Klien. Alfredo Linares was an undocumented immigrant from the United States and had moved here when he was only 17 to go and be with his father. When he came to the U.S., he didn’t understand the system or the path to citizenship very well. Linares built a life in the U.S. throughout his 20 years in the country. He started off as a dishwasher and eventually became a chef for a fine dining, Michelin-starred restaurant. Linares had no path to citizenship until he married his wife, who is a U.S. citizen, last year. Still, the only path to citizenship meant going back to Mexico and living for a decade before being eligible, something that seemed impossible to do without leaving his wife behind. Linares had no criminal records and had no deportation orders, yet he was faced with only one choice: self-deporting back to Mexico. Linares and Klein made the decision to move together to Mexico in hopes of not risking the chance of immigration officers taking Linares and deporting him, or worse, detaining him and sending him to El Salvador. We believe that immigrants like Linares should have the opportunity and the path to citizenship. Linares came to the U.S. when he was only 17 years old, having no idea about the immigration rules and policies. Now, after building his whole life in the U.S., the only choice he had was to leave willingly or forcefully. In this story, we used sources from NY Times, NBC, and The Guardian. If you would like to learn more about Linares’ story, we encourage you to read the stories published by those organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7521918447454817549?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#alfredo-linares-story"
   }
 ];
 
