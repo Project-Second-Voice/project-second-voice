@@ -2095,6 +2095,33 @@ const stories = [
     summary: "Today, we are sharing the story of Ana Gabriella Diaz and her daughter. Diaz and her oldest daughter, who is now 9 years old, came to the United States from El Salvador. They were seeking asylum due to many reasons, such as extreme poverty and gang violence. Diaz had applied for asylum but was rejected. She made the decision to still come to the United States in hopes of giving her daughter a better life and applying for citizenship once she got to the United States. Diaz complied with immigration services and went in for routine check ins. She finally got a chance for residency when she married her husband and had a baby in 2024. Diaz and her oldest daughter applied for a family petition and were waiting for the status. In early June, however, Diaz would be called in for an unscheduled meeting with immigration officers. There, they would tell her that she was being detained. They gave the family 30 seconds to say goodbye before Diaz and her oldest daughter, who was 9 years old, were detained and sent to a detention facility in Texas. The source we used for this post comes from the organization ABC 7. If you would like to learn more about Diaz and her daughter’s story, we encourage you to read the story published by this organization.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7528975125954235703?is_from_webapp=1&sender_device=pc",
     link: "stories.html#ana-gabriella-diazs-story"
+  },
+  {
+    order: 88,
+    slug: "nikita-and-oksanas-familys-story",
+    images: [
+      "stories/nikita-and-oksanas-familys-story/1.png",
+      "stories/nikita-and-oksanas-familys-story/2.png",
+      "stories/nikita-and-oksanas-familys-story/3.png",
+      "stories/nikita-and-oksanas-familys-story/4.png",
+      "stories/nikita-and-oksanas-familys-story/5.png",
+      "stories/nikita-and-oksanas-familys-story/6.png",
+      "stories/nikita-and-oksanas-familys-story/7.png",
+      "stories/nikita-and-oksanas-familys-story/8.png",
+      "stories/nikita-and-oksanas-familys-story/9.png",
+      "stories/nikita-and-oksanas-familys-story/10.png",
+      "stories/nikita-and-oksanas-familys-story/11.png",
+      "stories/nikita-and-oksanas-familys-story/12.png",
+      "stories/nikita-and-oksanas-familys-story/13.png",
+      "stories/nikita-and-oksanas-familys-story/14.png",
+      "stories/nikita-and-oksanas-familys-story/15.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Nikita and Oksana’s Family’s Story",
+    summary: "Today, we are sharing the story of Nikita and Oksana’s family. Nikita and Oksana have three children and fled Russia due to their opposing political activism against Putin’s regime. Nikita and Oksana hoped to seek shelter and give their children a life free of poltiical tyranny by coming to America. They stayed over a year in Mexico debating the safest way to get to America, eventually opting to go to the Mesa Port border and directly requesting asylum. The officers listened to their voiced concerns and desperate pleas for asylum; however, instead of moving their case to court, the family was detained. The family would be held in frigid cells for over five days, only having foil blankets to shelter themselves from the cold and thin mattresses to try to sleep the days away. After five days, the family would be transferred to Dilley Detention Center. They would be subjected to the horrible treatment that many detainees face in the facility. Worms and bugs in their food were a common occurrence. Guards yelling, no matter the age of the detainees, snatching away any comfort from the children’s hands. Hours in line for any medical care. Fluorescent lights that never turn off, forever illuminating the frigid detention facility. The family's schedule consisted of waking up at 6 in the morning every day to wait in line for breakfast. Their schedule consisted only of lines: lines for food, to go to the library, to get medication, or even to have a leisure activity. Children fought amongst themselves for markers, and parents had to scan ID’s that they had on their wrist bands to borrow these individual markers. There wouldn’t be enough markers to go around for everyone, and children would need to wait for others to be done. Nikita and Okasa had three children: Nikita and Oksana have three children: Kirill, who is 13, was a talented self-taught muscian that now wakes up with panic and anxiety attacks every night; Konstantin, only 4 years old, cried himself to sleep after having a toy airplane taken from him; and Kamilia, 12 years old, a dancer who now suffers from partial hearing loss due to a mistreated ear infection. Kamilia always had issues with her right ear, whether it was blocked or infected. However, before being detained, treatment was possible; however, after coming to the facility, treatment became mediocre, and it was hard for Kamilia to get the proper care she required. Oksana brought Kamilia to the medical center after her pain worsened. Pain quickly turned into something serious when her ear started oozing pus, persisting for weeks without proper medical attention. When Kamilia’s ear pain flared, they waited hours in line to get her medication. Oksana, worrying about her daughter, cut a beanie to shield her ear from the aggressive winds while waiting in lines and staying outside, offering her temporary relief. However, guards would take away her beanie, labeling it as contraband that was prohibted to have. Around Thanksgiving, the families would be brought into the gymnasium, where a huge Thanksgiving feast seemed to await them. Families watched eagerly for the turkey, sandwiches, pies, and pastries. They had been stuck eating greasy, spicy, and moldy food for weeks on end. Then, when families asked when the celebration would begin, staff told them the feast was for the faculty, not the detainees. The family would ask about their stay, questioning why they had been held for over the supposed 20-day limit, the limit for detaining children in detention facilities, and guards told them the rule had been overturned. Oksana and Nikita would stay for over 6 times the limit, staying in detention for over 120 days. During their prolonged stay, Kamilia’s birthday would past during their prolonged stay; however, there would be no birthday cake, no friends, and no gifts. She hopes that her only wish will come true: finally being granted freedom from detention.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7628817458131913997?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#nikita-and-oksanas-familys-story"
   }
 ];
 
