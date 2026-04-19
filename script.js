@@ -1944,6 +1944,32 @@ const stories = [
     summary: "Today, we are sharing the story of Moe Rahman. Rahman came to the United States from Bangladesh with his family when he was only 4 years old. His family came to the United States on a visitor’s visa and also applied for asylum due to political turmoil in their home country. Rahman is now 38 years old and lives in Orange County with his pregnant wife, whom he married 10 years ago. The couple has 2 children already and is expecting another soon. Rahman had been complying with routine immigration check-ins for several years. What seemed to be another routine check-in turned into Rahman being detained and sent to a detention facility. Rahman had no criminal record and was working on his legal status with a lawyer. Now, his pregnant wife has to take care of their 2 children by herself. If you would like to support Rahman’s family in this time of need, a GoFundMe has been set up for the family. Feel free to donate here:https://www.gofundme.com/f/afcqw-support-a-family-torn-apart-by-ice-detention The sources we used for this post come from the organizations KTLA, Yahoo, and GoFundMe. If you would like to learn more about Rahman’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7531946107061030158?is_from_webapp=1&sender_device=pc",
     link: "stories.html#moe-rahmans-story"
+  },
+  {
+    order: 82,
+    slug: "derlis-snaider-chusin-toaquizas-story",
+    images: [
+      "stories/derlis-snaider-chusin-toaquizas-story/1.png",
+      "stories/derlis-snaider-chusin-toaquizas-story/2.png",
+      "stories/derlis-snaider-chusin-toaquizas-story/3.png",
+      "stories/derlis-snaider-chusin-toaquizas-story/4.png",
+      "stories/derlis-snaider-chusin-toaquizas-story/5.png",
+      "stories/derlis-snaider-chusin-toaquizas-story/6.png",
+      "stories/derlis-snaider-chusin-toaquizas-story/7.png",
+      "stories/derlis-snaider-chusin-toaquizas-story/8.png",
+      "stories/derlis-snaider-chusin-toaquizas-story/9.png",
+      "stories/derlis-snaider-chusin-toaquizas-story/10.png",
+      "stories/derlis-snaider-chusin-toaquizas-story/11.png",
+      "stories/derlis-snaider-chusin-toaquizas-story/12.png",
+      "stories/derlis-snaider-chusin-toaquizas-story/13.png",
+      "stories/derlis-snaider-chusin-toaquizas-story/14.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Derlis Snaider Chusin Toaquiza’s Story",
+    summary: "Today, we are sharing the story of Derlis Snaider Chusin Toaquiza. Derlis came to the United States with his family in March of 2024. They were seeking asylum due to being mistreated and threatened back in their native country, Ecuador. After coming to the United States, Derlis had been scheduled for his asylum hearing in June 2025. During the time before his hearing, he would be enrolled in Grover Cleveland High School and was in the 11th grade. Derlis was awarded the most improved student at his school. In his spare time, he would often go to church and play for his school’s soccer team. Derlis was very excited to be able to recieve his award at the award ceremony; however, he would never get this chance as he was detained during his asylum hearing. Derlis was taken away without due process, separated from his family in a matter of moments. He was transferred to a detention center where he reports that they had only fed him one meal per day, and he was forced to sleep upright due to a lack of space. This sparked outrage in his community, with a team of lawyers and members of his community were able to get Derlis a bail of $20,000. Derlis and his family were finally reunited. The sources we used for this post come from the organization’s CBS News, Chalk Beat, ABC7 NY, AMNY, Fox5 NY, and NY Daily News. If you would like to learn more about Derlis’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7529334644555156749?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#derlis-snaider-chusin-toaquizas-story"
   }
 ];
 
