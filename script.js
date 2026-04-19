@@ -1729,6 +1729,29 @@ const stories = [
     summary: "Today, we are sharing the story of Howard Dean Bailey. This is an old story from 2014, but it still holds a lot of value towards spreading awareness of immigrant injustice. Second Voice is a nonpartisan nonprofit organization dedicated to sharing the voices of immigrants who have been wrongly mistreated and spreading awareness. We don’t support or argue against any political party, and we are strictly here to spread awareness and try to better immigrant regulations and immigrant policies. We want to see immigrants thrive and be accpeted as Americans. Howard Dean Bailey was a U.S Navy Veteran that was sabatoged into pleeing guilty for a drug conviction decades ago after he honestly told immigration services of his crimes in the past while applying for citizenship. There was no evidence at all for his drug conviction and yet, Bailey was honest and admitted to a crime that would have never been uncovered if he kept quiet otherwise. His military service and his honest mistake meant nothing, and he was deported anyway. During the deportation, Bailey faced brutal treatment along with the other deportees. The sources we used in this post are from The Immigrants Defense Project and NPR. There is a GoFundMe up for Howard’s return to the United States if you are interested in helping.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7520445535065574711?is_from_webapp=1&sender_device=pc",
     link: "stories.html#howard-dean-baileys-story"
+  },
+  {
+    order: 73,
+    slug: "gonzalo-ladron-de-guevaras-story",
+    images: [
+      "stories/gonzalo-ladron-de-guevaras-story/1.png",
+      "stories/gonzalo-ladron-de-guevaras-story/2.png",
+      "stories/gonzalo-ladron-de-guevaras-story/3.png",
+      "stories/gonzalo-ladron-de-guevaras-story/4.png",
+      "stories/gonzalo-ladron-de-guevaras-story/5.png",
+      "stories/gonzalo-ladron-de-guevaras-story/6.png",
+      "stories/gonzalo-ladron-de-guevaras-story/7.png",
+      "stories/gonzalo-ladron-de-guevaras-story/8.png",
+      "stories/gonzalo-ladron-de-guevaras-story/9.png",
+      "stories/gonzalo-ladron-de-guevaras-story/10.png",
+      "stories/gonzalo-ladron-de-guevaras-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Gonzalo Ladron de Guevara’s Story",
+    summary: "Today, we are sharing the story of Gonzalo Ladron de Guevara. Gonzalo came to the United States a very long time ago and had gotten his green card two over decades ago after marrying to his wife, who is a U.S citizen, Jodi. Gonzalo and Jodi have two children, a 21 year old daughter, and a 20 year old son. In May of this year, Gonzalo had travelled to Mexico to meet up with his brother to spread the ashes of their mother. Gonzalo and Jodi did not believe that Gonzalo had done anything wrong as Gonzalo had rountinely travelled and has not been marked or stopped by immigration officers. When coming back from Mexico, Gonzalo was stopped by immigration officers and detained. Gonzalo had been detained for a past felony charge over 2 decades ago that had already been dismissed. It was a non-violent charge that Gonzalo had already gotten the proper rehab for. Gonzalo was still not released and held in detention centers for over a month. During this time, Gonzalo was subjected to very poor conditions: unsanitary bathrooms, no mattresses, and cold, hard floors. A GoFundMe has been created for Gonzalo’s family. If you would like to support Gonzalo’s family in this time of need, feel free to donate here:https://www.gofundme.com/f/help-reunite-the-ladron-de-guevara-family The sources we used for this post come from the organizations News Week, Fox 32, and The Guardian. If you would like to learn more about Gonzalo’s story, we encourage you to read the articles published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7530862708481117454?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#gonzalo-ladron-de-guevaras-story"
   }
 ];
 
