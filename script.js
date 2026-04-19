@@ -430,7 +430,7 @@ const stories = [
     link: "stories.html#sae-joon-park-story"
   },
   {
-    order: 0,
+    order: 1.5,
     slug: "ray-anderson-story",
     images: [
       "stories/ray-anderson-story/1.png",
@@ -1384,28 +1384,6 @@ const stories = [
     summary: "Today, we are sharing the story of Ellie Aghayeva. Aghayeva came to the United States from Azerbaijan in 2016 under a student visa. She is currently a senior at Columbia University and is double-majoring in neuroscience and political science. Aside from schoolwork, Aghayeva has amassed a large social media following, with more than 200 thousand followers across various social media platforms such as TikTok and Instagram. Aghayeva has faced legal issues with her immigration status. Allegedly, as DHS reports, Aghayeva had her student visa revoked because she had missed too many classes in 2016. On February 27th, immigration officers came searching for Aghayeva, entering her apartment complex at Columbia University by lying and misinterpreting the reason why they were there. The officers said that they were searching for a missing child, and it was only after coming in contact with Aghayeva that they revealed the real reason they were there. Aghayeva was detained by immigration officers around 6 am. Aghayeva would message her friends about her fear and distress and would also share her experience online on her various social media platforms. Widespread outrage online and in New York spread, demanding Aghayeva’s release. Thankfully, her detention was only hours before Mayor Zohran Mamdani met up with the President, and Mamdani voiced his concerns about the case of Aghayeva and also other similar cases of Colombian students being detained by immigration officers for no clear reason. Thankfully, Aghayeva was released shortly after. The sources we used for this post come from the organizations The Daily Beast, Gulf News, The People, NDTV, The Guardian, CNN, Columbia Spectator, NPR, and The New York Times. If you would like to learn more about Aghayeva’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7612425628918238477?is_from_webapp=1&sender_device=pc",
     link: "stories.html#ellie-aghayevas-story"
-  },
-  {
-    order: 59,
-    slug: "ray-andersons-story",
-    images: [
-      "stories/ray-andersons-story/1.png",
-      "stories/ray-andersons-story/2.png",
-      "stories/ray-andersons-story/3.png",
-      "stories/ray-andersons-story/4.png",
-      "stories/ray-andersons-story/5.png",
-      "stories/ray-andersons-story/6.png",
-      "stories/ray-andersons-story/7.png",
-      "stories/ray-andersons-story/8.png",
-      "stories/ray-andersons-story/9.png",
-      "stories/ray-andersons-story/10.png"
-    ],
-    featured: false,
-    isNewest: false,
-    title: "Ray Anderson's Story",
-    summary: "Today, we are sharing the story of Ray Anderson Avila Ramirez. Ray came to the United States in 2013, migrating from Peru. He loves to go to the gym, walk his dog, and visit various beaches and parks with his fiancée. He and his fiancée had planned a future together in the United States, hoping to get married. Ray pays taxes, works hard, and has already applied for U.S citizenship and is awaiting the approval of his status. Ray and his fiancée’s dream was shattered right in front of them when he was detained by immigration officers in New York. Ray has no criminal record. Ray’s future is filled with ambiguity and concern from his family, with a scheduled meeting in Orange County coming up soon. Ray is in dire need of legal representation, and his case is very much winnable if he gets the proper attention and help. His friends and family are worried sick for him. If you would like to support Ray’s legal fees and pay for Ray’s legal representation, feel free to donate to the GoFundMe here:\nhttps://www.gofundme.com/f/help-ray-fight-ice-detention?attribution_id=sl:1d85ec39-3c9c-4746-92db-b9df162ac593&lang=en_US&ts=1758507592&utm_campaign=fp_sharesheet&utm_content=amp13_t1-amp17_ta&utm_medium=customer&utm_source=copy_link\nWe are very grateful to be able to share Ray’s story, and we would like to thank @savingrayavilia for contacting us and providing us with information about Ray. If you would like to learn more about Ray Avilia’s story, we encourage you to check out their page.",
-    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7555325050837126431?is_from_webapp=1&sender_device=pc",
-    link: "stories.html#ray-andersons-story"
   },
   {
     order: 60,
