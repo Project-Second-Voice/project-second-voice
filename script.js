@@ -1892,6 +1892,32 @@ const stories = [
     summary: "Today, we are sharing the story of a family that has been separated due to past convictions that had already been served, causing the daughter of the family to have to face chemotherapy and treatment by herself. Yolanda is the mother of Xitlali, a 21-year-old who is struggling with cancer that affects the bones in her legs, making her unable to walk. Yolanda’s son and Xitlali’s brother, Jonathan, was detained in front of Yolanda due to past convictions that he had already served and gotten rehab for. Yolanda stopped immigration officers, questioning why they were arresting her son, only to be handcuffed herself. Yolanda had no criminal record and no past convictions. Because of this, Xitlali had to go through treatment by herself. It has been hard for Xitlali’s family to stay afloat with their two primary providers and caretakers gone. Xitlali explains how many times she feels as she doesn’t have the courage and strength to continue the treatment without her mother by her side. A GoFundMe has been set up for Xitlali’s family in this time of need. If you would like to support them, feel free to donate here: https://www.gofundme.com/f/support-xitlalis-legal-battle-for-family The sources we used from this post come from the organizations NBC LA and News Break. If you would like to learn more about Xitlali’s story, we encourage you to read the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7529718944513461518?is_from_webapp=1&sender_device=pc",
     link: "stories.html#family-of-child-struggling-with-cancer-taken-away-by-ice"
+  },
+  {
+    order: 80,
+    slug: "family-with-11-year-old-child-suffering-from-brain-tumor-deported",
+    images: [
+      "stories/family-with-11-year-old-child-suffering-from-brain-tumor-deported/1.png",
+      "stories/family-with-11-year-old-child-suffering-from-brain-tumor-deported/2.png",
+      "stories/family-with-11-year-old-child-suffering-from-brain-tumor-deported/3.png",
+      "stories/family-with-11-year-old-child-suffering-from-brain-tumor-deported/4.png",
+      "stories/family-with-11-year-old-child-suffering-from-brain-tumor-deported/5.png",
+      "stories/family-with-11-year-old-child-suffering-from-brain-tumor-deported/6.png",
+      "stories/family-with-11-year-old-child-suffering-from-brain-tumor-deported/7.png",
+      "stories/family-with-11-year-old-child-suffering-from-brain-tumor-deported/8.png",
+      "stories/family-with-11-year-old-child-suffering-from-brain-tumor-deported/9.png",
+      "stories/family-with-11-year-old-child-suffering-from-brain-tumor-deported/10.png",
+      "stories/family-with-11-year-old-child-suffering-from-brain-tumor-deported/11.png",
+      "stories/family-with-11-year-old-child-suffering-from-brain-tumor-deported/12.png",
+      "stories/family-with-11-year-old-child-suffering-from-brain-tumor-deported/13.png",
+      "stories/family-with-11-year-old-child-suffering-from-brain-tumor-deported/14.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Family with 11 year old child suffering from brain tumor deported",
+    summary: "Today, we are sharing the story of a family that has been separated due to immigration policies. The parents had been in the process of obtaining a T-Visa, and they had no criminal record, yet they were detained during an immigration checkup when they were traveling to get their daughter the needed medical assistance for her brain cancer recovery. The 11-year-old girl had been diagnosed with brain cancer and was on the path to recovery. The family had travelled from Texas to Houston to meet up with medical professionals to monitor their daughter’s condition. At an immigration checkpoint that they had passed regularly, the family was detained due to a lack of documentation. The family had been equipped with letters from doctors and lawyers. This was all the proof needed in the past times they have gone through this checkpoint. However, this time, the immigration officers detained the family and put them in a detention center, along with their children who are U.S citizens. The parents had no choice but to deport and keep their children in the United States, so that the daughter could get the needed medical assistance and recover. After the parents were separated from the children, it has been reported that they have been struggling in school and haven’t necessarily been getting the proper medical treatment that they deserve. This shouldn’t be how we handle immigrants and how we handle the lives of U.S citizens. Families should not be separated in such a drastic timeframe, especially when they had sought asylum in the U.S to escape trafficking, and to get the proper medical assistance for their children. In this post, we used sources from the organizations NBC, CHRON, and The Daily Beast. If you would like to learn more about the family’s story, we encourage you to read the stories written by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7523838345789623583?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#family-with-11-year-old-child-suffering-from-brain-tumor-deported"
   }
 ];
 
