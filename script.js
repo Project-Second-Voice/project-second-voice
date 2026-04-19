@@ -5,6 +5,8 @@ const CONTACT_EMAIL = "projectsecondvoice@gmail.com";
 const EXTERNAL_LINK_REL = "noopener noreferrer";
 const HOMEPAGE_FEATURED_GRID_COUNT = 6;
 const HOMEPAGE_PRIORITY_FEATURED_SLUGS = ["robert-vivar-story", "ray-anderson-story"];
+const HOMEPAGE_PRIORITY_FEATURED_SET = new Set(HOMEPAGE_PRIORITY_FEATURED_SLUGS);
+const REDUCED_MOTION_QUERY = "(prefers-reduced-motion: reduce)";
 
 const stories = [
   {
@@ -1842,12 +1844,13 @@ function sortStoriesByOrder(left, right) {
 }
 
 function selectHomepagePreviewStories(featuredStories) {
+  const featuredStoriesBySlug = new Map(featuredStories.map((story) => [story.slug, story]));
   const previewStories = featuredStories
     .filter((story) => !story.isNewest)
     .slice(0, HOMEPAGE_FEATURED_GRID_COUNT);
 
   const priorityStories = HOMEPAGE_PRIORITY_FEATURED_SLUGS
-    .map((slug) => featuredStories.find((story) => story.slug === slug))
+    .map((slug) => featuredStoriesBySlug.get(slug))
     .filter(Boolean);
 
   priorityStories.forEach((priorityStory) => {
@@ -1855,12 +1858,16 @@ function selectHomepagePreviewStories(featuredStories) {
       return;
     }
 
-    const replaceIndex = previewStories
-      .map((story, index) => ({ story, index }))
-      .reverse()
-      .find(({ story }) => !HOMEPAGE_PRIORITY_FEATURED_SLUGS.includes(story.slug))?.index;
+    let replaceIndex = -1;
 
-    if (replaceIndex !== undefined) {
+    for (let index = previewStories.length - 1; index >= 0; index -= 1) {
+      if (!HOMEPAGE_PRIORITY_FEATURED_SET.has(previewStories[index].slug)) {
+        replaceIndex = index;
+        break;
+      }
+    }
+
+    if (replaceIndex >= 0) {
       previewStories[replaceIndex] = priorityStory;
     }
   });
@@ -1899,6 +1906,20 @@ function getExternalLinkAttributes(url) {
   }
 
   return ` target="_blank" rel="${EXTERNAL_LINK_REL}"`;
+}
+
+function prefersReducedMotion() {
+  return window.matchMedia?.(REDUCED_MOTION_QUERY).matches;
+}
+
+function escapeHtml(value = "") {
+  return String(value).replace(/[&<>"']/g, (character) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    "\"": "&quot;",
+    "'": "&#39;"
+  })[character]);
 }
 
 function validateStoriesData() {
@@ -1969,6 +1990,12 @@ function validateStoriesData() {
   if (newestStory?.slug !== "liam-conejo-ramos-story") {
     console.warn("Expected Liam Conejo Ramos’s story to remain the newest lead story.");
   }
+
+  const rayStory = storiesBySlug.get("ray-anderson-story");
+
+  if (!rayStory?.featured) {
+    console.warn("Expected Ray Anderson's story to remain featured.");
+  }
 }
 
 function getStoryImages(story) {
@@ -2020,19 +2047,25 @@ function getStoryBadgeMarkup(story, className) {
 function createStoryCard(story, isArchive = false) {
   const card = document.createElement("article");
   card.className = "story-card reveal";
+
+  if (isArchive) {
+    card.id = story.slug;
+  }
+
   const storyHref = getStoryHref(story, isArchive);
   const storyImages = getStoryImages(story);
   const primaryImage = storyImages[0];
   const badgeMarkup = getStoryBadgeMarkup(story, "story-card-badge");
+  const storyTitle = escapeHtml(story.title);
   const imageMarkup = primaryImage
-    ? `<img class="story-card-image" src="${primaryImage}" alt="${story.title}" loading="lazy" decoding="async">`
+    ? `<img class="story-card-image" src="${primaryImage}" alt="${storyTitle}" loading="lazy" decoding="async">`
     : `<div class="story-card-image story-card-image-placeholder" aria-hidden="true"></div>`;
 
   card.innerHTML = `
     ${imageMarkup}
     ${badgeMarkup}
-    <h3>${story.title}</h3>
-    <p>${getStoryPreviewText(story.summary)}</p>
+    <h3>${storyTitle}</h3>
+    <p>${escapeHtml(getStoryPreviewText(story.summary))}</p>
     <a class="button button-secondary" href="${storyHref}" data-story-slug="${story.slug}"${getExternalLinkAttributes(storyHref)}>Read Story</a>
   `;
   return card;
@@ -2048,16 +2081,17 @@ function renderNewestStory() {
   const newestStory = orderedStories.find((story) => story.isNewest) || orderedStories[0];
   const newestHref = getStoryHref(newestStory);
   const primaryImage = getStoryImages(newestStory)[0];
+  const newestTitle = escapeHtml(newestStory.title);
   const imageMarkup = primaryImage
-    ? `<img class="newest-story-image" src="${primaryImage}" alt="${newestStory.title}" loading="lazy" decoding="async">`
+    ? `<img class="newest-story-image" src="${primaryImage}" alt="${newestTitle}" loading="eager" decoding="async" fetchpriority="high">`
     : `<div class="newest-story-image newest-story-image-placeholder" aria-hidden="true"></div>`;
 
   newestContainer.innerHTML = `
     <article class="newest-story-card">
       <div class="newest-story-copy">
         <span class="story-focus-pill">Newest story</span>
-        <h3>${newestStory.title}</h3>
-        <p>${getStoryPreviewText(newestStory.summary, 260)}</p>
+        <h3>${newestTitle}</h3>
+        <p>${escapeHtml(getStoryPreviewText(newestStory.summary, 260))}</p>
         <a class="button button-primary" href="${newestHref}"${getExternalLinkAttributes(newestHref)}>Read Newest Story</a>
       </div>
       <div class="newest-story-visual">
@@ -2078,12 +2112,13 @@ function renderStoryFocus() {
   const story = getStoryBySlug(activeSlug) || orderedStories[0];
   const storyBadgeMarkup = getStoryBadgeMarkup(story, "story-focus-pill");
   const storyImages = getStoryImages(story);
+  const storyTitle = escapeHtml(story.title);
   const galleryMarkup = storyImages.length
     ? `
       <div class="story-gallery">
         ${storyImages.map((image, index) => `
-          <a class="story-gallery-item" href="${image}" target="_blank" rel="${EXTERNAL_LINK_REL}" aria-label="Open ${story.title} image ${index + 1}">
-            <img src="${image}" alt="${story.title} slide ${index + 1}" loading="lazy" decoding="async">
+          <a class="story-gallery-item" href="${image}" target="_blank" rel="${EXTERNAL_LINK_REL}" aria-label="Open ${storyTitle} image ${index + 1}">
+            <img src="${image}" alt="${storyTitle} slide ${index + 1}" loading="lazy" decoding="async">
           </a>
         `).join("")}
       </div>
@@ -2099,8 +2134,8 @@ function renderStoryFocus() {
   focus.innerHTML = `
     <div class="story-focus-copy">
       ${storyBadgeMarkup}
-      <h2>${story.title}</h2>
-      <p>${story.summary}</p>
+      <h2>${storyTitle}</h2>
+      <p>${escapeHtml(story.summary)}</p>
       ${actionsMarkup}
     </div>
     <div class="story-focus-meta">
@@ -2122,7 +2157,7 @@ function scrollStoryFocusIntoView() {
   }
 
   focus.setAttribute("tabindex", "-1");
-  focus.scrollIntoView({ behavior: "smooth", block: "start" });
+  focus.scrollIntoView({ behavior: prefersReducedMotion() ? "auto" : "smooth", block: "start" });
   focus.focus({ preventScroll: true });
 }
 
@@ -2189,6 +2224,12 @@ function renderStories() {
 function animateValue(element) {
   const target = Number.parseFloat(element.dataset.target || "0");
   const suffix = element.dataset.suffix || "";
+
+  if (prefersReducedMotion()) {
+    element.textContent = `${element.dataset.target}${suffix}`;
+    return;
+  }
+
   const duration = 1500;
   const startTime = performance.now();
 
@@ -2258,7 +2299,7 @@ function initReveal() {
     return;
   }
 
-  if (!("IntersectionObserver" in window)) {
+  if (prefersReducedMotion() || !("IntersectionObserver" in window)) {
     revealItems.forEach((item) => item.classList.add("is-visible"));
     return;
   }
@@ -2318,7 +2359,10 @@ function initStoryFocus() {
         return;
       }
 
-      requestAnimationFrame(scrollStoryFocusIntoView);
+      requestAnimationFrame(() => {
+        renderStoryFocus();
+        scrollStoryFocusIntoView();
+      });
     });
   }
 

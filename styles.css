@@ -10,6 +10,8 @@
   --accent-deep: #4a2326;
   --border: rgba(74, 35, 38, 0.12);
   --shadow: 0 22px 44px rgba(93, 54, 62, 0.11);
+  --shadow-hover: 0 26px 46px rgba(103, 63, 71, 0.14);
+  --focus-ring: 0 0 0 4px rgba(212, 88, 104, 0.22);
   --radius-lg: 30px;
   --radius-md: 20px;
   --radius-sm: 14px;
@@ -25,6 +27,7 @@
 
 html {
   scroll-behavior: smooth;
+  text-size-adjust: 100%;
 }
 
 body {
@@ -37,6 +40,7 @@ body {
     linear-gradient(180deg, #fff4f2 0%, #fffdfb 44%, #fff7f3 100%);
   line-height: 1.65;
   overflow-x: hidden;
+  text-rendering: optimizeLegibility;
 }
 
 img {
@@ -72,11 +76,11 @@ textarea {
 }
 
 .narrow {
-  width: min(100%, 760px);
+  max-width: 760px;
 }
 
 .section {
-  padding: 5rem 0;
+  padding: clamp(4.25rem, 7vw, 5.75rem) 0;
 }
 
 .section-soft {
@@ -89,6 +93,7 @@ textarea {
   position: sticky;
   top: 0;
   z-index: 20;
+  isolation: isolate;
   backdrop-filter: blur(16px);
   background: rgba(255, 248, 247, 0.86);
   border-bottom: 1px solid rgba(74, 35, 38, 0.08);
@@ -107,7 +112,6 @@ textarea {
   align-items: center;
   gap: 0.85rem;
   font-weight: 800;
-  letter-spacing: 0.01em;
   min-width: 0;
 }
 
@@ -136,7 +140,10 @@ textarea {
   position: relative;
   color: var(--text-soft);
   font-size: 0.98rem;
-  transition: color var(--transition);
+  line-height: 1.2;
+  transition:
+    color var(--transition),
+    background var(--transition);
 }
 
 .nav-links a::after {
@@ -171,6 +178,15 @@ textarea {
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.72);
   cursor: pointer;
+  transition:
+    background var(--transition),
+    box-shadow var(--transition),
+    transform var(--transition);
+}
+
+.nav-toggle:hover {
+  background: rgba(255, 255, 255, 0.96);
+  transform: translateY(-1px);
 }
 
 .nav-toggle span {
@@ -183,7 +199,7 @@ textarea {
 }
 
 .hero {
-  padding: 5.8rem 0 4.9rem;
+  padding: clamp(4.8rem, 8vw, 6.2rem) 0 clamp(4.2rem, 7vw, 5.2rem);
 }
 
 .hero-grid,
@@ -222,6 +238,7 @@ textarea {
   font-size: 1.12rem;
   color: var(--text-soft);
   max-width: 62ch;
+  line-height: 1.68;
 }
 
 .eyebrow {
@@ -255,10 +272,15 @@ textarea {
     box-shadow var(--transition),
     background var(--transition),
     color var(--transition);
+  will-change: transform;
 }
 
 .button:hover {
   transform: translateY(-2px);
+}
+
+.button:active {
+  transform: translateY(0) scale(0.98);
 }
 
 .button-primary {
@@ -285,9 +307,11 @@ textarea {
 .text-link:focus-visible,
 .nav-links a:focus-visible,
 .brand:focus-visible,
-.nav-toggle:focus-visible {
-  outline: 3px solid rgba(212, 88, 104, 0.24);
+.nav-toggle:focus-visible,
+.story-gallery-item:focus-visible {
+  outline: 3px solid rgba(212, 88, 104, 0.36);
   outline-offset: 3px;
+  box-shadow: var(--focus-ring);
 }
 
 .hero-meta {
@@ -401,6 +425,7 @@ textarea {
 .narrative-grid {
   display: grid;
   gap: 1.25rem;
+  align-items: stretch;
 }
 
 .impact-frame {
@@ -477,6 +502,7 @@ textarea {
 .story-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   margin-top: 2rem;
+  scroll-margin-top: 7rem;
 }
 
 .featured-stories-layout {
@@ -511,6 +537,7 @@ textarea {
   transition:
     transform var(--transition),
     box-shadow var(--transition);
+  will-change: transform;
 }
 
 .newest-story-card:hover,
@@ -519,7 +546,7 @@ textarea {
 .founder-portrait-card:hover,
 .contact-form:hover {
   transform: translateY(-4px);
-  box-shadow: 0 24px 42px rgba(103, 63, 71, 0.12);
+  box-shadow: var(--shadow-hover);
 }
 
 .newest-story-copy {
@@ -542,6 +569,7 @@ textarea {
 .founder-copy p {
   margin: 0;
   color: var(--text-soft);
+  line-height: 1.68;
 }
 
 .newest-story-visual {
@@ -556,6 +584,10 @@ textarea {
   object-fit: cover;
   object-position: top center;
   background: var(--surface-alt);
+}
+
+.newest-story-image {
+  aspect-ratio: 4 / 3;
 }
 
 .newest-story-image-placeholder,
@@ -594,6 +626,7 @@ textarea {
   margin: 0;
   color: var(--text-soft);
   max-width: 68ch;
+  line-height: 1.68;
 }
 
 .story-focus-actions {
@@ -647,6 +680,7 @@ textarea {
   transition:
     transform var(--transition),
     box-shadow var(--transition);
+  will-change: transform;
 }
 
 .story-gallery-item:hover {
@@ -669,9 +703,12 @@ textarea {
   display: flex;
   flex-direction: column;
   min-height: 260px;
+  content-visibility: auto;
+  contain-intrinsic-size: 430px;
   transition:
     transform var(--transition),
     box-shadow var(--transition);
+  will-change: transform;
 }
 
 .story-card:hover,
@@ -679,7 +716,7 @@ textarea {
 .contact-card:hover,
 .stat-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 22px 38px rgba(103, 63, 71, 0.12);
+  box-shadow: var(--shadow-hover);
 }
 
 .story-card h3 {
@@ -691,7 +728,9 @@ textarea {
 
 .story-card-image {
   aspect-ratio: 1.35 / 1;
+  height: auto;
   margin-bottom: 1rem;
+  flex: 0 0 auto;
 }
 
 .story-card-badge {
@@ -711,6 +750,7 @@ textarea {
 .story-card p {
   margin: 0 0 1.35rem;
   color: var(--text-soft);
+  line-height: 1.62;
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
@@ -797,6 +837,7 @@ textarea {
 .submission-note {
   margin: 0;
   color: var(--text-soft);
+  line-height: 1.6;
 }
 
 .page-hero {
@@ -864,13 +905,15 @@ textarea {
   opacity: 0;
   transform: translateY(24px);
   transition:
-    opacity 700ms ease,
-    transform 700ms ease;
+    opacity 650ms ease,
+    transform 650ms ease;
+  will-change: opacity, transform;
 }
 
 .js .reveal.is-visible {
   opacity: 1;
   transform: translateY(0);
+  will-change: auto;
 }
 
 .reveal-delay {
@@ -894,9 +937,16 @@ textarea {
   .founder-portrait-card,
   .contact-form,
   .button,
-  .nav-links a::after {
+  .nav-toggle,
+  .nav-links a::after,
+  .story-gallery-item {
     transition: none;
     transform: none;
+    will-change: auto;
+  }
+
+  .js .reveal {
+    opacity: 1;
   }
 }
 
@@ -916,10 +966,13 @@ textarea {
   .hero-grid,
   .split-grid,
   .contact-layout,
-  .story-grid,
-  .stats-grid,
   .narrative-grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .story-grid,
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .newest-story-card,
@@ -962,7 +1015,11 @@ textarea {
 
 @media (max-width: 760px) {
   .section {
-    padding: 3.7rem 0;
+    padding: 3.6rem 0;
+  }
+
+  .container {
+    width: min(calc(100% - 1.25rem), var(--container));
   }
 
   .navbar {
@@ -987,6 +1044,11 @@ textarea {
     box-shadow: 0 18px 34px rgba(103, 63, 71, 0.09);
   }
 
+  .nav-links a {
+    width: 100%;
+    padding: 0.25rem 0;
+  }
+
   .nav-links.is-open {
     display: flex;
   }
@@ -1007,7 +1069,7 @@ textarea {
 
   .hero-copy h1,
   .page-hero h1 {
-    font-size: clamp(2.4rem, 11vw, 3.5rem);
+    font-size: clamp(2.3rem, 10vw, 3.35rem);
   }
 
   .hero-text,
@@ -1067,7 +1129,7 @@ textarea {
   }
 
   .story-card-image {
-    aspect-ratio: 1.6 / 1;
+    aspect-ratio: 16 / 10;
   }
 
   .newest-story-visual {
@@ -1088,5 +1150,22 @@ textarea {
   .footer-content {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+@media (max-width: 420px) {
+  .brand span {
+    max-width: 11rem;
+  }
+
+  .button {
+    min-height: 3rem;
+    padding-inline: 1.1rem;
+  }
+
+  .newest-story-copy h3,
+  .founder-copy h2,
+  .submission-copy h2 {
+    font-size: clamp(1.75rem, 9vw, 2.25rem);
   }
 }
