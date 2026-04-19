@@ -3,8 +3,8 @@ document.documentElement.classList.add("js");
 const STORY_SUBMISSION_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfCem22HQOIS5jlcQKeNLmisV8W1oXVRd6TmXMJii0-VJpMfw/viewform?usp=dialog";
 const CONTACT_EMAIL = "projectsecondvoice@gmail.com";
 const EXTERNAL_LINK_REL = "noopener noreferrer";
-const FEATURED_STORY_PREVIEW_COUNT = 5;
-const HOMEPAGE_PRIORITY_FEATURED_SLUG = "robert-vivar-story";
+const FEATURED_STORY_PREVIEW_COUNT = 6;
+const HOMEPAGE_PRIORITY_FEATURED_SLUGS = ["robert-vivar-story", "ray-anderson-story"];
 
 const stories = [
   {
@@ -430,7 +430,7 @@ const stories = [
     link: "stories.html#sae-joon-park-story"
   },
   {
-    order: 1.5,
+    order: 9.5,
     slug: "ray-anderson-story",
     images: [
       "stories/ray-anderson-story/1.png",
@@ -1787,16 +1787,26 @@ function getArchiveStories() {
 function getHomepagePreviewStories() {
   const featuredStories = getFeaturedStories().filter((story) => !story.isNewest);
   const previewStories = featuredStories.slice(0, FEATURED_STORY_PREVIEW_COUNT);
-  const priorityStory = featuredStories.find((story) => story.slug === HOMEPAGE_PRIORITY_FEATURED_SLUG);
+  const priorityStories = HOMEPAGE_PRIORITY_FEATURED_SLUGS
+    .map((slug) => featuredStories.find((story) => story.slug === slug))
+    .filter(Boolean);
 
-  if (!priorityStory || previewStories.some((story) => story.slug === priorityStory.slug)) {
-    return previewStories;
-  }
+  priorityStories.forEach((priorityStory) => {
+    if (previewStories.some((story) => story.slug === priorityStory.slug)) {
+      return;
+    }
 
-  return [
-    ...previewStories.slice(0, FEATURED_STORY_PREVIEW_COUNT - 1),
-    priorityStory
-  ];
+    const replaceIndex = previewStories
+      .map((story, index) => ({ story, index }))
+      .reverse()
+      .find(({ story }) => !HOMEPAGE_PRIORITY_FEATURED_SLUGS.includes(story.slug))?.index;
+
+    if (replaceIndex !== undefined) {
+      previewStories[replaceIndex] = priorityStory;
+    }
+  });
+
+  return previewStories;
 }
 
 function getExternalLinkAttributes(url) {
