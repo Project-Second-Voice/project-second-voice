@@ -1918,6 +1918,32 @@ const stories = [
     summary: "Today, we are sharing the story of a family that has been separated due to immigration policies. The parents had been in the process of obtaining a T-Visa, and they had no criminal record, yet they were detained during an immigration checkup when they were traveling to get their daughter the needed medical assistance for her brain cancer recovery. The 11-year-old girl had been diagnosed with brain cancer and was on the path to recovery. The family had travelled from Texas to Houston to meet up with medical professionals to monitor their daughter’s condition. At an immigration checkpoint that they had passed regularly, the family was detained due to a lack of documentation. The family had been equipped with letters from doctors and lawyers. This was all the proof needed in the past times they have gone through this checkpoint. However, this time, the immigration officers detained the family and put them in a detention center, along with their children who are U.S citizens. The parents had no choice but to deport and keep their children in the United States, so that the daughter could get the needed medical assistance and recover. After the parents were separated from the children, it has been reported that they have been struggling in school and haven’t necessarily been getting the proper medical treatment that they deserve. This shouldn’t be how we handle immigrants and how we handle the lives of U.S citizens. Families should not be separated in such a drastic timeframe, especially when they had sought asylum in the U.S to escape trafficking, and to get the proper medical assistance for their children. In this post, we used sources from the organizations NBC, CHRON, and The Daily Beast. If you would like to learn more about the family’s story, we encourage you to read the stories written by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7523838345789623583?is_from_webapp=1&sender_device=pc",
     link: "stories.html#family-with-11-year-old-child-suffering-from-brain-tumor-deported"
+  },
+  {
+    order: 81,
+    slug: "moe-rahmans-story",
+    images: [
+      "stories/moe-rahmans-story/1.png",
+      "stories/moe-rahmans-story/2.png",
+      "stories/moe-rahmans-story/3.png",
+      "stories/moe-rahmans-story/4.png",
+      "stories/moe-rahmans-story/5.png",
+      "stories/moe-rahmans-story/6.png",
+      "stories/moe-rahmans-story/7.png",
+      "stories/moe-rahmans-story/8.png",
+      "stories/moe-rahmans-story/9.png",
+      "stories/moe-rahmans-story/10.png",
+      "stories/moe-rahmans-story/11.png",
+      "stories/moe-rahmans-story/12.png",
+      "stories/moe-rahmans-story/13.png",
+      "stories/moe-rahmans-story/14.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Moe Rahman’s Story",
+    summary: "Today, we are sharing the story of Moe Rahman. Rahman came to the United States from Bangladesh with his family when he was only 4 years old. His family came to the United States on a visitor’s visa and also applied for asylum due to political turmoil in their home country. Rahman is now 38 years old and lives in Orange County with his pregnant wife, whom he married 10 years ago. The couple has 2 children already and is expecting another soon. Rahman had been complying with routine immigration check-ins for several years. What seemed to be another routine check-in turned into Rahman being detained and sent to a detention facility. Rahman had no criminal record and was working on his legal status with a lawyer. Now, his pregnant wife has to take care of their 2 children by herself. If you would like to support Rahman’s family in this time of need, a GoFundMe has been set up for the family. Feel free to donate here:https://www.gofundme.com/f/afcqw-support-a-family-torn-apart-by-ice-detention The sources we used for this post come from the organizations KTLA, Yahoo, and GoFundMe. If you would like to learn more about Rahman’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7531946107061030158?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#moe-rahmans-story"
   }
 ];
 
