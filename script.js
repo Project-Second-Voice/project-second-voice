@@ -1832,6 +1832,40 @@ const stories = [
     summary: "Today, we are sharing the story of an Afghan national who was detained during an immigration hearing about his asylum case in San Diego recently. The man worked as a translator for the U.S military during the Afghan war and fears for his life if he were to be deported back to Afghanistan. The man provided sufficient documentation that proved his time in the U.S military. During the U.S. withdrawal, he was not able to leave with the U.S. Fearing for his life, the man went to the border and sought asylum. He was granted parole and was working towards a special immigrant visa. During his hearing about his asylum case, the man would be detained. The sources we used for this post come from the organization’s NBC and CBS. If you would like to learn more about his story, we encourage you to read the stories and videos published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7531569336117431565?is_from_webapp=1&sender_device=pc",
     link: "stories.html#ice-detains-man-who-served-in-afghan-war"
+  },
+  {
+    order: 78,
+    slug: "jasmine-mooneys-story",
+    images: [
+      "stories/jasmine-mooneys-story/1.png",
+      "stories/jasmine-mooneys-story/2.png",
+      "stories/jasmine-mooneys-story/3.png",
+      "stories/jasmine-mooneys-story/4.png",
+      "stories/jasmine-mooneys-story/5.png",
+      "stories/jasmine-mooneys-story/6.png",
+      "stories/jasmine-mooneys-story/7.png",
+      "stories/jasmine-mooneys-story/8.png",
+      "stories/jasmine-mooneys-story/9.png",
+      "stories/jasmine-mooneys-story/10.png",
+      "stories/jasmine-mooneys-story/11.png",
+      "stories/jasmine-mooneys-story/12.png",
+      "stories/jasmine-mooneys-story/13.png",
+      "stories/jasmine-mooneys-story/14.png",
+      "stories/jasmine-mooneys-story/15.png",
+      "stories/jasmine-mooneys-story/16.png",
+      "stories/jasmine-mooneys-story/17.png",
+      "stories/jasmine-mooneys-story/18.png",
+      "stories/jasmine-mooneys-story/19.png",
+      "stories/jasmine-mooneys-story/20.png",
+      "stories/jasmine-mooneys-story/21.png",
+      "stories/jasmine-mooneys-story/22.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Jasmine Mooney’s Story",
+    summary: "Today, we are sharing the story of Jasmine Mooney. Jasmine Mooney is a Canadian citizen who travels to the United States for work. She is an entrepreneur who has recently started working on a health company that sells tonics named Holy! Water. Mooney would need to travel back and forth from Canada to the U.S. due to this job, and was able to apply for a NAFTA visa on her second attempt. Everything had seemed okay until recently, when she was stopped at an immigration checkpoint and questioned about her visa. They believed that she was suspicious due to the fact that she had already been rejected once the immigration officers revoked her visa and explained that she would need to get another one. The unbothered Mooney went back to San Diego’s Immigration office to apply for a NAFTA visa, where she would be detained for an unknown reason. Mooney had repeatedly said to the immigration officers that if they needed her to leave the country, she could buy a plane ticket and fly back, but immigration officers did not listen to her. Instead, they detained her and held her in ice-cold cells with minimal blankets and sometimes even no mattresses. Mooney would be stuck there for over 2 weeks before she was able to be freed with the help of media influence, friends, lawyers, and other resources. Mooney states that there are many immigrants that are being held in these detention centers who are not as fortunate as she is and might be stuck there for months on end. Mooney’s story emphasizes a need for a change in immigration policies and reforms, and shows the need to treat immigrants with basic empathy and supply their basic human needs. Humans should not be treated like animals in a cage. The sources we used for this post come from the organizations The Guardian, NPR, Newsweek, and People. If you would like to learn more about Mooney’s story, we encourage you to read the articles that they have posted on this subject.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7525573140479511821?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#jasmine-mooneys-story"
   }
 ];
 
