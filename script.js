@@ -1866,6 +1866,32 @@ const stories = [
     summary: "Today, we are sharing the story of Jasmine Mooney. Jasmine Mooney is a Canadian citizen who travels to the United States for work. She is an entrepreneur who has recently started working on a health company that sells tonics named Holy! Water. Mooney would need to travel back and forth from Canada to the U.S. due to this job, and was able to apply for a NAFTA visa on her second attempt. Everything had seemed okay until recently, when she was stopped at an immigration checkpoint and questioned about her visa. They believed that she was suspicious due to the fact that she had already been rejected once the immigration officers revoked her visa and explained that she would need to get another one. The unbothered Mooney went back to San Diego’s Immigration office to apply for a NAFTA visa, where she would be detained for an unknown reason. Mooney had repeatedly said to the immigration officers that if they needed her to leave the country, she could buy a plane ticket and fly back, but immigration officers did not listen to her. Instead, they detained her and held her in ice-cold cells with minimal blankets and sometimes even no mattresses. Mooney would be stuck there for over 2 weeks before she was able to be freed with the help of media influence, friends, lawyers, and other resources. Mooney states that there are many immigrants that are being held in these detention centers who are not as fortunate as she is and might be stuck there for months on end. Mooney’s story emphasizes a need for a change in immigration policies and reforms, and shows the need to treat immigrants with basic empathy and supply their basic human needs. Humans should not be treated like animals in a cage. The sources we used for this post come from the organizations The Guardian, NPR, Newsweek, and People. If you would like to learn more about Mooney’s story, we encourage you to read the articles that they have posted on this subject.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7525573140479511821?is_from_webapp=1&sender_device=pc",
     link: "stories.html#jasmine-mooneys-story"
+  },
+  {
+    order: 79,
+    slug: "family-of-child-struggling-with-cancer-taken-away-by-ice",
+    images: [
+      "stories/family-of-child-struggling-with-cancer-taken-away-by-ice/1.png",
+      "stories/family-of-child-struggling-with-cancer-taken-away-by-ice/2.png",
+      "stories/family-of-child-struggling-with-cancer-taken-away-by-ice/3.png",
+      "stories/family-of-child-struggling-with-cancer-taken-away-by-ice/4.png",
+      "stories/family-of-child-struggling-with-cancer-taken-away-by-ice/5.png",
+      "stories/family-of-child-struggling-with-cancer-taken-away-by-ice/6.png",
+      "stories/family-of-child-struggling-with-cancer-taken-away-by-ice/7.png",
+      "stories/family-of-child-struggling-with-cancer-taken-away-by-ice/8.png",
+      "stories/family-of-child-struggling-with-cancer-taken-away-by-ice/9.png",
+      "stories/family-of-child-struggling-with-cancer-taken-away-by-ice/10.png",
+      "stories/family-of-child-struggling-with-cancer-taken-away-by-ice/11.png",
+      "stories/family-of-child-struggling-with-cancer-taken-away-by-ice/12.png",
+      "stories/family-of-child-struggling-with-cancer-taken-away-by-ice/13.png",
+      "stories/family-of-child-struggling-with-cancer-taken-away-by-ice/14.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Family of Child struggling with Cancer taken away by ICE",
+    summary: "Today, we are sharing the story of a family that has been separated due to past convictions that had already been served, causing the daughter of the family to have to face chemotherapy and treatment by herself. Yolanda is the mother of Xitlali, a 21-year-old who is struggling with cancer that affects the bones in her legs, making her unable to walk. Yolanda’s son and Xitlali’s brother, Jonathan, was detained in front of Yolanda due to past convictions that he had already served and gotten rehab for. Yolanda stopped immigration officers, questioning why they were arresting her son, only to be handcuffed herself. Yolanda had no criminal record and no past convictions. Because of this, Xitlali had to go through treatment by herself. It has been hard for Xitlali’s family to stay afloat with their two primary providers and caretakers gone. Xitlali explains how many times she feels as she doesn’t have the courage and strength to continue the treatment without her mother by her side. A GoFundMe has been set up for Xitlali’s family in this time of need. If you would like to support them, feel free to donate here: https://www.gofundme.com/f/support-xitlalis-legal-battle-for-family The sources we used from this post come from the organizations NBC LA and News Break. If you would like to learn more about Xitlali’s story, we encourage you to read the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7529718944513461518?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#family-of-child-struggling-with-cancer-taken-away-by-ice"
   }
 ];
 
