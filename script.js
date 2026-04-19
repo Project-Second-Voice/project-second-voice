@@ -1780,6 +1780,31 @@ const stories = [
     summary: "Today, we are sharing the story of Valentina Galvis. Galvis came to the United States with her husband three years ago from Colombia. She and her husband had been fleeing the assault and persecution of an infamous Colombian gang in her home country. During these three years, Galvis’s husband, Camilo, would be granted political asylum and become a long-haul truck driver to support his family. Hoping to be granted asylum like her husband, Galvis would go to an immigration hearing with her 7-month-old son, who is a U.S. citizen. There, the judge would dismiss Galvis’s case under the strong urging of federal prosecutors. Galvis would never expect to be detained with her son and be awaiting deportation orders. Galvis was not put into a traditional detention facility, but one owned by a private contractor, MVM. Galvis and her son would be stuck in a hotel, with no phone and no way to communicate with her husband or a lawyer, for 5 days before finally being released. Galvis was only released because her son was a U.S. citizen. Galvis’s case was thankfully reopened, and her asylum hearing is set for January. The sources we used for this post come from the organizations Injustice Watch, Chicago Sun Times, and We Are Your Neighbors. If you would like to learn more about Valentina Galvis’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7576492068793535799?is_from_webapp=1&sender_device=pc",
     link: "stories.html#valentina-galviss-story"
+  },
+  {
+    order: 76,
+    slug: "mohsen-mahdawis-story",
+    images: [
+      "stories/mohsen-mahdawis-story/1.png",
+      "stories/mohsen-mahdawis-story/2.png",
+      "stories/mohsen-mahdawis-story/3.png",
+      "stories/mohsen-mahdawis-story/4.png",
+      "stories/mohsen-mahdawis-story/5.png",
+      "stories/mohsen-mahdawis-story/6.png",
+      "stories/mohsen-mahdawis-story/7.png",
+      "stories/mohsen-mahdawis-story/8.png",
+      "stories/mohsen-mahdawis-story/9.png",
+      "stories/mohsen-mahdawis-story/10.png",
+      "stories/mohsen-mahdawis-story/11.png",
+      "stories/mohsen-mahdawis-story/12.png",
+      "stories/mohsen-mahdawis-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Mohsen Mahdawi’s Story",
+    summary: "Today, we are sharing the story of Mohsen Mahdawi. Mahdawi is a third-generation refugee from the Far’a Refugee Camp. While growing up, Mahdawi explains, he had little to no privacy and was born into 8 siblings. Mahdawi was the oldest sibling. Growing up, Mahdawi experienced the devastation of war, watching the lives of his friends and family being taken away from him by Israeli soldiers. Mahdawi would also be injured by the Israeli Army in his youth. He was born into an apartheid system, and wasn’t even allowed to travel and visit his relatives. He explained that he had been prevented from visiting his mother for several years, even explaining how he was shocked to see how his mother looked, saying he had slowly forgotten her face. Mahdawi’s experience with war culminated in his wanting to end war, end suffering, and protest for peace for the Palestinians. Mahdawi came to the United States in 2015 by securing legal residency and getting a green card. During his time in the United States, he would also go to immigration offices twice, once to get his green card and another to renew it. Mahdawi went to Columbia University in his 20s. At the university, he would participate heavily in activism and protests for Palestinians. During this time, Mahdawi’s wife encouraged him to get citizenship, which was also something Mahdawi had wanted to do. Unfortunately, during his interview, he would be detained by immigration officers for 16 days. Thankfully, after 16 days, he was released, with the help of the public and the press. The sources we used for this post come from the organizations ABC, The Guardian, JacobIn, CBS, New York Times, CNN, Vermont Public, Columbia Spectator, Common Dreams, Zeteo, and Boston Globe. If you would like to learn more about Mahdawi’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7542727727611268366?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#mohsen-mahdawis-story"
   }
 ];
 
