@@ -1970,6 +1970,33 @@ const stories = [
     summary: "Today, we are sharing the story of Derlis Snaider Chusin Toaquiza. Derlis came to the United States with his family in March of 2024. They were seeking asylum due to being mistreated and threatened back in their native country, Ecuador. After coming to the United States, Derlis had been scheduled for his asylum hearing in June 2025. During the time before his hearing, he would be enrolled in Grover Cleveland High School and was in the 11th grade. Derlis was awarded the most improved student at his school. In his spare time, he would often go to church and play for his school’s soccer team. Derlis was very excited to be able to recieve his award at the award ceremony; however, he would never get this chance as he was detained during his asylum hearing. Derlis was taken away without due process, separated from his family in a matter of moments. He was transferred to a detention center where he reports that they had only fed him one meal per day, and he was forced to sleep upright due to a lack of space. This sparked outrage in his community, with a team of lawyers and members of his community were able to get Derlis a bail of $20,000. Derlis and his family were finally reunited. The sources we used for this post come from the organization’s CBS News, Chalk Beat, ABC7 NY, AMNY, Fox5 NY, and NY Daily News. If you would like to learn more about Derlis’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7529334644555156749?is_from_webapp=1&sender_device=pc",
     link: "stories.html#derlis-snaider-chusin-toaquizas-story"
+  },
+  {
+    order: 83,
+    slug: "kasper-eriksens-story",
+    images: [
+      "stories/kasper-eriksens-story/1.png",
+      "stories/kasper-eriksens-story/2.png",
+      "stories/kasper-eriksens-story/3.png",
+      "stories/kasper-eriksens-story/4.png",
+      "stories/kasper-eriksens-story/5.png",
+      "stories/kasper-eriksens-story/6.png",
+      "stories/kasper-eriksens-story/7.png",
+      "stories/kasper-eriksens-story/8.png",
+      "stories/kasper-eriksens-story/9.png",
+      "stories/kasper-eriksens-story/10.png",
+      "stories/kasper-eriksens-story/11.png",
+      "stories/kasper-eriksens-story/12.png",
+      "stories/kasper-eriksens-story/13.png",
+      "stories/kasper-eriksens-story/14.png",
+      "stories/kasper-eriksens-story/15.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Kasper Eriksen’s Story",
+    summary: "Today, we are sharing the story of Kasper Eriksen. Eriksen came to the United States from Denmark as a high school foreign exchange student, where he would stay for one year, and he would also meet his now beloved wife. After returning to Denmark, Eriksen would migrate to the United States four years later, in 2013. He worked as a welder and also got married to his wife a year later. The couple had 4 children and were expecting another very soon. Eriksen was working hard on his immigrant status: he paid taxes, worked with immigration lawyers, complied with immigration officers, and attended regular appointments. He and his wife had been asked to report to another immigration appointment, which they both thought nothing of. Eriksen never expected to be detained at that appointment. Eriksen had no criminal record or deportation orders. Eriksen was detained because he had missed one of the many documents that he had to sign on his pathway to residency. Eriksen had no idea about this document, and days before the deadline, his wife had a miscarriage, and the couple had been grieving, unaware of the document deadline. Before that appointment, Eriksen was never told that he had missed a document. A GoFundMe has been set up for Eriksen’s family in this time of need, as Eriksen is the sole provider of the family. If you would like to support their family, please feel free to donate here:https://www.gofundme.com/f/help-kasper-eriksen-reunite-with-his-family The sources we used for this post come from the organizations Mississippi Today, Mississippi Free Press, GoFundMe, Newsweek, and Latin Times. If you would like to learn more about Eriksen’s story, we encourage you to read the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7533470005535460638?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#kasper-eriksens-story"
   }
 ];
 
