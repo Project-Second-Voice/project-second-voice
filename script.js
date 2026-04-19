@@ -1997,6 +1997,56 @@ const stories = [
     summary: "Today, we are sharing the story of Kasper Eriksen. Eriksen came to the United States from Denmark as a high school foreign exchange student, where he would stay for one year, and he would also meet his now beloved wife. After returning to Denmark, Eriksen would migrate to the United States four years later, in 2013. He worked as a welder and also got married to his wife a year later. The couple had 4 children and were expecting another very soon. Eriksen was working hard on his immigrant status: he paid taxes, worked with immigration lawyers, complied with immigration officers, and attended regular appointments. He and his wife had been asked to report to another immigration appointment, which they both thought nothing of. Eriksen never expected to be detained at that appointment. Eriksen had no criminal record or deportation orders. Eriksen was detained because he had missed one of the many documents that he had to sign on his pathway to residency. Eriksen had no idea about this document, and days before the deadline, his wife had a miscarriage, and the couple had been grieving, unaware of the document deadline. Before that appointment, Eriksen was never told that he had missed a document. A GoFundMe has been set up for Eriksen’s family in this time of need, as Eriksen is the sole provider of the family. If you would like to support their family, please feel free to donate here:https://www.gofundme.com/f/help-kasper-eriksen-reunite-with-his-family The sources we used for this post come from the organizations Mississippi Today, Mississippi Free Press, GoFundMe, Newsweek, and Latin Times. If you would like to learn more about Eriksen’s story, we encourage you to read the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7533470005535460638?is_from_webapp=1&sender_device=pc",
     link: "stories.html#kasper-eriksens-story"
+  },
+  {
+    order: 84,
+    slug: "renee-goods-story",
+    images: [
+      "stories/renee-goods-story/1.png",
+      "stories/renee-goods-story/2.png",
+      "stories/renee-goods-story/3.png",
+      "stories/renee-goods-story/4.png",
+      "stories/renee-goods-story/5.png",
+      "stories/renee-goods-story/6.png",
+      "stories/renee-goods-story/7.png",
+      "stories/renee-goods-story/8.png",
+      "stories/renee-goods-story/9.png",
+      "stories/renee-goods-story/10.png",
+      "stories/renee-goods-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Renee Good's Story",
+    summary: "Today, we are sharing the story of Renee Nicole Good. Good was a 37-year-old U.S citizen and mother of three children, two teenagers, and one 6-year-old child. Originally, Good was born in Colorado Springs and was a devoted Christian who regularly went on youth missions. Good studied creative writing at Old Dominion University in Norfolk, Virginia. She would graduate from the university’s College of Arts and Letters the same year with a degree in English. Good would work as a dental assistant and work in a credit union before becoming an aspiring poet and guitar hobbyist. Good would become a novel, award-winning poet, winning the Academy of American Poets Prize for her poem “On Learning to Dissect Fetal Pigs”. Good had just dropped her 6-year-old child off at school when she saw an altercation between protestors and immigration officers in Minneapolis. Good drove between this altercation, acting as a legal observer, a volunteer who monitored police and security forces during protests. When immigration officers confronted her and forcefully tried to enter her vehicle, Good was provoked and got scared, trying to drive away from the incident. It was there that Good would be shot by an immigration officer, Jonathan Ross. Sadly, Good did not make it and passed away in the hospital. Good’s story serves as a sign of the need for a change in immigration enforcement. Currently, immigration enforcement officers are heavily armed and poorly transparent, causing simple altercations to escalate severely into irreparable harm. For many immigrant families, stories such as Good’s inflict deep fear that everyday encounters with immigration officers can escalate into irreparable harm. Officers should not operate in ways that create fear, confusion, and danger. Good was a mother, and a U.S citizen who didn’t deserve to pass away, and she serves as a symbol to the danger of unchecked power and a need for reforms to immigration enforcement. The sources we used for this post come from the organizations The New York Post, News Nation Now, Reuters, CNN, CBS, The People, BBC, Lit Hub, ABC News, The Wired, Boston Review, CATO, Hindustan Times, and GoFundMe. If you would like to donate to Good’s family during this traumatic time, feel free to donate here:https://www.gofundme.com/f/support-for-renee-goods-wife-and-son If you would like to learn more about Good’s story, we encourage you to check out the stories published by these organizations,",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7597250715710409998?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#renee-goods-story"
+  },
+  {
+    order: 85,
+    slug: "marcello-gomezs-story",
+    images: [
+      "stories/marcello-gomezs-story/1.png",
+      "stories/marcello-gomezs-story/2.png",
+      "stories/marcello-gomezs-story/3.png",
+      "stories/marcello-gomezs-story/4.png",
+      "stories/marcello-gomezs-story/5.png",
+      "stories/marcello-gomezs-story/6.png",
+      "stories/marcello-gomezs-story/7.png",
+      "stories/marcello-gomezs-story/8.png",
+      "stories/marcello-gomezs-story/9.png",
+      "stories/marcello-gomezs-story/10.png",
+      "stories/marcello-gomezs-story/11.png",
+      "stories/marcello-gomezs-story/12.png",
+      "stories/marcello-gomezs-story/13.png",
+      "stories/marcello-gomezs-story/14.png",
+      "stories/marcello-gomezs-story/15.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Marcello Gomez’s Story",
+    summary: "Today, we are sharing the story of Marcelo Gomes. Gomes moved to the United States from Brazil when he was just 7 years old. He came to the United States through a visitor visa, later getting a student visa. Gomes is now an 18 year old high school student and is active in marching band and volleyball. He is a beloved student and member of his community. Deportation always loomed in Gomes’ mind, but he did not think he could be detained and deported, as he was under a visa, and he had come here when he was only seven years old. Unfortunately, because his visa had expired and Gomes had no knowledge about needing to renew it, immigration officers would detain him. Immigration officers had stated that they had been after Gomes’ dad and had mistaken Gomes for his dad. Gomes says this is not the case. While he was being detained, the immigration officers had never even mentioned his father. Fortunately, Gomes was released on bail and was able to reunite with his friends and family, with his lawyers actively fighting for his ability to stay in the United States. Gomes was only seven years old when he came to the United States and had little knowledge about citizenship and his status as an immigrant. He should not be deported and taken away from everything he has known because he was unaware of his status. The sources we used for this story come from the organizations NBC, CNN, AP, and The Boston Globe. If you would like to learn more about Gomes’ story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7527933058540997919?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#marcello-gomezs-story"
   }
 ];
 
