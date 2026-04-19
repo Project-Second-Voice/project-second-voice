@@ -1760,6 +1760,26 @@ const stories = [
     summary: "Today, we are sharing the story of Fabian Schmidt. Schmidt came to the United States when he was 16 years old with his stepfather and mother. Schmidt had been used to travelling the globe with his family, and was fluent in 4 different languages. His stepfather had come to the United States under a visa that is normally called a “genius visa.” Schmidt was granted legal entry as a dependent. Schmidt grew up like every other American kid. He loved football, he rode horses, and he loved his home and community. Schmidt would work as a bartender, where he would meet the love of his life, who was now his fiancée. Schmidt had also acquired a green card during his decades in the United States. Schmidt was living a good life with his fiancée and 8-year-old daughter when all this would change. Schmidt had been returning to the United States via airplane after visiting his father, who was in Germany, for 10 days. Suddenly, Schmidt was stopped at the border patrol and interrogated and searched. They treated him like he was less than, treating him harshly and handling him without care. They threw open his luggage and belongings without care. Schmidt was detained and was stuck in the airport, unbeknownst to his wife and daughter. He was then transferred to a detention center and left there for 60 days. It turns out, Schmidt’s green card had been flagged due to a misdemeanor in 2015. Schmidt had already finished his community service hours and also had proper rehab. The case had already been dismissed. Thankfully, Schmidt was released after 60 days and allowed to return to a sort of normal life. This experience had deeply affected him and left him with PTSD. The sources we used for this post come from the organizations WMUR, New Hampshire Bulletin, Maine Morning Star, WGBH, and The New York Times. If you would like to learn more about Schmidt’s story, we encourage you to read the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7534177324619648270?is_from_webapp=1&sender_device=pc",
     link: "stories.html#fabian-schmidts-story"
+  },
+  {
+    order: 75,
+    slug: "valentina-galviss-story",
+    images: [
+      "stories/valentina-galviss-story/1.png",
+      "stories/valentina-galviss-story/2.png",
+      "stories/valentina-galviss-story/3.png",
+      "stories/valentina-galviss-story/4.png",
+      "stories/valentina-galviss-story/5.png",
+      "stories/valentina-galviss-story/6.png",
+      "stories/valentina-galviss-story/7.png",
+      "stories/valentina-galviss-story/8.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Valentina Galvis's Story",
+    summary: "Today, we are sharing the story of Valentina Galvis. Galvis came to the United States with her husband three years ago from Colombia. She and her husband had been fleeing the assault and persecution of an infamous Colombian gang in her home country. During these three years, Galvis’s husband, Camilo, would be granted political asylum and become a long-haul truck driver to support his family. Hoping to be granted asylum like her husband, Galvis would go to an immigration hearing with her 7-month-old son, who is a U.S. citizen. There, the judge would dismiss Galvis’s case under the strong urging of federal prosecutors. Galvis would never expect to be detained with her son and be awaiting deportation orders. Galvis was not put into a traditional detention facility, but one owned by a private contractor, MVM. Galvis and her son would be stuck in a hotel, with no phone and no way to communicate with her husband or a lawyer, for 5 days before finally being released. Galvis was only released because her son was a U.S. citizen. Galvis’s case was thankfully reopened, and her asylum hearing is set for January. The sources we used for this post come from the organizations Injustice Watch, Chicago Sun Times, and We Are Your Neighbors. If you would like to learn more about Valentina Galvis’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7576492068793535799?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#valentina-galviss-story"
   }
 ];
 
