@@ -1752,6 +1752,36 @@ const stories = [
     summary: "Today, we are sharing the story of Gonzalo Ladron de Guevara. Gonzalo came to the United States a very long time ago and had gotten his green card two over decades ago after marrying to his wife, who is a U.S citizen, Jodi. Gonzalo and Jodi have two children, a 21 year old daughter, and a 20 year old son. In May of this year, Gonzalo had travelled to Mexico to meet up with his brother to spread the ashes of their mother. Gonzalo and Jodi did not believe that Gonzalo had done anything wrong as Gonzalo had rountinely travelled and has not been marked or stopped by immigration officers. When coming back from Mexico, Gonzalo was stopped by immigration officers and detained. Gonzalo had been detained for a past felony charge over 2 decades ago that had already been dismissed. It was a non-violent charge that Gonzalo had already gotten the proper rehab for. Gonzalo was still not released and held in detention centers for over a month. During this time, Gonzalo was subjected to very poor conditions: unsanitary bathrooms, no mattresses, and cold, hard floors. A GoFundMe has been created for Gonzalo’s family. If you would like to support Gonzalo’s family in this time of need, feel free to donate here:https://www.gofundme.com/f/help-reunite-the-ladron-de-guevara-family The sources we used for this post come from the organizations News Week, Fox 32, and The Guardian. If you would like to learn more about Gonzalo’s story, we encourage you to read the articles published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7530862708481117454?is_from_webapp=1&sender_device=pc",
     link: "stories.html#gonzalo-ladron-de-guevaras-story"
+  },
+  {
+    order: 74,
+    slug: "fabian-schmidts-story",
+    images: [
+      "stories/fabian-schmidts-story/1.png",
+      "stories/fabian-schmidts-story/2.png",
+      "stories/fabian-schmidts-story/3.png",
+      "stories/fabian-schmidts-story/4.png",
+      "stories/fabian-schmidts-story/5.png",
+      "stories/fabian-schmidts-story/6.png",
+      "stories/fabian-schmidts-story/7.png",
+      "stories/fabian-schmidts-story/8.png",
+      "stories/fabian-schmidts-story/9.png",
+      "stories/fabian-schmidts-story/10.png",
+      "stories/fabian-schmidts-story/11.png",
+      "stories/fabian-schmidts-story/12.png",
+      "stories/fabian-schmidts-story/13.png",
+      "stories/fabian-schmidts-story/14.png",
+      "stories/fabian-schmidts-story/15.png",
+      "stories/fabian-schmidts-story/16.png",
+      "stories/fabian-schmidts-story/17.png",
+      "stories/fabian-schmidts-story/18.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Fabian Schmidt’s Story",
+    summary: "Today, we are sharing the story of Fabian Schmidt. Schmidt came to the United States when he was 16 years old with his stepfather and mother. Schmidt had been used to travelling the globe with his family, and was fluent in 4 different languages. His stepfather had come to the United States under a visa that is normally called a “genius visa.” Schmidt was granted legal entry as a dependent. Schmidt grew up like every other American kid. He loved football, he rode horses, and he loved his home and community. Schmidt would work as a bartender, where he would meet the love of his life, who was now his fiancée. Schmidt had also acquired a green card during his decades in the United States. Schmidt was living a good life with his fiancée and 8-year-old daughter when all this would change. Schmidt had been returning to the United States via airplane after visiting his father, who was in Germany, for 10 days. Suddenly, Schmidt was stopped at the border patrol and interrogated and searched. They treated him like he was less than, treating him harshly and handling him without care. They threw open his luggage and belongings without care. Schmidt was detained and was stuck in the airport, unbeknownst to his wife and daughter. He was then transferred to a detention center and left there for 60 days. It turns out, Schmidt’s green card had been flagged due to a misdemeanor in 2015. Schmidt had already finished his community service hours and also had proper rehab. The case had already been dismissed. Thankfully, Schmidt was released after 60 days and allowed to return to a sort of normal life. This experience had deeply affected him and left him with PTSD. The sources we used for this post come from the organizations WMUR, New Hampshire Bulletin, Maine Morning Star, WGBH, and The New York Times. If you would like to learn more about Schmidt’s story, we encourage you to read the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7534177324619648270?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#fabian-schmidts-story"
   }
 ];
 
