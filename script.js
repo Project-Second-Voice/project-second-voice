@@ -2072,6 +2072,29 @@ const stories = [
     summary: "Today, we are sharing the story of Emerson Colindres. Colindres came to the United States with his family when he was only 8 years old a decade ago. Coldinres came to the United States from Honduras, seeking asylum and fleeing gang violence and extreme poverty in their native country. Colidnres is now a very successful high school soccer star in Cincinnati and had just graduated days before he would be detained and deported. Colindres was very passionate about soccer and wanted to continue his career playing in university. His dreams and ambitions would be cut short, when he would be detained by immigration officers during a routine immigration check-in. Colindres was only 19 years old. Colindres’s detainment and deportation sparked massive outrage in his community and many protested for Colindres’s release, but to no avail. Colindres was deported shortly after his detainment. A GoFundMe has been set up for Colindres’s family during these dire times. If you would like to support their family, feel free to donate here:https://www.gofundme.com/f/aid-emerson-colindres-and-family-in-crisis The sources we use for this post come from the organizations NBC, The Guardian, The Daily Beast, Yahoo, Tag24, and Spectrum News. If you would like to learn more about Colindres’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7528587101663792415?is_from_webapp=1&sender_device=pc",
     link: "stories.html#emerson-colindress-story"
+  },
+  {
+    order: 87,
+    slug: "ana-gabriella-diazs-story",
+    images: [
+      "stories/ana-gabriella-diazs-story/1.png",
+      "stories/ana-gabriella-diazs-story/2.png",
+      "stories/ana-gabriella-diazs-story/3.png",
+      "stories/ana-gabriella-diazs-story/4.png",
+      "stories/ana-gabriella-diazs-story/5.png",
+      "stories/ana-gabriella-diazs-story/6.png",
+      "stories/ana-gabriella-diazs-story/7.png",
+      "stories/ana-gabriella-diazs-story/8.png",
+      "stories/ana-gabriella-diazs-story/9.png",
+      "stories/ana-gabriella-diazs-story/10.png",
+      "stories/ana-gabriella-diazs-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Ana Gabriella Diaz’s Story",
+    summary: "Today, we are sharing the story of Ana Gabriella Diaz and her daughter. Diaz and her oldest daughter, who is now 9 years old, came to the United States from El Salvador. They were seeking asylum due to many reasons, such as extreme poverty and gang violence. Diaz had applied for asylum but was rejected. She made the decision to still come to the United States in hopes of giving her daughter a better life and applying for citizenship once she got to the United States. Diaz complied with immigration services and went in for routine check ins. She finally got a chance for residency when she married her husband and had a baby in 2024. Diaz and her oldest daughter applied for a family petition and were waiting for the status. In early June, however, Diaz would be called in for an unscheduled meeting with immigration officers. There, they would tell her that she was being detained. They gave the family 30 seconds to say goodbye before Diaz and her oldest daughter, who was 9 years old, were detained and sent to a detention facility in Texas. The source we used for this post comes from the organization ABC 7. If you would like to learn more about Diaz and her daughter’s story, we encourage you to read the story published by this organization.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7528975125954235703?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#ana-gabriella-diazs-story"
   }
 ];
 
