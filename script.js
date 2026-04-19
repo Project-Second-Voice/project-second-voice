@@ -3,7 +3,7 @@ document.documentElement.classList.add("js");
 const STORY_SUBMISSION_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfCem22HQOIS5jlcQKeNLmisV8W1oXVRd6TmXMJii0-VJpMfw/viewform?usp=dialog";
 const CONTACT_EMAIL = "projectsecondvoice@gmail.com";
 const EXTERNAL_LINK_REL = "noopener noreferrer";
-const FEATURED_STORY_PREVIEW_COUNT = 6;
+const HOMEPAGE_FEATURED_GRID_COUNT = 6;
 const HOMEPAGE_PRIORITY_FEATURED_SLUGS = ["robert-vivar-story", "ray-anderson-story"];
 
 const stories = [
@@ -1763,30 +1763,19 @@ const stories = [
   }
 ];
 
-stories.sort((left, right) => left.order - right.order);
-
 function sortStoriesByOrder(left, right) {
-  return left.order - right.order;
+  if (left.order !== right.order) {
+    return left.order - right.order;
+  }
+
+  return left.slug.localeCompare(right.slug);
 }
 
-function getFeaturedStories() {
-  return stories
-    .filter((story) => story.featured)
-    .sort(sortStoriesByOrder);
-}
+function selectHomepagePreviewStories(featuredStories) {
+  const previewStories = featuredStories
+    .filter((story) => !story.isNewest)
+    .slice(0, HOMEPAGE_FEATURED_GRID_COUNT);
 
-function getArchiveStories() {
-  const featuredStories = getFeaturedStories();
-  const archiveOnlyStories = stories
-    .filter((story) => !story.featured)
-    .sort(sortStoriesByOrder);
-
-  return [...featuredStories, ...archiveOnlyStories];
-}
-
-function getHomepagePreviewStories() {
-  const featuredStories = getFeaturedStories().filter((story) => !story.isNewest);
-  const previewStories = featuredStories.slice(0, FEATURED_STORY_PREVIEW_COUNT);
   const priorityStories = HOMEPAGE_PRIORITY_FEATURED_SLUGS
     .map((slug) => featuredStories.find((story) => story.slug === slug))
     .filter(Boolean);
@@ -1809,6 +1798,31 @@ function getHomepagePreviewStories() {
   return previewStories;
 }
 
+const orderedStories = [...stories].sort(sortStoriesByOrder);
+const storiesBySlug = new Map(orderedStories.map((story) => [story.slug, story]));
+const featuredStories = orderedStories.filter((story) => story.featured);
+const archiveStories = [
+  ...featuredStories,
+  ...orderedStories.filter((story) => !story.featured)
+];
+const homepagePreviewStories = selectHomepagePreviewStories(featuredStories);
+
+function getStoryBySlug(slug) {
+  return storiesBySlug.get(slug);
+}
+
+function getFeaturedStories() {
+  return featuredStories;
+}
+
+function getArchiveStories() {
+  return archiveStories;
+}
+
+function getHomepagePreviewStories() {
+  return homepagePreviewStories;
+}
+
 function getExternalLinkAttributes(url) {
   if (!/^https?:\/\//.test(url)) {
     return "";
@@ -1822,8 +1836,28 @@ function validateStoriesData() {
   const seenOrders = new Set();
   const seenTikTokLinks = new Set();
   let newestCount = 0;
+  const requiredFields = ["title", "slug", "summary", "tiktokLink", "images", "order", "featured", "isNewest"];
 
   stories.forEach((story) => {
+    requiredFields.forEach((field) => {
+      if (!(field in story)) {
+        console.warn(`Missing story field "${field}" for ${story.title || story.slug || "unknown story"}.`);
+      }
+    });
+
+    if (typeof story.featured !== "boolean") {
+      console.warn(`Expected featured to be boolean for ${story.title}.`);
+    }
+
+    if (typeof story.isNewest !== "boolean") {
+      console.warn(`Expected isNewest to be boolean for ${story.title}.`);
+    }
+
+    if (!Array.isArray(story.images)) {
+      console.warn(`Expected images array for ${story.title}.`);
+      return;
+    }
+
     if (seenSlugs.has(story.slug)) {
       console.warn(`Duplicate story slug detected: ${story.slug}`);
     }
@@ -1859,9 +1893,23 @@ function validateStoriesData() {
   if (newestCount !== 1) {
     console.warn(`Expected exactly one newest story, found ${newestCount}.`);
   }
+
+  const newestStory = orderedStories.find((story) => story.isNewest);
+
+  if (newestStory?.slug !== "liam-conejo-ramos-story") {
+    console.warn("Expected Liam Conejo Ramos’s story to remain the newest lead story.");
+  }
 }
 
-function getStoryPreviewText(text, maxLength = 180) {
+function getStoryImages(story) {
+  if (!Array.isArray(story?.images)) {
+    return [];
+  }
+
+  return story.images.filter((imagePath) => /^stories\/[^/]+\/\d+\.png$/.test(imagePath));
+}
+
+function getStoryPreviewText(text = "", maxLength = 180) {
   if (text.length <= maxLength) {
     return text;
   }
@@ -1871,10 +1919,10 @@ function getStoryPreviewText(text, maxLength = 180) {
 
 function getStoryHref(story, isArchive = false) {
   if (isArchive) {
-    return `#${story.slug}`;
+    return `#${story?.slug || ""}`;
   }
 
-  return story.link;
+  return story?.link || "#";
 }
 
 function getStoryBadge(story) {
@@ -1903,7 +1951,8 @@ function createStoryCard(story, isArchive = false) {
   const card = document.createElement("article");
   card.className = "story-card reveal";
   const storyHref = getStoryHref(story, isArchive);
-  const primaryImage = story.images[0];
+  const storyImages = getStoryImages(story);
+  const primaryImage = storyImages[0];
   const badgeMarkup = getStoryBadgeMarkup(story, "story-card-badge");
   const imageMarkup = primaryImage
     ? `<img class="story-card-image" src="${primaryImage}" alt="${story.title}" loading="lazy" decoding="async">`
@@ -1926,9 +1975,9 @@ function renderNewestStory() {
     return;
   }
 
-  const newestStory = stories.find((story) => story.isNewest) || stories[0];
+  const newestStory = orderedStories.find((story) => story.isNewest) || orderedStories[0];
   const newestHref = getStoryHref(newestStory);
-  const primaryImage = newestStory.images[0];
+  const primaryImage = getStoryImages(newestStory)[0];
   const imageMarkup = primaryImage
     ? `<img class="newest-story-image" src="${primaryImage}" alt="${newestStory.title}" loading="lazy" decoding="async">`
     : `<div class="newest-story-image newest-story-image-placeholder" aria-hidden="true"></div>`;
@@ -1956,12 +2005,13 @@ function renderStoryFocus() {
   }
 
   const activeSlug = window.location.hash.replace("#", "");
-  const story = stories.find((entry) => entry.slug === activeSlug) || stories[0];
+  const story = getStoryBySlug(activeSlug) || orderedStories[0];
   const storyBadgeMarkup = getStoryBadgeMarkup(story, "story-focus-pill");
-  const galleryMarkup = story.images.length
+  const storyImages = getStoryImages(story);
+  const galleryMarkup = storyImages.length
     ? `
       <div class="story-gallery">
-        ${story.images.map((image, index) => `
+        ${storyImages.map((image, index) => `
           <a class="story-gallery-item" href="${image}" target="_blank" rel="${EXTERNAL_LINK_REL}" aria-label="Open ${story.title} image ${index + 1}">
             <img src="${image}" alt="${story.title} slide ${index + 1}" loading="lazy" decoding="async">
           </a>
@@ -2020,6 +2070,29 @@ function initContactLinks() {
   document.querySelectorAll("[href^='mailto:']").forEach((link) => {
     link.href = mailtoHref;
   });
+}
+
+function initStoryImageFallbacks() {
+  document.addEventListener("error", (event) => {
+    const image = event.target;
+
+    if (!(image instanceof HTMLImageElement)) {
+      return;
+    }
+
+    const galleryItem = image.closest(".story-gallery-item");
+
+    if (galleryItem) {
+      galleryItem.remove();
+      return;
+    }
+
+    image.hidden = true;
+    image.insertAdjacentHTML(
+      "afterend",
+      `<div class="${image.className} story-card-image-placeholder" aria-hidden="true"></div>`
+    );
+  }, true);
 }
 
 function renderStories() {
@@ -2187,6 +2260,7 @@ function initStoryFocus() {
 
 document.addEventListener("DOMContentLoaded", () => {
   validateStoriesData();
+  initStoryImageFallbacks();
   initSubmissionLinks();
   initContactLinks();
   renderNewestStory();
