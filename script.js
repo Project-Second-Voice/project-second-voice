@@ -1805,6 +1805,31 @@ const stories = [
     summary: "Today, we are sharing the story of Mohsen Mahdawi. Mahdawi is a third-generation refugee from the Far’a Refugee Camp. While growing up, Mahdawi explains, he had little to no privacy and was born into 8 siblings. Mahdawi was the oldest sibling. Growing up, Mahdawi experienced the devastation of war, watching the lives of his friends and family being taken away from him by Israeli soldiers. Mahdawi would also be injured by the Israeli Army in his youth. He was born into an apartheid system, and wasn’t even allowed to travel and visit his relatives. He explained that he had been prevented from visiting his mother for several years, even explaining how he was shocked to see how his mother looked, saying he had slowly forgotten her face. Mahdawi’s experience with war culminated in his wanting to end war, end suffering, and protest for peace for the Palestinians. Mahdawi came to the United States in 2015 by securing legal residency and getting a green card. During his time in the United States, he would also go to immigration offices twice, once to get his green card and another to renew it. Mahdawi went to Columbia University in his 20s. At the university, he would participate heavily in activism and protests for Palestinians. During this time, Mahdawi’s wife encouraged him to get citizenship, which was also something Mahdawi had wanted to do. Unfortunately, during his interview, he would be detained by immigration officers for 16 days. Thankfully, after 16 days, he was released, with the help of the public and the press. The sources we used for this post come from the organizations ABC, The Guardian, JacobIn, CBS, New York Times, CNN, Vermont Public, Columbia Spectator, Common Dreams, Zeteo, and Boston Globe. If you would like to learn more about Mahdawi’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7542727727611268366?is_from_webapp=1&sender_device=pc",
     link: "stories.html#mohsen-mahdawis-story"
+  },
+  {
+    order: 77,
+    slug: "ice-detains-man-who-served-in-afghan-war",
+    images: [
+      "stories/ice-detains-man-who-served-in-afghan-war/1.png",
+      "stories/ice-detains-man-who-served-in-afghan-war/2.png",
+      "stories/ice-detains-man-who-served-in-afghan-war/3.png",
+      "stories/ice-detains-man-who-served-in-afghan-war/4.png",
+      "stories/ice-detains-man-who-served-in-afghan-war/5.png",
+      "stories/ice-detains-man-who-served-in-afghan-war/6.png",
+      "stories/ice-detains-man-who-served-in-afghan-war/7.png",
+      "stories/ice-detains-man-who-served-in-afghan-war/8.png",
+      "stories/ice-detains-man-who-served-in-afghan-war/9.png",
+      "stories/ice-detains-man-who-served-in-afghan-war/10.png",
+      "stories/ice-detains-man-who-served-in-afghan-war/11.png",
+      "stories/ice-detains-man-who-served-in-afghan-war/12.png",
+      "stories/ice-detains-man-who-served-in-afghan-war/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "ICE Detains Man who served in Afghan War",
+    summary: "Today, we are sharing the story of an Afghan national who was detained during an immigration hearing about his asylum case in San Diego recently. The man worked as a translator for the U.S military during the Afghan war and fears for his life if he were to be deported back to Afghanistan. The man provided sufficient documentation that proved his time in the U.S military. During the U.S. withdrawal, he was not able to leave with the U.S. Fearing for his life, the man went to the border and sought asylum. He was granted parole and was working towards a special immigrant visa. During his hearing about his asylum case, the man would be detained. The sources we used for this post come from the organization’s NBC and CBS. If you would like to learn more about his story, we encourage you to read the stories and videos published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7531569336117431565?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#ice-detains-man-who-served-in-afghan-war"
   }
 ];
 
