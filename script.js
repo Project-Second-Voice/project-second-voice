@@ -2144,6 +2144,28 @@ const stories = [
     summary: "Today, we are sharing an update on the story of Liam Conjeo Ramos. Eric Lee, the attorney of Liam Ramos and his family, and also other families that are detained in the same detention facility as Ramos, talked about the absurd and “abysmal” living conditions in the cell. Lee explains how they mix baby formula with putrid water, the food has bugs in it, and the guards are all verbally abusive and very mean. These conditions have all contributed to Liam’s declining health in detention, which worries her mother a lot. Joaquin Castro, a Texas Democratic congressman, visited Ramos and his father in detention last week and was able to talk briefly with his father for 30 minutes. Liam was asleep during this conversation. His father explains how Liam has not been acting like himself and is sad and depressed. These conditions have probably been brought up by the abysmal conditions in the detention facility. Thankfully, today, it was just announced that Liam and his father were finally released from detention after being in detention for over a week. However, people are still wondering why Liam and his father were taken in the first place. Liam and his family came from Ecuador and applied for asylum in December 2024 due to the political turmoil and economic instability in their home country. They were legally allowed to be here, and his father had no criminal record. When Liam was being taken, family members of Liam were also at the scene, begging for immigration officers to hand custody over to them. Thank you for all the recent support, and with the help and advocacy of millions of individuals all around the world, Liam and his father were finally freed from detention. The sources we used for this post come from the organizations Sky News, MPR News, CNN, The Guardian, Huffington Post, and CBS News. If you would like to learn more about the recent news, feel free to read the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7602125987970551095?is_from_webapp=1&sender_device=pc",
     link: "stories.html#update-on-liam-ramos"
+  },
+  {
+    order: 90,
+    slug: "rene-lopezs-story",
+    images: [
+      "stories/rene-lopezs-story/1.png",
+      "stories/rene-lopezs-story/2.png",
+      "stories/rene-lopezs-story/3.png",
+      "stories/rene-lopezs-story/4.png",
+      "stories/rene-lopezs-story/5.png",
+      "stories/rene-lopezs-story/6.png",
+      "stories/rene-lopezs-story/7.png",
+      "stories/rene-lopezs-story/8.png",
+      "stories/rene-lopezs-story/9.png",
+      "stories/rene-lopezs-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "René López's Story",
+    summary: "Today, we are sharing the story of René López. López came to the United States from El Salvador with his mother when he was 11 years old. He would secure permanent residency. Later, his mother would be naturalized, making López a citizen at the age of 16. At the age of 20, López would be convicted of a substance offense and be put into prison for 7 years. After serving, López would rebuild his life and make up for his mistake. He would finish high school, get a job working as an electrician, get married, and have children. López changed his life; however, in 2016, DHS would change its mind on his immigration status, revoking his citizenship and making him only a permanent resident. The reason for this is that the Salvadorian constitution had eliminated the process of making a distinction between children born in or out of wedlock, meaning his mother’s citizenship was not enough for López to get his citizenship. They would need to find proof that his father was also naturalized, something very difficult because López had never had a relationship with him. Because of his change in legal status, López was not in grounds for deportation and removal because of his substance offense. López would be detained by 8 armed men and put into prison for 3 years. Thankfully, López’s citizenship would be granted after a strenuous process and case that showed that his father had never established paternity. Although López’s status was finally established once again, the damage had already been done, and he lost his job and the time with his family he would never get back. Now, López tries his hardest to navigate and make up for what he lost, once again, always carrying evidence of his court, in fear of the chance of officers or others trying to challenge his status and wrongfully detaining him once again. The sources we used for this post come from the organization NBC News. If you would like to learn more about López’s story, we encourage you to check out the story published by this organization.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7630615996608433421?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#rene-lopezs-story"
   }
 ];
 
