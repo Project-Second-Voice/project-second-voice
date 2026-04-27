@@ -2166,6 +2166,30 @@ const stories = [
     summary: "Today, we are sharing the story of René López. López came to the United States from El Salvador with his mother when he was 11 years old. He would secure permanent residency. Later, his mother would be naturalized, making López a citizen at the age of 16. At the age of 20, López would be convicted of a substance offense and be put into prison for 7 years. After serving, López would rebuild his life and make up for his mistake. He would finish high school, get a job working as an electrician, get married, and have children. López changed his life; however, in 2016, DHS would change its mind on his immigration status, revoking his citizenship and making him only a permanent resident. The reason for this is that the Salvadorian constitution had eliminated the process of making a distinction between children born in or out of wedlock, meaning his mother’s citizenship was not enough for López to get his citizenship. They would need to find proof that his father was also naturalized, something very difficult because López had never had a relationship with him. Because of his change in legal status, López was not in grounds for deportation and removal because of his substance offense. López would be detained by 8 armed men and put into prison for 3 years. Thankfully, López’s citizenship would be granted after a strenuous process and case that showed that his father had never established paternity. Although López’s status was finally established once again, the damage had already been done, and he lost his job and the time with his family he would never get back. Now, López tries his hardest to navigate and make up for what he lost, once again, always carrying evidence of his court, in fear of the chance of officers or others trying to challenge his status and wrongfully detaining him once again. The sources we used for this post come from the organization NBC News. If you would like to learn more about López’s story, we encourage you to check out the story published by this organization.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7630615996608433421?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#rene-lopezs-story"
+  },
+  {
+    order: 91,
+    slug: "antonio-gamez-cuellars-story",
+    images: [
+      "stories/antonio-gamez-cuellars-story/1.png",
+      "stories/antonio-gamez-cuellars-story/2.png",
+      "stories/antonio-gamez-cuellars-story/3.png",
+      "stories/antonio-gamez-cuellars-story/4.png",
+      "stories/antonio-gamez-cuellars-story/5.png",
+      "stories/antonio-gamez-cuellars-story/6.png",
+      "stories/antonio-gamez-cuellars-story/7.png",
+      "stories/antonio-gamez-cuellars-story/8.png",
+      "stories/antonio-gamez-cuellars-story/9.png",
+      "stories/antonio-gamez-cuellars-story/10.png",
+      "stories/antonio-gamez-cuellars-story/11.png",
+      "stories/antonio-gamez-cuellars-story/12.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Antonio Gámez-Cuéllar's Story",
+    summary: "Today, we are sharing the story of Antonio Gámez-Cuéllar. Antonio is an 18-year-old senior at McAllen High School. His family came to the United States from Mexico, seeking asylum due to the conflict between their music and cartel culture. Cartel violence was a main factor in the family's fleeing. They applied for asylum through the CBP One App and had an ongoing asylum case. They had no criminal history and would attend routine immigration check-ins, always complying. The family would make money by taking on music gigs. The three brothers of the family were all talented musicians, playing in Mariachi programs. They would play at their local high school, becoming very talented mariachi musicians. The brothers would even play at the U.S Capitol and garner state recognition playing their program Mariachi Oro. All three of the brothers were heavily involved in the music programs at their school, with Antonio being a first-chair trumpet in the Texas All-State Mariachi Ensemble. On February 25th, the family would attend a routine immigration check-in. However, they would not expect to be apprehended and detained by immigration officers. Antonio was separated from the rest of the family, being sent to Raymondville, 230 miles away from the rest of his family at Dilley Detention Facility. Their absence was deeply felt and shocking for Antonio’s classmates and teachers, causing huge conflict and advocacy for their release by their local communities. The news would garner national attention soon after. Thankfully, lawmakers from both parties would intervene, allowing the family to be released and finally reunited on March 9th. The sources we used for this post come from the organizations NBC News, CNN, The Texas Tribune, KESQ, ABC 7, ABC 11, The Guardian, and Texas Border Business. If you would like to learn more about Antonio’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7633234950321458445?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#antonio-gamez-cuellars-story"
   }
 ];
 
