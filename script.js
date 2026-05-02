@@ -2241,6 +2241,7 @@ const archiveStories = [
   ...orderedStories.filter((story) => !story.featured)
 ];
 const homepagePreviewStories = selectHomepagePreviewStories(featuredStories);
+const newestStory = orderedStories.find((story) => story.isNewest) || orderedStories[0];
 
 function getStoryBySlug(slug) {
   return storiesBySlug.get(slug);
@@ -2369,7 +2370,9 @@ function getStoryPreviewText(text = "", maxLength = 180) {
     return text;
   }
 
-  return `${text.slice(0, maxLength).trim()}...`;
+  const clippedText = text.slice(0, maxLength).replace(/\s+\S*$/, "").trim();
+
+  return `${clippedText || text.slice(0, maxLength).trim()}...`;
 }
 
 function getStoryHref(story, isArchive = false) {
@@ -2415,6 +2418,7 @@ function createStoryCard(story, isArchive = false) {
   const primaryImage = storyImages[0];
   const badgeMarkup = getStoryBadgeMarkup(story, "story-card-badge");
   const storyTitle = escapeHtml(story.title);
+  const linkLabel = isArchive ? `Read ${storyTitle} in the story focus panel` : `Read ${storyTitle}`;
   const imageMarkup = primaryImage
     ? `<img class="story-card-image" src="${primaryImage}" alt="${storyTitle}" loading="lazy" decoding="async">`
     : `<div class="story-card-image story-card-image-placeholder" aria-hidden="true"></div>`;
@@ -2424,7 +2428,7 @@ function createStoryCard(story, isArchive = false) {
     ${badgeMarkup}
     <h3>${storyTitle}</h3>
     <p>${escapeHtml(getStoryPreviewText(story.summary))}</p>
-    <a class="button button-secondary" href="${storyHref}" data-story-slug="${story.slug}"${getExternalLinkAttributes(storyHref)}>Read Story</a>
+    <a class="button button-secondary" href="${storyHref}" data-story-slug="${story.slug}" aria-label="${linkLabel}"${getExternalLinkAttributes(storyHref)}>Read Story</a>
   `;
   return card;
 }
@@ -2436,7 +2440,6 @@ function renderNewestStory() {
     return;
   }
 
-  const newestStory = orderedStories.find((story) => story.isNewest) || orderedStories[0];
   const newestHref = getStoryHref(newestStory);
   const primaryImage = getStoryImages(newestStory)[0];
   const newestTitle = escapeHtml(newestStory.title);
@@ -2466,8 +2469,8 @@ function renderStoryFocus() {
     return;
   }
 
-  const activeSlug = window.location.hash.replace("#", "");
-  const story = getStoryBySlug(activeSlug) || orderedStories[0];
+  const activeSlug = window.location.hash.slice(1);
+  const story = getStoryBySlug(activeSlug) || newestStory;
   const storyBadgeMarkup = getStoryBadgeMarkup(story, "story-focus-pill");
   const storyImages = getStoryImages(story);
   const storyTitle = escapeHtml(story.title);
@@ -2550,6 +2553,11 @@ function initStoryImageFallbacks() {
       return;
     }
 
+    if (image.dataset.fallbackApplied) {
+      return;
+    }
+
+    image.dataset.fallbackApplied = "true";
     image.hidden = true;
     image.insertAdjacentHTML(
       "afterend",
@@ -2685,13 +2693,23 @@ function initNav() {
   toggle.addEventListener("click", () => {
     const isOpen = menu.classList.toggle("is-open");
     toggle.setAttribute("aria-expanded", String(isOpen));
+    document.body.classList.toggle("nav-open", isOpen);
   });
 
   menu.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
       menu.classList.remove("is-open");
       toggle.setAttribute("aria-expanded", "false");
+      document.body.classList.remove("nav-open");
     });
+  });
+
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 760) {
+      menu.classList.remove("is-open");
+      toggle.setAttribute("aria-expanded", "false");
+      document.body.classList.remove("nav-open");
+    }
   });
 }
 
@@ -2717,10 +2735,17 @@ function initStoryFocus() {
         return;
       }
 
-      requestAnimationFrame(() => {
+      event.preventDefault();
+
+      const nextHash = link.getAttribute("href");
+
+      if (window.location.hash === nextHash) {
         renderStoryFocus();
         scrollStoryFocusIntoView();
-      });
+        return;
+      }
+
+      window.location.hash = nextHash;
     });
   }
 
