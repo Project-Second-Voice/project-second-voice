@@ -2190,6 +2190,32 @@ const stories = [
     summary: "Today, we are sharing the story of Antonio Gámez-Cuéllar. Antonio is an 18-year-old senior at McAllen High School. His family came to the United States from Mexico, seeking asylum due to the conflict between their music and cartel culture. Cartel violence was a main factor in the family's fleeing. They applied for asylum through the CBP One App and had an ongoing asylum case. They had no criminal history and would attend routine immigration check-ins, always complying. The family would make money by taking on music gigs. The three brothers of the family were all talented musicians, playing in Mariachi programs. They would play at their local high school, becoming very talented mariachi musicians. The brothers would even play at the U.S Capitol and garner state recognition playing their program Mariachi Oro. All three of the brothers were heavily involved in the music programs at their school, with Antonio being a first-chair trumpet in the Texas All-State Mariachi Ensemble. On February 25th, the family would attend a routine immigration check-in. However, they would not expect to be apprehended and detained by immigration officers. Antonio was separated from the rest of the family, being sent to Raymondville, 230 miles away from the rest of his family at Dilley Detention Facility. Their absence was deeply felt and shocking for Antonio’s classmates and teachers, causing huge conflict and advocacy for their release by their local communities. The news would garner national attention soon after. Thankfully, lawmakers from both parties would intervene, allowing the family to be released and finally reunited on March 9th. The sources we used for this post come from the organizations NBC News, CNN, The Texas Tribune, KESQ, ABC 7, ABC 11, The Guardian, and Texas Border Business. If you would like to learn more about Antonio’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7633234950321458445?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#antonio-gamez-cuellars-story"
+  },
+  {
+    order: 92,
+    slug: "ximena-arias-cristobals-story",
+    images: [
+      "stories/ximena-arias-cristobals-story/1.png",
+      "stories/ximena-arias-cristobals-story/2.png",
+      "stories/ximena-arias-cristobals-story/3.png",
+      "stories/ximena-arias-cristobals-story/4.png",
+      "stories/ximena-arias-cristobals-story/5.png",
+      "stories/ximena-arias-cristobals-story/6.png",
+      "stories/ximena-arias-cristobals-story/7.png",
+      "stories/ximena-arias-cristobals-story/8.png",
+      "stories/ximena-arias-cristobals-story/9.png",
+      "stories/ximena-arias-cristobals-story/10.png",
+      "stories/ximena-arias-cristobals-story/11.png",
+      "stories/ximena-arias-cristobals-story/12.png",
+      "stories/ximena-arias-cristobals-story/13.png",
+      "stories/ximena-arias-cristobals-story/14.png"
+    ],
+    featured: false,
+    isNewest: false,
+    title: "Ximena Arias-Cristobal's Story",
+    summary: "Today, we are sharing the story of Ximena Arias-Cristobal. Cristobal came to the United States from Mexico with her family when she was only 4-years-old. Cristobal wasn’t eligible to apply for the Deferred Action for Childhood Arrivals (DACA) program until she was 16 years old, and by then, the program was closed for new applicants due to recent legal challenges, including federal litigation. This did not stop her, however, and Cristobal would grow up in Georgia, attending Dalton Public Schools. Cristobal would receive a national scholarship from TheDream. US and would attend Dalton State Community College, pursuing a degree in Economics and Finance. Thousands of Dreamers every year apply for the scholarship; however, Cristobal was given it because of her dedication and activism in her church and her local community, her demonstration as a star student and a member of her school’s running team. Her bright future would come to a halt when she was detained during a traffic stop in May of last year because of an illegal turn and driving without a license. These charges would later be dropped after it was found out that police had apprehended the wrong vehicle, as seen in the dashcam footage. The damage had already been done, however, and Cristobal was detained and put into immigration detention by immigration officers, being told to self-deport. Cristobal had no criminal history and had lived in Georgia for over 15 years. Once news of Cristobal’s situation spread, massive outrage and backlash from the community would provide the fire needed for Cristobal to be released from detention on bond. Before Cristobal’s detention, she had also been helping her mother, who is a housekeeper, with cleaning to make ends meet, and during her detention, it was very difficult for her mother by herself. Even though Cristobal was released, her immigration case is still being reviewed and processed, and Cristobal is now in the process of applying for a visa. Her lawyers have advised her not to risk jeopardizing her case and warned her to stay indoors as much as she can. The sources we used for this post come from the organizations NBC News, ABC News, CBS News, GPB, Fox 5, and News Channel 9. If you would like to learn more about Cristobal’s story, we encourage you to check out the stories published by these organizations",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7635845150580788493?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#ximena-arias-cristobals-story"
   }
 ];
 
