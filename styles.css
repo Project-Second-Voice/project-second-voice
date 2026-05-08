@@ -1059,6 +1059,47 @@ textarea {
   background: var(--accent);
 }
 
+.advocacy-initiative {
+  position: relative;
+}
+
+.advocacy-initiative::before {
+  content: "";
+  position: absolute;
+  top: clamp(2.8rem, 6vw, 4.5rem);
+  left: 0;
+  width: 3.6rem;
+  height: 3px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), rgba(212, 88, 104, 0.18));
+}
+
+.advocacy-focus {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin-top: 0.15rem;
+}
+
+.advocacy-focus span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.1rem;
+  padding: 0.45rem 0.72rem;
+  border: 1px solid rgba(74, 35, 38, 0.1);
+  border-radius: 999px;
+  background: rgba(255, 248, 247, 0.68);
+  color: var(--accent-deep);
+  font-size: 0.9rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.advocacy-link {
+  justify-self: start;
+  margin-top: 0.35rem;
+}
+
 .partner-actions-layout {
   grid-template-columns: 1fr 1fr;
   align-items: end;
