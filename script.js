@@ -2360,6 +2360,10 @@ function validateStoriesData() {
       return;
     }
 
+    if (story.link !== `stories.html#${story.slug}`) {
+      console.warn(`Expected story link for ${story.title} to point to stories.html#${story.slug}.`);
+    }
+
     if (seenSlugs.has(story.slug)) {
       console.warn(`Duplicate story slug detected: ${story.slug}`);
     }
@@ -2385,10 +2389,17 @@ function validateStoriesData() {
       }
     }
 
+    const seenStoryImages = new Set();
+
     story.images.forEach((imagePath) => {
       if (!/^stories\/[^/]+\/\d+\.png$/.test(imagePath)) {
         console.warn(`Unexpected image path format for ${story.title}: ${imagePath}`);
       }
+
+      if (seenStoryImages.has(imagePath)) {
+        console.warn(`Duplicate image path detected for ${story.title}: ${imagePath}`);
+      }
+      seenStoryImages.add(imagePath);
     });
   });
 
@@ -2742,25 +2753,53 @@ function initNav() {
     return;
   }
 
-  toggle.addEventListener("click", () => {
-    const isOpen = menu.classList.toggle("is-open");
+  function setMenuOpen(isOpen) {
+    menu.classList.toggle("is-open", isOpen);
     toggle.setAttribute("aria-expanded", String(isOpen));
     document.body.classList.toggle("nav-open", isOpen);
+
+    if (window.innerWidth <= 760) {
+      menu.setAttribute("aria-hidden", String(!isOpen));
+    } else {
+      menu.removeAttribute("aria-hidden");
+    }
+  }
+
+  setMenuOpen(false);
+
+  toggle.addEventListener("click", () => {
+    setMenuOpen(!menu.classList.contains("is-open"));
   });
 
   menu.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
-      menu.classList.remove("is-open");
-      toggle.setAttribute("aria-expanded", "false");
-      document.body.classList.remove("nav-open");
+      setMenuOpen(false);
     });
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && menu.classList.contains("is-open")) {
+      setMenuOpen(false);
+      toggle.focus();
+    }
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!menu.classList.contains("is-open")) {
+      return;
+    }
+
+    if (event.target.closest(".navbar")) {
+      return;
+    }
+
+    setMenuOpen(false);
   });
 
   window.addEventListener("resize", () => {
     if (window.innerWidth > 760) {
-      menu.classList.remove("is-open");
-      toggle.setAttribute("aria-expanded", "false");
-      document.body.classList.remove("nav-open");
+      setMenuOpen(false);
+      menu.removeAttribute("aria-hidden");
     }
   });
 }
