@@ -1181,6 +1181,133 @@ textarea {
   box-shadow: 0 20px 40px rgba(79, 35, 45, 0.13);
 }
 
+.dream-resource-shell {
+  min-height: 100vh;
+}
+
+.dream-resource-top {
+  padding: 1.1rem 0 0;
+}
+
+.dream-resource-back {
+  width: fit-content;
+}
+
+.dream-resource-hero {
+  padding-top: clamp(3.4rem, 7vw, 5rem);
+  padding-bottom: clamp(2.7rem, 5vw, 3.6rem);
+}
+
+.dream-resource-hero h1,
+.dream-slideshow-heading h2 {
+  margin: 0 0 1rem;
+  font-family: "Libre Baskerville", serif;
+  line-height: 1.12;
+  letter-spacing: 0;
+}
+
+.dream-resource-hero h1 {
+  font-size: clamp(2.35rem, 5vw, 4.35rem);
+}
+
+.dream-slideshow-section {
+  padding-top: 0;
+}
+
+.dream-slideshow-heading {
+  max-width: 760px;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+}
+
+.dream-slideshow-heading h2 {
+  font-size: clamp(1.7rem, 3vw, 2.5rem);
+}
+
+.dream-slideshow {
+  display: grid;
+  gap: 1rem;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.dream-slide-toolbar {
+  display: grid;
+  grid-template-columns: 3rem 1fr 3rem;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.dream-slide-indicator {
+  margin: 0;
+  color: var(--text-soft);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-align: center;
+}
+
+.dream-slide-arrow {
+  display: inline-grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid rgba(79, 35, 45, 0.14);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.78);
+  color: var(--accent-deep);
+  cursor: pointer;
+  font-size: 1.15rem;
+  font-weight: 800;
+  transition:
+    transform var(--transition),
+    box-shadow var(--transition),
+    background var(--transition),
+    opacity var(--transition);
+}
+
+.dream-slide-arrow:hover {
+  background: rgba(247, 230, 223, 0.86);
+  box-shadow: 0 14px 26px rgba(103, 63, 71, 0.08);
+  transform: translateY(-1px);
+}
+
+.dream-slide-arrow:disabled {
+  cursor: not-allowed;
+  opacity: 0.38;
+  transform: none;
+  box-shadow: none;
+}
+
+.dream-slide-arrow:focus-visible {
+  outline: 3px solid rgba(212, 88, 104, 0.36);
+  outline-offset: 3px;
+  box-shadow: var(--focus-ring);
+}
+
+.dream-slide-frame {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgba(74, 35, 38, 0.12);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.84);
+  box-shadow: 0 22px 44px rgba(103, 63, 71, 0.1);
+}
+
+.dream-slide-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #fff;
+}
+
+.dream-resource-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.9rem;
+  margin-top: 1.5rem;
+}
+
 .future-partners-section {
   text-align: center;
 }
@@ -1284,6 +1411,7 @@ textarea {
   .founder-portrait-card,
   .contact-form,
   .button,
+  .dream-slide-arrow,
   .nav-toggle,
   .nav-links a::after,
   .story-gallery-item {
@@ -1562,6 +1690,19 @@ textarea {
     width: 100%;
   }
 
+  .dream-resource-top {
+    padding-top: 0.8rem;
+  }
+
+  .dream-resource-back,
+  .dream-resource-actions .button {
+    width: 100%;
+  }
+
+  .dream-slide-frame {
+    border-radius: 16px;
+  }
+
   .editorial-row {
     padding-block: 2.8rem;
   }
@@ -1614,6 +1755,15 @@ textarea {
 
   .dream-campaign-visual {
     width: min(100%, 260px);
+  }
+
+  .dream-slide-toolbar {
+    grid-template-columns: 2.75rem 1fr 2.75rem;
+  }
+
+  .dream-slide-arrow {
+    width: 2.75rem;
+    height: 2.75rem;
   }
 
   .founder-portrait-card img {

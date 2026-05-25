@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Second Voice | DREAM Act Resource</title>
+  <meta name="theme-color" content="#fff8f7">
+  <meta
+    name="description"
+    content="A hidden Project Second Voice educational slideshow resource about the DREAM Act, created as part of the United We Dream partnership."
+  >
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Project Second Voice — DREAM Act Resource">
+  <meta property="og:description" content="An educational resource about the DREAM Act and immigrant youth advocacy.">
+  <meta property="og:image" content="https://project-second-voice.github.io/project-second-voice/assets/project-second-voice-logo-web.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Project Second Voice — DREAM Act Resource">
+  <meta name="twitter:description" content="An educational resource about the DREAM Act and immigrant youth advocacy.">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/dream-act/slides/slide-01.webp" type="image/webp">
+  <link rel="stylesheet" href="styles.css?v=20260525-dream-act">
+</head>
+<body data-page="dream-act">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <div class="site-shell dream-resource-shell">
+    <div class="dream-resource-top">
+      <div class="container">
+        <a class="button button-secondary dream-resource-back" href="partners.html">
+          &larr; Back to Partnerships
+        </a>
+      </div>
+    </div>
+
+    <main id="main-content" class="dream-resource-main">
+      <section class="section dream-resource-hero">
+        <div class="container narrow">
+          <p class="eyebrow">United We Dream partnership resource</p>
+          <h1>DREAM Act Awareness &amp; Advocacy Campaign</h1>
+          <p class="section-intro">
+            A focused educational presentation on the DREAM Act, Dreamer rights, immigrant youth advocacy, and
+            community action.
+          </p>
+          <span class="editorial-rule" aria-hidden="true"></span>
+        </div>
+      </section>
+
+      <section class="section dream-slideshow-section" aria-labelledby="dream-slideshow-title">
+        <div class="container">
+          <div class="dream-slideshow-heading">
+            <p class="eyebrow">Presentation</p>
+            <h2 id="dream-slideshow-title">Read the campaign slides</h2>
+          </div>
+
+          <div class="dream-slideshow" data-dream-slideshow>
+            <div class="dream-slide-toolbar" aria-label="Slide controls">
+              <button class="dream-slide-arrow" type="button" data-dream-prev aria-label="Previous slide">
+                &larr;
+              </button>
+              <p class="dream-slide-indicator" data-dream-indicator aria-live="polite">1/8</p>
+              <button class="dream-slide-arrow" type="button" data-dream-next aria-label="Next slide">
+                &rarr;
+              </button>
+            </div>
+
+            <figure class="dream-slide-frame">
+              <img
+                class="dream-slide-image"
+                data-dream-image
+                src="assets/dream-act/slides/slide-01.webp"
+                width="1600"
+                height="900"
+                alt="Slide 1 of 8: DREAM Act title slide for Project Second Voice by Jonathan Wang."
+                loading="eager"
+                decoding="async"
+              >
+              <figcaption class="sr-only" data-dream-caption>
+                Slide 1 of 8: DREAM Act title slide for Project Second Voice by Jonathan Wang.
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="dream-resource-actions" aria-label="DREAM Act resource links">
+            <a class="button button-primary" href="assets/dream-act-presentation.pdf" download>
+              Download Full Presentation
+            </a>
+            <a class="button button-secondary" href="partners.html">
+              Return to Partnerships
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const dreamSlides = [
+      {
+        src: "assets/dream-act/slides/slide-01.webp",
+        alt: "Slide 1 of 8: DREAM Act title slide for Project Second Voice by Jonathan Wang."
+      },
+      {
+        src: "assets/dream-act/slides/slide-02.webp",
+        alt: "Slide 2 of 8: The purpose of the DREAM Act and how it supports undocumented youth."
+      },
+      {
+        src: "assets/dream-act/slides/slide-03.webp",
+        alt: "Slide 3 of 8: Rights and protections connected to Dreamers and immigrant youth."
+      },
+      {
+        src: "assets/dream-act/slides/slide-04.webp",
+        alt: "Slide 4 of 8: Tereza Lee as an example connected to the history of Dreamer advocacy."
+      },
+      {
+        src: "assets/dream-act/slides/slide-05.webp",
+        alt: "Slide 5 of 8: United We Dream advocacy and youth-led immigrant organizing."
+      },
+      {
+        src: "assets/dream-act/slides/slide-06.webp",
+        alt: "Slide 6 of 8: Limitations and benefits of the DREAM Act for immigrant communities."
+      },
+      {
+        src: "assets/dream-act/slides/slide-07.webp",
+        alt: "Slide 7 of 8: Call to action encouraging awareness, advocacy, and support."
+      },
+      {
+        src: "assets/dream-act/slides/slide-08.webp",
+        alt: "Slide 8 of 8: Works cited for the DREAM Act educational presentation."
+      }
+    ];
+
+    const slideshow = document.querySelector("[data-dream-slideshow]");
+    const slideImage = document.querySelector("[data-dream-image]");
+    const slideCaption = document.querySelector("[data-dream-caption]");
+    const indicator = document.querySelector("[data-dream-indicator]");
+    const previousButton = document.querySelector("[data-dream-prev]");
+    const nextButton = document.querySelector("[data-dream-next]");
+    let currentSlide = 0;
+    let touchStartX = 0;
+    let touchStartY = 0;
+
+    function preloadSlide(index) {
+      if (!dreamSlides[index]) {
+        return;
+      }
+
+      const image = new Image();
+      image.src = dreamSlides[index].src;
+    }
+
+    function showSlide(index) {
+      currentSlide = Math.max(0, Math.min(index, dreamSlides.length - 1));
+      const slide = dreamSlides[currentSlide];
+
+      slideImage.src = slide.src;
+      slideImage.alt = slide.alt;
+      slideCaption.textContent = slide.alt;
+      indicator.textContent = `${currentSlide + 1}/${dreamSlides.length}`;
+      previousButton.disabled = currentSlide === 0;
+      nextButton.disabled = currentSlide === dreamSlides.length - 1;
+      preloadSlide(currentSlide + 1);
+    }
+
+    function storeSwipeStart(x, y) {
+      touchStartX = x;
+      touchStartY = y;
+    }
+
+    function finishSwipe(x, y) {
+      const deltaX = x - touchStartX;
+      const deltaY = y - touchStartY;
+
+      if (Math.abs(deltaX) < 46 || Math.abs(deltaX) < Math.abs(deltaY)) {
+        return;
+      }
+
+      showSlide(currentSlide + (deltaX < 0 ? 1 : -1));
+    }
+
+    previousButton.addEventListener("click", () => showSlide(currentSlide - 1));
+    nextButton.addEventListener("click", () => showSlide(currentSlide + 1));
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowLeft") {
+        showSlide(currentSlide - 1);
+      }
+
+      if (event.key === "ArrowRight") {
+        showSlide(currentSlide + 1);
+      }
+    });
+
+    slideshow.addEventListener("touchstart", (event) => {
+      const touch = event.changedTouches[0];
+      storeSwipeStart(touch.clientX, touch.clientY);
+    }, { passive: true });
+
+    slideshow.addEventListener("touchend", (event) => {
+      const touch = event.changedTouches[0];
+      finishSwipe(touch.clientX, touch.clientY);
+    }, { passive: true });
+
+    slideshow.addEventListener("pointerdown", (event) => {
+      storeSwipeStart(event.clientX, event.clientY);
+    });
+
+    slideshow.addEventListener("pointerup", (event) => {
+      finishSwipe(event.clientX, event.clientY);
+    });
+
+    showSlide(0);
+  </script>
+</body>
+</html>
