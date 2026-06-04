@@ -595,6 +595,256 @@ textarea {
   scroll-margin-top: 7rem;
 }
 
+.archive-tools {
+  display: grid;
+  gap: 1rem;
+  margin: 0 auto 1.5rem;
+  padding: 1.35rem;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.78);
+  box-shadow: 0 14px 30px rgba(103, 63, 71, 0.07);
+}
+
+.archive-search-row,
+.archive-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  align-items: center;
+}
+
+.archive-search-input {
+  flex: 1 1 280px;
+}
+
+.archive-tools input,
+.archive-tools select,
+.story-map-select {
+  min-height: 3.1rem;
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(79, 35, 45, 0.14);
+  border-radius: var(--radius-sm);
+  background: #fffdfa;
+  color: var(--text);
+  font: inherit;
+}
+
+.archive-tools input::placeholder {
+  color: rgba(74, 35, 38, 0.58);
+}
+
+.archive-tools input:focus,
+.archive-tools select:focus,
+.story-map-select:focus {
+  outline: 3px solid rgba(212, 88, 104, 0.26);
+  outline-offset: 2px;
+  border-color: rgba(140, 78, 95, 0.35);
+}
+
+.archive-filter-row label,
+.story-map-mobile-control {
+  display: grid;
+  gap: 0.4rem;
+  color: var(--accent-deep);
+  font-size: 0.86rem;
+  font-weight: 800;
+}
+
+.archive-filter-row label {
+  flex: 1 1 220px;
+}
+
+.archive-result-count {
+  margin: auto 0 0;
+  color: var(--text-soft);
+  font-weight: 800;
+}
+
+.archive-no-results {
+  margin: 1.25rem auto 0;
+  padding: 1rem 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.76);
+  color: var(--text-soft);
+  text-align: center;
+}
+
+.story-map-shell {
+  margin-top: 2.2rem;
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 26px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(255, 240, 238, 0.92));
+  box-shadow: 0 20px 40px rgba(103, 63, 71, 0.08);
+}
+
+.story-map-mobile-control {
+  max-width: 360px;
+  margin-bottom: 1rem;
+}
+
+.story-map-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.story-map-canvas {
+  overflow-x: auto;
+  padding: 0.6rem;
+  border: 1px solid rgba(79, 35, 45, 0.08);
+  border-radius: 20px;
+  background: rgba(255, 253, 251, 0.82);
+}
+
+.story-map-svg {
+  display: block;
+  width: 100%;
+  min-width: 680px;
+  height: auto;
+}
+
+.story-map-state rect {
+  fill: rgba(255, 238, 235, 0.86);
+  stroke: rgba(74, 35, 38, 0.12);
+  stroke-width: 1;
+  transition:
+    fill var(--transition),
+    stroke var(--transition),
+    transform var(--transition);
+}
+
+.story-map-state text {
+  fill: rgba(74, 35, 38, 0.52);
+  font-family: "Almarai", sans-serif;
+  font-size: 0.86rem;
+  font-weight: 800;
+  pointer-events: none;
+}
+
+.story-map-state.has-stories {
+  cursor: pointer;
+}
+
+.story-map-state.has-stories rect {
+  fill: rgba(212, 88, 104, 0.2);
+  stroke: rgba(212, 88, 104, 0.48);
+}
+
+.story-map-state.has-stories text {
+  fill: var(--accent-deep);
+}
+
+.story-map-state.has-stories:hover rect,
+.story-map-state.has-stories:focus-visible rect,
+.story-map-state.is-selected rect {
+  fill: rgba(212, 88, 104, 0.84);
+  stroke: var(--accent-deep);
+}
+
+.story-map-state.has-stories:hover text,
+.story-map-state.has-stories:focus-visible text,
+.story-map-state.is-selected text {
+  fill: #fffdfa;
+}
+
+.story-map-state:focus-visible {
+  outline: 3px solid rgba(212, 88, 104, 0.3);
+  outline-offset: 4px;
+}
+
+.story-map-count {
+  font-size: 0.64rem;
+}
+
+.story-map-panel {
+  display: grid;
+  gap: 1rem;
+  min-height: 100%;
+  padding: 1.2rem;
+  border: 1px solid rgba(79, 35, 45, 0.1);
+  border-radius: 20px;
+  background: rgba(255, 253, 251, 0.86);
+}
+
+.story-map-empty {
+  margin: 0;
+  color: var(--text-soft);
+  line-height: 1.6;
+}
+
+.story-map-panel-heading {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.story-map-panel-heading .eyebrow,
+.story-map-panel-heading h3 {
+  margin: 0;
+}
+
+.story-map-panel-heading h3 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 1.35rem;
+}
+
+.story-map-results-list {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.story-map-card {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: 0.9rem;
+  align-items: start;
+  padding: 0.85rem;
+  border: 1px solid rgba(79, 35, 45, 0.08);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.78);
+}
+
+.story-map-card-image {
+  width: 96px;
+  aspect-ratio: 1 / 1;
+  border-radius: 14px;
+  object-fit: cover;
+  object-position: top center;
+  background: var(--surface-alt);
+}
+
+.story-map-card-copy {
+  min-width: 0;
+}
+
+.story-map-card h3 {
+  margin: 0 0 0.35rem;
+  font-family: "Libre Baskerville", serif;
+  font-size: 1rem;
+  line-height: 1.28;
+}
+
+.story-map-card h3 a {
+  color: var(--accent-deep);
+  text-decoration: none;
+}
+
+.story-map-card h3 a:hover,
+.story-map-card h3 a:focus-visible {
+  color: var(--accent);
+}
+
+.story-map-card p {
+  margin: 0 0 0.55rem;
+  color: var(--text-soft);
+  font-size: 0.93rem;
+  line-height: 1.5;
+}
+
 .featured-stories-layout {
   display: grid;
   gap: 1.5rem;
@@ -1408,6 +1658,8 @@ textarea {
   .newest-story-card,
   .story-focus,
   .submission-banner,
+  .archive-tools,
+  .story-map-state rect,
   .founder-portrait-card,
   .contact-form,
   .button,
@@ -1478,6 +1730,14 @@ textarea {
 
   .story-gallery {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .story-map-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .story-map-panel {
+    min-height: 0;
   }
 
   .hero-grid,
@@ -1642,6 +1902,35 @@ textarea {
     content-visibility: visible;
   }
 
+  .archive-tools {
+    padding: 1.2rem;
+  }
+
+  .archive-search-row {
+    align-items: stretch;
+  }
+
+  .archive-search-row .button,
+  .archive-search-input {
+    flex-basis: 100%;
+  }
+
+  .archive-filter-row {
+    align-items: stretch;
+  }
+
+  .archive-result-count {
+    width: 100%;
+  }
+
+  .story-map-shell {
+    padding: 1.2rem;
+  }
+
+  .story-map-svg {
+    min-width: 560px;
+  }
+
   .story-card-image {
     aspect-ratio: 16 / 10;
     border-radius: 18px;
@@ -1739,8 +2028,18 @@ textarea {
 
   .story-focus,
   .newest-story-card,
-  .submission-banner {
+  .submission-banner,
+  .archive-tools,
+  .story-map-shell {
     border-radius: 20px;
+  }
+
+  .story-map-card {
+    grid-template-columns: 82px minmax(0, 1fr);
+  }
+
+  .story-map-card-image {
+    width: 82px;
   }
 
   .story-focus-copy h2,

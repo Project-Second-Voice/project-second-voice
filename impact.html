@@ -69,25 +69,51 @@
         <div class="container">
           <div class="stats-grid reveal" data-stats-grid>
             <article class="stat-card">
-              <span class="stat-value" data-target="754" data-suffix="K">0</span>
+              <span class="stat-value" data-target="782.2" data-suffix="K+">0</span>
               <span class="stat-label">views</span>
             </article>
             <article class="stat-card">
-              <span class="stat-value" data-target="58" data-suffix="K">0</span>
+              <span class="stat-value" data-target="58.1" data-suffix="K+">0</span>
               <span class="stat-label">likes</span>
             </article>
             <article class="stat-card">
-              <span class="stat-value" data-target="4.6" data-suffix="K">0</span>
+              <span class="stat-value" data-target="4.6" data-suffix="K+">0</span>
               <span class="stat-label">comments</span>
             </article>
             <article class="stat-card">
-              <span class="stat-value" data-target="2.1" data-suffix="K">0</span>
+              <span class="stat-value" data-target="2.2" data-suffix="K+">0</span>
               <span class="stat-label">shares</span>
             </article>
             <article class="stat-card">
-              <span class="stat-value" data-target="91">0</span>
-              <span class="stat-label">posts</span>
+              <span class="stat-value" data-target="80" data-suffix="+">0</span>
+              <span class="stat-label">stories shared</span>
             </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading centered reveal">
+            <p class="eyebrow">Story map</p>
+            <h2>Stories Across America</h2>
+            <p class="section-intro">
+              Explore immigrant stories shared through Project Second Voice by the states and communities connected to them.
+            </p>
+          </div>
+          <div class="story-map-shell reveal reveal-delay" data-story-map>
+            <div class="story-map-mobile-control">
+              <label for="story-map-state">Explore by state</label>
+              <select id="story-map-state" class="story-map-select" data-story-map-select aria-label="Select a state with Project Second Voice stories">
+                <option value="">Select a state</option>
+              </select>
+            </div>
+            <div class="story-map-layout">
+              <div class="story-map-canvas" data-story-map-svg></div>
+              <aside class="story-map-panel" data-story-map-results aria-live="polite">
+                <p class="story-map-empty">Select a highlighted state to explore stories from that area.</p>
+              </aside>
+            </div>
           </div>
         </div>
       </section>
@@ -123,6 +149,6 @@
     </footer>
   </div>
 
-  <script src="script.js?v=20260501-polish-pass"></script>
+  <script src="script.js?v=20260603-story-map-filters"></script>
 </body>
 </html>

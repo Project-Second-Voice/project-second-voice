@@ -100,6 +100,37 @@
               experience shared through Project Second Voice.
             </p>
           </div>
+          <form class="archive-tools reveal reveal-delay" data-story-tools>
+            <div class="archive-search-row">
+              <label class="sr-only" for="story-search">Search stories</label>
+              <input
+                id="story-search"
+                class="archive-search-input"
+                type="search"
+                data-story-search
+                placeholder="Search stories, names, states, or topics..."
+                autocomplete="off"
+              >
+              <button class="button button-primary" type="submit">Search</button>
+              <button class="button button-secondary" type="button" data-reset-filters>Reset Filters</button>
+            </div>
+            <div class="archive-filter-row">
+              <label>
+                <span>State</span>
+                <select data-state-filter aria-label="Filter stories by state">
+                  <option value="">All states</option>
+                </select>
+              </label>
+              <label>
+                <span>Tag</span>
+                <select data-tag-filter aria-label="Filter stories by tag">
+                  <option value="">All tags</option>
+                </select>
+              </label>
+              <p class="archive-result-count" data-archive-result-count aria-live="polite"></p>
+            </div>
+          </form>
+          <p class="archive-no-results" data-archive-no-results hidden>No stories match these filters yet.</p>
           <div class="story-focus reveal" id="story-focus-panel" data-story-focus></div>
           <div class="story-grid" data-story-archive></div>
         </div>
@@ -114,6 +145,6 @@
     </footer>
   </div>
 
-  <script src="script.js?v=20260501-polish-pass"></script>
+  <script src="script.js?v=20260603-story-map-filters"></script>
 </body>
 </html>
