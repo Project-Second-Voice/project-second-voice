@@ -2673,6 +2673,7 @@ const archiveStories = [
 ];
 const homepagePreviewStories = selectHomepagePreviewStories(featuredStories);
 const newestStory = orderedStories.find((story) => story.isNewest) || orderedStories[0];
+const storySearchIndex = new WeakMap();
 
 function getStoryBySlug(slug) {
   return storiesBySlug.get(slug);
@@ -2759,12 +2760,23 @@ function getStoryTagOptions(storyList = getArchiveStories()) {
 }
 
 function getStorySearchText(story) {
-  return [
+  if (!story) {
+    return "";
+  }
+
+  if (storySearchIndex.has(story)) {
+    return storySearchIndex.get(story);
+  }
+
+  const searchText = [
     story?.title,
     story?.summary,
     normalizeStoryState(story),
     ...getStoryTags(story)
   ].join(" ").toLowerCase();
+
+  storySearchIndex.set(story, searchText);
+  return searchText;
 }
 
 function validateStoriesData() {
@@ -3149,6 +3161,8 @@ function initStoryArchiveControls() {
     tag: "",
     query: ""
   };
+  let lastResultSignature = "";
+  let searchInputTimer = 0;
 
   function applyFilters() {
     const filteredStories = archiveStories.filter((story) => {
@@ -3158,8 +3172,12 @@ function initStoryArchiveControls() {
 
       return matchesState && matchesTag && matchesSearch;
     });
+    const resultSignature = filteredStories.map((story) => story.slug).join("|");
 
-    renderStoryArchive(filteredStories);
+    if (resultSignature !== lastResultSignature) {
+      renderStoryArchive(filteredStories);
+      lastResultSignature = resultSignature;
+    }
 
     if (countElement) {
       const storyLabel = filteredStories.length === 1 ? "story" : "stories";
@@ -3180,13 +3198,17 @@ function initStoryArchiveControls() {
 
   controls.addEventListener("submit", (event) => {
     event.preventDefault();
+    window.clearTimeout(searchInputTimer);
     filters.query = searchInput?.value.trim().toLowerCase() || "";
     applyFilters();
   });
 
   searchInput?.addEventListener("input", () => {
-    filters.query = searchInput.value.trim().toLowerCase();
-    applyFilters();
+    window.clearTimeout(searchInputTimer);
+    searchInputTimer = window.setTimeout(() => {
+      filters.query = searchInput.value.trim().toLowerCase();
+      applyFilters();
+    }, 120);
   });
 
   stateSelect?.addEventListener("change", () => {
@@ -3200,6 +3222,7 @@ function initStoryArchiveControls() {
   });
 
   resetButton?.addEventListener("click", () => {
+    window.clearTimeout(searchInputTimer);
     filters.state = "";
     filters.tag = "";
     filters.query = "";
