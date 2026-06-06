@@ -2621,6 +2621,34 @@ const stories = [
     summary: "Today, we are sharing the story of Neri José Alvarado Borges. Borges initially was studying psychology in Venezuela when he realized that he couldn’t continue his education while also supporting his family financially. Faced with this hard decision, Borges prioritized his family and decided to quit school, traveling on foot to the United States to earn money to support his family. He crossed the Texas border through the CBP One App appointment and got temporary protection status while he waited for his asylum hearing. Borges got a job at a bakery in Dallas. Every cent he earned in the United States, he sent back to his family in Venezuela to support them. Hernandez, the owner of the bakery, emphasizes that Borges is a very good person who cares a lot about his family. Although he had temporary protection, had a pending asylum hearing, and had no criminal record, Borges would be detained at his apartment complex because of alleged connections to gangs in Venezuela. Borges has three tattoos, one of which was a rainbow-colored ribbon that was meant to spread awareness of autism. His younger brother’s name was on the tattoo, who has autism. Aside from the ribbon, Borges also has two tattoos that say “family” and “brothers.” A few days after being detained, Borges would be deported and sent to the infamous mega prison located in El Salvador, the CECOT. The CECOT is known for its brutal living conditions for its detainees. Borges has no clear pathway out of the CECOT, and his family expresses worry about his fate. Many attorneys have questioned the haste with which the decisions were made to process Borges and deport him, and many believe that it was not justified under the assumption of gang ties because of a rainbow-colored ribbon tattoo. Borges’ future is unclear, and his sister emphasizes that he is not a gangster and would most definitely never hurt anyone. The sources we used for this post come from the organizations NBC News, NBC LA, The Guardian, Spectrum Local News, and LULAC. If you would like to learn more about Borges’ story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7647347777747438862?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#neri-jose-alvarado-borges-story"
+  },
+  {
+    order: 98,
+    slug: "jean-montrevils-story",
+    images: [
+      "stories/jean-montrevils-story/1.png",
+      "stories/jean-montrevils-story/2.png",
+      "stories/jean-montrevils-story/3.png",
+      "stories/jean-montrevils-story/4.png",
+      "stories/jean-montrevils-story/5.png",
+      "stories/jean-montrevils-story/6.png",
+      "stories/jean-montrevils-story/7.png",
+      "stories/jean-montrevils-story/8.png",
+      "stories/jean-montrevils-story/9.png",
+      "stories/jean-montrevils-story/10.png",
+      "stories/jean-montrevils-story/11.png",
+      "stories/jean-montrevils-story/12.png",
+      "stories/jean-montrevils-story/13.png",
+      "stories/jean-montrevils-story/14.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "New York",
+    tags: ["Activist", "Community Leader", "Detention", "Deportation", "Family", "Legal Status"],
+    title: "Jean Montrevil's Story",
+    summary: "Today, we are sharing the story of Jean Montrevil. Montrevil came to the United States when he was only 17 years old in 1986 from Haiti. He came to America to live with his father. During this time in the 80s, America was in a war against drugs, and it was really easy to get lost with the wrong crowd if you did not follow the rules. That is exactly what happened to Montrevil, and he would be detained for substance possession when he was 21 years old. This would lead to his green card being put into jeopardy and him serving for 11 years of a 33-year sentence, being released early due to good behavior. Being in prison completely changed Montrevil for the better, and once he came out, he made sure to be a better individual for his community and his family. Montrevil was on probation for 5 years, and during this time, he was an exemplary citizen: making sure to follow all the rules, paying his taxes, raising a family of four children, being the proprietor of a small business, and becoming active in his church. When his probation was over, the officer told him to meet with them to sign off the papers; however, once he got there, he was met by immigration officers and detained. Montrevil was held in a detention facility for over 7 months, finally being released with the help of Families for Freedom, a non-profit organization dedicated to helping families navigate deportation proceedings. Through his experience with the organization, he joined them and would later found his own non-profit called the New Sanctuary Coalition in 2007. Montrevil would be deported in 2018, remaining in Haiti for over 4 years, with no family or friends left in the country. He was shocked at how much it had changed over time. Thankfully, Montrevil was able to make it back home through the efforts of many lawyers and law services. Although Montrevil made it back, deportation still loomed over his head, and this would not be erased until he was granted a relief request based on his commitment to his community since 2000. Through this, Montrevil would no longer be deported based on his past conviction. Now, Montrevil is working with these same lawyers to help him secure permanent citizenship. The sources we used for this post come from the organizations NYU Law, Detention Watch Network, Dissent Magazine, Hello Vuelo, The Intercept, Families for Freedom, and Democracy Now. If you would like to learn more about Montrevil's story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7648077370141740301?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#jean-montrevils-story"
   }
 ];
 
