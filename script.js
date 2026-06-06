@@ -2649,6 +2649,30 @@ const stories = [
     summary: "Today, we are sharing the story of Jean Montrevil. Montrevil came to the United States when he was only 17 years old in 1986 from Haiti. He came to America to live with his father. During this time in the 80s, America was in a war against drugs, and it was really easy to get lost with the wrong crowd if you did not follow the rules. That is exactly what happened to Montrevil, and he would be detained for substance possession when he was 21 years old. This would lead to his green card being put into jeopardy and him serving for 11 years of a 33-year sentence, being released early due to good behavior. Being in prison completely changed Montrevil for the better, and once he came out, he made sure to be a better individual for his community and his family. Montrevil was on probation for 5 years, and during this time, he was an exemplary citizen: making sure to follow all the rules, paying his taxes, raising a family of four children, being the proprietor of a small business, and becoming active in his church. When his probation was over, the officer told him to meet with them to sign off the papers; however, once he got there, he was met by immigration officers and detained. Montrevil was held in a detention facility for over 7 months, finally being released with the help of Families for Freedom, a non-profit organization dedicated to helping families navigate deportation proceedings. Through his experience with the organization, he joined them and would later found his own non-profit called the New Sanctuary Coalition in 2007. Montrevil would be deported in 2018, remaining in Haiti for over 4 years, with no family or friends left in the country. He was shocked at how much it had changed over time. Thankfully, Montrevil was able to make it back home through the efforts of many lawyers and law services. Although Montrevil made it back, deportation still loomed over his head, and this would not be erased until he was granted a relief request based on his commitment to his community since 2000. Through this, Montrevil would no longer be deported based on his past conviction. Now, Montrevil is working with these same lawyers to help him secure permanent citizenship. The sources we used for this post come from the organizations NYU Law, Detention Watch Network, Dissent Magazine, Hello Vuelo, The Intercept, Families for Freedom, and Democracy Now. If you would like to learn more about Montrevil's story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7648077370141740301?is_from_webapp=1&sender_device=pc",
     link: "stories.html#jean-montrevils-story"
+  },
+  {
+    order: 99,
+    slug: "rosa-maria-hernandezs-story",
+    images: [
+      "stories/rosa-maria-hernandezs-story/1.png",
+      "stories/rosa-maria-hernandezs-story/2.png",
+      "stories/rosa-maria-hernandezs-story/3.png",
+      "stories/rosa-maria-hernandezs-story/4.png",
+      "stories/rosa-maria-hernandezs-story/5.png",
+      "stories/rosa-maria-hernandezs-story/6.png",
+      "stories/rosa-maria-hernandezs-story/7.png",
+      "stories/rosa-maria-hernandezs-story/8.png",
+      "stories/rosa-maria-hernandezs-story/9.png",
+      "stories/rosa-maria-hernandezs-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Texas",
+    tags: ["Child", "Detention", "Deportation", "Family", "Family Separation", "Legal Status", "Medical/Humanitarian", "Mexican", "Wrongful Detention"],
+    title: "Rosa Maria Hernandez's Story",
+    summary: "Today, we are sharing the story of Rosa Maria Hernandez. Rosa came to the United States with her family from Mexico when she was only 3 months old in 2007. Her family came to the United States to provide Rosa with better opportunities and also to get access to better medical care for Rosa’s condition. Rosa was diagnosed with cerebral palsy, a chronic neurologic disorder that affects her motor abilities, her posture, and her balance. Rosa had been on an ambulance for gallbladder surgery, a common surgery due to her condition, which usually affects the digestive system because it affects the nervous system, which controls digestion and the gut. She was accompanied by her cousin, who was a U.S citizen, and they were travelling from Texas to the Driscoll Children’s Hospital. Rosa’s parents did not accompany her because of their status. Rosa and her cousin were stopped at a border checkpoint, and when immigration officers realized that Rosa was undocumented, they accompanied the ambulance to the hospital. Immigration officers would wait outside Rosa’s room while she recovered and then take her into custody, putting her into a children’s shelter. They denied the opportunity for Rosa to be released back to her parents. The apprehension by the immigration officers took place during the time when the Sensitive Locations policy had been in place. The Sensitive Locations policy was a policy that restricted immigration enforcement activities in civil, educational, and religious spaces. It has now been rescinded under the current administration. Rosa’s family was given two choices: either to voluntarily move to Mexico or follow through with court proceedings. Thankfully, Rosa would be released from custody after making national headlines; however, deportation still looms over her and her family's heads, and her future is still not clear. The sources we used for this post come from the organizations The Texas Tribune, ABC News, NPR, CFR, Reveal News, NeoMotion, The New York Times, and The Washington Post. If you would like to learn more about Rosa’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7648425406839704845?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#rosa-maria-hernandezs-story"
   }
 ];
 
