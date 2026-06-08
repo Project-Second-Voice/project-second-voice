@@ -2673,6 +2673,36 @@ const stories = [
     summary: "Today, we are sharing the story of Rosa Maria Hernandez. Rosa came to the United States with her family from Mexico when she was only 3 months old in 2007. Her family came to the United States to provide Rosa with better opportunities and also to get access to better medical care for Rosa’s condition. Rosa was diagnosed with cerebral palsy, a chronic neurologic disorder that affects her motor abilities, her posture, and her balance. Rosa had been on an ambulance for gallbladder surgery, a common surgery due to her condition, which usually affects the digestive system because it affects the nervous system, which controls digestion and the gut. She was accompanied by her cousin, who was a U.S citizen, and they were travelling from Texas to the Driscoll Children’s Hospital. Rosa’s parents did not accompany her because of their status. Rosa and her cousin were stopped at a border checkpoint, and when immigration officers realized that Rosa was undocumented, they accompanied the ambulance to the hospital. Immigration officers would wait outside Rosa’s room while she recovered and then take her into custody, putting her into a children’s shelter. They denied the opportunity for Rosa to be released back to her parents. The apprehension by the immigration officers took place during the time when the Sensitive Locations policy had been in place. The Sensitive Locations policy was a policy that restricted immigration enforcement activities in civil, educational, and religious spaces. It has now been rescinded under the current administration. Rosa’s family was given two choices: either to voluntarily move to Mexico or follow through with court proceedings. Thankfully, Rosa would be released from custody after making national headlines; however, deportation still looms over her and her family's heads, and her future is still not clear. The sources we used for this post come from the organizations The Texas Tribune, ABC News, NPR, CFR, Reveal News, NeoMotion, The New York Times, and The Washington Post. If you would like to learn more about Rosa’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7648425406839704845?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#rosa-maria-hernandezs-story"
+  },
+  {
+    order: 100,
+    slug: "badar-khan-suri-story",
+    images: [
+      "stories/badar-khan-suri-story/1.png",
+      "stories/badar-khan-suri-story/2.png",
+      "stories/badar-khan-suri-story/3.png",
+      "stories/badar-khan-suri-story/4.png",
+      "stories/badar-khan-suri-story/5.png",
+      "stories/badar-khan-suri-story/6.png",
+      "stories/badar-khan-suri-story/7.png",
+      "stories/badar-khan-suri-story/8.png",
+      "stories/badar-khan-suri-story/9.png",
+      "stories/badar-khan-suri-story/10.png",
+      "stories/badar-khan-suri-story/11.png",
+      "stories/badar-khan-suri-story/12.png",
+      "stories/badar-khan-suri-story/13.png",
+      "stories/badar-khan-suri-story/14.png",
+      "stories/badar-khan-suri-story/15.png",
+      "stories/badar-khan-suri-story/16.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Virginia",
+    tags: ["Activist", "Detention", "Family", "Legal Status", "Student", "Wrongful Detention"],
+    title: "Badar Khan Suri's Story",
+    summary: "Today, we are sharing the story of Badar Khan Suri. Suri came to the United States from India with his wife and three sons. He came on a visa so that he could pursue higher education, conducting postdoctoral research at Georgetown University. In 2020, Suri completed his PH.D in Peace and Conflict Studies at the Nelson Mandela Center for Peace and Conflict Resolution at Jamia Millia Islamia in New Delhi. He has also traveled extensively around the world to many conflict zones in the Middle East and Asia. Suri is very interested in religion, violence, and peace, ethnic conflict, and peace processes. Suri came to the U.S to work on a research project looking into the causes of conflict due to different religious beliefs in societies and how to overcome these barriers. Suri is also very outspoken about his political opinions. Although he doesn’t speak in person to audiences, Suri is very vocal on social media, speaking freely, particularly on the dispute in Gaza. Suri had just broken his fast at Georgetown University and was ready to head back to his home in Northern Virginia when an unmarked SUV stopped him and three immigration officers arrested him. They did not present him with a warrant and forced him into the SUV amid cries from his wife. His wife and lawyers tried to locate where he was going, but immigration officers would not tell them. Suri was transferred to numerous detention facilities before finally ending up at the Texas Detention Facility. He was subjected to horrible conditions: shackled at his waist, wrists, and ankles during transfers, being provided no bed or pillow, being treated with disrespect, especially when he asked for religious accommodations, and being forced to sleep in the recreational center where the lights and TV were on all night. Suri was only allowed 20 seconds on the phone, during which he would ring his family, trying to tell them that he was okay. Back at home, his wife slept near the door, fearing that officers would come back to take her and their children. Suri had no criminal record. He was detained because of his alleged ties to terrorist organizations and because of his activism on social media. Thankfully, after months in detention, Suri was released because his detention had been a violation of his First and Fifth Amendment rights. Now, he is trying to make up the lost time with his family. The sources we used for this post come from the organizations NBC News, ACLU, The Guardian, CNN, AP News, NPR, BBC News, and CCR Justice. If you would like to learn more about Suri’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7648817839444364558?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#badar-khan-suri-story"
   }
 ];
 
