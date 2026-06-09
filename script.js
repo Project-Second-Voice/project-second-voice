@@ -2703,6 +2703,34 @@ const stories = [
     summary: "Today, we are sharing the story of Badar Khan Suri. Suri came to the United States from India with his wife and three sons. He came on a visa so that he could pursue higher education, conducting postdoctoral research at Georgetown University. In 2020, Suri completed his PH.D in Peace and Conflict Studies at the Nelson Mandela Center for Peace and Conflict Resolution at Jamia Millia Islamia in New Delhi. He has also traveled extensively around the world to many conflict zones in the Middle East and Asia. Suri is very interested in religion, violence, and peace, ethnic conflict, and peace processes. Suri came to the U.S to work on a research project looking into the causes of conflict due to different religious beliefs in societies and how to overcome these barriers. Suri is also very outspoken about his political opinions. Although he doesn’t speak in person to audiences, Suri is very vocal on social media, speaking freely, particularly on the dispute in Gaza. Suri had just broken his fast at Georgetown University and was ready to head back to his home in Northern Virginia when an unmarked SUV stopped him and three immigration officers arrested him. They did not present him with a warrant and forced him into the SUV amid cries from his wife. His wife and lawyers tried to locate where he was going, but immigration officers would not tell them. Suri was transferred to numerous detention facilities before finally ending up at the Texas Detention Facility. He was subjected to horrible conditions: shackled at his waist, wrists, and ankles during transfers, being provided no bed or pillow, being treated with disrespect, especially when he asked for religious accommodations, and being forced to sleep in the recreational center where the lights and TV were on all night. Suri was only allowed 20 seconds on the phone, during which he would ring his family, trying to tell them that he was okay. Back at home, his wife slept near the door, fearing that officers would come back to take her and their children. Suri had no criminal record. He was detained because of his alleged ties to terrorist organizations and because of his activism on social media. Thankfully, after months in detention, Suri was released because his detention had been a violation of his First and Fifth Amendment rights. Now, he is trying to make up the lost time with his family. The sources we used for this post come from the organizations NBC News, ACLU, The Guardian, CNN, AP News, NPR, BBC News, and CCR Justice. If you would like to learn more about Suri’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7648817839444364558?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#badar-khan-suri-story"
+  },
+  {
+    order: 101,
+    slug: "carol-mayorgas-story",
+    images: [
+      "stories/carol-mayorgas-story/1.png",
+      "stories/carol-mayorgas-story/2.png",
+      "stories/carol-mayorgas-story/3.png",
+      "stories/carol-mayorgas-story/4.png",
+      "stories/carol-mayorgas-story/5.png",
+      "stories/carol-mayorgas-story/6.png",
+      "stories/carol-mayorgas-story/7.png",
+      "stories/carol-mayorgas-story/8.png",
+      "stories/carol-mayorgas-story/9.png",
+      "stories/carol-mayorgas-story/10.png",
+      "stories/carol-mayorgas-story/11.png",
+      "stories/carol-mayorgas-story/12.png",
+      "stories/carol-mayorgas-story/13.png",
+      "stories/carol-mayorgas-story/14.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Missouri",
+    tags: ["Asylum", "Detention", "Family", "Legal Status", "Parent", "Worker"],
+    title: "Carol Mayorga’s Story",
+    summary: "Today, we are sharing the story of Carol Mayorga. Mayorga was raised in Hong Kong with an abusive mother. Because of their relationship, Mayorga fled to the United States when she was only 20 years old, saving enough money by working as a McDonald's assistant. Mayorga told the court that her mother favored boys, regretting that she had a daughter. Her mother would cut her hair short and make her dress up like a boy. Not being able to handle this anymore, Mayorga decided to flee to the United States through a nonimmigrant visa. However, after her visa expired, she remained in the United States because she feared returning to her mother. Because of her mistreatment back in Hong Kong, Mayorga decided to apply for asylum, using letters that her friends and family wrote warning her to not come back out of fear that her mother would hurt her as evidence; however, her asylum case would be denied in 2014 because the court believed that her mother did not pose a direct threat anymore. After all, Mayorga was already 34 years old. Mayorga would continue to work in the U.S under an employment authorization and order of supervision, which allowed her to live and work in the United States while she continued her path to citizenship. Mayorga settled in Kennett, a small rural city in Missouri that had an overwhelming population that supported Trump. She would work multiple jobs, including at John’s Waffle and Pancake House, to help support and raise her three children. Community members described her as a hardworking and caring mom, a frequent volunteer at the local church, and on her kids’ soccer team. Mayorga would be detained during a routine check-in with immigration officials in St. Louis after she came to renew her employment authorization. She waited for nearly seven hours before immigration officials came in and detained her, shackling her and transferring her to multiple detention facilities before she ended up at Greene County Jail. Although Mayorga resided in Kennett, her detention sparked massive outrage in her local community, with many individuals advocating and protesting for her release. Thankfully, Mayorga would be released from detention after weeks trapped inside. Mayorga was determined to be eligible for a Deferred Enforcement Departure, which applied to certain Hong Kong Residents. Currently, Mayorga is fighting with her legal team to reopen her case and hopefully get citizenship. The sources we used for this post come from the organizations Newsweek, STLPR, Fox News, ASAM News, and The Marshall Project. If you would like to learn more about Mayorga’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7649187176995114254?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#carol-mayorgas-story"
   }
 ];
 
