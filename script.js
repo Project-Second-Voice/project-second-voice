@@ -2893,6 +2893,30 @@ const stories = [
     summary: "Today, we are sharing the story of Andrea Garcia’s family. Garcia’s mother and father came to the United States from Mexico when they were young adults, later reconnecting and falling in love. They would have six children and settle down in Southern Texas. Her father works in construction along with the oldest son. Amid recent immigration crackdowns, agents raided the family’s home, injuring some of the children, including a 15-year-old with a chronic bone disorder. The second oldest, Humberto, was leaving for work when it happened. He was detained and released after a few hours, while the father and mother were detained. The mother became deeply depressed in custody and signed deportation papers, while the father remained in custody awaiting a court date he assumed would lead to his deportation. Life for the children changed drastically. Humberto had to postpone his wedding and get a job cutting trees to support the family. Ana decided she would no longer pursue a degree in law enforcement, becoming a cleaner with Andrea. Juan, Lucero, and Jorge became closed off and withdrawn, avoiding interaction and becoming afraid of anyone outside of school. On a recent Thursday afternoon, Ana found herself in the home their father built, reminiscing about her past life. She was reminded by the medicine on the refrigerator for her father’s diabetes and hypertension, and by the many letters her mother sent while in detention and now from Mexico. Ana had to take care of dinner because Andrea was running late doing errands. She never expected to have to care for and feed a household of six. Jorge, the youngest, had just gotten out of school and reluctantly ate his dinner. Juan, a 17-year-old high school senior, is interested in pursuing a degree in law enforcement, taking many college-level courses to get ahead, a dream that Ana had given up on. She did not feel she could in good conscience pursue a degree in a system that broke their family apart. Lucero, a 15-year-old girl, used to feed the chickens and roosters in their backyard with their father daily. Now, she still maintains the routine to remind herself of what life was like before. Two days later, the children attended a Catholic mass, reminiscing about how religious their father was and how much he would have loved to come to an event like this, bringing them along with him. The sources we used for this post come from The New York Times. If you would like to learn more about Andrea’s family story, we encourage you to check out the story published by this organization.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7651395329153076493?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#andrea-garcias-family-story"
+  },
+  {
+    order: 108,
+    slug: "alejandras-story",
+    images: [
+      "stories/alejandras-story/1.png",
+      "stories/alejandras-story/2.png",
+      "stories/alejandras-story/3.png",
+      "stories/alejandras-story/4.png",
+      "stories/alejandras-story/5.png",
+      "stories/alejandras-story/6.png",
+      "stories/alejandras-story/7.png",
+      "stories/alejandras-story/8.png",
+      "stories/alejandras-story/9.png",
+      "stories/alejandras-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Minnesota",
+    tags: ["Asylum", "Child", "Detention", "Deportation", "Family", "Family Separation", "Legal Status", "Parent", "Worker"],
+    title: "Alejandra’s Story",
+    summary: "Today, we are sharing the story of Alejandra. Alejandra, who asked to only be identified by her first name in order not to jeopardize her own immigration case, came to the United States from Colombia with her husband, Cristian. They came to the U.S on asylum cases and have been living in the United States for over 4 years. Last year, when immigration enforcement ramped up in Minnesota, Alejandra and Cristian didn’t think much of it because they both had asylum cases, had been living in the U.S for over 4 years, and were busy working on their cleaning business. They never expected the events that would occur in February, when the family was getting ready for their morning. Her husband was getting ready to go to work at a new job, and the kids were getting ready to go to daycare when immigration officers showed up at their apartment parking lot. Alejandra and their youngest child quickly rushed into the apartment with help from their neighbors, but Cristian was stuck in the car. Cristian quickly made sure to hand off the oldest child to one of their neighbors and was detained soon after. He was transported to a detention facility in Texas and chose to voluntarily deport soon after. Although he had a pending asylum case, he didn’t believe fighting for his case in court was worth it because he had a previous deportation order. After her husband’s deportation, Alejandra has struggled as the sole provider of the family during the freezing winters of Minnesota. She isn’t able to work because she is stuck taking care of her children and now doesn’t have access to a car. The dire situation faced by many immigrant families, such as Alejandra's, is not uncommon. Many families have been affected in recent times due to the surge in immigration enforcement, and people have had to hire their own attorneys. This has further exacerbated the financial burden for many families who have already lost their jobs. Alejandra wants to reunite the family as quickly as possible, but she is already making ends meet just for daily living expenses and doesn’t know how she can pay for airfare. She also worries about being picked up off the street and being separated from her children. The sources we used for this post come from the organizations MPR News, Sahan Journal, The Intercept, In These Times, and KUOW. If you would like to learn more about Alejandra’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7652888706579287309?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#alejandras-story"
   }
 ];
 
