@@ -2864,6 +2864,35 @@ const stories = [
     summary: "Today, we are sharing the story of Ricardo Hernandez-Navarrete. Ricardo and his mother came to the United States from Colombia to apply for asylum. They came to the U.S. when Ricardo was only 15 years old. Ricardo would attend Mather High School, becoming a well-loved member of his community and known for his love of soccer. He played for his high school team and also played on the IProSkills Academy team. He is committed to Truman College and is looking forward to playing collegiate-level soccer in the fall after his senior year. His dreams would be put to a halt when he and his mother would be detained during a routine asylum check-in. They were separated into different holding cells, having zero face-to-face contact for the 2-month time span they were in detention. Increased immigration enforcement has also put a mental strain on many students in the Chicago area, having to balance their studies and the fear of immigration enforcement in their backyard. Neither Ricardo nor his mother had a criminal record, and they both had a pending asylum case. They had their work permit, ID, and papers taken from them. This has led to massive outrage in their community, with Ricardo’s coach feeling deep anger about his detention. He recalls the first time he met Ricardo. Ricardo had walked several miles just to get to practice, highlighting his love for the sport and his passion to train and get better. Thankfully, after 2 months of being in detention, Ricardo and his mother were released, just before Ricardo’s graduation. Now, Ricardo and his mother have to go to routine check-ins while their asylum case is pending. A GoFundMe has been set up to support Ricardo and his mother in their legal journey. If you would like to support them, feel free to donate here: https://www.gofundme.com/f/free-ricardo-and-liliana-from-detention?attribution_id=sl:9a57cf09-c693-4e55-8172-a793772099a7&lang=en_US&ts=1776514804&utm_campaign=fp_sharesheet&utm_content=amp17_tc-amp20_control&utm_medium=customer&utm_source=copy_link The sources we used for this post come from the organizations CBS News, WAFB, Chicago Tribune, ABC 7, and Block Club Chicago. If you would like to learn more about Ricardo and his mother’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7651022473391115533?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#ricardo-hernandez-navarretes-story"
+  },
+  {
+    order: 107,
+    slug: "andrea-garcias-family-story",
+    images: [
+      "stories/andrea-garcias-family-story/1.png",
+      "stories/andrea-garcias-family-story/2.png",
+      "stories/andrea-garcias-family-story/3.png",
+      "stories/andrea-garcias-family-story/4.png",
+      "stories/andrea-garcias-family-story/5.png",
+      "stories/andrea-garcias-family-story/6.png",
+      "stories/andrea-garcias-family-story/7.png",
+      "stories/andrea-garcias-family-story/8.png",
+      "stories/andrea-garcias-family-story/9.png",
+      "stories/andrea-garcias-family-story/10.png",
+      "stories/andrea-garcias-family-story/11.png",
+      "stories/andrea-garcias-family-story/12.png",
+      "stories/andrea-garcias-family-story/13.png",
+      "stories/andrea-garcias-family-story/14.png",
+      "stories/andrea-garcias-family-story/15.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Texas",
+    tags: ["Child", "Detention", "Deportation", "Family", "Family Separation", "Legal Status", "Medical/Humanitarian", "Mexican", "Parent", "Student", "Worker"],
+    title: "Andrea García’s Family Story",
+    summary: "Today, we are sharing the story of Andrea Garcia’s family. Garcia’s mother and father came to the United States from Mexico when they were young adults, later reconnecting and falling in love. They would have six children and settle down in Southern Texas. Her father works in construction along with the oldest son. Amid recent immigration crackdowns, agents raided the family’s home, injuring some of the children, including a 15-year-old with a chronic bone disorder. The second oldest, Humberto, was leaving for work when it happened. He was detained and released after a few hours, while the father and mother were detained. The mother became deeply depressed in custody and signed deportation papers, while the father remained in custody awaiting a court date he assumed would lead to his deportation. Life for the children changed drastically. Humberto had to postpone his wedding and get a job cutting trees to support the family. Ana decided she would no longer pursue a degree in law enforcement, becoming a cleaner with Andrea. Juan, Lucero, and Jorge became closed off and withdrawn, avoiding interaction and becoming afraid of anyone outside of school. On a recent Thursday afternoon, Ana found herself in the home their father built, reminiscing about her past life. She was reminded by the medicine on the refrigerator for her father’s diabetes and hypertension, and by the many letters her mother sent while in detention and now from Mexico. Ana had to take care of dinner because Andrea was running late doing errands. She never expected to have to care for and feed a household of six. Jorge, the youngest, had just gotten out of school and reluctantly ate his dinner. Juan, a 17-year-old high school senior, is interested in pursuing a degree in law enforcement, taking many college-level courses to get ahead, a dream that Ana had given up on. She did not feel she could in good conscience pursue a degree in a system that broke their family apart. Lucero, a 15-year-old girl, used to feed the chickens and roosters in their backyard with their father daily. Now, she still maintains the routine to remind herself of what life was like before. Two days later, the children attended a Catholic mass, reminiscing about how religious their father was and how much he would have loved to come to an event like this, bringing them along with him. The sources we used for this post come from The New York Times. If you would like to learn more about Andrea’s family story, we encourage you to check out the story published by this organization.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7651395329153076493?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#andrea-garcias-family-story"
   }
 ];
 
