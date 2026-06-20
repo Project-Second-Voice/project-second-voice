@@ -2917,6 +2917,36 @@ const stories = [
     summary: "Today, we are sharing the story of Alejandra. Alejandra, who asked to only be identified by her first name in order not to jeopardize her own immigration case, came to the United States from Colombia with her husband, Cristian. They came to the U.S on asylum cases and have been living in the United States for over 4 years. Last year, when immigration enforcement ramped up in Minnesota, Alejandra and Cristian didn’t think much of it because they both had asylum cases, had been living in the U.S for over 4 years, and were busy working on their cleaning business. They never expected the events that would occur in February, when the family was getting ready for their morning. Her husband was getting ready to go to work at a new job, and the kids were getting ready to go to daycare when immigration officers showed up at their apartment parking lot. Alejandra and their youngest child quickly rushed into the apartment with help from their neighbors, but Cristian was stuck in the car. Cristian quickly made sure to hand off the oldest child to one of their neighbors and was detained soon after. He was transported to a detention facility in Texas and chose to voluntarily deport soon after. Although he had a pending asylum case, he didn’t believe fighting for his case in court was worth it because he had a previous deportation order. After her husband’s deportation, Alejandra has struggled as the sole provider of the family during the freezing winters of Minnesota. She isn’t able to work because she is stuck taking care of her children and now doesn’t have access to a car. The dire situation faced by many immigrant families, such as Alejandra's, is not uncommon. Many families have been affected in recent times due to the surge in immigration enforcement, and people have had to hire their own attorneys. This has further exacerbated the financial burden for many families who have already lost their jobs. Alejandra wants to reunite the family as quickly as possible, but she is already making ends meet just for daily living expenses and doesn’t know how she can pay for airfare. She also worries about being picked up off the street and being separated from her children. The sources we used for this post come from the organizations MPR News, Sahan Journal, The Intercept, In These Times, and KUOW. If you would like to learn more about Alejandra’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7652888706579287309?is_from_webapp=1&sender_device=pc",
     link: "stories.html#alejandras-story"
+  },
+  {
+    order: 109,
+    slug: "olivo-familys-story",
+    images: [
+      "stories/olivo-familys-story/1.png",
+      "stories/olivo-familys-story/2.png",
+      "stories/olivo-familys-story/3.png",
+      "stories/olivo-familys-story/4.png",
+      "stories/olivo-familys-story/5.png",
+      "stories/olivo-familys-story/6.png",
+      "stories/olivo-familys-story/7.png",
+      "stories/olivo-familys-story/8.png",
+      "stories/olivo-familys-story/9.png",
+      "stories/olivo-familys-story/10.png",
+      "stories/olivo-familys-story/11.png",
+      "stories/olivo-familys-story/12.png",
+      "stories/olivo-familys-story/13.png",
+      "stories/olivo-familys-story/14.png",
+      "stories/olivo-familys-story/15.png",
+      "stories/olivo-familys-story/16.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "California",
+    tags: ["DACA", "Detention", "Family", "Family Separation", "Legal Status", "U.S. Citizen", "Worker"],
+    title: "Olivo Family's Story",
+    summary: "Today, we are sharing the story of the Olivo Family. The father and mother are undocumented; however, the five children in the family are all U.S. citizens or have protection from programs such as DACA. Alejandro and his son, Bryan, were arriving at a landscaping job in Del Mar when immigration officers stopped their car. Alejandro quickly called his wife when the agents surrounded the car while Bryan persistently questioned if they had a warrant. The agents ignored the questions, breaking the window and pulling them out. To the wife, Veronica, the sound of broken glass was super loud, and right after, the phone went dead. Alejandro and Bryan are amongst thousands of San Diegans who have been detained amid a surge in immigration enforcement. The weeks of separation for the family were filled with fear and anger, but amid the stressful situation, the family never once gave up. Alejandro is undocumented, but the father of 5, who has worked in the U.S. for several decades, has never once committed a crime, and owns his own business. Bryan has protection as a DACA recipient. After the news quickly spread, many people around the neighborhood came to their house to help bring food, pay for rent, and call lawyers. Beckhams, the second oldest, was initially in a state of shock, but knew that he had to pull it together and support his family during this hard time. He set up a GoFundMe campaign for the family. Charline felt the absence of her father at night. Usually, when her father was home, he would hear small noises that would scare Charline and check on them. Charline would reach out to a teacher at her high school for support. The word of their situation spread and more people started dropping off food at the house. Ian, the second youngest, explained that he was shocked and also very happy to see that there were individuals that cared about them. Bryan would be released a day after being detained after ICE agents realized that he was a DACA recipient. He has been very busy supporting the family; however, on his time off, he loves to go support his favorite soccer team, San Diego FC. Bryan loved singing the anthem before the games, but during his first game back, he put his head down on the line \"the land of the free\" because his father was not free. Thankfully, after a month of detention, Alejandro was finally released. When he came home, he had lost a lot of weight and was much paler. The sources we used for this post come from the organizations KPBS San Diego and GoFundMe. If you would like to donate and support the family, feel free to donate here: https://gofund.me/9a95faf2f",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7653278493412723982?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#olivo-familys-story"
   }
 ];
 
