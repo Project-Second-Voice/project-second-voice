@@ -2947,6 +2947,37 @@ const stories = [
     summary: "Today, we are sharing the story of the Olivo Family. The father and mother are undocumented; however, the five children in the family are all U.S. citizens or have protection from programs such as DACA. Alejandro and his son, Bryan, were arriving at a landscaping job in Del Mar when immigration officers stopped their car. Alejandro quickly called his wife when the agents surrounded the car while Bryan persistently questioned if they had a warrant. The agents ignored the questions, breaking the window and pulling them out. To the wife, Veronica, the sound of broken glass was super loud, and right after, the phone went dead. Alejandro and Bryan are amongst thousands of San Diegans who have been detained amid a surge in immigration enforcement. The weeks of separation for the family were filled with fear and anger, but amid the stressful situation, the family never once gave up. Alejandro is undocumented, but the father of 5, who has worked in the U.S. for several decades, has never once committed a crime, and owns his own business. Bryan has protection as a DACA recipient. After the news quickly spread, many people around the neighborhood came to their house to help bring food, pay for rent, and call lawyers. Beckhams, the second oldest, was initially in a state of shock, but knew that he had to pull it together and support his family during this hard time. He set up a GoFundMe campaign for the family. Charline felt the absence of her father at night. Usually, when her father was home, he would hear small noises that would scare Charline and check on them. Charline would reach out to a teacher at her high school for support. The word of their situation spread and more people started dropping off food at the house. Ian, the second youngest, explained that he was shocked and also very happy to see that there were individuals that cared about them. Bryan would be released a day after being detained after ICE agents realized that he was a DACA recipient. He has been very busy supporting the family; however, on his time off, he loves to go support his favorite soccer team, San Diego FC. Bryan loved singing the anthem before the games, but during his first game back, he put his head down on the line \"the land of the free\" because his father was not free. Thankfully, after a month of detention, Alejandro was finally released. When he came home, he had lost a lot of weight and was much paler. The sources we used for this post come from the organizations KPBS San Diego and GoFundMe. If you would like to donate and support the family, feel free to donate here: https://gofund.me/9a95faf2f",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7653278493412723982?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#olivo-familys-story"
+  },
+  {
+    order: 110,
+    slug: "chloe-tipan-villacis-story",
+    images: [
+      "stories/chloe-tipan-villacis-story/1.png",
+      "stories/chloe-tipan-villacis-story/2.png",
+      "stories/chloe-tipan-villacis-story/3.png",
+      "stories/chloe-tipan-villacis-story/4.png",
+      "stories/chloe-tipan-villacis-story/5.png",
+      "stories/chloe-tipan-villacis-story/6.png",
+      "stories/chloe-tipan-villacis-story/7.png",
+      "stories/chloe-tipan-villacis-story/8.png",
+      "stories/chloe-tipan-villacis-story/9.png",
+      "stories/chloe-tipan-villacis-story/10.png",
+      "stories/chloe-tipan-villacis-story/11.png",
+      "stories/chloe-tipan-villacis-story/12.png",
+      "stories/chloe-tipan-villacis-story/13.png",
+      "stories/chloe-tipan-villacis-story/14.png",
+      "stories/chloe-tipan-villacis-story/15.png",
+      "stories/chloe-tipan-villacis-story/16.png",
+      "stories/chloe-tipan-villacis-story/17.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Minnesota",
+    tags: ["Asylum", "Child", "Detention", "Ecuadorian", "Family", "Family Separation", "Legal Status"],
+    title: "Chloe Tipan Villacis' Story",
+    summary: "Today, we are sharing the story of Chloe Tipan Villacis and her parents, Elvis and Nicole. The family came to the United States from Ecuador in May 2024 because Elvis believed it would be safer for Chloe to grow up here and that she would have more opportunities to succeed. Protests echoed throughout Minnesota amid recent surges in immigration enforcement; however, in the small house, all that could be heard was Chloe whispering that she was hungry and wanted to eat fruit. Elvis brought Chloe to run errands at a nearby store. When they returned home, Elvis felt something was off. A car continued to follow behind them, and when Elvis got to the house, he saw immigration officers surrounding it. After seeing them, Elvis decided to keep driving and called his wife to tell her to get ready to pick up Chloe at the back door in case he was detained. Nicole dropped everything and ran to the back door, but by then it was too late, and agents had already surrounded Elvis' car. Nicole wanted to run out to get Chloe, but Elvis warned her to remain inside because she could also be detained because of her undocumented status. Elvis begged for an American to come and get his daughter; however, within minutes, agents shattered the car window and began detaining them. The agents tried telling Nicole to come out of the house to get Chloe and tried to take Chloe from Elvis, but Elvis refused because he did not trust them. Chloe started crying amid the shattered glass and chaos, and a few shards of glass landed on Chloe's hand, making her bleed a little. Elvis states that she was not offered any medical assistance. Both Chloe and Elvis were detained and transferred to a Texas holding facility. Both Chloe and Elvis were asylum seekers with no criminal record. The two were forced to wait in an airport terminal as their lawyers scrambled to halt their transfer. Chloe was forced to sleep on airport chairs, eat cookies, and drink water purchased by custodial officers. Thankfully, after 27 hours in federal custody, Chloe was released; however, Elvis remained in custody. The family has decided that the best course of action is to return to Ecuador because they fear being separated once again if they remain in the U.S. The sources we used for this post come from the organizations MS News, NBC News, and GoFundMe. If you would like to learn more about Chloe's story, we encourage you to check out the stories published by these organizations. Currently, the GoFundMe for the family is paused; however, if it does reopen, you can support them here: https://gofund.me/fbe25a100",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7653623635416059150?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#chloe-tipan-villacis-story"
   }
 ];
 
