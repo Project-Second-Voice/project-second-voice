@@ -2978,6 +2978,33 @@ const stories = [
     summary: "Today, we are sharing the story of Chloe Tipan Villacis and her parents, Elvis and Nicole. The family came to the United States from Ecuador in May 2024 because Elvis believed it would be safer for Chloe to grow up here and that she would have more opportunities to succeed. Protests echoed throughout Minnesota amid recent surges in immigration enforcement; however, in the small house, all that could be heard was Chloe whispering that she was hungry and wanted to eat fruit. Elvis brought Chloe to run errands at a nearby store. When they returned home, Elvis felt something was off. A car continued to follow behind them, and when Elvis got to the house, he saw immigration officers surrounding it. After seeing them, Elvis decided to keep driving and called his wife to tell her to get ready to pick up Chloe at the back door in case he was detained. Nicole dropped everything and ran to the back door, but by then it was too late, and agents had already surrounded Elvis' car. Nicole wanted to run out to get Chloe, but Elvis warned her to remain inside because she could also be detained because of her undocumented status. Elvis begged for an American to come and get his daughter; however, within minutes, agents shattered the car window and began detaining them. The agents tried telling Nicole to come out of the house to get Chloe and tried to take Chloe from Elvis, but Elvis refused because he did not trust them. Chloe started crying amid the shattered glass and chaos, and a few shards of glass landed on Chloe's hand, making her bleed a little. Elvis states that she was not offered any medical assistance. Both Chloe and Elvis were detained and transferred to a Texas holding facility. Both Chloe and Elvis were asylum seekers with no criminal record. The two were forced to wait in an airport terminal as their lawyers scrambled to halt their transfer. Chloe was forced to sleep on airport chairs, eat cookies, and drink water purchased by custodial officers. Thankfully, after 27 hours in federal custody, Chloe was released; however, Elvis remained in custody. The family has decided that the best course of action is to return to Ecuador because they fear being separated once again if they remain in the U.S. The sources we used for this post come from the organizations MS News, NBC News, and GoFundMe. If you would like to learn more about Chloe's story, we encourage you to check out the stories published by these organizations. Currently, the GoFundMe for the family is paused; however, if it does reopen, you can support them here: https://gofund.me/fbe25a100",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7653623635416059150?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#chloe-tipan-villacis-story"
+  },
+  {
+    order: 111,
+    slug: "roman-surovtsevs-story",
+    images: [
+      "stories/roman-surovtsevs-story/1.png",
+      "stories/roman-surovtsevs-story/2.png",
+      "stories/roman-surovtsevs-story/3.png",
+      "stories/roman-surovtsevs-story/4.png",
+      "stories/roman-surovtsevs-story/5.png",
+      "stories/roman-surovtsevs-story/6.png",
+      "stories/roman-surovtsevs-story/7.png",
+      "stories/roman-surovtsevs-story/8.png",
+      "stories/roman-surovtsevs-story/9.png",
+      "stories/roman-surovtsevs-story/10.png",
+      "stories/roman-surovtsevs-story/11.png",
+      "stories/roman-surovtsevs-story/12.png",
+      "stories/roman-surovtsevs-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Texas",
+    tags: ["Asylum", "Detention", "Deportation", "Family", "Family Separation", "Legal Status", "Worker"],
+    title: "Roman Surovtsev's Story",
+    summary: "Today, we are sharing the story of Roman Surovtsev. Roman was born in the USSR city of Zhdanov. After his father, a chemical plant worker, passed away in the aftermath of Chornobyl, Roman's family decided to leave their home city. Four-year-old Roman, along with his two siblings and mother, fled the USSR and applied for asylum in the United States. The family came to the U.S., forfeiting their USSR citizenship. They slept in a San Francisco church for over six months before moving north to Sacramento. Still, poverty seemed to follow them wherever they went. As a child, Roman felt ashamed of this and would regularly steal small toys to make it seem like his family was not poor. He would also help his mother clean homes and law offices to make ends meet. Roman made friends with the wrong group of people, and in 2003, at 19 years old, he served prison time after helping his friends carjack a motorcycle. Roman was released on good behavior; however, his green card status was revoked. Because of this, he was on grounds for deportation, but he was released from federal custody on an order of supervision. Without USSR citizenship or a green card, Roman got by as a stateless individual with a work permit. He also went to regular immigration check-ins and never committed another crime after his past conviction. Roman would turn his life around, being baptized in prison and meeting his now-wife, Samantha, on a jet skiing trip with mutual friends in Orange County. The two bought a house together in Dallas, raised two daughters, and started a painting business together. Roman also trained to be a prison minister, offering religious advice to detainees he met. Roman did not expect to be detained during a regular immigration check-in. Officials tried deporting him to Ukraine, but Roman lacked the necessary documents to prove his citizenship, and deporting him could lead to conflict. In the more than six months Roman spent in detention, he missed his anniversary, his wife's and daughter's birthdays, and a medical problem his mother was suffering from. Thankfully, Roman's stay of removal was accepted, and his green card was later restored. The sources we used for this post come from the organizations NPR and CNN. If you would like to learn more about Roman's story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7654010154257485070?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#roman-surovtsevs-story"
   }
 ];
 
