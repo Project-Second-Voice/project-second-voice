@@ -3005,6 +3005,31 @@ const stories = [
     summary: "Today, we are sharing the story of Roman Surovtsev. Roman was born in the USSR city of Zhdanov. After his father, a chemical plant worker, passed away in the aftermath of Chornobyl, Roman's family decided to leave their home city. Four-year-old Roman, along with his two siblings and mother, fled the USSR and applied for asylum in the United States. The family came to the U.S., forfeiting their USSR citizenship. They slept in a San Francisco church for over six months before moving north to Sacramento. Still, poverty seemed to follow them wherever they went. As a child, Roman felt ashamed of this and would regularly steal small toys to make it seem like his family was not poor. He would also help his mother clean homes and law offices to make ends meet. Roman made friends with the wrong group of people, and in 2003, at 19 years old, he served prison time after helping his friends carjack a motorcycle. Roman was released on good behavior; however, his green card status was revoked. Because of this, he was on grounds for deportation, but he was released from federal custody on an order of supervision. Without USSR citizenship or a green card, Roman got by as a stateless individual with a work permit. He also went to regular immigration check-ins and never committed another crime after his past conviction. Roman would turn his life around, being baptized in prison and meeting his now-wife, Samantha, on a jet skiing trip with mutual friends in Orange County. The two bought a house together in Dallas, raised two daughters, and started a painting business together. Roman also trained to be a prison minister, offering religious advice to detainees he met. Roman did not expect to be detained during a regular immigration check-in. Officials tried deporting him to Ukraine, but Roman lacked the necessary documents to prove his citizenship, and deporting him could lead to conflict. In the more than six months Roman spent in detention, he missed his anniversary, his wife's and daughter's birthdays, and a medical problem his mother was suffering from. Thankfully, Roman's stay of removal was accepted, and his green card was later restored. The sources we used for this post come from the organizations NPR and CNN. If you would like to learn more about Roman's story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7654010154257485070?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#roman-surovtsevs-story"
+  },
+  {
+    order: 112,
+    slug: "meenu-batras-story",
+    images: [
+      "stories/meenu-batras-story/1.png",
+      "stories/meenu-batras-story/2.png",
+      "stories/meenu-batras-story/3.png",
+      "stories/meenu-batras-story/4.png",
+      "stories/meenu-batras-story/5.png",
+      "stories/meenu-batras-story/6.png",
+      "stories/meenu-batras-story/7.png",
+      "stories/meenu-batras-story/8.png",
+      "stories/meenu-batras-story/9.png",
+      "stories/meenu-batras-story/10.png",
+      "stories/meenu-batras-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Texas",
+    tags: ["Asylum", "Detention", "Family", "Legal Status", "Worker"],
+    title: "Meenu Batra's Story",
+    summary: "Today, we are sharing the story of Meenu Batra. Batra came to the United States when she was only 18 years old from India, after her parents had been the victims of targeted anti-Sikh violence. Batra felt conflicted that she was leaving on such short notice, only briefly communicating with her friends and family before leaving permanently. She joined her older siblings, who already resided in the United States, and applied for asylum. She would be granted a withholding of removal from India due to her past and would be allowed to remain in the U.S. She would spend the next 25 years with little to no interaction with immigration enforcement. Batra spent a few years living on the East Coast before relocating to Texas. She soon realized the need for South Asian interpreters as she lived close to many detention facilities and became an interpreter for immigration courts. She said it was always satisfying to be able to give detainees good news. Batra became the only certified Hindi, Punjabi, and Urdu courtroom interpreter in all of Texas. Through her work, she gained a deep respect for the legal system and believed there was a right way to do things, and that the United States mostly followed this. This changed when Batra was detained at the airport while she was on her way to interpret in a trial located in Milwaukee. Batra believed during the encounter that it was all a mistake, and that officers would look at her I.D. and work permit and realize they had the wrong person. Batra was more worried about missing the trial than about what would happen to her. Instead, Batra soon realized that there was no mistake and that it had been a targeted attempt to detain her. Batra called her adult daughter to hire an immigration lawyer to help fight for her release. She would be held in immigration detention for over 45 days. Now, her lawyers are working to prevent her from being detained and possibly deported again. This experience has completely changed Batra’s life, and in the few days since she returned from detention, she has had many sleepless nights. Whenever a car passes her, she jumps, fearing that “they” are coming to get her. The sources we used for this post come from the organizations CNN, CBS News, ABC News, and Atanet. If you would like to learn more about Batra’s story, we encourage you to check out the sources published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7654756337301277965?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#meenu-batras-story"
   }
 ];
 
