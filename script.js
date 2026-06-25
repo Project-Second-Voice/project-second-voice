@@ -22,11 +22,13 @@ const APPROVED_STORY_TAGS = [
   "Family Separation",
   "Guatemalan",
   "Honduran",
+  "ICE",
   "Journalist",
   "Legal Status",
   "LGBTQ+",
   "Medical/Humanitarian",
   "Mexican",
+  "Military Family",
   "Parent",
   "Salvadoran",
   "Student",
@@ -3030,6 +3032,31 @@ const stories = [
     summary: "Today, we are sharing the story of Meenu Batra. Batra came to the United States when she was only 18 years old from India, after her parents had been the victims of targeted anti-Sikh violence. Batra felt conflicted that she was leaving on such short notice, only briefly communicating with her friends and family before leaving permanently. She joined her older siblings, who already resided in the United States, and applied for asylum. She would be granted a withholding of removal from India due to her past and would be allowed to remain in the U.S. She would spend the next 25 years with little to no interaction with immigration enforcement. Batra spent a few years living on the East Coast before relocating to Texas. She soon realized the need for South Asian interpreters as she lived close to many detention facilities and became an interpreter for immigration courts. She said it was always satisfying to be able to give detainees good news. Batra became the only certified Hindi, Punjabi, and Urdu courtroom interpreter in all of Texas. Through her work, she gained a deep respect for the legal system and believed there was a right way to do things, and that the United States mostly followed this. This changed when Batra was detained at the airport while she was on her way to interpret in a trial located in Milwaukee. Batra believed during the encounter that it was all a mistake, and that officers would look at her I.D. and work permit and realize they had the wrong person. Batra was more worried about missing the trial than about what would happen to her. Instead, Batra soon realized that there was no mistake and that it had been a targeted attempt to detain her. Batra called her adult daughter to hire an immigration lawyer to help fight for her release. She would be held in immigration detention for over 45 days. Now, her lawyers are working to prevent her from being detained and possibly deported again. This experience has completely changed Batra’s life, and in the few days since she returned from detention, she has had many sleepless nights. Whenever a car passes her, she jumps, fearing that “they” are coming to get her. The sources we used for this post come from the organizations CNN, CBS News, ABC News, and Atanet. If you would like to learn more about Batra’s story, we encourage you to check out the sources published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7654756337301277965?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#meenu-batras-story"
+  },
+  {
+    order: 113,
+    slug: "marie-therese-ross-story",
+    images: [
+      "stories/marie-therese-ross-story/1.png",
+      "stories/marie-therese-ross-story/2.png",
+      "stories/marie-therese-ross-story/3.png",
+      "stories/marie-therese-ross-story/4.png",
+      "stories/marie-therese-ross-story/5.png",
+      "stories/marie-therese-ross-story/6.png",
+      "stories/marie-therese-ross-story/7.png",
+      "stories/marie-therese-ross-story/8.png",
+      "stories/marie-therese-ross-story/9.png",
+      "stories/marie-therese-ross-story/10.png",
+      "stories/marie-therese-ross-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Alabama",
+    tags: ["Detention", "Family", "Family Separation", "ICE", "Legal Status", "Military Family"],
+    title: "Marie-Thérèse Ross' Story",
+    summary: "Today, we are sharing the story of Marie-Thérèse Ross. Ross came to the United States to reunite and start a new life with William, a retired U.S. soldier. They met when William was deployed in France and Ross was working as a secretary at NATO. From 1962 to 2022, Ross and William stayed close through communication with William's wife. After both became widowed, they spent more time together, fell in love, and married last year. After William passed away in January, disputes arose in the family over inheritance. William's son, who was in charge of the mail, rerouted Ross' immigration appointment reminder, causing her to miss her scheduled appointment. ICE agents later arrived at her door at 8 in the morning, handcuffed her, and forced her into a vehicle while she was still in her pajamas. After two days, Ross was transferred to a detention facility in Louisiana. Ross described the facility's conditions as okay, but said the guards' treatment and the noise in the cell were unbearable. The rules were also very strict. Ross was held in a dormitory-like room with 58 other women. The detainees treated one another very well. Ross recalls that at night, when her blanket slipped away, another detainee helped put it back. Ross also owns a friendship bracelet, which she still wears today, that was gifted to her by one of the detainees. She was released from detention after 16 days. To this day, she remembers the many mothers in the facility who were separated from their families. The experience changed her view of the United States and its immigration policies. Ross explained that the detainees did nothing wrong except for being South American. The sources we used for this post come from NBC, The Guardian, France 24, The New York Times, The Telegraph, and El País. If you would like to learn more about Ross' story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7655111823083064589?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#marie-therese-ross-story"
   }
 ];
 
