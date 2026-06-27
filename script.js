@@ -3057,6 +3057,34 @@ const stories = [
     summary: "Today, we are sharing the story of Marie-Thérèse Ross. Ross came to the United States to reunite and start a new life with William, a retired U.S. soldier. They met when William was deployed in France and Ross was working as a secretary at NATO. From 1962 to 2022, Ross and William stayed close through communication with William's wife. After both became widowed, they spent more time together, fell in love, and married last year. After William passed away in January, disputes arose in the family over inheritance. William's son, who was in charge of the mail, rerouted Ross' immigration appointment reminder, causing her to miss her scheduled appointment. ICE agents later arrived at her door at 8 in the morning, handcuffed her, and forced her into a vehicle while she was still in her pajamas. After two days, Ross was transferred to a detention facility in Louisiana. Ross described the facility's conditions as okay, but said the guards' treatment and the noise in the cell were unbearable. The rules were also very strict. Ross was held in a dormitory-like room with 58 other women. The detainees treated one another very well. Ross recalls that at night, when her blanket slipped away, another detainee helped put it back. Ross also owns a friendship bracelet, which she still wears today, that was gifted to her by one of the detainees. She was released from detention after 16 days. To this day, she remembers the many mothers in the facility who were separated from their families. The experience changed her view of the United States and its immigration policies. Ross explained that the detainees did nothing wrong except for being South American. The sources we used for this post come from NBC, The Guardian, France 24, The New York Times, The Telegraph, and El País. If you would like to learn more about Ross' story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7655111823083064589?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#marie-therese-ross-story"
+  },
+  {
+    order: 114,
+    slug: "alexander-esquivels-story",
+    images: [
+      "stories/alexander-esquivels-story/1.png",
+      "stories/alexander-esquivels-story/2.png",
+      "stories/alexander-esquivels-story/3.png",
+      "stories/alexander-esquivels-story/4.png",
+      "stories/alexander-esquivels-story/5.png",
+      "stories/alexander-esquivels-story/6.png",
+      "stories/alexander-esquivels-story/7.png",
+      "stories/alexander-esquivels-story/8.png",
+      "stories/alexander-esquivels-story/9.png",
+      "stories/alexander-esquivels-story/10.png",
+      "stories/alexander-esquivels-story/11.png",
+      "stories/alexander-esquivels-story/12.png",
+      "stories/alexander-esquivels-story/13.png",
+      "stories/alexander-esquivels-story/14.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Virginia",
+    tags: ["Worker", "Detention", "Family", "Family Separation", "ICE", "Legal Status", "Salvadoran"],
+    title: "Alexander Esquivel's Story",
+    summary: "Today, we are sharing the story of Alexander Esquivel. Alexander came to the United States from El Salvador 20 years ago. He built a life here, working as a cleaner and raising two U.S. citizen daughters. Alex was eating breakfast in his car outside his apartment in D.C. when ICE agents approached him. Alex was repeatedly questioned about which border he crossed. Because he could not show evidence of legal status, he was detained and transferred to the Chantilly Detention Facility in Northern Virginia. He is just one of more than 1,100 immigrants who have been detained in D.C. in the past two months, following the recent surge in immigration enforcement. Like 80% of those detained, Alex had no criminal record. He was later transferred to Southwest Virginia Regional Jail, where he met many people who were legally allowed to be in the U.S. or were in the process of obtaining legal status. He witnessed the unfairness of people being detained because of their appearance alone. Alex explained that the conditions in the facility were horrible, including reports of worms in the food. He also said that everyone was sick and struggled to get medical attention. Thankfully, after a hard two months for Alex's family, he was finally released on bail. The judge cited his strong family ties and clean criminal record as reasons for his release. Even after his release, this event has permanently scarred the family, and Alex still sometimes wakes up early in the morning believing he is still in the detention facility. Although Alex has been released, DHS is still able to challenge this decision. The sources we used for this post come from the organizations 51st News, Daily Voice, and PBS News Student Reporting Labs. If you would like to learn more about Alex's story, we encourage you to check out the stories published by these organizations. A GoFundMe has been set up for Alex to help pay for his legal fees and support him in his ongoing battle. If you would like to donate, please feel free to support him here: https://gofund.me/84c15afc6",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7655849305902697742?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#alexander-esquivels-story"
   }
 ];
 
