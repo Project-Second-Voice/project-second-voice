@@ -3113,6 +3113,32 @@ const stories = [
     summary: "Today, we are sharing the story of José Contreras Díaz. Contreras came to the United States when his mother believed it would be better to raise him and his siblings in the U.S. rather than Honduras. Contreras and his family crossed the Mexico-Texas border when he was only 8 years old and turned themselves in to immigration agents. Their mother was given a notice to appear in immigration court. After their first hearing, the family relocated, and Contreras’ mother notified the court that they were never given a follow-up hearing. Later, when she called the court to follow up, officials said that the family received an order of deportation because they had supposedly missed their follow-up hearing. The family would move to the Rio Grande Valley, and Contreras would enroll in college, pursuing a degree in Chemistry. In 2014, Contreras was officially accepted into DACA, granted work authorization, and continued renewing his status every 2 years. In 2022, he would meet his future wife while shopping at a local grocery store, asking her out to coffee. They would move in together, and Contreras quit college to work as a commercial driver, then in the oil fields. Contreras was working as a pool technician when he was notified of an immigration appointment, which immediately drew his suspicion. He had not once received a notice for an appointment in the 12 years he was in DACA. This was when immigration raids surged in the Rio Grande Valley, and individuals were being deported even without criminal records. His suspicions would be correct when Contreras was detained and, within days, deported to Honduras. The first month in Honduras, all Contreras did was cry in his grandparents’ house. He missed Valentine’s Day, his wife’s birthday, and most importantly, his son’s birth. Contreras would work hard to get back to his family, eventually being allowed to return to Texas; however, he would never expect to be detained as soon as he set foot out of the plane. He would spend 8 days in Port Isabel Detention Facility, being visited by his younger sister, who brought his son with her. Thankfully, he would be released just in time for Mother’s Day, although he felt guilty that he wasn’t able to provide a gift for his wife since he lost his job in detention. Ever since he was released, Contreras has felt fear of slipping up and being detained once again. The sources we used for this post come from the organizations The Texas Tribune, El País, FWD, MS Now, The New York Times, and GoFundMe. If you would like to learn more about Contreras’ story, we encourage you to check out the stories published by these organizations. A GoFundMe has been set up to support Contreras in this time of financial hardship. If you would like to donate, please feel free to do so here: https://gofund.me/6cfd90c75",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7656227634245897485?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#jose-contreras-diazs-story"
+  },
+  {
+    order: 116,
+    slug: "milena-araya-davis-story",
+    images: [
+      "stories/milena-araya-davis-story/1.png",
+      "stories/milena-araya-davis-story/2.png",
+      "stories/milena-araya-davis-story/3.png",
+      "stories/milena-araya-davis-story/4.png",
+      "stories/milena-araya-davis-story/5.png",
+      "stories/milena-araya-davis-story/6.png",
+      "stories/milena-araya-davis-story/7.png",
+      "stories/milena-araya-davis-story/8.png",
+      "stories/milena-araya-davis-story/9.png",
+      "stories/milena-araya-davis-story/10.png",
+      "stories/milena-araya-davis-story/11.png",
+      "stories/milena-araya-davis-story/12.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "California",
+    tags: ["DACA", "Detention", "Dreamer", "Family", "ICE", "Legal Status", "Student", "Worker"],
+    title: "Milena Araya-Davis' Story",
+    summary: "Today, we are sharing the story of Milena Araya-Davis. Milena came to the United States with her family from Peru on a tourist visa. She came when she was only 4 years old, and her parents wanted to provide her with opportunities to succeed that weren't available in Peru. At the age of 15, she would apply for and be accepted into DACA, granting her work authorization and allowing her to live without fear of deportation. Milena would finish high school and achieve both a bachelor's and a master's degree. However, instead of being ecstatic and ready for the future, Milena felt uncertainty. She was no longer a student and feared that her status would affect her chances of getting a job. Milena would become a family therapist in San Diego and marry a U.S citizen in 2025. After marrying, she would apply for a green card. Milena was supported by her sister, who was already a U.S citizen, and would have her proof of relationship approved during her green card interview. Despite this, the interviewer would leave the room around the end of the interview, and 3 ICE agents would flood inside the room, questioning Milena on how she came to the U.S. She was arrested and transferred to Otay Mesa Detention Facility in a holding cell with 150 other women. Milena said that the whole situation was incredibly dehumanizing. She had done everything right, didn't have a criminal record, studied in the U.S, and still was treated like a criminal. Milena recalls the fear she felt in the freezing holding cell, where she stayed for 7 hours alone. Thankfully, Milena would be released on bond after 7 days. Months later, immigration judges would terminate her removal proceedings and reopen her green card application case. Good news came only weeks later, when Milena was informed that her application was approved and she was granted a green card. She finally believes her life can start in the U.S. The sources we used for this post come from the organizations Desert Sun, SWNS, CBS 8, and NBC LA San Diego. If you would like to learn more about Milena's story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7656583675823344910?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#milena-araya-davis-story"
   }
 ];
 
