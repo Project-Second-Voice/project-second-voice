@@ -3085,6 +3085,34 @@ const stories = [
     summary: "Today, we are sharing the story of Alexander Esquivel. Alexander came to the United States from El Salvador 20 years ago. He built a life here, working as a cleaner and raising two U.S. citizen daughters. Alex was eating breakfast in his car outside his apartment in D.C. when ICE agents approached him. Alex was repeatedly questioned about which border he crossed. Because he could not show evidence of legal status, he was detained and transferred to the Chantilly Detention Facility in Northern Virginia. He is just one of more than 1,100 immigrants who have been detained in D.C. in the past two months, following the recent surge in immigration enforcement. Like 80% of those detained, Alex had no criminal record. He was later transferred to Southwest Virginia Regional Jail, where he met many people who were legally allowed to be in the U.S. or were in the process of obtaining legal status. He witnessed the unfairness of people being detained because of their appearance alone. Alex explained that the conditions in the facility were horrible, including reports of worms in the food. He also said that everyone was sick and struggled to get medical attention. Thankfully, after a hard two months for Alex's family, he was finally released on bail. The judge cited his strong family ties and clean criminal record as reasons for his release. Even after his release, this event has permanently scarred the family, and Alex still sometimes wakes up early in the morning believing he is still in the detention facility. Although Alex has been released, DHS is still able to challenge this decision. The sources we used for this post come from the organizations 51st News, Daily Voice, and PBS News Student Reporting Labs. If you would like to learn more about Alex's story, we encourage you to check out the stories published by these organizations. A GoFundMe has been set up for Alex to help pay for his legal fees and support him in his ongoing battle. If you would like to donate, please feel free to support him here: https://gofund.me/84c15afc6",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7655849305902697742?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#alexander-esquivels-story"
+  },
+  {
+    order: 115,
+    slug: "jose-contreras-diazs-story",
+    images: [
+      "stories/jose-contreras-diazs-story/1.png",
+      "stories/jose-contreras-diazs-story/2.png",
+      "stories/jose-contreras-diazs-story/3.png",
+      "stories/jose-contreras-diazs-story/4.png",
+      "stories/jose-contreras-diazs-story/5.png",
+      "stories/jose-contreras-diazs-story/6.png",
+      "stories/jose-contreras-diazs-story/7.png",
+      "stories/jose-contreras-diazs-story/8.png",
+      "stories/jose-contreras-diazs-story/9.png",
+      "stories/jose-contreras-diazs-story/10.png",
+      "stories/jose-contreras-diazs-story/11.png",
+      "stories/jose-contreras-diazs-story/12.png",
+      "stories/jose-contreras-diazs-story/13.png",
+      "stories/jose-contreras-diazs-story/14.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Texas",
+    tags: ["DACA", "Detention", "Deportation", "Dreamer", "Family", "Family Separation", "Honduran", "ICE", "Legal Status", "Student", "Worker"],
+    title: "José Contreras Díaz's Story",
+    summary: "Today, we are sharing the story of José Contreras Díaz. Contreras came to the United States when his mother believed it would be better to raise him and his siblings in the U.S. rather than Honduras. Contreras and his family crossed the Mexico-Texas border when he was only 8 years old and turned themselves in to immigration agents. Their mother was given a notice to appear in immigration court. After their first hearing, the family relocated, and Contreras’ mother notified the court that they were never given a follow-up hearing. Later, when she called the court to follow up, officials said that the family received an order of deportation because they had supposedly missed their follow-up hearing. The family would move to the Rio Grande Valley, and Contreras would enroll in college, pursuing a degree in Chemistry. In 2014, Contreras was officially accepted into DACA, granted work authorization, and continued renewing his status every 2 years. In 2022, he would meet his future wife while shopping at a local grocery store, asking her out to coffee. They would move in together, and Contreras quit college to work as a commercial driver, then in the oil fields. Contreras was working as a pool technician when he was notified of an immigration appointment, which immediately drew his suspicion. He had not once received a notice for an appointment in the 12 years he was in DACA. This was when immigration raids surged in the Rio Grande Valley, and individuals were being deported even without criminal records. His suspicions would be correct when Contreras was detained and, within days, deported to Honduras. The first month in Honduras, all Contreras did was cry in his grandparents’ house. He missed Valentine’s Day, his wife’s birthday, and most importantly, his son’s birth. Contreras would work hard to get back to his family, eventually being allowed to return to Texas; however, he would never expect to be detained as soon as he set foot out of the plane. He would spend 8 days in Port Isabel Detention Facility, being visited by his younger sister, who brought his son with her. Thankfully, he would be released just in time for Mother’s Day, although he felt guilty that he wasn’t able to provide a gift for his wife since he lost his job in detention. Ever since he was released, Contreras has felt fear of slipping up and being detained once again. The sources we used for this post come from the organizations The Texas Tribune, El País, FWD, MS Now, The New York Times, and GoFundMe. If you would like to learn more about Contreras’ story, we encourage you to check out the stories published by these organizations. A GoFundMe has been set up to support Contreras in this time of financial hardship. If you would like to donate, please feel free to do so here: https://gofund.me/6cfd90c75",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7656227634245897485?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#jose-contreras-diazs-story"
   }
 ];
 
