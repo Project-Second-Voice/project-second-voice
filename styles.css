@@ -545,6 +545,175 @@ textarea {
   color: var(--text-soft);
 }
 
+.policy-advocacy-section {
+  background:
+    linear-gradient(135deg, rgba(255, 253, 251, 0.82), rgba(255, 240, 238, 0.66)),
+    rgba(255, 248, 247, 0.72);
+  border-top: 1px solid rgba(74, 35, 38, 0.05);
+  border-bottom: 1px solid rgba(74, 35, 38, 0.05);
+}
+
+.advocacy-card {
+  margin-top: 2.4rem;
+  padding: clamp(1.35rem, 3vw, 2.1rem);
+  border: 1px solid var(--border);
+  border-radius: 26px;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(255, 240, 238, 0.88));
+  box-shadow: var(--shadow);
+}
+
+.advocacy-grid {
+  display: grid;
+  grid-template-columns: minmax(190px, 0.34fr) minmax(0, 1fr);
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: start;
+}
+
+.congress-seal-card {
+  display: grid;
+  place-items: center;
+  width: min(100%, 280px);
+  margin: 0 auto;
+  padding: 1.35rem;
+  border: 1px solid rgba(74, 35, 38, 0.1);
+  border-radius: 24px;
+  background:
+    linear-gradient(150deg, rgba(255, 255, 255, 0.94), rgba(255, 244, 241, 0.84));
+  box-shadow: 0 18px 34px rgba(103, 63, 71, 0.11);
+}
+
+.congress-seal-card img {
+  width: clamp(180px, 18vw, 220px);
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+}
+
+.advocacy-copy {
+  max-width: 760px;
+}
+
+.advocacy-copy h3,
+.advocacy-partners-heading h3 {
+  margin: 0 0 0.35rem;
+  font-family: "Libre Baskerville", serif;
+  font-size: clamp(1.35rem, 2.2vw, 1.8rem);
+  line-height: 1.25;
+  color: var(--accent-deep);
+}
+
+.advocacy-date {
+  margin: 0 0 1.25rem;
+  font-weight: 800;
+  color: var(--text);
+}
+
+.advocacy-copy p {
+  margin: 0 0 1rem;
+  color: var(--text-soft);
+  text-wrap: pretty;
+}
+
+.advocacy-copy .advocacy-date {
+  color: var(--text);
+}
+
+.advocacy-topics {
+  display: grid;
+  gap: 0.55rem;
+  margin: 1rem 0 1.25rem;
+  padding: 0;
+  list-style: none;
+}
+
+.advocacy-topics li {
+  position: relative;
+  padding: 0.72rem 0.9rem 0.72rem 2.2rem;
+  border: 1px solid rgba(74, 35, 38, 0.1);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.64);
+  color: var(--accent-deep);
+  font-weight: 800;
+}
+
+.advocacy-topics li::before {
+  content: "";
+  position: absolute;
+  left: 0.9rem;
+  top: 1.24rem;
+  width: 0.48rem;
+  height: 0.48rem;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px rgba(212, 88, 104, 0.12);
+}
+
+.advocacy-disclaimer {
+  margin-top: 1.35rem;
+  padding: 1rem;
+  border-left: 4px solid rgba(212, 88, 104, 0.72);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.68);
+  font-size: 0.94rem;
+}
+
+.advocacy-partners {
+  margin-top: clamp(2rem, 4vw, 3rem);
+  padding-top: clamp(1.5rem, 3vw, 2rem);
+  border-top: 1px solid rgba(74, 35, 38, 0.1);
+}
+
+.advocacy-partners-heading {
+  max-width: 720px;
+}
+
+.advocacy-partner-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.3rem;
+}
+
+.advocacy-partner-card {
+  display: grid;
+  gap: 0.65rem;
+  min-height: 100%;
+  padding: 1.25rem;
+  border: 1px solid rgba(74, 35, 38, 0.12);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.74);
+  box-shadow: 0 14px 28px rgba(103, 63, 71, 0.07);
+  transition:
+    transform var(--transition),
+    box-shadow var(--transition),
+    border-color var(--transition),
+    background var(--transition);
+}
+
+.advocacy-partner-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(212, 88, 104, 0.28);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: var(--shadow-hover);
+}
+
+.advocacy-partner-card:focus-visible {
+  outline: 3px solid rgba(212, 88, 104, 0.36);
+  outline-offset: 3px;
+  box-shadow: var(--focus-ring);
+}
+
+.advocacy-partner-card span {
+  color: var(--accent-deep);
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.advocacy-partner-card p {
+  margin: 0;
+  color: var(--text-soft);
+}
+
 .stats-grid {
   grid-template-columns: repeat(5, minmax(0, 1fr));
   margin-top: 2.4rem;
@@ -1655,6 +1824,9 @@ textarea {
   .stat-card,
   .narrative-card,
   .contact-card,
+  .advocacy-card,
+  .congress-seal-card,
+  .advocacy-partner-card,
   .newest-story-card,
   .story-focus,
   .submission-banner,
@@ -1700,6 +1872,7 @@ textarea {
 
   .hero-grid,
   .split-grid,
+  .advocacy-grid,
   .contact-layout,
   .narrative-grid,
   .partner-feature-grid,
@@ -1710,7 +1883,8 @@ textarea {
   }
 
   .story-grid,
-  .stats-grid {
+  .stats-grid,
+  .advocacy-partner-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1742,9 +1916,14 @@ textarea {
 
   .hero-grid,
   .split-grid,
+  .advocacy-grid,
   .contact-layout,
   .founder-grid {
     align-items: stretch;
+  }
+
+  .advocacy-grid {
+    align-items: start;
   }
 
   .hero-visual {
@@ -1812,9 +1991,11 @@ textarea {
 
   .hero-grid,
   .split-grid,
+  .advocacy-grid,
   .contact-layout,
   .story-grid,
   .stats-grid,
+  .advocacy-partner-grid,
   .narrative-grid,
   .founder-grid,
   .partner-feature-grid,
@@ -1850,6 +2031,8 @@ textarea {
 
   .hero-meta-card,
   .stat-card,
+  .advocacy-card,
+  .advocacy-partner-card,
   .story-card,
   .narrative-card,
   .contact-card,
@@ -1946,6 +2129,7 @@ textarea {
   }
 
   .impact-frame,
+  .advocacy-card,
   .newest-story-card,
   .submission-banner,
   .founder-portrait-card {
@@ -2048,6 +2232,8 @@ textarea {
   .contact-card h2,
   .contact-form h2,
   .impact-copy h2,
+  .advocacy-copy h3,
+  .advocacy-partners-heading h3,
   .dream-campaign-copy h2 {
     line-height: 1.16;
   }
