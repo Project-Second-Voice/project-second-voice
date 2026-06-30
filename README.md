@@ -64,3 +64,4 @@ Then open:
 - Keep file and folder names case-consistent for GitHub Pages.
 - Preserve the existing design direction unless a deliberate design revision is planned.
 - If placeholders or unused legacy assets remain in the repo, review them before major cleanup so nothing public breaks.
+- Impact metrics currently display 113+ stories shared. TikTok reach metrics should only be updated after a manual post-level audit using visible public TikTok metrics; keep existing TikTok totals unchanged if TikTok is inaccessible or metrics are hidden.
