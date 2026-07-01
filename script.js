@@ -3139,6 +3139,32 @@ const stories = [
     summary: "Today, we are sharing the story of Milena Araya-Davis. Milena came to the United States with her family from Peru on a tourist visa. She came when she was only 4 years old, and her parents wanted to provide her with opportunities to succeed that weren't available in Peru. At the age of 15, she would apply for and be accepted into DACA, granting her work authorization and allowing her to live without fear of deportation. Milena would finish high school and achieve both a bachelor's and a master's degree. However, instead of being ecstatic and ready for the future, Milena felt uncertainty. She was no longer a student and feared that her status would affect her chances of getting a job. Milena would become a family therapist in San Diego and marry a U.S citizen in 2025. After marrying, she would apply for a green card. Milena was supported by her sister, who was already a U.S citizen, and would have her proof of relationship approved during her green card interview. Despite this, the interviewer would leave the room around the end of the interview, and 3 ICE agents would flood inside the room, questioning Milena on how she came to the U.S. She was arrested and transferred to Otay Mesa Detention Facility in a holding cell with 150 other women. Milena said that the whole situation was incredibly dehumanizing. She had done everything right, didn't have a criminal record, studied in the U.S, and still was treated like a criminal. Milena recalls the fear she felt in the freezing holding cell, where she stayed for 7 hours alone. Thankfully, Milena would be released on bond after 7 days. Months later, immigration judges would terminate her removal proceedings and reopen her green card application case. Good news came only weeks later, when Milena was informed that her application was approved and she was granted a green card. She finally believes her life can start in the U.S. The sources we used for this post come from the organizations Desert Sun, SWNS, CBS 8, and NBC LA San Diego. If you would like to learn more about Milena's story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7656583675823344910?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#milena-araya-davis-story"
+  },
+  {
+    order: 117,
+    slug: "tania-warner-story",
+    images: [
+      "stories/tania-warner-story/1.png",
+      "stories/tania-warner-story/2.png",
+      "stories/tania-warner-story/3.png",
+      "stories/tania-warner-story/4.png",
+      "stories/tania-warner-story/5.png",
+      "stories/tania-warner-story/6.png",
+      "stories/tania-warner-story/7.png",
+      "stories/tania-warner-story/8.png",
+      "stories/tania-warner-story/9.png",
+      "stories/tania-warner-story/10.png",
+      "stories/tania-warner-story/11.png",
+      "stories/tania-warner-story/12.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Texas",
+    tags: ["Child", "Detention", "Family", "Family Separation", "ICE", "Legal Status", "Medical/Humanitarian"],
+    title: "Tania Warner's Story",
+    summary: "Today, we are sharing the story of Tania Warner and her daughter, Alya. They came to the United States from Canada after she married her husband, Edward. On March 14, the family was driving home from Texas after a baby shower when they were stopped at a border patrol checkpoint. Warner and Alya were taken away from the car, fingerprinted, and detained. Alya had recently been diagnosed with autism. Warner and Alya had no criminal record, and Warner was legally allowed to live and work in the U.S. until 2030. They were originally taken to the Rio Grande Valley processing center before being transferred to the Dilley Detention Facility, which has been criticized for inadequate food and medical care for detainees. Both Warner and Alya developed rashes during their time in Dilley, which they attributed to the harsh detergent used to wash their clothes. After several weeks of being detained, they were released on bond. However, they still live in constant fear because of their status, have to go to regular ICE check-ins, and Warner must wear an ankle monitor at all times. Warner expressed her relief about finally being freed, but she was reminded of the many families still unfairly held in detention facilities, even after not committing a single crime. Not all of them spoke English, but the group formed a kinship through their shared experience in detention. Warner expressed fear about having to meet with their bond officer because they would need to cross an ICE checkpoint. The sources we used for this post come from Warner's GoFundMe, The Guardian, CTV News, and CBC. If you would like to learn more about Warner's story, we encourage you to check out the stories published by these organizations. A GoFundMe has been set up for Warner and Alya to pay for their legal fees. If you would like to support them and donate, please feel free to do so here: https://gofund.me/f3eeadae7",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7657347667550276877?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#tania-warner-story"
   }
 ];
 
