@@ -3165,6 +3165,32 @@ const stories = [
     summary: "Today, we are sharing the story of Tania Warner and her daughter, Alya. They came to the United States from Canada after she married her husband, Edward. On March 14, the family was driving home from Texas after a baby shower when they were stopped at a border patrol checkpoint. Warner and Alya were taken away from the car, fingerprinted, and detained. Alya had recently been diagnosed with autism. Warner and Alya had no criminal record, and Warner was legally allowed to live and work in the U.S. until 2030. They were originally taken to the Rio Grande Valley processing center before being transferred to the Dilley Detention Facility, which has been criticized for inadequate food and medical care for detainees. Both Warner and Alya developed rashes during their time in Dilley, which they attributed to the harsh detergent used to wash their clothes. After several weeks of being detained, they were released on bond. However, they still live in constant fear because of their status, have to go to regular ICE check-ins, and Warner must wear an ankle monitor at all times. Warner expressed her relief about finally being freed, but she was reminded of the many families still unfairly held in detention facilities, even after not committing a single crime. Not all of them spoke English, but the group formed a kinship through their shared experience in detention. Warner expressed fear about having to meet with their bond officer because they would need to cross an ICE checkpoint. The sources we used for this post come from Warner's GoFundMe, The Guardian, CTV News, and CBC. If you would like to learn more about Warner's story, we encourage you to check out the stories published by these organizations. A GoFundMe has been set up for Warner and Alya to pay for their legal fees. If you would like to support them and donate, please feel free to do so here: https://gofund.me/f3eeadae7",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7657347667550276877?is_from_webapp=1&sender_device=pc",
     link: "stories.html#tania-warner-story"
+  },
+  {
+    order: 118,
+    slug: "roberto-orozco-ramirez-story",
+    images: [
+      "stories/roberto-orozco-ramirez-story/1.png",
+      "stories/roberto-orozco-ramirez-story/2.png",
+      "stories/roberto-orozco-ramirez-story/3.png",
+      "stories/roberto-orozco-ramirez-story/4.png",
+      "stories/roberto-orozco-ramirez-story/5.png",
+      "stories/roberto-orozco-ramirez-story/6.png",
+      "stories/roberto-orozco-ramirez-story/7.png",
+      "stories/roberto-orozco-ramirez-story/8.png",
+      "stories/roberto-orozco-ramirez-story/9.png",
+      "stories/roberto-orozco-ramirez-story/10.png",
+      "stories/roberto-orozco-ramirez-story/11.png",
+      "stories/roberto-orozco-ramirez-story/12.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Montana",
+    tags: ["Worker", "Family", "Detention", "ICE", "Legal Status", "Mexican", "Wrongful Detention"],
+    title: "Roberto Orozco-Ramirez's Story",
+    summary: "Today, we are sharing the story of Roberto Orozco-Ramirez. Roberto came to the United States from Mexico over a decade ago. He settled in Froid, Montana, and raised four children. He runs a diesel shop, and on the side he balances coaching Little League baseball and attending school and community events. His sons are active in local sports. Residents of Froid emphasized that Roberto and his family embodied the American Dream. He worked very hard and cared deeply about his customers. Once, he even worked through the cold and the night to fix a school bus that had lost heat because he cared about the children on the bus and wanted to make sure they had a safe ride. Roberto was tracked down by ICE agents through the apprehension of his brothers early last year. Agents knocked on the door of his auto shop, which caught his suspicion because customers normally walked right in. He refused to let them in, but would later be arrested anyway. They accused him of being deported in 2009 and illegally re-entering the country. He was also identified as having gang affiliations, claims supported by no evidence. Froid residents were shocked to hear this, explaining that this tactic might have worked in a neighborhood where people did not know each other very well. Gang allegations have been widely weaponized to justify the detention of individuals who otherwise had no reason to be detained. After hearing the news of Roberto's arrest, many rallied on the streets of Froid and called the local delegation to have him released. Several residents drove seven hours to go to his preliminary hearing, where officials decided to keep Roberto detained until a detention hearing later that year. Thankfully, after more than 100 days in detention, Roberto was released and is now catching up on time with his family and returning to the work he left behind at his auto shop. The sources we used for this post come from the organizations Montana Free Press, Vox, KRTV, and Bozeman Daily Chronicle. If you would like to learn more about Roberto's story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7658094780253080845?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#roberto-orozco-ramirez-story"
   }
 ];
 
