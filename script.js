@@ -3191,6 +3191,33 @@ const stories = [
     summary: "Today, we are sharing the story of Roberto Orozco-Ramirez. Roberto came to the United States from Mexico over a decade ago. He settled in Froid, Montana, and raised four children. He runs a diesel shop, and on the side he balances coaching Little League baseball and attending school and community events. His sons are active in local sports. Residents of Froid emphasized that Roberto and his family embodied the American Dream. He worked very hard and cared deeply about his customers. Once, he even worked through the cold and the night to fix a school bus that had lost heat because he cared about the children on the bus and wanted to make sure they had a safe ride. Roberto was tracked down by ICE agents through the apprehension of his brothers early last year. Agents knocked on the door of his auto shop, which caught his suspicion because customers normally walked right in. He refused to let them in, but would later be arrested anyway. They accused him of being deported in 2009 and illegally re-entering the country. He was also identified as having gang affiliations, claims supported by no evidence. Froid residents were shocked to hear this, explaining that this tactic might have worked in a neighborhood where people did not know each other very well. Gang allegations have been widely weaponized to justify the detention of individuals who otherwise had no reason to be detained. After hearing the news of Roberto's arrest, many rallied on the streets of Froid and called the local delegation to have him released. Several residents drove seven hours to go to his preliminary hearing, where officials decided to keep Roberto detained until a detention hearing later that year. Thankfully, after more than 100 days in detention, Roberto was released and is now catching up on time with his family and returning to the work he left behind at his auto shop. The sources we used for this post come from the organizations Montana Free Press, Vox, KRTV, and Bozeman Daily Chronicle. If you would like to learn more about Roberto's story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7658094780253080845?is_from_webapp=1&sender_device=pc",
     link: "stories.html#roberto-orozco-ramirez-story"
+  },
+  {
+    order: 119,
+    slug: "andrea-pedro-franciscos-story",
+    images: [
+      "stories/andrea-pedro-franciscos-story/1.png",
+      "stories/andrea-pedro-franciscos-story/2.png",
+      "stories/andrea-pedro-franciscos-story/3.png",
+      "stories/andrea-pedro-franciscos-story/4.png",
+      "stories/andrea-pedro-franciscos-story/5.png",
+      "stories/andrea-pedro-franciscos-story/6.png",
+      "stories/andrea-pedro-franciscos-story/7.png",
+      "stories/andrea-pedro-franciscos-story/8.png",
+      "stories/andrea-pedro-franciscos-story/9.png",
+      "stories/andrea-pedro-franciscos-story/10.png",
+      "stories/andrea-pedro-franciscos-story/11.png",
+      "stories/andrea-pedro-franciscos-story/12.png",
+      "stories/andrea-pedro-franciscos-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Minnesota",
+    tags: ["Asylum", "Detention", "Family", "Family Separation", "Guatemalan", "ICE", "Legal Status", "Medical/Humanitarian", "Worker"],
+    title: "Andrea Pedro Francisco's Story",
+    summary: "Today, we are sharing the story of Andrea Pedro Francisco. Andrea was born in the Guatemalan Western Highlands, an area marked by civil war disputes. Andrea and her mother suffered from discrimination and poverty because they were Indigenous people. After a family member died because of a gang-related attack, 16-year-old Andrea was brought to the United States with her mother to apply for asylum. As their asylum case was being processed, they were allowed to enter the United States and settled in Minnesota. Andrea played bass and sang for her church, worked a cleaning job with her mother, and was a very loved member of her community. She had been suffering from severe stomach pain for the past few years, which caused her to stop working. She persistently did not want to get it checked out because she worried about the costs; however, the pain became too severe to ignore, and Andrea was scheduled to have surgery. Five days before her surgery, Andrea and her mother were driving with her siblings when they were pulled over by immigration officers. Both of them had no deportation order; however, Andrea was detained while her mother was allowed to leave because she was the only caretaker for Andrea's siblings, who were ages 1 and 5. Andrea was sent to El Paso's Camp East Montana. After only two days in detention, her pain became too much to bear, and she was rushed to a hospital. Physicians discovered an ovarian cyst the size of a lime. They discharged her, but warned that if she felt any pain, she needed medical care immediately. However, in the following months, Andrea was repeatedly denied surgery by ICE agents and was only treated with over-the-counter medication. She struggled to walk because of the pain, and when she asked for a bottom bunk bed because of her pain, she was denied. Medical professionals warned that if she did not have surgery, she might lose the ability to have kids and could have later health complications. Thankfully, after over four months, Andrea was finally released from detention. Andrea is now making up lost time with her family, reigniting her passion for instruments, and preparing herself for the surgery. The sources we used for this post come from the organizations The Texas Tribune, El Paso Matters, Scripps News, MPR News, CBS News, and GoFundMe. If you would like to learn more about Andrea's story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7658461540047260941?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#andrea-pedro-franciscos-story"
   }
 ];
 
