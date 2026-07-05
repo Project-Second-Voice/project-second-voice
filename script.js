@@ -3218,6 +3218,33 @@ const stories = [
     summary: "Today, we are sharing the story of Andrea Pedro Francisco. Andrea was born in the Guatemalan Western Highlands, an area marked by civil war disputes. Andrea and her mother suffered from discrimination and poverty because they were Indigenous people. After a family member died because of a gang-related attack, 16-year-old Andrea was brought to the United States with her mother to apply for asylum. As their asylum case was being processed, they were allowed to enter the United States and settled in Minnesota. Andrea played bass and sang for her church, worked a cleaning job with her mother, and was a very loved member of her community. She had been suffering from severe stomach pain for the past few years, which caused her to stop working. She persistently did not want to get it checked out because she worried about the costs; however, the pain became too severe to ignore, and Andrea was scheduled to have surgery. Five days before her surgery, Andrea and her mother were driving with her siblings when they were pulled over by immigration officers. Both of them had no deportation order; however, Andrea was detained while her mother was allowed to leave because she was the only caretaker for Andrea's siblings, who were ages 1 and 5. Andrea was sent to El Paso's Camp East Montana. After only two days in detention, her pain became too much to bear, and she was rushed to a hospital. Physicians discovered an ovarian cyst the size of a lime. They discharged her, but warned that if she felt any pain, she needed medical care immediately. However, in the following months, Andrea was repeatedly denied surgery by ICE agents and was only treated with over-the-counter medication. She struggled to walk because of the pain, and when she asked for a bottom bunk bed because of her pain, she was denied. Medical professionals warned that if she did not have surgery, she might lose the ability to have kids and could have later health complications. Thankfully, after over four months, Andrea was finally released from detention. Andrea is now making up lost time with her family, reigniting her passion for instruments, and preparing herself for the surgery. The sources we used for this post come from the organizations The Texas Tribune, El Paso Matters, Scripps News, MPR News, CBS News, and GoFundMe. If you would like to learn more about Andrea's story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7658461540047260941?is_from_webapp=1&sender_device=pc",
     link: "stories.html#andrea-pedro-franciscos-story"
+  },
+  {
+    order: 120,
+    slug: "diana-acosta-verdes-story",
+    images: [
+      "stories/diana-acosta-verdes-story/1.png",
+      "stories/diana-acosta-verdes-story/2.png",
+      "stories/diana-acosta-verdes-story/3.png",
+      "stories/diana-acosta-verdes-story/4.png",
+      "stories/diana-acosta-verdes-story/5.png",
+      "stories/diana-acosta-verdes-story/6.png",
+      "stories/diana-acosta-verdes-story/7.png",
+      "stories/diana-acosta-verdes-story/8.png",
+      "stories/diana-acosta-verdes-story/9.png",
+      "stories/diana-acosta-verdes-story/10.png",
+      "stories/diana-acosta-verdes-story/11.png",
+      "stories/diana-acosta-verdes-story/12.png",
+      "stories/diana-acosta-verdes-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Texas",
+    tags: ["Asylum", "Child", "DACA", "Deportation", "Detention", "Family", "Family Separation", "Honduran", "ICE", "Legal Status", "Medical/Humanitarian", "U.S. Citizen"],
+    title: "Diana Acosta Verde's Story",
+    summary: "Today, we are sharing the story of Diana Acosta Verde and her family. She reentered the United States from Honduras after being deported the previous spring. She was six months pregnant and wanted to give her child a chance at U.S. citizenship. Diana had previously been deported to Honduras after living in the United States as an asylum seeker for over four years. Her partner came to the U.S. when he was only 10, gaining DACA protection. Diana's brother had passed away due to violence in Honduras, and she knew that it would not be the best place for their child to be raised. Diana's partner would be deported after driving a relative's car, where substances were found in the glovebox. He was deported in March, along with Diana, even though her charges had been dropped. Once they returned to the U.S., they were caught by Border Patrol agents and sent to a detention facility in Texas for over three months. Diana would be moved after three months to a hospital to give birth. Less than 24 hours after giving birth, Diana received the order to return to the detention facility. Officials called Padilla, Diana's partner's mother, to pick up her grandson and take custody of him. Padilla had no idea how she would be able to afford to travel to Texas in the short amount of time they gave her; however, she managed. The baby, Gael, was born prematurely and had to be kept in the nursery and monitored. At this point, Diana was in solitary confinement, sitting in a freezing cell with no idea whether her son was okay or not. After Padilla picked up Gael, she took him to a rented house until she could pick up his birth certificate. When Padilla took him to the detention facility to meet his mother and father, they would only allow him to see them for less than 30 minutes behind glass walls. After nearly two months, Gael's mother and father were finally able to embrace and hold him. The source we used for this post comes from The New York Times. If you would like to learn more about Diana's story, we encourage you to check out the story published by this organization.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7658834166699527438?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#diana-acosta-verdes-story"
   }
 ];
 
