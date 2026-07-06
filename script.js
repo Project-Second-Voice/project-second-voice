@@ -3245,6 +3245,31 @@ const stories = [
     summary: "Today, we are sharing the story of Diana Acosta Verde and her family. She reentered the United States from Honduras after being deported the previous spring. She was six months pregnant and wanted to give her child a chance at U.S. citizenship. Diana had previously been deported to Honduras after living in the United States as an asylum seeker for over four years. Her partner came to the U.S. when he was only 10, gaining DACA protection. Diana's brother had passed away due to violence in Honduras, and she knew that it would not be the best place for their child to be raised. Diana's partner would be deported after driving a relative's car, where substances were found in the glovebox. He was deported in March, along with Diana, even though her charges had been dropped. Once they returned to the U.S., they were caught by Border Patrol agents and sent to a detention facility in Texas for over three months. Diana would be moved after three months to a hospital to give birth. Less than 24 hours after giving birth, Diana received the order to return to the detention facility. Officials called Padilla, Diana's partner's mother, to pick up her grandson and take custody of him. Padilla had no idea how she would be able to afford to travel to Texas in the short amount of time they gave her; however, she managed. The baby, Gael, was born prematurely and had to be kept in the nursery and monitored. At this point, Diana was in solitary confinement, sitting in a freezing cell with no idea whether her son was okay or not. After Padilla picked up Gael, she took him to a rented house until she could pick up his birth certificate. When Padilla took him to the detention facility to meet his mother and father, they would only allow him to see them for less than 30 minutes behind glass walls. After nearly two months, Gael's mother and father were finally able to embrace and hold him. The source we used for this post comes from The New York Times. If you would like to learn more about Diana's story, we encourage you to check out the story published by this organization.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7658834166699527438?is_from_webapp=1&sender_device=pc",
     link: "stories.html#diana-acosta-verdes-story"
+  },
+  {
+    order: 121,
+    slug: "elizabeth-zuna-caisaguanos-story",
+    images: [
+      "stories/elizabeth-zuna-caisaguanos-story/1.png",
+      "stories/elizabeth-zuna-caisaguanos-story/2.png",
+      "stories/elizabeth-zuna-caisaguanos-story/3.png",
+      "stories/elizabeth-zuna-caisaguanos-story/4.png",
+      "stories/elizabeth-zuna-caisaguanos-story/5.png",
+      "stories/elizabeth-zuna-caisaguanos-story/6.png",
+      "stories/elizabeth-zuna-caisaguanos-story/7.png",
+      "stories/elizabeth-zuna-caisaguanos-story/8.png",
+      "stories/elizabeth-zuna-caisaguanos-story/9.png",
+      "stories/elizabeth-zuna-caisaguanos-story/10.png",
+      "stories/elizabeth-zuna-caisaguanos-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Minnesota",
+    tags: ["Asylum", "Child", "Detention", "Ecuadorian", "Family", "Family Separation", "ICE", "Legal Status", "Student"],
+    title: "Elizabeth Zuna Caisaguano’s Story",
+    summary: "Today, we are sharing the story of Elizabeth Zuna Caisaguano. Elizabeth was originally raised in a rural part of Ecuador. As Indigenous people, Elizabeth and her family suffered prejudice and discrimination. They routinely faced violence and had fewer opportunities than others. After Elizabeth’s father was attacked, the family decided to move to the United States and apply for asylum. They followed all the proper protocols, never once missing an immigration hearing. In 2025, however, an immigration judge denied their asylum request and issued a removal order. The family appealed the decision, and their case has been pending ever since. Elizabeth was a 10-year-old student in Columbia Heights who had been part of the community since kindergarten. She is an avid reader and an aspiring doctor. During the first week back from winter break, Elizabeth and her mother, Rosa, headed toward the school bus stop when federal agents surrounded them. Elizabeth called her father and explained, to his supposed relief, that the ICE agents were only going to drop her off at school. This was not the case, however, and Elizabeth and Rosa were detained and transferred to the Dilley Detention Facility in Texas. They were flown 1,200 miles to the detention facility, and during the flight, Elizabeth thought she was being sent to Ecuador, feeling nervous and crushed that her dreams in the U.S. were over. When her father called later to confirm Elizabeth’s arrival, he got no response. He panicked and drove to the school. Several staff members waited outside the school, hoping that the agents were just late, but the car never arrived. After countless phone calls, Elizabeth’s father finally found out that Elizabeth and Rosa were in Texas. Over the next several weeks, Elizabeth was in detention along with six other children from the same school district. Thankfully, exactly one month later, Elizabeth and Rosa were released and flown back to Minnesota. The family is now looking to make up the lost time together. The sources we used for this post come from the organizations The Guardian, MPR News, and CNN. If you would like to learn more about Elizabeth’s story, we encourage you to check out the stories published by these organizations. A GoFundMe has been set up for Elizabeth’s family in their ongoing battle with their asylum case. If you would like to donate and support them, please feel free to donate here: https://gofund.me/fb73273e6",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7659203749247749390?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#elizabeth-zuna-caisaguanos-story"
   }
 ];
 
