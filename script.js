@@ -3270,6 +3270,31 @@ const stories = [
     summary: "Today, we are sharing the story of Elizabeth Zuna Caisaguano. Elizabeth was originally raised in a rural part of Ecuador. As Indigenous people, Elizabeth and her family suffered prejudice and discrimination. They routinely faced violence and had fewer opportunities than others. After Elizabeth’s father was attacked, the family decided to move to the United States and apply for asylum. They followed all the proper protocols, never once missing an immigration hearing. In 2025, however, an immigration judge denied their asylum request and issued a removal order. The family appealed the decision, and their case has been pending ever since. Elizabeth was a 10-year-old student in Columbia Heights who had been part of the community since kindergarten. She is an avid reader and an aspiring doctor. During the first week back from winter break, Elizabeth and her mother, Rosa, headed toward the school bus stop when federal agents surrounded them. Elizabeth called her father and explained, to his supposed relief, that the ICE agents were only going to drop her off at school. This was not the case, however, and Elizabeth and Rosa were detained and transferred to the Dilley Detention Facility in Texas. They were flown 1,200 miles to the detention facility, and during the flight, Elizabeth thought she was being sent to Ecuador, feeling nervous and crushed that her dreams in the U.S. were over. When her father called later to confirm Elizabeth’s arrival, he got no response. He panicked and drove to the school. Several staff members waited outside the school, hoping that the agents were just late, but the car never arrived. After countless phone calls, Elizabeth’s father finally found out that Elizabeth and Rosa were in Texas. Over the next several weeks, Elizabeth was in detention along with six other children from the same school district. Thankfully, exactly one month later, Elizabeth and Rosa were released and flown back to Minnesota. The family is now looking to make up the lost time together. The sources we used for this post come from the organizations The Guardian, MPR News, and CNN. If you would like to learn more about Elizabeth’s story, we encourage you to check out the stories published by these organizations. A GoFundMe has been set up for Elizabeth’s family in their ongoing battle with their asylum case. If you would like to donate and support them, please feel free to donate here: https://gofund.me/fb73273e6",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7659203749247749390?is_from_webapp=1&sender_device=pc",
     link: "stories.html#elizabeth-zuna-caisaguanos-story"
+  },
+  {
+    order: 122,
+    slug: "armande-namegnis-story",
+    images: [
+      "stories/armande-namegnis-story/6.png",
+      "stories/armande-namegnis-story/4.png",
+      "stories/armande-namegnis-story/10.png",
+      "stories/armande-namegnis-story/11.png",
+      "stories/armande-namegnis-story/5.png",
+      "stories/armande-namegnis-story/3.png",
+      "stories/armande-namegnis-story/7.png",
+      "stories/armande-namegnis-story/1.png",
+      "stories/armande-namegnis-story/8.png",
+      "stories/armande-namegnis-story/2.png",
+      "stories/armande-namegnis-story/9.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Missouri",
+    tags: ["Asylum", "Detention", "ICE", "Legal Status", "Worker", "Wrongful Detention"],
+    title: "Armande Namegni's Story",
+    summary: "Today, we are sharing the story of Armande Namegni. Armande fled from Cameroon in 2019 due to the ongoing civil war and political turmoil in the country. She explained that if she had stayed any longer, she might have put her life at risk. After leaving Cameroon, she made it to Brazil before traveling to the U.S.-Mexico border and claiming asylum. She filed for work authorization and settled down in St. Louis in 2022 to live with her aunt. Her asylum case has been ongoing, and she has been checking in with immigration officials annually. Armande worked as a software engineer, personal trainer at her gym, and sang in her church's choir. On an early January morning, Armande woke up, went on a run, then headed to the gym before going to her yearly immigration check-in. She would never expect that the routine 40-minute check-in would transform into a 3-hour one. When scheduling her next appointment, officials detained her because of a shoplifting charge from sometime last year. Armande never shoplifted, and the charge was misattributed to her and was supposed to be cleared from her record. Her lawyers were working on clearing it from her record when she went to the appointment. Armande had her cell phone taken away and was detained. She recalls having to sleep on the floor for a couple of days because of the lack of a bunk. She was in a very crowded cell. Currently, her lawyers are working on an appeal, but it's likely it will be 4 or 5 months before she is finally back in court, and until then, she will likely remain in detention. Despite all this, Armande has been extremely positive. She has aided fellow detainees in exercise classes and Bible studies, and even wakes up early to bring them food. The sources we used for this post come from the organizations STLPR, STL Magazine, and GoFundMe. If you would like to learn more about Armande's story, we encourage you to check out the stories published by these organizations. A GoFundMe has been set up for Armande to pay for her legal fees and cover her care funds. If you would like to donate, please feel free to do so at this link: https://gofund.me/31ac5105d",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7659574703962524958?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#armande-namegnis-story"
   }
 ];
 
