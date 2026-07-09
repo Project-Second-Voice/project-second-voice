@@ -3295,6 +3295,31 @@ const stories = [
     summary: "Today, we are sharing the story of Armande Namegni. Armande fled from Cameroon in 2019 due to the ongoing civil war and political turmoil in the country. She explained that if she had stayed any longer, she might have put her life at risk. After leaving Cameroon, she made it to Brazil before traveling to the U.S.-Mexico border and claiming asylum. She filed for work authorization and settled down in St. Louis in 2022 to live with her aunt. Her asylum case has been ongoing, and she has been checking in with immigration officials annually. Armande worked as a software engineer, personal trainer at her gym, and sang in her church's choir. On an early January morning, Armande woke up, went on a run, then headed to the gym before going to her yearly immigration check-in. She would never expect that the routine 40-minute check-in would transform into a 3-hour one. When scheduling her next appointment, officials detained her because of a shoplifting charge from sometime last year. Armande never shoplifted, and the charge was misattributed to her and was supposed to be cleared from her record. Her lawyers were working on clearing it from her record when she went to the appointment. Armande had her cell phone taken away and was detained. She recalls having to sleep on the floor for a couple of days because of the lack of a bunk. She was in a very crowded cell. Currently, her lawyers are working on an appeal, but it's likely it will be 4 or 5 months before she is finally back in court, and until then, she will likely remain in detention. Despite all this, Armande has been extremely positive. She has aided fellow detainees in exercise classes and Bible studies, and even wakes up early to bring them food. The sources we used for this post come from the organizations STLPR, STL Magazine, and GoFundMe. If you would like to learn more about Armande's story, we encourage you to check out the stories published by these organizations. A GoFundMe has been set up for Armande to pay for her legal fees and cover her care funds. If you would like to donate, please feel free to do so at this link: https://gofund.me/31ac5105d",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7659574703962524958?is_from_webapp=1&sender_device=pc",
     link: "stories.html#armande-namegnis-story"
+  },
+  {
+    order: 123,
+    slug: "ruben-torres-maldonado-story",
+    images: [
+      "stories/ruben-torres-maldonado-story/1.png",
+      "stories/ruben-torres-maldonado-story/2.png",
+      "stories/ruben-torres-maldonado-story/3.png",
+      "stories/ruben-torres-maldonado-story/4.png",
+      "stories/ruben-torres-maldonado-story/5.png",
+      "stories/ruben-torres-maldonado-story/6.png",
+      "stories/ruben-torres-maldonado-story/7.png",
+      "stories/ruben-torres-maldonado-story/8.png",
+      "stories/ruben-torres-maldonado-story/9.png",
+      "stories/ruben-torres-maldonado-story/10.png",
+      "stories/ruben-torres-maldonado-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Illinois",
+    tags: ["Detention", "Family", "Family Separation", "ICE", "Legal Status", "Medical/Humanitarian", "Mexican", "Parent", "Worker"],
+    title: "Ruben Torres-Maldonado's Story",
+    summary: "Today, we are sharing the story of Ruben Torres-Maldonado, a father who was detained while his teenage daughter was battling cancer. Ruben came to the United States from Mexico with his partner in 2003. After settling in Chicago, they raised two children, both of whom are U.S. citizens. Ruben works as a painter and home renovator, waking early and working hard to support his family and help provide for his daughter's medical care. His daughter, Ofelia, was diagnosed with a rare form of cancer in 2024 and underwent chemotherapy and radiation therapy. While Ofelia was in the hospital, Ruben also served as the primary caretaker for her brother. Immigration authorities detained Ruben at a Home Depot after he purchased supplies for work. He was placed in immigration detention, with his record citing a reckless-driving charge and other minor traffic violations. Ruben's detention prompted widespread backlash, and Ofelia helped call attention to his case and the need for her father to be with her while she battled cancer. Ruben was later released and became eligible to apply for cancellation of removal based on the hardship his deportation would cause his two children. The judge cited Ruben's strong family ties, valid driver's license, and insurance among the reasons for his release. Ofelia played a major role in sharing her father's story and advocating for his return. She later passed away. Many people shared their condolences and remembered the inspiration and resolve she showed. The sources used for this post include ABC News, The Guardian, AP News, CBS News, Block Club Chicago, NBC News, and GoFundMe. If you would like to learn more about Ruben's story, we encourage you to read the reporting published by these organizations. A GoFundMe has been set up to support Ruben's family and help cover his legal fees. If you would like to donate, please feel free to do so here: https://gofund.me/ce18ba0aa",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7660316010196749581?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#ruben-torres-maldonado-story"
   }
 ];
 
