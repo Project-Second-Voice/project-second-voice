@@ -3320,6 +3320,33 @@ const stories = [
     summary: "Today, we are sharing the story of Ruben Torres-Maldonado, a father who was detained while his teenage daughter was battling cancer. Ruben came to the United States from Mexico with his partner in 2003. After settling in Chicago, they raised two children, both of whom are U.S. citizens. Ruben works as a painter and home renovator, waking early and working hard to support his family and help provide for his daughter's medical care. His daughter, Ofelia, was diagnosed with a rare form of cancer in 2024 and underwent chemotherapy and radiation therapy. While Ofelia was in the hospital, Ruben also served as the primary caretaker for her brother. Immigration authorities detained Ruben at a Home Depot after he purchased supplies for work. He was placed in immigration detention, with his record citing a reckless-driving charge and other minor traffic violations. Ruben's detention prompted widespread backlash, and Ofelia helped call attention to his case and the need for her father to be with her while she battled cancer. Ruben was later released and became eligible to apply for cancellation of removal based on the hardship his deportation would cause his two children. The judge cited Ruben's strong family ties, valid driver's license, and insurance among the reasons for his release. Ofelia played a major role in sharing her father's story and advocating for his return. She later passed away. Many people shared their condolences and remembered the inspiration and resolve she showed. The sources used for this post include ABC News, The Guardian, AP News, CBS News, Block Club Chicago, NBC News, and GoFundMe. If you would like to learn more about Ruben's story, we encourage you to read the reporting published by these organizations. A GoFundMe has been set up to support Ruben's family and help cover his legal fees. If you would like to donate, please feel free to do so here: https://gofund.me/ce18ba0aa",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7660316010196749581?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#ruben-torres-maldonado-story"
+  },
+  {
+    order: 124,
+    slug: "lorenzo-salgado-araujos-story",
+    images: [
+      "stories/lorenzo-salgado-araujos-story/1.png",
+      "stories/lorenzo-salgado-araujos-story/2.png",
+      "stories/lorenzo-salgado-araujos-story/3.png",
+      "stories/lorenzo-salgado-araujos-story/4.png",
+      "stories/lorenzo-salgado-araujos-story/5.png",
+      "stories/lorenzo-salgado-araujos-story/6.png",
+      "stories/lorenzo-salgado-araujos-story/7.png",
+      "stories/lorenzo-salgado-araujos-story/8.png",
+      "stories/lorenzo-salgado-araujos-story/9.png",
+      "stories/lorenzo-salgado-araujos-story/10.png",
+      "stories/lorenzo-salgado-araujos-story/11.png",
+      "stories/lorenzo-salgado-araujos-story/12.png",
+      "stories/lorenzo-salgado-araujos-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Texas",
+    tags: ["Detention", "Family", "ICE", "Legal Status", "Medical/Humanitarian", "Mexican", "Parent", "Worker"],
+    title: "Lorenzo Salgado Araujo’s Story",
+    summary: "Today, we are sharing the story of Lorenzo Salgado Araujo. Lorenzo came to the United States from Mexico. The 52-year-old was a husband and the father of three children. He raised his children on the idea of valuing education and its power to bring them a good future. Lorenzo ran his own construction business and was known for his work ethic, fairness, and willingness to help. When individuals knocked on his door asking for a job, he never hesitated to provide one. For the past 35 years, Lorenzo’s day started the same way: waking up at 5 AM, kissing his wife goodbye, and loading up his van to pick up his construction crew in Houston. On Tuesday, at 7 AM, Lorenzo had just finished picking up his crew when he began being followed by ICE agents in unmarked vehicles. Lorenzo feared that the individuals were trying to steal the tools that allowed him to pay for his three children’s college tuitions, so he didn’t stop. He attempted to evade the vehicles, ramming into one while trying to flee. An ICE agent would fire at him in “self-defense,” injuring him. Lorenzo had been in the process of getting his work permit and was also very close to obtaining his legal status. He had no criminal record. He would be rushed to the hospital and sadly pass away there. Lorenzo’s son and wife were notified that he was in danger, quickly trying to find him at his job site and only finding his empty van. They would see a video and recognize Lorenzo’s painful cries as he lay on the street. His son believed that if his father had known that they were ICE agents or immigration enforcement, he would have definitely complied. The sources we used for this post come from the organizations PBS, CNN, AP, KHOU, Newsweek, Houston Public Media, The Washington Post, and GoFundMe. If you would like to learn more about Lorenzo’s story, we encourage you to check out the stories published by these organizations. A GoFundMe has been set up for Lorenzo’s family during this difficult time. If you would like to support the family, please feel free to donate here: https://gofund.me/32bc50604",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7660619204688645390?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#lorenzo-salgado-araujos-story"
   }
 ];
 
