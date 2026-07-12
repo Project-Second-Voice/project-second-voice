@@ -3347,6 +3347,33 @@ const stories = [
     summary: "Today, we are sharing the story of Lorenzo Salgado Araujo. Lorenzo came to the United States from Mexico. The 52-year-old was a husband and the father of three children. He raised his children on the idea of valuing education and its power to bring them a good future. Lorenzo ran his own construction business and was known for his work ethic, fairness, and willingness to help. When individuals knocked on his door asking for a job, he never hesitated to provide one. For the past 35 years, Lorenzo’s day started the same way: waking up at 5 AM, kissing his wife goodbye, and loading up his van to pick up his construction crew in Houston. On Tuesday, at 7 AM, Lorenzo had just finished picking up his crew when he began being followed by ICE agents in unmarked vehicles. Lorenzo feared that the individuals were trying to steal the tools that allowed him to pay for his three children’s college tuitions, so he didn’t stop. He attempted to evade the vehicles, ramming into one while trying to flee. An ICE agent would fire at him in “self-defense,” injuring him. Lorenzo had been in the process of getting his work permit and was also very close to obtaining his legal status. He had no criminal record. He would be rushed to the hospital and sadly pass away there. Lorenzo’s son and wife were notified that he was in danger, quickly trying to find him at his job site and only finding his empty van. They would see a video and recognize Lorenzo’s painful cries as he lay on the street. His son believed that if his father had known that they were ICE agents or immigration enforcement, he would have definitely complied. The sources we used for this post come from the organizations PBS, CNN, AP, KHOU, Newsweek, Houston Public Media, The Washington Post, and GoFundMe. If you would like to learn more about Lorenzo’s story, we encourage you to check out the stories published by these organizations. A GoFundMe has been set up for Lorenzo’s family during this difficult time. If you would like to support the family, please feel free to donate here: https://gofund.me/32bc50604",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7660619204688645390?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#lorenzo-salgado-araujos-story"
+  },
+  {
+    order: 125,
+    slug: "erika-ramos-story",
+    images: [
+      "stories/erika-ramos-story/1.png",
+      "stories/erika-ramos-story/2.png",
+      "stories/erika-ramos-story/3.png",
+      "stories/erika-ramos-story/4.png",
+      "stories/erika-ramos-story/5.png",
+      "stories/erika-ramos-story/6.png",
+      "stories/erika-ramos-story/7.png",
+      "stories/erika-ramos-story/8.png",
+      "stories/erika-ramos-story/9.png",
+      "stories/erika-ramos-story/10.png",
+      "stories/erika-ramos-story/11.png",
+      "stories/erika-ramos-story/12.png",
+      "stories/erika-ramos-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Minnesota",
+    tags: ["Asylum", "Child", "Deportation", "Detention", "Ecuadorian", "Family", "Family Separation", "ICE", "Legal Status", "Parent"],
+    title: "Erika Ramos' Story",
+    summary: "Today, we are sharing the story of Erika Ramos. Erika is the mother of Liam Conejo Ramos, the 5-year-old who was detained along with his father. She recounts her experience when immigration agents detained her husband and son as they were returning from preschool. Erika, who was 3 months pregnant, witnessed the scene through the window of their home. Her husband repeatedly warned her not to step outside, despite her legal status, because agents might detain her as well. She begged the officers to release Liam, but he was detained alongside his father. When immigration agents saw Erika inside the home, they tried to use Liam as bait to lure her outside and detain her. Her husband warned her not to leave the house because she still had another child to take care of and was pregnant. After not being able to take custody of Liam and watching both her son and husband be detained, Erika underwent severe stress and had to go to the ER. She called them frequently while they were in detention, comforting Liam when he asked why he was detained in such an “ugly” place. She and her husband have no criminal record and were in the process of applying for asylum after entering through the CBP One app. Thankfully, Liam and his father were released soon after; however, the family experienced permanent scarring from the experience. Two months after being released, Liam regularly sees a psychologist and has exhibited signs of psychological trauma. Their asylum case was denied, and the federal government is now working to appeal the decision that allowed them to be released. The family is at risk of being detained again and possibly deported to Ecuador. Their lawyers are working to appeal the denial of the asylum case, but the process could take years. The sources we used for this post come from the organizations CNN, CBS, The Guardian, NBC, MPR, NPR, and GoFundMe. If you would like to learn more about Erika and her family’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7661452603867270414?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#erika-ramos-story"
   }
 ];
 
