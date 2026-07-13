@@ -3374,6 +3374,31 @@ const stories = [
     summary: "Today, we are sharing the story of Erika Ramos. Erika is the mother of Liam Conejo Ramos, the 5-year-old who was detained along with his father. She recounts her experience when immigration agents detained her husband and son as they were returning from preschool. Erika, who was 3 months pregnant, witnessed the scene through the window of their home. Her husband repeatedly warned her not to step outside, despite her legal status, because agents might detain her as well. She begged the officers to release Liam, but he was detained alongside his father. When immigration agents saw Erika inside the home, they tried to use Liam as bait to lure her outside and detain her. Her husband warned her not to leave the house because she still had another child to take care of and was pregnant. After not being able to take custody of Liam and watching both her son and husband be detained, Erika underwent severe stress and had to go to the ER. She called them frequently while they were in detention, comforting Liam when he asked why he was detained in such an “ugly” place. She and her husband have no criminal record and were in the process of applying for asylum after entering through the CBP One app. Thankfully, Liam and his father were released soon after; however, the family experienced permanent scarring from the experience. Two months after being released, Liam regularly sees a psychologist and has exhibited signs of psychological trauma. Their asylum case was denied, and the federal government is now working to appeal the decision that allowed them to be released. The family is at risk of being detained again and possibly deported to Ecuador. Their lawyers are working to appeal the denial of the asylum case, but the process could take years. The sources we used for this post come from the organizations CNN, CBS, The Guardian, NBC, MPR, NPR, and GoFundMe. If you would like to learn more about Erika and her family’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7661452603867270414?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#erika-ramos-story"
+  },
+  {
+    order: 126,
+    slug: "babblejit-kaur-story",
+    images: [
+      "stories/babblejit-kaur-story/1.png",
+      "stories/babblejit-kaur-story/2.png",
+      "stories/babblejit-kaur-story/3.png",
+      "stories/babblejit-kaur-story/4.png",
+      "stories/babblejit-kaur-story/5.png",
+      "stories/babblejit-kaur-story/6.png",
+      "stories/babblejit-kaur-story/7.png",
+      "stories/babblejit-kaur-story/8.png",
+      "stories/babblejit-kaur-story/9.png",
+      "stories/babblejit-kaur-story/10.png",
+      "stories/babblejit-kaur-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "California",
+    tags: ["Asylum", "Detention", "Family", "ICE", "Legal Status", "Medical/Humanitarian", "Parent", "Worker"],
+    title: "Babblejit Kaur's Story",
+    summary: "Today, we are sharing the story of Babblejit Kaur. Kaur applied for asylum in the United States after fleeing religious persecution in India. After she married in 1984, violence against Sikhs began to grow. After more than a decade of watching friends and family pass away because of these targeted events, her family decided to flee India. Kaur, along with her husband and three children, settled down in Long Beach. They came with little money, no connections, and a long asylum process ahead of them; however, the family quickly found their niche operating an Indian restaurant that served traditional cuisine. Operating the restaurant, along with working a part-time job as a cashier, allowed Kaur to support her children in going to college. The past year had been very hard for the family: Kaur had recently been laid off from her cashier job, and her husband had been diagnosed with cancer. Just days after Kaur and her husband's 41st anniversary, Kaur was detained during a standard fingerprinting appointment and sent to the Adelanto Processing Center. Kaur had an approved green card, but the government had not yet issued it to her. Her absence severely impacted the family, who had to manage paying the bills while also handling cancer treatment. Before, the family had relied on Kaur for almost everything: she took the lead in getting the family settled in the U.S., learning English, getting a driver's license, and even helping set up gaming consoles. In the detention facility, the lights were always on, and the cries from new detainees made it almost impossible to sleep. Even in such a dark time, Kaur was able to build a community, meeting women from all walks of life. Thankfully, after several weeks of being detained, Kaur was finally released. Now, she is finding her footing again and making up the lost time with her family. The sources we used for this post come from the organizations Los Angeles Times, NDTV, Long Beach Watchdog, and Times of India. If you would like to learn more about Kaur's story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7661796141935185165?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#babblejit-kaur-story"
   }
 ];
 
