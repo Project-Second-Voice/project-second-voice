@@ -3399,6 +3399,31 @@ const stories = [
     summary: "Today, we are sharing the story of Babblejit Kaur. Kaur applied for asylum in the United States after fleeing religious persecution in India. After she married in 1984, violence against Sikhs began to grow. After more than a decade of watching friends and family pass away because of these targeted events, her family decided to flee India. Kaur, along with her husband and three children, settled down in Long Beach. They came with little money, no connections, and a long asylum process ahead of them; however, the family quickly found their niche operating an Indian restaurant that served traditional cuisine. Operating the restaurant, along with working a part-time job as a cashier, allowed Kaur to support her children in going to college. The past year had been very hard for the family: Kaur had recently been laid off from her cashier job, and her husband had been diagnosed with cancer. Just days after Kaur and her husband's 41st anniversary, Kaur was detained during a standard fingerprinting appointment and sent to the Adelanto Processing Center. Kaur had an approved green card, but the government had not yet issued it to her. Her absence severely impacted the family, who had to manage paying the bills while also handling cancer treatment. Before, the family had relied on Kaur for almost everything: she took the lead in getting the family settled in the U.S., learning English, getting a driver's license, and even helping set up gaming consoles. In the detention facility, the lights were always on, and the cries from new detainees made it almost impossible to sleep. Even in such a dark time, Kaur was able to build a community, meeting women from all walks of life. Thankfully, after several weeks of being detained, Kaur was finally released. Now, she is finding her footing again and making up the lost time with her family. The sources we used for this post come from the organizations Los Angeles Times, NDTV, Long Beach Watchdog, and Times of India. If you would like to learn more about Kaur's story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7661796141935185165?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#babblejit-kaur-story"
+  },
+  {
+    order: 127,
+    slug: "joel-camas-story",
+    images: [
+      "stories/joel-camas-story/1.png",
+      "stories/joel-camas-story/2.png",
+      "stories/joel-camas-story/3.png",
+      "stories/joel-camas-story/4.png",
+      "stories/joel-camas-story/5.png",
+      "stories/joel-camas-story/6.png",
+      "stories/joel-camas-story/7.png",
+      "stories/joel-camas-story/8.png",
+      "stories/joel-camas-story/9.png",
+      "stories/joel-camas-story/10.png",
+      "stories/joel-camas-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "New York",
+    tags: ["Asylum", "Child", "Detention", "Ecuadorian", "Family", "Family Separation", "ICE", "Legal Status", "Student"],
+    title: "Joel Camas' Story",
+    summary: "Today, we are sharing the story of Joel Camas. Joel came to the United States with his mother in 2022, fleeing Ecuador because of gang violence. He and his mom applied for asylum, but because they didn’t have lawyers, they would lose their cases. They would be ordered to be removed in 2024; however, Joel would be later connected with legal services and granted a special protection that protected him from removal called the special immigrant juvenile status (SIJS). He was granted this because of his father's absence and the poor living conditions he would face if removed to Ecuador. Joel’s mother voluntarily self-deported to avoid arrest, believing that Joel would be protected because of his status. He had been living with his family in the Bronx for over 4 weeks, regularly attending ICE check-ins, and is a junior at Gotham Collaborative High School. Individuals under SIJS could take years to acquire a green card due to the sheer number of individuals and the limited visas that can be issued each year. Also, before the new administration, individuals with SIJS status were protected against removal and had the ability to apply for a work permit. Joel attended his routine ICE check-in on Thursday, not thinking much of it, and even thinking that if he got it done early, he could make it to school on time. Joel never thought he would be detained and transferred to a migrant shelter. The courses he took in the shelter might not count for actual credits, and he feared he would fall behind in class. Thankfully, after several weeks of being detained, Joel was finally released; however, his future in the United States remains uncertain. The sources we used for this post come from the organizations The New York Times, CBS News, The NYC Reporter, Documented NY, ABC 7, and ABC News. If you would like to learn more about Joel’s story, we encourage you to check the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7662170402684243213?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#joel-camas-story"
   }
 ];
 
