@@ -92,6 +92,7 @@ const STORY_MAP_STATE_TILES = [
   { name: "Maine", code: "ME", x: 13, y: 0 }
 ];
 const STORY_MAP_STATE_NAMES = new Set(STORY_MAP_STATE_TILES.map((state) => state.name));
+const STORY_IMAGE_PATH_PATTERN = /^stories\/[^/]+\/[^/]+\.(?:png|jpe?g|webp)$/i;
 
 const stories = [
   {
@@ -3424,6 +3425,34 @@ const stories = [
     summary: "Today, we are sharing the story of Joel Camas. Joel came to the United States with his mother in 2022, fleeing Ecuador because of gang violence. He and his mom applied for asylum, but because they didn’t have lawyers, they would lose their cases. They would be ordered to be removed in 2024; however, Joel would be later connected with legal services and granted a special protection that protected him from removal called the special immigrant juvenile status (SIJS). He was granted this because of his father's absence and the poor living conditions he would face if removed to Ecuador. Joel’s mother voluntarily self-deported to avoid arrest, believing that Joel would be protected because of his status. He had been living with his family in the Bronx for over 4 weeks, regularly attending ICE check-ins, and is a junior at Gotham Collaborative High School. Individuals under SIJS could take years to acquire a green card due to the sheer number of individuals and the limited visas that can be issued each year. Also, before the new administration, individuals with SIJS status were protected against removal and had the ability to apply for a work permit. Joel attended his routine ICE check-in on Thursday, not thinking much of it, and even thinking that if he got it done early, he could make it to school on time. Joel never thought he would be detained and transferred to a migrant shelter. The courses he took in the shelter might not count for actual credits, and he feared he would fall behind in class. Thankfully, after several weeks of being detained, Joel was finally released; however, his future in the United States remains uncertain. The sources we used for this post come from the organizations The New York Times, CBS News, The NYC Reporter, Documented NY, ABC 7, and ABC News. If you would like to learn more about Joel’s story, we encourage you to check the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7662170402684243213?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#joel-camas-story"
+  },
+  {
+    order: 128,
+    slug: "wendy-hernandez-reyes-story",
+    images: [
+      "stories/wendy-hernandez-reyes-story/Wendy Hernandez Reyes' Story.png",
+      "stories/wendy-hernandez-reyes-story/2.png",
+      "stories/wendy-hernandez-reyes-story/3.png",
+      "stories/wendy-hernandez-reyes-story/4.png",
+      "stories/wendy-hernandez-reyes-story/5.png",
+      "stories/wendy-hernandez-reyes-story/6.png",
+      "stories/wendy-hernandez-reyes-story/7.png",
+      "stories/wendy-hernandez-reyes-story/8.png",
+      "stories/wendy-hernandez-reyes-story/9.png",
+      "stories/wendy-hernandez-reyes-story/10.png",
+      "stories/wendy-hernandez-reyes-story/11.png",
+      "stories/wendy-hernandez-reyes-story/12.png",
+      "stories/wendy-hernandez-reyes-story/13.png",
+      "stories/wendy-hernandez-reyes-story/14.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Florida",
+    tags: ["Deportation", "Detention", "Family", "Family Separation", "Honduran", "ICE", "Parent", "Worker"],
+    title: "Wendy Hernandez Reyes' Story",
+    summary: "Today, we are sharing the story of Wendy Hernandez Reyes. Reyes came to the United States from Honduras through a port of entry and was released while awaiting an asylum hearing; however, after moving to Florida amid circumstances involving her now ex-boyfriend, she missed her court date. She settled down in Pensacola, working a construction job to support her 3-year-old son, Orlin. In January 2026, Reyes and her sister left their children with a babysitter in Pensacola and carpooled with others to a construction site in Alabama. Police stopped the car for speeding, which both Reyes and her sister deny, and arrested both of them. Reyes and her sister informed the officers of their children’s situation, and ICE officers allowed them to arrange for someone to take care of their children while they were in custody. Reyes’ sister had left her boyfriend because he was abusive; however, with no other individuals able to make arrangements, the two were forced to hand their children off to the estranged man. ICE picked up Reyes from the sheriff’s office and ordered her removal. Reyes begged the officers to allow Orlin to be deported with her, but her requests were repeatedly denied. Orlin passed away shortly after Reyes had been deported because of abuse allegedly inflicted by Reyes’ sister’s ex-boyfriend, who pleaded not guilty. ICE said that the agency does not support separating families and provides parents the opportunity to have their children deported with them; however, Reyes denies being provided this opportunity. Initial plans to have the funeral in Honduras fell through, so supporters organized to have Reyes temporarily return to the U.S. for her son’s funeral. These plans succeeded. When Reyes returned to the U.S., officers handcuffed her and fixed a GPS tracker onto her ankle. While Reyes mourned, her sister tried comforting her, understanding the pain she felt from being separated from her children, as her own children were put into state foster care after she was taken into custody. The sources we used for this post come from the organizations The Washington Post, The Guardian, Pensacola News Journal, and GoFundMe. If you would like to learn more about Reyes’ story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7662561451013377294?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#wendy-hernandez-reyes-story"
   }
 ];
 
@@ -3655,7 +3684,7 @@ function validateStoriesData() {
     const seenStoryImages = new Set();
 
     story.images.forEach((imagePath) => {
-      if (!/^stories\/[^/]+\/\d+\.png$/.test(imagePath)) {
+      if (!STORY_IMAGE_PATH_PATTERN.test(imagePath)) {
         console.warn(`Unexpected image path format for ${story.title}: ${imagePath}`);
       }
 
@@ -3688,7 +3717,7 @@ function getStoryImages(story) {
     return [];
   }
 
-  return story.images.filter((imagePath) => /^stories\/[^/]+\/\d+\.png$/.test(imagePath));
+  return story.images.filter((imagePath) => STORY_IMAGE_PATH_PATTERN.test(imagePath));
 }
 
 function getStoryPreviewText(text = "", maxLength = 180) {
