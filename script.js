@@ -12,6 +12,7 @@ const APPROVED_STORY_TAGS = [
   "Artist",
   "Asylum",
   "Child",
+  "Colombian",
   "Community Leader",
   "DACA",
   "Deportation",
@@ -3453,6 +3454,32 @@ const stories = [
     summary: "Today, we are sharing the story of Wendy Hernandez Reyes. Reyes came to the United States from Honduras through a port of entry and was released while awaiting an asylum hearing; however, after moving to Florida amid circumstances involving her now ex-boyfriend, she missed her court date. She settled down in Pensacola, working a construction job to support her 3-year-old son, Orlin. In January 2026, Reyes and her sister left their children with a babysitter in Pensacola and carpooled with others to a construction site in Alabama. Police stopped the car for speeding, which both Reyes and her sister deny, and arrested both of them. Reyes and her sister informed the officers of their children’s situation, and ICE officers allowed them to arrange for someone to take care of their children while they were in custody. Reyes’ sister had left her boyfriend because he was abusive; however, with no other individuals able to make arrangements, the two were forced to hand their children off to the estranged man. ICE picked up Reyes from the sheriff’s office and ordered her removal. Reyes begged the officers to allow Orlin to be deported with her, but her requests were repeatedly denied. Orlin passed away shortly after Reyes had been deported because of abuse allegedly inflicted by Reyes’ sister’s ex-boyfriend, who pleaded not guilty. ICE said that the agency does not support separating families and provides parents the opportunity to have their children deported with them; however, Reyes denies being provided this opportunity. Initial plans to have the funeral in Honduras fell through, so supporters organized to have Reyes temporarily return to the U.S. for her son’s funeral. These plans succeeded. When Reyes returned to the U.S., officers handcuffed her and fixed a GPS tracker onto her ankle. While Reyes mourned, her sister tried comforting her, understanding the pain she felt from being separated from her children, as her own children were put into state foster care after she was taken into custody. The sources we used for this post come from the organizations The Washington Post, The Guardian, Pensacola News Journal, and GoFundMe. If you would like to learn more about Reyes’ story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7662561451013377294?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#wendy-hernandez-reyes-story"
+  },
+  {
+    order: 129,
+    slug: "joan-sebastian-guerrero-story",
+    images: [
+      "stories/joan-sebastian-guerrero-story/1.png",
+      "stories/joan-sebastian-guerrero-story/2.png",
+      "stories/joan-sebastian-guerrero-story/3.png",
+      "stories/joan-sebastian-guerrero-story/4.png",
+      "stories/joan-sebastian-guerrero-story/5.png",
+      "stories/joan-sebastian-guerrero-story/6.png",
+      "stories/joan-sebastian-guerrero-story/7.png",
+      "stories/joan-sebastian-guerrero-story/8.png",
+      "stories/joan-sebastian-guerrero-story/9.png",
+      "stories/joan-sebastian-guerrero-story/10.png",
+      "stories/joan-sebastian-guerrero-story/11.png",
+      "stories/joan-sebastian-guerrero-story/12.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Maine",
+    tags: ["Colombian", "Detention", "Family", "Family Separation", "ICE", "Legal Status", "Parent", "Worker"],
+    title: "Joan Sebastian Guerrero's Story",
+    summary: "Today, we are sharing the story of Joan Sebastian Guerrero. Joan came to the United States from a city in north-central Colombia, seeking a better life for his family. Joan and his family settled in the Atlantic Coast city of Biddeford, Maine. He quickly became an integral part of the community. He worked as a nighttime cleaner at a veterinary clinic and as a food delivery driver, helping to support his wife and 3-year-old daughter. Neighbors in his community said that the 26-year-old was a hardworking and good man who had strong family ties. Joan had authorization to work in the U.S. and had obtained a Social Security number. This Monday, at 7 a.m., Joan left his apartment to go to work when he was stopped by ICE agents. Footage shows the agents pulling his body out of the car and handcuffing him, with the windshield riddled with holes. The agents had no body cameras. The ICE agents had been monitoring the neighborhood for a resident who had a removal order and pulled over Joan, who was not the target. Joan's wife and daughter were at the scene and witnessed his passing. Witnesses described watching his wife and daughter break down crying, knowing they would never see their father and husband again. A GoFundMe has been set up for Joan's family. The money is intended to pay for the family's legal fees, Joan's funeral costs, and his repatriation. If you would like to donate, please feel free to do so at this link: https://gofund.me/d4c40efa7. The sources we used for this post come from CNN, The New York Times, USA Today, and GoFundMe. As this is a developing story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7662909498318671118?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#joan-sebastian-guerrero-story"
   }
 ];
 
