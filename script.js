@@ -3480,6 +3480,29 @@ const stories = [
     summary: "Today, we are sharing the story of Joan Sebastian Guerrero. Joan came to the United States from a city in north-central Colombia, seeking a better life for his family. Joan and his family settled in the Atlantic Coast city of Biddeford, Maine. He quickly became an integral part of the community. He worked as a nighttime cleaner at a veterinary clinic and as a food delivery driver, helping to support his wife and 3-year-old daughter. Neighbors in his community said that the 26-year-old was a hardworking and good man who had strong family ties. Joan had authorization to work in the U.S. and had obtained a Social Security number. This Monday, at 7 a.m., Joan left his apartment to go to work when he was stopped by ICE agents. Footage shows the agents pulling his body out of the car and handcuffing him, with the windshield riddled with holes. The agents had no body cameras. The ICE agents had been monitoring the neighborhood for a resident who had a removal order and pulled over Joan, who was not the target. Joan's wife and daughter were at the scene and witnessed his passing. Witnesses described watching his wife and daughter break down crying, knowing they would never see their father and husband again. A GoFundMe has been set up for Joan's family. The money is intended to pay for the family's legal fees, Joan's funeral costs, and his repatriation. If you would like to donate, please feel free to do so at this link: https://gofund.me/d4c40efa7. The sources we used for this post come from CNN, The New York Times, USA Today, and GoFundMe. As this is a developing story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7662909498318671118?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#joan-sebastian-guerrero-story"
+  },
+  {
+    order: 130,
+    slug: "lorena-pineda-story",
+    images: [
+      "stories/lorena-pineda-story/1.png",
+      "stories/lorena-pineda-story/2.png",
+      "stories/lorena-pineda-story/3.png",
+      "stories/lorena-pineda-story/4.png",
+      "stories/lorena-pineda-story/5.png",
+      "stories/lorena-pineda-story/6.png",
+      "stories/lorena-pineda-story/7.png",
+      "stories/lorena-pineda-story/8.png",
+      "stories/lorena-pineda-story/9.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "California",
+    tags: ["Deportation", "Detention", "Family", "Family Separation", "ICE", "Medical/Humanitarian", "Parent", "Salvadoran", "Worker"],
+    title: "Lorena Pineda's Story",
+    summary: "Today, we are sharing the story of Lorena Pineda. Pineda came to the United States from El Salvador with her husband and two young children. They were fleeing gang members who had targeted and beaten her husband. Pineda's family found someone to help them reach the United States; however, they owed the person a large debt and even had to put up her mother's land as collateral. The family struggled to make ends meet until Pineda's husband found steady construction work. Pineda also worked at a food stand, selling breakfast and pupusas to laborers near a Home Depot. Her 7-year-old daughter was learning English at school, and her 3-year-old son was making friends. One morning in Los Angeles, Pineda was approached by agents in an unmarked vehicle. The agents stepped out and arrested her. Pineda could not run because she was five months pregnant, and she begged them to be gentle. She was transferred to the South Louisiana ICE Processing Center, where she said she received inadequate prenatal care. She had to travel nearly three hours each way to a medical center for appointments and to ensure that her baby was healthy. The first month of detention was especially difficult: Pineda had no contact with her family and was 1,500 miles away from her daughter and son. After more than three months in detention, Pineda signed papers to self-deport to El Salvador. Her family skipped a rent payment to buy her a ticket back to Los Angeles, where immigration officials later extended her departure date because her pregnancy was nearly full term. Her family is now trying to pay for four tickets to El Salvador so that Pineda does not have to return alone. They are also trying to determine how they will support themselves after returning. The sources we used for this post come from the Los Angeles Times and Mormon Women for Ethical Government. If you would like to learn more about Pineda's story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7663654041389387022?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#lorena-pineda-story"
   }
 ];
 
@@ -3899,6 +3922,7 @@ function scrollStoryFocusIntoView() {
     return;
   }
 
+  focus.classList.add("is-visible");
   focus.setAttribute("tabindex", "-1");
   focus.scrollIntoView({ behavior: prefersReducedMotion() ? "auto" : "smooth", block: "start" });
   focus.focus({ preventScroll: true });
@@ -4412,7 +4436,9 @@ function initStoryFocus() {
   renderStoryFocus();
 
   if (window.location.hash) {
-    requestAnimationFrame(scrollStoryFocusIntoView);
+    window.addEventListener("load", () => {
+      requestAnimationFrame(scrollStoryFocusIntoView);
+    }, { once: true });
   }
 
   if (archive) {
