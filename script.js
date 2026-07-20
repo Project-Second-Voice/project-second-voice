@@ -3528,6 +3528,35 @@ const stories = [
     summary: "Today, we are sharing the story of Fei Zheng and his 6-year-old son, Yuanxin. The two came to the United States after crossing the U.S.-Mexico border. They fled China out of fear of being hurt and applied for asylum. Unfortunately, immigration judges ruled that their fear was not credible enough to grant asylum, and the two received removal orders. Zheng and Yuanxin settled in New York City, with Yuanxin attending a school in Queens. The day before Thanksgiving, the two were detained during a routine immigration check-in. After they were detained, they were separated, with Zheng going to an adult detention facility and Yuanxin being taken to a facility whose location was undisclosed. Zheng didn’t know where they had taken Yuanxin. Before this, both of them had already been detained twice; however, they were never separated and were held together in a Texas family detention facility. Their separation sparked massive outrage in their community, and many people organized rallies. Their case even drew the attention of then-Mayor-elect Zohran Mamdani, who released a statement criticizing ICE. After Zheng was separated from Yuanxin, although he had no criminal record, he gave up fighting his case and complied with the deportation order in hopes of reuniting with his son. After weeks of being separated, Zheng and Yuanxin were deported to China. The sources we used for this post come from The New York Times, NBC News, CBS News, the ACLU, and the South China Morning Post. If you would like to learn more about Zheng’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7664023325907094797?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#fei-zheng-story"
+  },
+  {
+    order: 132,
+    slug: "enciso-family-story",
+    images: [
+      "stories/enciso-family-story/The Enciso’s Family Story with ICE.png",
+      "stories/enciso-family-story/2.png",
+      "stories/enciso-family-story/3.png",
+      "stories/enciso-family-story/4.png",
+      "stories/enciso-family-story/5.png",
+      "stories/enciso-family-story/6.png",
+      "stories/enciso-family-story/7.png",
+      "stories/enciso-family-story/8.png",
+      "stories/enciso-family-story/9.png",
+      "stories/enciso-family-story/10.png",
+      "stories/enciso-family-story/11.png",
+      "stories/enciso-family-story/12.png",
+      "stories/enciso-family-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Illinois",
+    location: "Cicero, Illinois",
+    map: { state: "Illinois" },
+    tags: ["DACA", "Detention", "Dreamer", "Family", "Family Separation", "ICE", "Mexican", "Parent", "Student", "U.S. Citizen"],
+    title: "The Enciso Family’s Story with ICE",
+    summary: "Today, we are sharing the Enciso family’s story of encountering ICE. Constantina and Moises are a couple who came to the United States from Mexico 18 years ago. They settled in Cicero, Illinois, and had four children: Moises Jr. and Yurithsi, who are 22 and 19, respectively, and have pending DACA applications; and two younger children, aged 10 and 12, who are U.S. citizens. Sunday had been a very special day for the family because they were celebrating their son’s 10th birthday. They had arranged to go to a barbecue later that evening. That morning, Moises Jr. and his parents went to get breakfast while Yurithsi and the younger siblings were getting a birthday treat at a shop. The car carrying Moises Jr. and his parents was surrounded by unmarked vehicles after they made a wrong turn, and they were detained. The officers repeatedly questioned them about their legal status, overwhelming the parents and leading Moises Jr. to call Yurithsi to let her know that they were being detained and questioned. Yurithsi and the younger siblings immediately went to the location where her brother and parents were being detained. Once they arrived, they too were questioned repeatedly, and Yurithsi had to remain calm, comforting her younger siblings and emphasizing to the agents that they would not talk until their lawyer arrived. Moises Jr. was released after officers learned that he had a pending DACA application; however, his parents were detained and separated into two detention facilities outside the state, one in Kentucky and the other in Michigan. Now, the two older siblings are left to take care of the family while their parents are in custody. The younger siblings often cry, and it feels as though a part of their home is missing. Moises Jr. has to juggle finishing university, taking on chores, and caring for his younger siblings. He recalls his parents encouraging him at his lowest moments in university and now feels sorrow when he realizes that they might not be able to see him graduate. Moises Jr. explained that if the ICE agents had met his parents under different circumstances, they would realize that they were two kind people who cared deeply about their family, not criminals worthy of being detained. The parents had no criminal record. A GoFundMe has been set up for the Enciso family during this time of hardship. If you would like to donate, please feel free to do so at this link: https://gofund.me/f3b4bcb53. The sources we used for this post come from CNN, the Chicago Tribune, and GoFundMe. If you would like to learn more about their story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7664392674874510605?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#enciso-family-story"
   }
 ];
 
@@ -3678,6 +3707,7 @@ function getStorySearchText(story) {
   const searchText = [
     story?.title,
     story?.summary,
+    story?.location,
     normalizeStoryState(story),
     ...getStoryTags(story)
   ].join(" ").toLowerCase();
