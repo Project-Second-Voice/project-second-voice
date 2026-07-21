@@ -3557,6 +3557,33 @@ const stories = [
     summary: "Today, we are sharing the Enciso family’s story of encountering ICE. Constantina and Moises are a couple who came to the United States from Mexico 18 years ago. They settled in Cicero, Illinois, and had four children: Moises Jr. and Yurithsi, who are 22 and 19, respectively, and have pending DACA applications; and two younger children, aged 10 and 12, who are U.S. citizens. Sunday had been a very special day for the family because they were celebrating their son’s 10th birthday. They had arranged to go to a barbecue later that evening. That morning, Moises Jr. and his parents went to get breakfast while Yurithsi and the younger siblings were getting a birthday treat at a shop. The car carrying Moises Jr. and his parents was surrounded by unmarked vehicles after they made a wrong turn, and they were detained. The officers repeatedly questioned them about their legal status, overwhelming the parents and leading Moises Jr. to call Yurithsi to let her know that they were being detained and questioned. Yurithsi and the younger siblings immediately went to the location where her brother and parents were being detained. Once they arrived, they too were questioned repeatedly, and Yurithsi had to remain calm, comforting her younger siblings and emphasizing to the agents that they would not talk until their lawyer arrived. Moises Jr. was released after officers learned that he had a pending DACA application; however, his parents were detained and separated into two detention facilities outside the state, one in Kentucky and the other in Michigan. Now, the two older siblings are left to take care of the family while their parents are in custody. The younger siblings often cry, and it feels as though a part of their home is missing. Moises Jr. has to juggle finishing university, taking on chores, and caring for his younger siblings. He recalls his parents encouraging him at his lowest moments in university and now feels sorrow when he realizes that they might not be able to see him graduate. Moises Jr. explained that if the ICE agents had met his parents under different circumstances, they would realize that they were two kind people who cared deeply about their family, not criminals worthy of being detained. The parents had no criminal record. A GoFundMe has been set up for the Enciso family during this time of hardship. If you would like to donate, please feel free to do so at this link: https://gofund.me/f3b4bcb53. The sources we used for this post come from CNN, the Chicago Tribune, and GoFundMe. If you would like to learn more about their story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7664392674874510605?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#enciso-family-story"
+  },
+  {
+    order: 133,
+    slug: "idris-demirtas-story",
+    images: [
+      "stories/idris-demirtas-story/1.png",
+      "stories/idris-demirtas-story/2.png",
+      "stories/idris-demirtas-story/3.png",
+      "stories/idris-demirtas-story/4.png",
+      "stories/idris-demirtas-story/5.png",
+      "stories/idris-demirtas-story/6.png",
+      "stories/idris-demirtas-story/7.png",
+      "stories/idris-demirtas-story/8.png",
+      "stories/idris-demirtas-story/9.png",
+      "stories/idris-demirtas-story/10.png",
+      "stories/idris-demirtas-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "California",
+    location: "San Diego, California",
+    map: { state: "California" },
+    tags: ["Asylum", "Detention", "Family", "ICE", "Legal Status", "Worker", "Wrongful Detention"],
+    title: "Idris Demirtas' Story",
+    summary: "Today, we are sharing the story of Idris Demirtas. Demirtas fled Turkey and applied for asylum at the Texas border in the United States. He shared that he was fleeing Turkey because of religious persecution. After entering the U.S., Idris married a U.S. citizen and worked as a pedicab driver to support the couple. He had no criminal record, had a valid work permit, and was pursuing a green card application. He was detained after attending a regular immigration check-in, after being told to attend the visit because ICE allegedly had a warrant for his arrest. ICE explained that Idris had entered the U.S. \u201cunlawfully\u201d and had been issued an expedited removal order after entering the country. Demirtas\u2019 asylum case had been dismissed without an interview, something that had not occurred until the new administration took over. The 25-year-old was detained in the Otay Mesa Detention Center. He was incentivized to self-deport but refused, and said he had to sleep on the floor of the detention facility for over two weeks while staying in one room with more than 10 detainees. After every visit with his wife, he was searched from top to bottom, leaving him feeling humiliated. Thankfully, after 48 days in detention, Demirtas was released after an immigration judge granted bond and a federal judge found his continued detention unjustified. Now he is finally free with his wife; however, he still fears possibly being detained again and is working to get his green card approved. The sources we used for this post come from CalMatters and ABC 10News San Diego. If you would like to learn more about Demirtas\u2019 story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7664750597547068685?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#idris-demirtas-story"
   }
 ];
 
