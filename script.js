@@ -3584,6 +3584,34 @@ const stories = [
     summary: "Today, we are sharing the story of Idris Demirtas. Demirtas fled Turkey and applied for asylum at the Texas border in the United States. He shared that he was fleeing Turkey because of religious persecution. After entering the U.S., Idris married a U.S. citizen and worked as a pedicab driver to support the couple. He had no criminal record, had a valid work permit, and was pursuing a green card application. He was detained after attending a regular immigration check-in, after being told to attend the visit because ICE allegedly had a warrant for his arrest. ICE explained that Idris had entered the U.S. \u201cunlawfully\u201d and had been issued an expedited removal order after entering the country. Demirtas\u2019 asylum case had been dismissed without an interview, something that had not occurred until the new administration took over. The 25-year-old was detained in the Otay Mesa Detention Center. He was incentivized to self-deport but refused, and said he had to sleep on the floor of the detention facility for over two weeks while staying in one room with more than 10 detainees. After every visit with his wife, he was searched from top to bottom, leaving him feeling humiliated. Thankfully, after 48 days in detention, Demirtas was released after an immigration judge granted bond and a federal judge found his continued detention unjustified. Now he is finally free with his wife; however, he still fears possibly being detained again and is working to get his green card approved. The sources we used for this post come from CalMatters and ABC 10News San Diego. If you would like to learn more about Demirtas\u2019 story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7664750597547068685?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#idris-demirtas-story"
+  },
+  {
+    order: 134,
+    slug: "jackie-merlos-story",
+    images: [
+      "stories/jackie-merlos-story/1.png",
+      "stories/jackie-merlos-story/2.png",
+      "stories/jackie-merlos-story/3.png",
+      "stories/jackie-merlos-story/4.png",
+      "stories/jackie-merlos-story/5.png",
+      "stories/jackie-merlos-story/6.png",
+      "stories/jackie-merlos-story/7.png",
+      "stories/jackie-merlos-story/8.png",
+      "stories/jackie-merlos-story/9.png",
+      "stories/jackie-merlos-story/10.png",
+      "stories/jackie-merlos-story/11.png",
+      "stories/jackie-merlos-story/12.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Oregon",
+    location: "Portland, Oregon",
+    map: { state: "Oregon" },
+    tags: ["Deportation", "Detention", "Family", "Family Separation", "Honduran", "ICE", "Legal Status", "Parent", "Worker", "Wrongful Detention"],
+    title: "Jackie Merlos' Story",
+    summary: "Today, we are sharing the story of Jackie Merlos. She came to the United States from Honduras in 2003, fleeing violence and hoping that her children would be raised in a country where they would not have to be scared all the time. She gained temporary legal status while waiting for her pending U-visa application. She and her husband, Carlos, started a construction business in Portland and had four children in the United States. Jackie, along with her children and mother, was detained while at a park near the Canadian border in Washington state. Jackie was accused of smuggling people into the U.S., which she says was false. She was brought to a windowless detention facility along with her children and mother. She had no criminal record. They were at the park because she was visiting her sister, who was a Canadian resident. Her elementary school-aged children were scared and hungry in the facility and were questioned twice while Jackie was not present. Jackie had fled Honduras so that her children would not need to live in fear; instead, the experience did not turn out as she expected. Her children were released after 14 days; however, Jackie and her mother remained in detention, and Jackie spent more than 100 days in federal custody in total. Her husband had already been deported to Honduras, and after winning her case, Jackie’s mother also went to Honduras. The construction business Jackie and her husband built has been in limbo ever since they were detained. Although Jackie was released, she lives in constant fear of being detained once again, and her children also share the same fear. The sources we used for this post come from PBS, OPB, and KGW. If you would like to learn more about Jackie’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7665155508998802702?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#jackie-merlos-story"
   }
 ];
 
