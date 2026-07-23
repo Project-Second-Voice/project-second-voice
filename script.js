@@ -3612,6 +3612,35 @@ const stories = [
     summary: "Today, we are sharing the story of Jackie Merlos. She came to the United States from Honduras in 2003, fleeing violence and hoping that her children would be raised in a country where they would not have to be scared all the time. She gained temporary legal status while waiting for her pending U-visa application. She and her husband, Carlos, started a construction business in Portland and had four children in the United States. Jackie, along with her children and mother, was detained while at a park near the Canadian border in Washington state. Jackie was accused of smuggling people into the U.S., which she says was false. She was brought to a windowless detention facility along with her children and mother. She had no criminal record. They were at the park because she was visiting her sister, who was a Canadian resident. Her elementary school-aged children were scared and hungry in the facility and were questioned twice while Jackie was not present. Jackie had fled Honduras so that her children would not need to live in fear; instead, the experience did not turn out as she expected. Her children were released after 14 days; however, Jackie and her mother remained in detention, and Jackie spent more than 100 days in federal custody in total. Her husband had already been deported to Honduras, and after winning her case, Jackie’s mother also went to Honduras. The construction business Jackie and her husband built has been in limbo ever since they were detained. Although Jackie was released, she lives in constant fear of being detained once again, and her children also share the same fear. The sources we used for this post come from PBS, OPB, and KGW. If you would like to learn more about Jackie’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7665155508998802702?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#jackie-merlos-story"
+  },
+  {
+    order: 135,
+    slug: "adrian-ramirez-story",
+    images: [
+      "stories/adrian-ramirez-story/1.png",
+      "stories/adrian-ramirez-story/2.png",
+      "stories/adrian-ramirez-story/3.png",
+      "stories/adrian-ramirez-story/4.png",
+      "stories/adrian-ramirez-story/5.png",
+      "stories/adrian-ramirez-story/6.png",
+      "stories/adrian-ramirez-story/7.png",
+      "stories/adrian-ramirez-story/8.png",
+      "stories/adrian-ramirez-story/9.png",
+      "stories/adrian-ramirez-story/10.png",
+      "stories/adrian-ramirez-story/11.png",
+      "stories/adrian-ramirez-story/12.png",
+      "stories/adrian-ramirez-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "New York",
+    location: "Syracuse, New York",
+    map: { state: "New York" },
+    tags: ["Detention", "Family", "Family Separation", "ICE", "Legal Status", "Parent", "Worker"],
+    title: "Adrian Ramirez's Story",
+    summary: "Today, we are sharing the story of Adrian Ramirez. Adrian came to the United States from the Dominican Republic with his father in 2021. He received special immigrant juvenile status (SIJS), which allowed him to apply for a green card in the future. He settled in Syracuse, New York, and worked in construction and home maintenance with his father-in-law. Adrian’s life centered around his faith: he read the Gospel during Sunday Mass and planned to be baptized at Easter. Adrian and his partner, Talia, also welcomed a son in June. Adrian planned to continue working while waiting to receive his green card. He and his father-in-law were driving to a construction job when ICE agents pulled them over and surrounded their vehicle. The agents detained them without showing a warrant. His father-in-law was released on bond; however, Adrian remained in detention. Initially, he was held at the Batavia detention facility, where his community members and family could still visit him. He was later transferred nearly 1,500 miles away to a detention facility in Louisiana, cutting off contact with his friends and family. Adrian’s time in detention was horrible: he lost around 15 pounds, contracted a flu-like illness, had little privacy, and was completely isolated from his family. Adrian admitted that, at one point, he felt so discouraged that he considered self-deporting; however, after conversations with his fellow detainees, he knew he should trust his friends and family and continue fighting. Back in Syracuse, his church organized fundraisers, wrote letters, and searched for legal options to bring Adrian home. Thankfully, Adrian was released on bond after about two months in detention. ICE delayed his release, and when he finally walked out, he was wearing the same clothes he had been detained in, had no identification, had no battery left on his phone, and had no transportation. Thankfully, a Louisiana grandmother named Sharron, whom Adrian had only met once, helped him get clean clothes and transportation to an airport so he could return home. At the airport, he finally embraced his son, fearing that the infant might have forgotten him after two months. He was also able to return to his church and celebrate the baptism he had been preparing for. The sources we used for this post come from Syracuse Immigration in America and WAER. If you would like to learn more about Adrian’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7665549822014917902?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#adrian-ramirez-story"
   }
 ];
 
