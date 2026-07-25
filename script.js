@@ -3641,6 +3641,32 @@ const stories = [
     summary: "Today, we are sharing the story of Adrian Ramirez. Adrian came to the United States from the Dominican Republic with his father in 2021. He received special immigrant juvenile status (SIJS), which allowed him to apply for a green card in the future. He settled in Syracuse, New York, and worked in construction and home maintenance with his father-in-law. Adrian’s life centered around his faith: he read the Gospel during Sunday Mass and planned to be baptized at Easter. Adrian and his partner, Talia, also welcomed a son in June. Adrian planned to continue working while waiting to receive his green card. He and his father-in-law were driving to a construction job when ICE agents pulled them over and surrounded their vehicle. The agents detained them without showing a warrant. His father-in-law was released on bond; however, Adrian remained in detention. Initially, he was held at the Batavia detention facility, where his community members and family could still visit him. He was later transferred nearly 1,500 miles away to a detention facility in Louisiana, cutting off contact with his friends and family. Adrian’s time in detention was horrible: he lost around 15 pounds, contracted a flu-like illness, had little privacy, and was completely isolated from his family. Adrian admitted that, at one point, he felt so discouraged that he considered self-deporting; however, after conversations with his fellow detainees, he knew he should trust his friends and family and continue fighting. Back in Syracuse, his church organized fundraisers, wrote letters, and searched for legal options to bring Adrian home. Thankfully, Adrian was released on bond after about two months in detention. ICE delayed his release, and when he finally walked out, he was wearing the same clothes he had been detained in, had no identification, had no battery left on his phone, and had no transportation. Thankfully, a Louisiana grandmother named Sharron, whom Adrian had only met once, helped him get clean clothes and transportation to an airport so he could return home. At the airport, he finally embraced his son, fearing that the infant might have forgotten him after two months. He was also able to return to his church and celebrate the baptism he had been preparing for. The sources we used for this post come from Syracuse Immigration in America and WAER. If you would like to learn more about Adrian’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7665549822014917902?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#adrian-ramirez-story"
+  },
+  {
+    order: 136,
+    slug: "deisy-rivera-ortega-story",
+    images: [
+      "stories/deisy-rivera-ortega-story/1.png",
+      "stories/deisy-rivera-ortega-story/2.png",
+      "stories/deisy-rivera-ortega-story/3.png",
+      "stories/deisy-rivera-ortega-story/4.png",
+      "stories/deisy-rivera-ortega-story/5.png",
+      "stories/deisy-rivera-ortega-story/6.png",
+      "stories/deisy-rivera-ortega-story/7.png",
+      "stories/deisy-rivera-ortega-story/8.png",
+      "stories/deisy-rivera-ortega-story/9.png",
+      "stories/deisy-rivera-ortega-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Texas",
+    location: "El Paso, Texas",
+    map: { state: "Texas" },
+    tags: ["Deportation", "Detention", "Family", "ICE", "Legal Status", "Military Family", "Salvadoran", "Worker"],
+    title: "Deisy Rivera Ortega's Story",
+    summary: "Today, we are sharing the story of Deisy Rivera Ortega. Deisy came to the United States from El Salvador in 2016 and was granted withholding of removal in 2019. This legal protection prevented her from being removed to El Salvador because she might be harmed if she returned, though it did not prevent removal to a third country. Deisy was also granted a work permit and married Jose Serrano, a U.S. Army soldier who had served for nearly 28 years, in 2022. She worked at two hotels inside Fort Bliss, helping support her family. Serrano had also helped her apply for Parole in Place, which would allow her to apply for legal status if her application were accepted. Deisy was summoned to the El Paso immigration office for an interview related to this application, a program available to certain family members of U.S. military personnel. Nobody expected Deisy to be detained because of an alleged 2019 deportation order, which they believed her legal protection should have blocked. Serrano had also informed immigration officers that he was in the military a week before her detention. Because her legal protection barred her removal to El Salvador, Deisy faced possible deportation to a third country, including Mexico, where she has no ties. Her detention worsened Serrano’s mental health challenges, and he said he often slept only two hours each night because of it. Serrano explained that he loved the Army and did not blame it; however, he believed ICE had gone too far and that change was needed. After approximately one month in federal immigration custody, Deisy was released with a GPS monitoring device, mandatory home visits, and ICE office check-ins. The sources we used for this post come from CBS News, The Guardian, AP News, ABC News, El País, and BBC News. If you would like to learn more about Deisy’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7666261842334862606?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#deisy-rivera-ortega-story"
   }
 ];
 
