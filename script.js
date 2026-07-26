@@ -3667,6 +3667,35 @@ const stories = [
     summary: "Today, we are sharing the story of Deisy Rivera Ortega. Deisy came to the United States from El Salvador in 2016 and was granted withholding of removal in 2019. This legal protection prevented her from being removed to El Salvador because she might be harmed if she returned, though it did not prevent removal to a third country. Deisy was also granted a work permit and married Jose Serrano, a U.S. Army soldier who had served for nearly 28 years, in 2022. She worked at two hotels inside Fort Bliss, helping support her family. Serrano had also helped her apply for Parole in Place, which would allow her to apply for legal status if her application were accepted. Deisy was summoned to the El Paso immigration office for an interview related to this application, a program available to certain family members of U.S. military personnel. Nobody expected Deisy to be detained because of an alleged 2019 deportation order, which they believed her legal protection should have blocked. Serrano had also informed immigration officers that he was in the military a week before her detention. Because her legal protection barred her removal to El Salvador, Deisy faced possible deportation to a third country, including Mexico, where she has no ties. Her detention worsened Serrano’s mental health challenges, and he said he often slept only two hours each night because of it. Serrano explained that he loved the Army and did not blame it; however, he believed ICE had gone too far and that change was needed. After approximately one month in federal immigration custody, Deisy was released with a GPS monitoring device, mandatory home visits, and ICE office check-ins. The sources we used for this post come from CBS News, The Guardian, AP News, ABC News, El País, and BBC News. If you would like to learn more about Deisy’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7666261842334862606?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#deisy-rivera-ortega-story"
+  },
+  {
+    order: 137,
+    slug: "connor-read-story",
+    images: [
+      "stories/connor-read-story/1.png",
+      "stories/connor-read-story/2.png",
+      "stories/connor-read-story/3.png",
+      "stories/connor-read-story/4.png",
+      "stories/connor-read-story/5.png",
+      "stories/connor-read-story/6.png",
+      "stories/connor-read-story/7.png",
+      "stories/connor-read-story/8.png",
+      "stories/connor-read-story/9.png",
+      "stories/connor-read-story/10.png",
+      "stories/connor-read-story/11.png",
+      "stories/connor-read-story/12.png",
+      "stories/connor-read-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Florida",
+    location: "Tampa, Florida",
+    map: { state: "Florida" },
+    tags: ["DACA", "Deportation", "Detention", "Dreamer", "Family", "Family Separation", "ICE", "Legal Status", "Parent", "Worker"],
+    title: "Connor Read's Story",
+    summary: "Today, we are sharing the story of Connor Read. Connor was brought to the United States from England as a child with his mother and stepfather. He acquired an F-2 visa while his stepfather came to the U.S. for education. He grew up mainly in Florida after the family moved there when he was 9 years old. He has only been to England once in his life and has grown up in American schools. His stepfather applied for permanent residency but was tricked by a fraudulent lawyer. The family received temporary protected status as informants. Despite all of this, Connor was issued a final removal order in 2011 while he was still a minor. He didn’t know much about his case and would listen to whatever his mother told him to do.\n\nConnor was granted DACA when he was 16 years old, renewing it every two years until he was 22. His mother later remarried an American citizen, and his two younger siblings were granted permanent residency; however, due to faulty advice, Connor missed the opportunity to also apply. As a young adult, he was convicted of multiple misdemeanors, which jeopardized his ability to renew his DACA status. He met Jaelin on a dating app, and the two later married and had twin sons. Connor started a pressure-washing business, and the couple spent a fortune trying to secure him permanent residency.\n\nAfter years of waiting, Connor was finally scheduled for a green card interview, and the couple spent weeks preparing the necessary documents. His family supported Connor and went with him; however, they never expected him to be detained once he got there. The reviewers never looked at the documents they prepared, and it seemed like it was an elaborate scheme to bait Connor into being detained. He was first taken to Pinellas County Jail and then transported to the Central Louisiana ICE Processing Center. He spent weeks in ICE detention and was subjected to horrible housing conditions, contracting a serious illness while there. He is currently appealing his removal order, which could take upwards of six months. If Connor is deported, the family would have to relocate to England. The sources we used for this post come from The Times, The Guardian, and Newsweek. If you would like to learn more about Connor’s story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has been set up to cover living expenses while Connor is detained. If you would like to support his family during this difficult time, please feel free to donate here: https://gofund.me/a1250a44d",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7666621530536676621?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#connor-read-story"
   }
 ];
 
