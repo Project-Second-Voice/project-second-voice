@@ -3696,6 +3696,32 @@ const stories = [
     summary: "Today, we are sharing the story of Connor Read. Connor was brought to the United States from England as a child with his mother and stepfather. He acquired an F-2 visa while his stepfather came to the U.S. for education. He grew up mainly in Florida after the family moved there when he was 9 years old. He has only been to England once in his life and has grown up in American schools. His stepfather applied for permanent residency but was tricked by a fraudulent lawyer. The family received temporary protected status as informants. Despite all of this, Connor was issued a final removal order in 2011 while he was still a minor. He didn’t know much about his case and would listen to whatever his mother told him to do.\n\nConnor was granted DACA when he was 16 years old, renewing it every two years until he was 22. His mother later remarried an American citizen, and his two younger siblings were granted permanent residency; however, due to faulty advice, Connor missed the opportunity to also apply. As a young adult, he was convicted of multiple misdemeanors, which jeopardized his ability to renew his DACA status. He met Jaelin on a dating app, and the two later married and had twin sons. Connor started a pressure-washing business, and the couple spent a fortune trying to secure him permanent residency.\n\nAfter years of waiting, Connor was finally scheduled for a green card interview, and the couple spent weeks preparing the necessary documents. His family supported Connor and went with him; however, they never expected him to be detained once he got there. The reviewers never looked at the documents they prepared, and it seemed like it was an elaborate scheme to bait Connor into being detained. He was first taken to Pinellas County Jail and then transported to the Central Louisiana ICE Processing Center. He spent weeks in ICE detention and was subjected to horrible housing conditions, contracting a serious illness while there. He is currently appealing his removal order, which could take upwards of six months. If Connor is deported, the family would have to relocate to England. The sources we used for this post come from The Times, The Guardian, and Newsweek. If you would like to learn more about Connor’s story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has been set up to cover living expenses while Connor is detained. If you would like to support his family during this difficult time, please feel free to donate here: https://gofund.me/a1250a44d",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7666621530536676621?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#connor-read-story"
+  },
+  {
+    order: 138,
+    slug: "sister-leticia-letty-ugboaja-story",
+    images: [
+      "stories/sister-leticia-letty-ugboaja-story/1.png",
+      "stories/sister-leticia-letty-ugboaja-story/2.png",
+      "stories/sister-leticia-letty-ugboaja-story/3.png",
+      "stories/sister-leticia-letty-ugboaja-story/4.png",
+      "stories/sister-leticia-letty-ugboaja-story/5.png",
+      "stories/sister-leticia-letty-ugboaja-story/6.png",
+      "stories/sister-leticia-letty-ugboaja-story/7.png",
+      "stories/sister-leticia-letty-ugboaja-story/8.png",
+      "stories/sister-leticia-letty-ugboaja-story/9.png",
+      "stories/sister-leticia-letty-ugboaja-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Texas",
+    location: "McAllen, Texas",
+    map: { state: "Texas" },
+    tags: ["Asylum", "Detention", "ICE", "Legal Status", "Medical/Humanitarian", "Worker", "Wrongful Detention"],
+    title: "Sister Leticia “Letty” Ugboaja's Story",
+    summary: "Today, we are sharing the story of Sister Leticia “Letty” Ugboaja. Letty came to the United States from Nigeria, seeking asylum. Her asylum case would be denied; however, she would be granted protection from removal to Nigeria because of potential danger directed toward her if she were to return. She also had a valid work permit. Letty is a member of the Daughters of Mary Mother of Mercy and is also a registered nurse working in the South Texas Health System. She has attended every mandatory immigration appointment and has no criminal record. Letty was detained while walking to Sunday Mass. Two ICE agents stopped her on her walk and didn’t let her go to Mass. She was released several hours later after detention amid public support.\n\nThe reason for her detention has not yet been stated. After being released, she explained that there are several immigrants in her situation, and she believes that each one of them should be provided the opportunity to share their story. Letty has to attend an immigration check-in on Tuesday, which her attorney hopes she won’t have to attend because she could be redetained and have an ankle monitor attached to her. The sources we used for this post come from the organizations The Texas Tribune, USA Today, NCR, The Guardian, The Boston Pilot, and CNN News. If you would like to learn more about Letty, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7666992463130791182?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#sister-leticia-letty-ugboaja-story"
   }
 ];
 
