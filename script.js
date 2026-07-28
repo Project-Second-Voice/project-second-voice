@@ -3722,6 +3722,31 @@ const stories = [
     summary: "Today, we are sharing the story of Sister Leticia “Letty” Ugboaja. Letty came to the United States from Nigeria, seeking asylum. Her asylum case would be denied; however, she would be granted protection from removal to Nigeria because of potential danger directed toward her if she were to return. She also had a valid work permit. Letty is a member of the Daughters of Mary Mother of Mercy and is also a registered nurse working in the South Texas Health System. She has attended every mandatory immigration appointment and has no criminal record. Letty was detained while walking to Sunday Mass. Two ICE agents stopped her on her walk and didn’t let her go to Mass. She was released several hours later after detention amid public support.\n\nThe reason for her detention has not yet been stated. After being released, she explained that there are several immigrants in her situation, and she believes that each one of them should be provided the opportunity to share their story. Letty has to attend an immigration check-in on Tuesday, which her attorney hopes she won’t have to attend because she could be redetained and have an ankle monitor attached to her. The sources we used for this post come from the organizations The Texas Tribune, USA Today, NCR, The Guardian, The Boston Pilot, and CNN News. If you would like to learn more about Letty, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7666992463130791182?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#sister-leticia-letty-ugboaja-story"
+  },
+  {
+    order: 139,
+    slug: "lorenzo-thompson-story",
+    images: [
+      "stories/lorenzo-thompson-story/1.png",
+      "stories/lorenzo-thompson-story/2.png",
+      "stories/lorenzo-thompson-story/3.png",
+      "stories/lorenzo-thompson-story/4.png",
+      "stories/lorenzo-thompson-story/5.png",
+      "stories/lorenzo-thompson-story/6.png",
+      "stories/lorenzo-thompson-story/7.png",
+      "stories/lorenzo-thompson-story/8.png",
+      "stories/lorenzo-thompson-story/9.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Texas",
+    location: "Dallas, Texas",
+    map: { state: "Texas" },
+    tags: ["Asylum", "Detention", "ICE", "Legal Status", "Worker"],
+    title: "Lorenzo Thompson’s Story",
+    summary: "Today, we are sharing the story of Lorenzo Thompson. Lorenzo came to the United States from Jamaica in 2021 on a 6-month visa. He came to the United States hoping to escape the life-threatening danger he faced back at home and took every step he could to get citizenship. He has a pending asylum case and also has a valid work permit. He works as a flight attendant at Southwest Airlines. Lorenzo was detained while returning from a work trip at the Nashville airport for overstaying his visa. He complied with the arrest and is now in holding while his case proceeds. Lorenzo has no criminal record. DHS has claimed that he overstayed his 6-month visa; however, colleagues, friends, and family dispute their framing of his status, saying there is much more to his story. Folks have backed Lorenzo up, saying he is a kindhearted and caring person, which is evident in each flight he attends and the passengers he makes smile. This is also evident in the outpouring of support on social media for his cause. The sources we used for this post come from the organizations NBC News, The Independent, ABC News, WKRN, and USA Today. If you would like to learn more about Lorenzo’s story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has been set up for Lorenzo and his family to support his legal and living expenses. If you would like to donate, please feel free to do so at this link: https://gofund.me/46be68f75",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7667363295354965261?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#lorenzo-thompson-story"
   }
 ];
 
