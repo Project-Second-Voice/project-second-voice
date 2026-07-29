@@ -3747,6 +3747,32 @@ const stories = [
     summary: "Today, we are sharing the story of Lorenzo Thompson. Lorenzo came to the United States from Jamaica in 2021 on a 6-month visa. He came to the United States hoping to escape the life-threatening danger he faced back at home and took every step he could to get citizenship. He has a pending asylum case and also has a valid work permit. He works as a flight attendant at Southwest Airlines. Lorenzo was detained while returning from a work trip at the Nashville airport for overstaying his visa. He complied with the arrest and is now in holding while his case proceeds. Lorenzo has no criminal record. DHS has claimed that he overstayed his 6-month visa; however, colleagues, friends, and family dispute their framing of his status, saying there is much more to his story. Folks have backed Lorenzo up, saying he is a kindhearted and caring person, which is evident in each flight he attends and the passengers he makes smile. This is also evident in the outpouring of support on social media for his cause. The sources we used for this post come from the organizations NBC News, The Independent, ABC News, WKRN, and USA Today. If you would like to learn more about Lorenzo’s story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has been set up for Lorenzo and his family to support his legal and living expenses. If you would like to donate, please feel free to do so at this link: https://gofund.me/46be68f75",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7667363295354965261?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#lorenzo-thompson-story"
+  },
+  {
+    order: 140,
+    slug: "cecil-elvir-quinonezs-story",
+    images: [
+      "stories/cecil-elvir-quinonezs-story/1.png",
+      "stories/cecil-elvir-quinonezs-story/2.png",
+      "stories/cecil-elvir-quinonezs-story/3.png",
+      "stories/cecil-elvir-quinonezs-story/4.png",
+      "stories/cecil-elvir-quinonezs-story/5.png",
+      "stories/cecil-elvir-quinonezs-story/6.png",
+      "stories/cecil-elvir-quinonezs-story/7.png",
+      "stories/cecil-elvir-quinonezs-story/8.png",
+      "stories/cecil-elvir-quinonezs-story/9.png",
+      "stories/cecil-elvir-quinonezs-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Florida",
+    location: "Florida",
+    map: { state: "Florida" },
+    tags: ["Asylum", "Detention", "Family", "Family Separation", "Honduran", "ICE", "Legal Status", "Medical/Humanitarian", "Parent", "Worker"],
+    title: "Cecil Elvir-Quinonez's Story",
+    summary: "Today, we are sharing the story of Cecil Elvir-Quinonez. Cecil came to the United States from Honduras with her mother in 2014. They were seeking asylum and settled in Florida. Shortly before midnight on New Year’s Eve, while driving with her two children, Cecil was pulled over for speeding. She was arrested on an outstanding warrant that her family said was related to a misdemeanor marijuana charge dropped in 2019. Cecil had a work permit and hoped to become a nurse; at the time of her detention, she worked as a cleaner at a local elementary school to support her family. She was transferred into ICE custody and given a pregnancy test, which was positive. Cecil experienced bleeding and cramps in detention. After an emergency room visit, she was transferred from Florida to Louisiana without notice to her family and said her continued requests for follow-up medical care were delayed. The Louisiana detention facility where she was held had previously been reported to fall short of cleanliness standards and serve low-quality food to detainees. While Cecil was in detention, her children became repeatedly sick and wondered when they would see their mother again. Cecil explained that her 5-year-old son had been severely affected by her detention. He began having trouble speaking, which was unusual for him, and cried for officers not to take his mother when she was arrested. The sources we used for this post come from the organizations The 19th News, Louisiana Illuminator, Verite News, and GoFundMe. If you would like to learn more about Cecil’s story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has been set up for Cecil and her family during this difficult time. If you would like to donate, please feel free to do so at this link: https://gofund.me/4a79c7851",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7667749728641092878?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#cecil-elvir-quinonezs-story"
   }
 ];
 
