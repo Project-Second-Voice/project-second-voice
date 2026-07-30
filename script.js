@@ -3773,6 +3773,32 @@ const stories = [
     summary: "Today, we are sharing the story of Cecil Elvir-Quinonez. Cecil came to the United States from Honduras with her mother in 2014. They were seeking asylum and settled in Florida. Shortly before midnight on New Year’s Eve, while driving with her two children, Cecil was pulled over for speeding. She was arrested on an outstanding warrant that her family said was related to a misdemeanor marijuana charge dropped in 2019. Cecil had a work permit and hoped to become a nurse; at the time of her detention, she worked as a cleaner at a local elementary school to support her family. She was transferred into ICE custody and given a pregnancy test, which was positive. Cecil experienced bleeding and cramps in detention. After an emergency room visit, she was transferred from Florida to Louisiana without notice to her family and said her continued requests for follow-up medical care were delayed. The Louisiana detention facility where she was held had previously been reported to fall short of cleanliness standards and serve low-quality food to detainees. While Cecil was in detention, her children became repeatedly sick and wondered when they would see their mother again. Cecil explained that her 5-year-old son had been severely affected by her detention. He began having trouble speaking, which was unusual for him, and cried for officers not to take his mother when she was arrested. The sources we used for this post come from the organizations The 19th News, Louisiana Illuminator, Verite News, and GoFundMe. If you would like to learn more about Cecil’s story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has been set up for Cecil and her family during this difficult time. If you would like to donate, please feel free to do so at this link: https://gofund.me/4a79c7851",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7667749728641092878?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#cecil-elvir-quinonezs-story"
+  },
+  {
+    order: 141,
+    slug: "mohammad-nazeer-paktiawal-story",
+    images: [
+      "stories/mohammad-nazeer-paktiawal-story/1.png",
+      "stories/mohammad-nazeer-paktiawal-story/2.png",
+      "stories/mohammad-nazeer-paktiawal-story/3.png",
+      "stories/mohammad-nazeer-paktiawal-story/4.png",
+      "stories/mohammad-nazeer-paktiawal-story/5.png",
+      "stories/mohammad-nazeer-paktiawal-story/6.png",
+      "stories/mohammad-nazeer-paktiawal-story/7.png",
+      "stories/mohammad-nazeer-paktiawal-story/8.png",
+      "stories/mohammad-nazeer-paktiawal-story/9.png",
+      "stories/mohammad-nazeer-paktiawal-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Texas",
+    location: "Richardson, Texas",
+    map: { state: "Texas" },
+    tags: ["Asylum", "Deportation", "Detention", "Family", "ICE", "Legal Status", "Medical/Humanitarian", "Parent", "Veteran", "Worker"],
+    title: "Mohammad Nazeer Paktiawal's Story",
+    summary: "Today, we are sharing the story of Mohammad Nazeer Paktiawal. Paktiawal aided United States Special Forces in Afghanistan for over a decade. He was evacuated from Afghanistan along with thousands of others in 2021, entered the United States through a legal process, and applied for asylum. After entering the U.S., he worked as a truck driver and later in a bakery and market to support his family. His asylum case was still pending when he was detained at his Richardson, Texas, home while preparing his children for school.\n\nICE targeted Paktiawal for deportation, citing food-benefit fraud and theft charges; he had not been convicted in either case. Paktiawal’s wife said he used an inhaler to manage his asthma and that agents refused to take it with him when he entered custody. After he experienced difficulty breathing, he was taken from the Dallas ICE field office to Parkland Memorial Hospital. The next morning, hospital staff noticed swelling in his tongue and administered epinephrine. He died about 40 minutes later. His death certificate states that he died from anaphylaxis complicating an acute asthma exacerbation following an adverse reaction to an unidentified substance, and his death was ruled an accident. The full autopsy report has been withheld because authorities said its release could interfere with a federal investigation. Paktiawal’s younger brother and the rest of his family continue to demand more complete answers about what caused the reaction and what happened while he was in custody. The sources we used for this post come from The Texas Tribune, NBC News, and The Associated Press. If you would like to learn more about Paktiawal’s story, we encourage you to check out the reporting published by these organizations.\n\nA GoFundMe has been set up for Paktiawal’s family. If you would like to support them during this difficult time, please feel free to donate here: https://gofund.me/7e27ae18a",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7668107724185554190?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#mohammad-nazeer-paktiawal-story"
   }
 ];
 
