@@ -3799,6 +3799,33 @@ const stories = [
     summary: "Today, we are sharing the story of Mohammad Nazeer Paktiawal. Paktiawal aided United States Special Forces in Afghanistan for over a decade. He was evacuated from Afghanistan along with thousands of others in 2021, entered the United States through a legal process, and applied for asylum. After entering the U.S., he worked as a truck driver and later in a bakery and market to support his family. His asylum case was still pending when he was detained at his Richardson, Texas, home while preparing his children for school.\n\nICE targeted Paktiawal for deportation, citing food-benefit fraud and theft charges; he had not been convicted in either case. Paktiawal’s wife said he used an inhaler to manage his asthma and that agents refused to take it with him when he entered custody. After he experienced difficulty breathing, he was taken from the Dallas ICE field office to Parkland Memorial Hospital. The next morning, hospital staff noticed swelling in his tongue and administered epinephrine. He died about 40 minutes later. His death certificate states that he died from anaphylaxis complicating an acute asthma exacerbation following an adverse reaction to an unidentified substance, and his death was ruled an accident. The full autopsy report has been withheld because authorities said its release could interfere with a federal investigation. Paktiawal’s younger brother and the rest of his family continue to demand more complete answers about what caused the reaction and what happened while he was in custody. The sources we used for this post come from The Texas Tribune, NBC News, and The Associated Press. If you would like to learn more about Paktiawal’s story, we encourage you to check out the reporting published by these organizations.\n\nA GoFundMe has been set up for Paktiawal’s family. If you would like to support them during this difficult time, please feel free to donate here: https://gofund.me/7e27ae18a",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7668107724185554190?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#mohammad-nazeer-paktiawal-story"
+  },
+  {
+    order: 142,
+    slug: "juan-chavez-velasco-story",
+    images: [
+      "stories/juan-chavez-velasco-story/1.png",
+      "stories/juan-chavez-velasco-story/2.png",
+      "stories/juan-chavez-velasco-story/3.png",
+      "stories/juan-chavez-velasco-story/4.png",
+      "stories/juan-chavez-velasco-story/5.png",
+      "stories/juan-chavez-velasco-story/6.png",
+      "stories/juan-chavez-velasco-story/7.png",
+      "stories/juan-chavez-velasco-story/8.png",
+      "stories/juan-chavez-velasco-story/9.png",
+      "stories/juan-chavez-velasco-story/10.png",
+      "stories/juan-chavez-velasco-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Texas",
+    location: "Weslaco, Texas",
+    map: { state: "Texas" },
+    tags: ["Asylum", "Colombian", "DACA", "Deportation", "Detention", "Dreamer", "Family", "Family Separation", "ICE", "Legal Status", "Medical/Humanitarian", "Parent", "Worker"],
+    title: "Juan Chavez Velasco's Story",
+    summary: "Today, we are sharing the story of Juan Chavez Velasco. Juan came to the United States from Colombia with his parents and older sister after his grandfather was kidnapped by guerrillas. The family could not endure the ongoing violence and danger to civilians, so they entered the U.S. on tourist visas and applied for asylum. His parents found work and supported the family while their case was pending; however, their asylum case was ultimately denied, and the family was ordered deported. They decided to remain because the danger in Colombia was still ongoing. Juan's sister later became a U.S. citizen and sponsored their parents for permanent residency, but sibling-to-sibling sponsorship for Juan could take up to 15 years. Thankfully, Juan was eligible to apply for DACA and became a recipient in 2012. He earned degrees in biology and clinical laboratory science and found work in hospital labs before meeting Stephanie Villarreal. The two married and are raising three young children. Villarreal is a U.S. citizen; however, their lawyer advised against her sponsoring Juan because he already had a deportation order. Juan was detained by ICE while driving from their Weslaco home to deliver breast milk to the neonatal intensive care unit for their prematurely born daughter. Villarreal had to support and care for the family while Juan was detained. In the facility, Juan developed kidney stones after he stopped drinking water that tasted metallic. He was also forced to sleep on a thin pad over a metal bed frame in a cell with 10 other detainees. He believed the conditions were intended to pressure people into accepting deportation, but he remained determined to fight for his family. After nearly three months in detention, Juan was released and reunited with his family in May 2026. The sources we used for this post come from The Texas Tribune, MyRGV, PBS News, MS NOW, and Spectrum News. If you would like to learn more about Juan's story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has been set up to support Juan and his family during this difficult time. If you would like to donate, please feel free to use the link here: https://www.gofundme.com/f/help-keep-baby-and-father-together/cl/s?utm_campaign=fp_sharesheet&utm_content=off&utm_medium=customer&utm_source=copy_link&lang=en_US&attribution_id=sl%3Afb6db392-a473-4488-a01e-830f6373227b&ts=1785513170",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7668846670523796750?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#juan-chavez-velasco-story"
   }
 ];
 
