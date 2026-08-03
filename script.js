@@ -3826,6 +3826,33 @@ const stories = [
     summary: "Today, we are sharing the story of Juan Chavez Velasco. Juan came to the United States from Colombia with his parents and older sister after his grandfather was kidnapped by guerrillas. The family could not endure the ongoing violence and danger to civilians, so they entered the U.S. on tourist visas and applied for asylum. His parents found work and supported the family while their case was pending; however, their asylum case was ultimately denied, and the family was ordered deported. They decided to remain because the danger in Colombia was still ongoing. Juan's sister later became a U.S. citizen and sponsored their parents for permanent residency, but sibling-to-sibling sponsorship for Juan could take up to 15 years. Thankfully, Juan was eligible to apply for DACA and became a recipient in 2012. He earned degrees in biology and clinical laboratory science and found work in hospital labs before meeting Stephanie Villarreal. The two married and are raising three young children. Villarreal is a U.S. citizen; however, their lawyer advised against her sponsoring Juan because he already had a deportation order. Juan was detained by ICE while driving from their Weslaco home to deliver breast milk to the neonatal intensive care unit for their prematurely born daughter. Villarreal had to support and care for the family while Juan was detained. In the facility, Juan developed kidney stones after he stopped drinking water that tasted metallic. He was also forced to sleep on a thin pad over a metal bed frame in a cell with 10 other detainees. He believed the conditions were intended to pressure people into accepting deportation, but he remained determined to fight for his family. After nearly three months in detention, Juan was released and reunited with his family in May 2026. The sources we used for this post come from The Texas Tribune, MyRGV, PBS News, MS NOW, and Spectrum News. If you would like to learn more about Juan's story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has been set up to support Juan and his family during this difficult time. If you would like to donate, please feel free to use the link here: https://www.gofundme.com/f/help-keep-baby-and-father-together/cl/s?utm_campaign=fp_sharesheet&utm_content=off&utm_medium=customer&utm_source=copy_link&lang=en_US&attribution_id=sl%3Afb6db392-a473-4488-a01e-830f6373227b&ts=1785513170",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7668846670523796750?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#juan-chavez-velasco-story"
+  },
+  {
+    order: 143,
+    slug: "jose-gregorio-gonzalezs-2nd-detention-story",
+    images: [
+      "stories/jose-gregorio-gonzalezs-2nd-detention-story/1.png",
+      "stories/jose-gregorio-gonzalezs-2nd-detention-story/2.png",
+      "stories/jose-gregorio-gonzalezs-2nd-detention-story/3.png",
+      "stories/jose-gregorio-gonzalezs-2nd-detention-story/4.png",
+      "stories/jose-gregorio-gonzalezs-2nd-detention-story/5.png",
+      "stories/jose-gregorio-gonzalezs-2nd-detention-story/6.png",
+      "stories/jose-gregorio-gonzalezs-2nd-detention-story/7.png",
+      "stories/jose-gregorio-gonzalezs-2nd-detention-story/8.png",
+      "stories/jose-gregorio-gonzalezs-2nd-detention-story/9.png",
+      "stories/jose-gregorio-gonzalezs-2nd-detention-story/10.png",
+      "stories/jose-gregorio-gonzalezs-2nd-detention-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Illinois",
+    location: "Cicero, Illinois",
+    map: { state: "Illinois" },
+    tags: ["Asylum", "Deportation", "Detention", "Family", "ICE", "Legal Status", "Medical/Humanitarian", "Venezuelan"],
+    title: "José Gregorio González's Story: 2nd Detention",
+    summary: "Today, we are sharing an update on José Gregorio González's story. José came to the United States from Venezuela to donate a kidney to his brother, who was suffering from a very severe disease that required a transplant. He had sought asylum; however, he did not pass an initial credible fear interview, so he was issued a deportation order. He was detained while accompanying his brother to one of his multiple dialysis sessions each week. José was released soon after because of public outrage and the need for his brother to undergo transplant surgery and receive his kidney. He was placed on humanitarian parole while remaining in the United States. Nearly a year after the transplant, José was detained once again during a routine immigration check-in on July 21, 2026. He had been attending his routine check-ins and had no criminal record. José's brother felt like his world was crashing down. His brother relied heavily on him for his recovery, which has been very bumpy. He had suffered from a severe blood infection while recovering, and José also still has to be monitored to ensure that his remaining kidney stays healthy. Before José's humanitarian parole ended, his lawyer requested a halt to his deportation order. ICE stated that the request was denied on June 23, 2026, before José was detained. José is being held at the Greene County Jail in Springfield, Missouri. Despite all that has happened to him and his brother, he never complains and always stays positive. The sources we used for this post come from the organizations NBC LA, The New York Times, CNN, TRP Immigrant Justice, Chicago Sun-Times, Compassion Crossing, UC Davis Health, ABC 7, The DePaulia, Chicago Tribune, and USA Today. If you would like to learn more about José's story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7669595461254155533?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#jose-gregorio-gonzalezs-2nd-detention-story"
   }
 ];
 
