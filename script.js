@@ -3853,6 +3853,32 @@ const stories = [
     summary: "Today, we are sharing an update on José Gregorio González's story. José came to the United States from Venezuela to donate a kidney to his brother, who was suffering from a very severe disease that required a transplant. He had sought asylum; however, he did not pass an initial credible fear interview, so he was issued a deportation order. He was detained while accompanying his brother to one of his multiple dialysis sessions each week. José was released soon after because of public outrage and the need for his brother to undergo transplant surgery and receive his kidney. He was placed on humanitarian parole while remaining in the United States. Nearly a year after the transplant, José was detained once again during a routine immigration check-in on July 21, 2026. He had been attending his routine check-ins and had no criminal record. José's brother felt like his world was crashing down. His brother relied heavily on him for his recovery, which has been very bumpy. He had suffered from a severe blood infection while recovering, and José also still has to be monitored to ensure that his remaining kidney stays healthy. Before José's humanitarian parole ended, his lawyer requested a halt to his deportation order. ICE stated that the request was denied on June 23, 2026, before José was detained. José is being held at the Greene County Jail in Springfield, Missouri. Despite all that has happened to him and his brother, he never complains and always stays positive. The sources we used for this post come from the organizations NBC LA, The New York Times, CNN, TRP Immigrant Justice, Chicago Sun-Times, Compassion Crossing, UC Davis Health, ABC 7, The DePaulia, Chicago Tribune, and USA Today. If you would like to learn more about José's story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7669595461254155533?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#jose-gregorio-gonzalezs-2nd-detention-story"
+  },
+  {
+    order: 144,
+    slug: "elvira-benitez-suarez-story",
+    images: [
+      "stories/elvira-benitez-suarez-story/1.png",
+      "stories/elvira-benitez-suarez-story/2.png",
+      "stories/elvira-benitez-suarez-story/3.png",
+      "stories/elvira-benitez-suarez-story/4.png",
+      "stories/elvira-benitez-suarez-story/5.png",
+      "stories/elvira-benitez-suarez-story/6.png",
+      "stories/elvira-benitez-suarez-story/7.png",
+      "stories/elvira-benitez-suarez-story/8.png",
+      "stories/elvira-benitez-suarez-story/9.png",
+      "stories/elvira-benitez-suarez-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Wisconsin",
+    location: "Sheboygan Falls, Wisconsin",
+    map: { state: "Wisconsin" },
+    tags: ["Detention", "Family", "ICE", "Legal Status", "Mexican", "Parent", "Worker"],
+    title: "Elvira Benitez-Suarez's Story",
+    summary: "Today, we are sharing the story of Elvira Benitez-Suarez. Elvira came to the United States from Mexico when she was only 15 years old. She grew up in poverty in Mexico, rarely having shoes and going to bed hungry. At the age of 12, her mother passed away, and her father began to mistreat her. She crossed the border without knowing at the time that it was illegal. She settled in Illinois with her older sister, worked in restaurants, and tried her hardest to get legal status. Elvira thought she could wait for her two older sisters to sponsor her; however, because she entered the U.S. without authorization, she would need to return to the place where she had been mistreated and wait 10 years before reentering and applying. This was something she could not do. Because of immigration agency mistakes, her husband, Ricardo, also did not have a green card, leaving the couple undocumented. They ran a painting and cleaning business, had no criminal record, and searched for every opportunity to get legal status. The couple was detained during a road trip to Niagara Falls to celebrate their 19th anniversary after a wrong turn took them across the Canadian border. Elvira was given a foam mat to sleep on in the dirty detention facility, and she was not able to request a bond hearing. She was released after approximately six months in detention. The judge decided she was eligible to apply for a green card; however, the government appealed the decision. Elvira was detained again during a routine immigration appointment and held for more than two months, ultimately at a Kentucky detention facility with abysmal conditions.\n\nElvira, thankfully, was released; however, her status remains in limbo because of the appeal of her green card decision, which could take up to two years to resolve. Now, Elvira is trying her best to recover from this traumatic experience and make up the lost time with her family. The sources we used for this post come from the Milwaukee Journal Sentinel, Sheboygan Press, and WPR. If you would like to learn more about Elvira’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7669949955573861645?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#elvira-benitez-suarez-story"
   }
 ];
 
