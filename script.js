@@ -3879,6 +3879,32 @@ const stories = [
     summary: "Today, we are sharing the story of Elvira Benitez-Suarez. Elvira came to the United States from Mexico when she was only 15 years old. She grew up in poverty in Mexico, rarely having shoes and going to bed hungry. At the age of 12, her mother passed away, and her father began to mistreat her. She crossed the border without knowing at the time that it was illegal. She settled in Illinois with her older sister, worked in restaurants, and tried her hardest to get legal status. Elvira thought she could wait for her two older sisters to sponsor her; however, because she entered the U.S. without authorization, she would need to return to the place where she had been mistreated and wait 10 years before reentering and applying. This was something she could not do. Because of immigration agency mistakes, her husband, Ricardo, also did not have a green card, leaving the couple undocumented. They ran a painting and cleaning business, had no criminal record, and searched for every opportunity to get legal status. The couple was detained during a road trip to Niagara Falls to celebrate their 19th anniversary after a wrong turn took them across the Canadian border. Elvira was given a foam mat to sleep on in the dirty detention facility, and she was not able to request a bond hearing. She was released after approximately six months in detention. The judge decided she was eligible to apply for a green card; however, the government appealed the decision. Elvira was detained again during a routine immigration appointment and held for more than two months, ultimately at a Kentucky detention facility with abysmal conditions.\n\nElvira, thankfully, was released; however, her status remains in limbo because of the appeal of her green card decision, which could take up to two years to resolve. Now, Elvira is trying her best to recover from this traumatic experience and make up the lost time with her family. The sources we used for this post come from the Milwaukee Journal Sentinel, Sheboygan Press, and WPR. If you would like to learn more about Elvira’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7669949955573861645?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#elvira-benitez-suarez-story"
+  },
+  {
+    order: 145,
+    slug: "edwin-lopez-cornejo-story",
+    images: [
+      "stories/edwin-lopez-cornejo-story/1.png",
+      "stories/edwin-lopez-cornejo-story/2.png",
+      "stories/edwin-lopez-cornejo-story/3.png",
+      "stories/edwin-lopez-cornejo-story/4.png",
+      "stories/edwin-lopez-cornejo-story/5.png",
+      "stories/edwin-lopez-cornejo-story/6.png",
+      "stories/edwin-lopez-cornejo-story/7.png",
+      "stories/edwin-lopez-cornejo-story/8.png",
+      "stories/edwin-lopez-cornejo-story/9.png",
+      "stories/edwin-lopez-cornejo-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "New Jersey",
+    location: "Newark, New Jersey",
+    map: { state: "New Jersey" },
+    tags: ["Deportation", "Detention", "Family", "ICE", "Medical/Humanitarian", "Parent", "Salvadoran", "Worker"],
+    title: "Edwin Lopez-Cornejo’s Story",
+    summary: "Today, we are sharing the story of Edwin Lopez-Cornejo. Edwin came to the United States from El Salvador in 2006, when he was only 18 years old. He was initially deported but returned later and settled in New Jersey. Edwin had no criminal record and worked primarily as a landscaper to support his family, which included his 12-year-old daughter. He was detained while picking up his car from a towing company and was held in Delaney Hall. In detention, Edwin was repeatedly denied the medication he needed to treat his diabetes, high blood pressure, and seizure disorder. Edwin called his mother, complaining that he felt very ill and could not feel the left side of his face or his right hand. The next day, his condition worsened; however, facility staff did not help him until he had already collapsed to the ground. Later that evening, Edwin’s mother received a call notifying her that her son had passed away. The sources we used for this post come from NBC News, The City Reporter, ABC 6, PBS, and CNN. If you would like to learn more about Edwin’s story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has been set up for Edwin’s family during this difficult time to fund their living, legal, and funeral expenses. If you would like to support the family, please feel free to do so at this link: https://gofund.me/ab9325136",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7670334978814643470?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#edwin-lopez-cornejo-story"
   }
 ];
 
