@@ -3905,6 +3905,32 @@ const stories = [
     summary: "Today, we are sharing the story of Edwin Lopez-Cornejo. Edwin came to the United States from El Salvador in 2006, when he was only 18 years old. He was initially deported but returned later and settled in New Jersey. Edwin had no criminal record and worked primarily as a landscaper to support his family, which included his 12-year-old daughter. He was detained while picking up his car from a towing company and was held in Delaney Hall. In detention, Edwin was repeatedly denied the medication he needed to treat his diabetes, high blood pressure, and seizure disorder. Edwin called his mother, complaining that he felt very ill and could not feel the left side of his face or his right hand. The next day, his condition worsened; however, facility staff did not help him until he had already collapsed to the ground. Later that evening, Edwin’s mother received a call notifying her that her son had passed away. The sources we used for this post come from NBC News, The City Reporter, ABC 6, PBS, and CNN. If you would like to learn more about Edwin’s story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has been set up for Edwin’s family during this difficult time to fund their living, legal, and funeral expenses. If you would like to support the family, please feel free to do so at this link: https://gofund.me/ab9325136",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7670334978814643470?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#edwin-lopez-cornejo-story"
+  },
+  {
+    order: 146,
+    slug: "guatemalan-couples-tragic-story",
+    images: [
+      "stories/guatemalan-couples-tragic-story/1.png",
+      "stories/guatemalan-couples-tragic-story/2.png",
+      "stories/guatemalan-couples-tragic-story/3.png",
+      "stories/guatemalan-couples-tragic-story/4.png",
+      "stories/guatemalan-couples-tragic-story/5.png",
+      "stories/guatemalan-couples-tragic-story/6.png",
+      "stories/guatemalan-couples-tragic-story/7.png",
+      "stories/guatemalan-couples-tragic-story/8.png",
+      "stories/guatemalan-couples-tragic-story/9.png",
+      "stories/guatemalan-couples-tragic-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Missouri",
+    location: "Overland, Missouri",
+    map: { state: "Missouri" },
+    tags: ["Asylum", "Deportation", "Detention", "Family", "Family Separation", "Guatemalan", "ICE", "Parent", "Worker"],
+    title: "Guatemalan Couple's Tragic Story",
+    summary: "Today, we are sharing the story of a Guatemalan couple, Nixon Giovanni Pérez Paz and Glendy Marisol González de la Cruz, who passed away weeks after Nixon was deported by ICE and Glendy returned to Guatemala with their daughters. The couple came to the United States from Guatemala to seek asylum from the danger and financial pressure they faced back home. Nixon and his brother had been making their way to roofing jobs when they were detained by ICE in Overland, Missouri, and Nixon was deported shortly afterward. ICE alleged that Nixon had two drunk-driving convictions; however, no records supporting that claim appeared in Missouri’s court database. Glendy had an active asylum case and worked two jobs to support the couple’s three daughters, the youngest of whom had been born the previous year. Fearing that she might be separated from her daughters, Glendy decided to return to Guatemala with her children and reunite with her husband despite the known danger she might face because she felt she had no other choice. Only weeks after the couple reunited, they were found bound and shot in a sugarcane field. Their 14-month-old daughter was found next to them crying.\n\nThe couple’s three children were placed in the care of their extended family. Nixon’s brother explained that if they had never been deported, they would not have suffered this fate, and he demanded accountability. Their passing sparked widespread outrage, and memorials were set up to mourn them. The sources we used for this post come from the organizations The People, PBS News, News Republic, Reuters, and St. Louis Public Radio. If you would like to learn more about their story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7670684383937957134?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#guatemalan-couples-tragic-story"
   }
 ];
 
