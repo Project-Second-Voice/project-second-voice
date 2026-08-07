@@ -31,6 +31,7 @@ const APPROVED_STORY_TAGS = [
   "Mexican",
   "Military Family",
   "Parent",
+  "Refugee",
   "Salvadoran",
   "Student",
   "U.S. Citizen",
@@ -3931,6 +3932,33 @@ const stories = [
     summary: "Today, we are sharing the story of a Guatemalan couple, Nixon Giovanni Pérez Paz and Glendy Marisol González de la Cruz, who passed away weeks after Nixon was deported by ICE and Glendy returned to Guatemala with their daughters. The couple came to the United States from Guatemala to seek asylum from the danger and financial pressure they faced back home. Nixon and his brother had been making their way to roofing jobs when they were detained by ICE in Overland, Missouri, and Nixon was deported shortly afterward. ICE alleged that Nixon had two drunk-driving convictions; however, no records supporting that claim appeared in Missouri’s court database. Glendy had an active asylum case and worked two jobs to support the couple’s three daughters, the youngest of whom had been born the previous year. Fearing that she might be separated from her daughters, Glendy decided to return to Guatemala with her children and reunite with her husband despite the known danger she might face because she felt she had no other choice. Only weeks after the couple reunited, they were found bound and shot in a sugarcane field. Their 14-month-old daughter was found next to them crying.\n\nThe couple’s three children were placed in the care of their extended family. Nixon’s brother explained that if they had never been deported, they would not have suffered this fate, and he demanded accountability. Their passing sparked widespread outrage, and memorials were set up to mourn them. The sources we used for this post come from the organizations The People, PBS News, News Republic, Reuters, and St. Louis Public Radio. If you would like to learn more about their story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7670684383937957134?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#guatemalan-couples-tragic-story"
+  },
+  {
+    order: 147,
+    slug: "chongly-scott-thao-story",
+    images: [
+      "stories/chongly-scott-thao-story/1.png",
+      "stories/chongly-scott-thao-story/2.png",
+      "stories/chongly-scott-thao-story/3.png",
+      "stories/chongly-scott-thao-story/4.png",
+      "stories/chongly-scott-thao-story/5.png",
+      "stories/chongly-scott-thao-story/6.png",
+      "stories/chongly-scott-thao-story/7.png",
+      "stories/chongly-scott-thao-story/8.png",
+      "stories/chongly-scott-thao-story/9.png",
+      "stories/chongly-scott-thao-story/10.png",
+      "stories/chongly-scott-thao-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Minnesota",
+    location: "St. Paul, Minnesota",
+    map: { state: "Minnesota" },
+    tags: ["Detention", "Family", "ICE", "Parent", "Refugee", "U.S. Citizen", "Wrongful Detention"],
+    title: "ChongLy \"Scott\" Thao's Story",
+    summary: "Today, we are sharing the story of ChongLy \"Scott\" Thao. Thao’s adoptive mother, Choua Thao, was well known as the first trained Hmong nurse and helped American doctors and hospital staff during the United States’ Secret War in Laos. The family came to the United States as refugees in 1976, when Thao was only 4 years old. The family members later became naturalized U.S. citizens.\n\nThao, a divorced father of two, was at his St. Paul home when federal immigration agents began knocking on the door. After nobody opened it, the agents broke through the door, pointed weapons at the family, and demanded to know where their targets were. Thao had no criminal record and was not the person they were seeking. The agents did not show a warrant. Thao was taken outside wearing only shorts, Crocs, and a small blanket in approximately 10-degree weather. He complied because he did not want to risk danger to himself or his family.\n\nThe 56-year-old father was driven around for about an hour in an ICE vehicle before being photographed, fingerprinted, and finally released back at home. The agents did not apologize for misidentifying him or breaking down his door. While he was detained in the vehicle, Thao feared being deported to Laos, a country where he no longer had relatives. The experience deeply impacted the family, especially Thao’s grandson, who was shaken by the encounter and could not sleep. The sources we used for this post come from Sahan Journal, NBC News, PBS News, The Guardian, ClickOnDetroit, MPR News, and CBS News. If you would like to learn more about Thao’s story, we encourage you to read the reporting published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7671084031856905485?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#chongly-scott-thao-story"
   }
 ];
 
