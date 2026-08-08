@@ -3959,6 +3959,31 @@ const stories = [
     summary: "Today, we are sharing the story of ChongLy \"Scott\" Thao. Thao’s adoptive mother, Choua Thao, was well known as the first trained Hmong nurse and helped American doctors and hospital staff during the United States’ Secret War in Laos. The family came to the United States as refugees in 1976, when Thao was only 4 years old. The family members later became naturalized U.S. citizens.\n\nThao, a divorced father of two, was at his St. Paul home when federal immigration agents began knocking on the door. After nobody opened it, the agents broke through the door, pointed weapons at the family, and demanded to know where their targets were. Thao had no criminal record and was not the person they were seeking. The agents did not show a warrant. Thao was taken outside wearing only shorts, Crocs, and a small blanket in approximately 10-degree weather. He complied because he did not want to risk danger to himself or his family.\n\nThe 56-year-old father was driven around for about an hour in an ICE vehicle before being photographed, fingerprinted, and finally released back at home. The agents did not apologize for misidentifying him or breaking down his door. While he was detained in the vehicle, Thao feared being deported to Laos, a country where he no longer had relatives. The experience deeply impacted the family, especially Thao’s grandson, who was shaken by the encounter and could not sleep. The sources we used for this post come from Sahan Journal, NBC News, PBS News, The Guardian, ClickOnDetroit, MPR News, and CBS News. If you would like to learn more about Thao’s story, we encourage you to read the reporting published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7671084031856905485?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#chongly-scott-thao-story"
+  },
+  {
+    order: 148,
+    slug: "juan-carlos-lopez-gomez-story",
+    images: [
+      "stories/juan-carlos-lopez-gomez-story/1.png",
+      "stories/juan-carlos-lopez-gomez-story/2.png",
+      "stories/juan-carlos-lopez-gomez-story/3.png",
+      "stories/juan-carlos-lopez-gomez-story/4.png",
+      "stories/juan-carlos-lopez-gomez-story/5.png",
+      "stories/juan-carlos-lopez-gomez-story/6.png",
+      "stories/juan-carlos-lopez-gomez-story/7.png",
+      "stories/juan-carlos-lopez-gomez-story/8.png",
+      "stories/juan-carlos-lopez-gomez-story/9.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Georgia",
+    location: "Grady County, Georgia",
+    map: { state: "Georgia" },
+    tags: ["Detention", "Family", "ICE", "U.S. Citizen", "Worker", "Wrongful Detention"],
+    title: "Juan Carlos Lopez-Gomez's Story",
+    summary: "Today, we are sharing the story of Juan Carlos Lopez-Gomez. Juan was born in the United States and moved to Mexico when he was one year old. He lived in Mexico until he was 16 before settling in Georgia. The 20-year-old’s first language is Tzotzil, a Mayan language, and he is not fluent in English or Spanish. Juan was carpooling from Georgia to a construction job in Florida when the Florida Highway Patrol pulled over the vehicle for speeding. Because he was not proficient in English, he paused for a long time before answering whether he wanted to hire a private attorney to represent him. He was charged with entering Florida as an “unauthorized alien” and detained despite saying that he was a U.S. citizen and providing identification. At a virtual court hearing the next day, his mother presented his Georgia identification card, birth certificate, and Social Security card, and the judge dismissed the state charge. His mother burst into tears while watching her son at the hearing, feeling that she had no way to help him. Juan remained in Leon County Jail on an ICE hold before being released after more than 30 hours. Juan’s case exemplifies why everyone should care about the ongoing immigration situation in the United States: even U.S. citizens like Juan are in danger of being detained because of profiling. The sources we used for this post are CNN, The Independent, Florida Phoenix, The Atlanta Journal-Constitution, WLRN, and JURIST. If you would like to learn more about Juan’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7671433169903701262?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#juan-carlos-lopez-gomez-story"
   }
 ];
 
