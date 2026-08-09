@@ -3984,6 +3984,33 @@ const stories = [
     summary: "Today, we are sharing the story of Juan Carlos Lopez-Gomez. Juan was born in the United States and moved to Mexico when he was one year old. He lived in Mexico until he was 16 before settling in Georgia. The 20-year-old’s first language is Tzotzil, a Mayan language, and he is not fluent in English or Spanish. Juan was carpooling from Georgia to a construction job in Florida when the Florida Highway Patrol pulled over the vehicle for speeding. Because he was not proficient in English, he paused for a long time before answering whether he wanted to hire a private attorney to represent him. He was charged with entering Florida as an “unauthorized alien” and detained despite saying that he was a U.S. citizen and providing identification. At a virtual court hearing the next day, his mother presented his Georgia identification card, birth certificate, and Social Security card, and the judge dismissed the state charge. His mother burst into tears while watching her son at the hearing, feeling that she had no way to help him. Juan remained in Leon County Jail on an ICE hold before being released after more than 30 hours. Juan’s case exemplifies why everyone should care about the ongoing immigration situation in the United States: even U.S. citizens like Juan are in danger of being detained because of profiling. The sources we used for this post are CNN, The Independent, Florida Phoenix, The Atlanta Journal-Constitution, WLRN, and JURIST. If you would like to learn more about Juan’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7671433169903701262?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#juan-carlos-lopez-gomez-story"
+  },
+  {
+    order: 149,
+    slug: "christian-cerna-story",
+    images: [
+      "stories/christian-cerna-story/1.png",
+      "stories/christian-cerna-story/2.png",
+      "stories/christian-cerna-story/3.png",
+      "stories/christian-cerna-story/4.png",
+      "stories/christian-cerna-story/5.png",
+      "stories/christian-cerna-story/6.png",
+      "stories/christian-cerna-story/7.png",
+      "stories/christian-cerna-story/8.png",
+      "stories/christian-cerna-story/9.png",
+      "stories/christian-cerna-story/10.png",
+      "stories/christian-cerna-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "California",
+    location: "Paramount, California",
+    map: { state: "California" },
+    tags: ["Activist", "Deportation", "Detention", "Family", "Family Separation", "ICE", "Medical/Humanitarian", "Mexican", "Parent", "U.S. Citizen", "Worker"],
+    title: "Christian Cerna's Story",
+    summary: "Today, we are sharing the story of Christian Cerna. Christian was born in Long Beach, California, to two immigrant parents from Mexico. Immigration has always been a big part of his life, and when he was about 12 years old, his father was detained and deported by ICE. His family moved into his uncle’s home, where seven relatives shared one room. Since then, Christian has distrusted immigration agents.\n\nAt 28 years old, Christian was working as a carpenter and raising a two-year-old son and an eight-month-old daughter. He participated in a protest in Paramount, remembering how helpless he had felt as a child trying to save his father and feeling that he now had a voice. The protest became tense, and Christian swung at a Border Patrol agent during a confrontation; his eventual misdemeanor plea did not allege that he made physical contact with the agent.\n\nDays after the protest, Christian was bruised and tired as he drove with his family to visit relatives and get tacos. After they left the highway, federal immigration agents rammed his car while his two children were inside. Christian recalls never hearing an order to pull over. The agents deployed flash-bang grenades and pulled Christian from the car. The agent involved in the protest confrontation was also there and asked whether Christian remembered him. Agents recorded Christian’s arrest, and the Department of Homeland Security later posted the footage on social media.\n\nChristian was released after a week and placed on house arrest with GPS monitoring. The stress deeply affected his family. His infant daughter developed a full-body rash, his son experienced nightmares and separation anxiety, and Christian was hospitalized with a ruptured appendix that doctors attributed to stress. Christian pleaded guilty to misdemeanor simple assault and was sentenced to one year of probation with no jail time. The source we used for this post is The Guardian. If you would like to learn more about Christian’s story, we encourage you to read the reporting published by this organization.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7671814841891376397?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#christian-cerna-story"
   }
 ];
 
