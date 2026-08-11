@@ -4037,6 +4037,31 @@ const stories = [
     summary: "Today, we are sharing the story of Gerson Turcios. Gerson came to the United States from Honduras when he was only 17 years old. In Honduras, he faced violence, losing one of his brothers, and was unable to pursue higher education because of financial instability. The mountains where he lived were very dangerous, and he hired a coyote to help bring him to the United States. To get to the U.S., Gerson swam across the Rio Grande in the darkness. He had no choice but to swim when Mexican soldiers used fire to try to flush the group out. He was spotted by immigration officers at the border and, because he was a minor, taken into the custody of the Office of Refugee Resettlement. He lived there for nearly a month before being picked up by his brother and his brother’s girlfriend and settling in Rhinebeck, New York.\n\nGerson knew little to no English and was enrolled in a local high school by his brother’s girlfriend. His English quickly improved, and he made many friends. One of them, Dougherty, played basketball with him after classes. After finishing high school, Gerson began working in a French restaurant and also did landscaping and house maintenance. Customers often said that Gerson would brighten their day.\n\nNearly six years after entering the U.S., Gerson was detained after returning from a landscaping job. Immigration officers who were looking for someone else approached him, scanned his face, and handcuffed him. Immediately, the town sprang to support Gerson. Community members organized fundraisers, secured legal support, and started protests calling for his release. This support helped prevent Gerson from being deported when his lawyers won a temporary stay of removal. Gerson has been in detention for over a year, and his lawyers are actively pursuing an asylum case. The sources we used for this post come from The Guardian, The Daily Catch, WAMC, and SpotFund. If you would like to learn more about Gerson’s story, we encourage you to check out the stories published by these organizations.\n\nA SpotFund has been set up to support Gerson in this time of need. If you would like to help fund Gerson’s legal expenses, please feel free to donate at this link: http://spot.fund/hmkx24ssc",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7672189785561173262?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#gerson-turcios-story"
+  },
+  {
+    order: 151,
+    slug: "laura-rojas-ortiz-story",
+    images: [
+      "stories/laura-rojas-ortiz-story/1.png",
+      "stories/laura-rojas-ortiz-story/2.png",
+      "stories/laura-rojas-ortiz-story/3.png",
+      "stories/laura-rojas-ortiz-story/4.png",
+      "stories/laura-rojas-ortiz-story/5.png",
+      "stories/laura-rojas-ortiz-story/6.png",
+      "stories/laura-rojas-ortiz-story/7.png",
+      "stories/laura-rojas-ortiz-story/8.png",
+      "stories/laura-rojas-ortiz-story/9.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Texas",
+    location: "Dilley, Texas",
+    map: { state: "Texas" },
+    tags: ["Detention", "Family", "ICE", "Legal Status", "Medical/Humanitarian", "Parent"],
+    title: "Laura Rojas Ortiz's Story",
+    summary: "Today, we are sharing the story of Laura Rojas Ortiz. Laura came to the United States a year ago and presented herself to immigration authorities at the southern border. After settling in Texas, she began the process of applying for a U visa after witnessing a violent incident in her neighborhood. She wore an ankle monitor and regularly attended immigration appointments. During one of these appointments, Laura was detained with her toddler son, and they were sent to the Dilley Immigration Processing Center. Five months pregnant, Laura has been held at the facility for over 40 days. She has no criminal record. Since arriving at Dilley, she has not been seen by medical staff, received an ultrasound from a specialist, or had blood tests. Laura’s son, who is lactose intolerant, was also given whole milk during their stay. When lawmakers visited to inspect conditions at the facility, staff allegedly transferred Laura into a medical room and moved her out after the lawmakers left, concealing the fact that she was pregnant. Organizations that support detainees have been working to establish a commissary account for Laura so she can afford necessities during her pregnancy and help keep her toddler son comfortable. The source we used for this post is ABC News. If you would like to learn more about Laura’s story, we encourage you to read the organization’s reporting.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7672562329199955214?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#laura-rojas-ortiz-story"
   }
 ];
 
