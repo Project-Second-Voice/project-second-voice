@@ -4062,6 +4062,31 @@ const stories = [
     summary: "Today, we are sharing the story of Laura Rojas Ortiz. Laura came to the United States a year ago and presented herself to immigration authorities at the southern border. After settling in Texas, she began the process of applying for a U visa after witnessing a violent incident in her neighborhood. She wore an ankle monitor and regularly attended immigration appointments. During one of these appointments, Laura was detained with her toddler son, and they were sent to the Dilley Immigration Processing Center. Five months pregnant, Laura has been held at the facility for over 40 days. She has no criminal record. Since arriving at Dilley, she has not been seen by medical staff, received an ultrasound from a specialist, or had blood tests. Laura’s son, who is lactose intolerant, was also given whole milk during their stay. When lawmakers visited to inspect conditions at the facility, staff allegedly transferred Laura into a medical room and moved her out after the lawmakers left, concealing the fact that she was pregnant. Organizations that support detainees have been working to establish a commissary account for Laura so she can afford necessities during her pregnancy and help keep her toddler son comfortable. The source we used for this post is ABC News. If you would like to learn more about Laura’s story, we encourage you to read the organization’s reporting.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7672562329199955214?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#laura-rojas-ortiz-story"
+  },
+  {
+    order: 152,
+    slug: "debora-kapisha-story",
+    images: [
+      "stories/debora-kapisha-story/1.png",
+      "stories/debora-kapisha-story/2.png",
+      "stories/debora-kapisha-story/3.png",
+      "stories/debora-kapisha-story/4.png",
+      "stories/debora-kapisha-story/5.png",
+      "stories/debora-kapisha-story/6.png",
+      "stories/debora-kapisha-story/7.png",
+      "stories/debora-kapisha-story/8.png",
+      "stories/debora-kapisha-story/9.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Maine",
+    location: "Portland, Maine",
+    map: { state: "Maine" },
+    tags: ["Asylum", "Detention", "ICE", "Legal Status", "Medical/Humanitarian", "Worker"],
+    title: "Debora Kapisha's Story",
+    summary: "Today, we are sharing the story of Debora Kapisha. Debora came to the United States from Zambia in 2024 on a visa. After settling down in Maine, she also applied for asylum, and her case has been pending ever since. Her work authorization expires in 2030, and she works as a medical-surgical nurse, helping dialysis patients. Coworkers have emphasized the importance of Debora’s role, explaining how understaffed her area of expertise is and the crucial need for more people who practice her disciplines. Debora was detained by ICE while traveling through Boston Logan International Airport because she overstayed her visa. It could take decades for her asylum case to be processed, and during the waiting period, Debora isn’t able to renew the type of visa she had. After hearing about her detention, coworkers and residents of Maine rallied outside Maine Medical Center in Portland to protest for her release. They also searched for potential sponsors who would allow Debora to acquire permanent residency. Thankfully, through all the support, Debora was released from ICE custody and returned home. The sources we used for this post are NBC News, ABC 8, Maine AFL-CIO, and Maine Morning Star. If you would like to learn more about Debora’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7672929701496737038?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#debora-kapisha-story"
   }
 ];
 
