@@ -4087,6 +4087,33 @@ const stories = [
     summary: "Today, we are sharing the story of Debora Kapisha. Debora came to the United States from Zambia in 2024 on a visa. After settling down in Maine, she also applied for asylum, and her case has been pending ever since. Her work authorization expires in 2030, and she works as a medical-surgical nurse, helping dialysis patients. Coworkers have emphasized the importance of Debora’s role, explaining how understaffed her area of expertise is and the crucial need for more people who practice her disciplines. Debora was detained by ICE while traveling through Boston Logan International Airport because she overstayed her visa. It could take decades for her asylum case to be processed, and during the waiting period, Debora isn’t able to renew the type of visa she had. After hearing about her detention, coworkers and residents of Maine rallied outside Maine Medical Center in Portland to protest for her release. They also searched for potential sponsors who would allow Debora to acquire permanent residency. Thankfully, through all the support, Debora was released from ICE custody and returned home. The sources we used for this post are NBC News, ABC 8, Maine AFL-CIO, and Maine Morning Star. If you would like to learn more about Debora’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7672929701496737038?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#debora-kapisha-story"
+  },
+  {
+    order: 153,
+    slug: "leonardo-garcia-venegas-story",
+    images: [
+      "stories/leonardo-garcia-venegas-story/Leonardo Garcia Venegas’ Story.png",
+      "stories/leonardo-garcia-venegas-story/2.png",
+      "stories/leonardo-garcia-venegas-story/3.png",
+      "stories/leonardo-garcia-venegas-story/4.png",
+      "stories/leonardo-garcia-venegas-story/5.png",
+      "stories/leonardo-garcia-venegas-story/6.png",
+      "stories/leonardo-garcia-venegas-story/7.png",
+      "stories/leonardo-garcia-venegas-story/8.png",
+      "stories/leonardo-garcia-venegas-story/9.png",
+      "stories/leonardo-garcia-venegas-story/10.png",
+      "stories/leonardo-garcia-venegas-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Alabama",
+    location: "Baldwin County, Alabama",
+    map: { state: "Alabama" },
+    tags: ["Detention", "Family", "ICE", "U.S. Citizen", "Worker", "Wrongful Detention"],
+    title: "Leonardo Garcia Venegas’ Story",
+    summary: "Today, we are sharing the story of Leonardo Garcia Venegas. Venegas was born in the United States to Mexican national parents and moved to Alabama when he was 14 years old. Venegas finished high school and began working as a construction worker, first as a bricklayer, then as a mason, and now as a concrete layer. ICE agents had been raiding private construction sites during this time, often without warrants. They would seize anybody they believed looked \u201cillegal,\u201d which was most of the time whoever looked Latino and had an accent while talking. This was entirely unconstitutional. While at a job in Foley, Venegas was detained by ICE agents who raided the construction site. Venegas was wrestled to the ground despite shouting numerous times that he was a U.S. citizen. When he showed them his ID, they dismissed it, believing it was fake. It wasn\u2019t until Venegas showed them his Social Security number that they released him. This would happen another two times. Another time, Venegas was pulled out of a house he was working on, and another time he was followed while driving back home. In each of the three cases, he repeated that he was a U.S. citizen and had his ID dismissed as fake. The agents also detained his brother, who was not a U.S. citizen. He decided to self-deport because he wasn\u2019t sure how long he would remain in detention. This whole situation has shaken Venegas, who questions why he was discriminated against when he contributes just like every other U.S. citizen, paying taxes. Venegas is now working on filing a lawsuit to try to end unconstitutional workplace raids. He wants to get justice for the discrimination he faced. The sources we used for this post come from the Institute for Justice, NBC News, ProPublica, and Truthout. If you would like to learn more about Venegas\u2019 story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7674414649974017311?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#leonardo-garcia-venegas-story"
   }
 ];
 
