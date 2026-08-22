@@ -4114,6 +4114,31 @@ const stories = [
     summary: "Today, we are sharing the story of Leonardo Garcia Venegas. Venegas was born in the United States to Mexican national parents and moved to Alabama when he was 14 years old. Venegas finished high school and began working as a construction worker, first as a bricklayer, then as a mason, and now as a concrete layer. ICE agents had been raiding private construction sites during this time, often without warrants. They would seize anybody they believed looked \u201cillegal,\u201d which was most of the time whoever looked Latino and had an accent while talking. This was entirely unconstitutional. While at a job in Foley, Venegas was detained by ICE agents who raided the construction site. Venegas was wrestled to the ground despite shouting numerous times that he was a U.S. citizen. When he showed them his ID, they dismissed it, believing it was fake. It wasn\u2019t until Venegas showed them his Social Security number that they released him. This would happen another two times. Another time, Venegas was pulled out of a house he was working on, and another time he was followed while driving back home. In each of the three cases, he repeated that he was a U.S. citizen and had his ID dismissed as fake. The agents also detained his brother, who was not a U.S. citizen. He decided to self-deport because he wasn\u2019t sure how long he would remain in detention. This whole situation has shaken Venegas, who questions why he was discriminated against when he contributes just like every other U.S. citizen, paying taxes. Venegas is now working on filing a lawsuit to try to end unconstitutional workplace raids. He wants to get justice for the discrimination he faced. The sources we used for this post come from the Institute for Justice, NBC News, ProPublica, and Truthout. If you would like to learn more about Venegas\u2019 story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7674414649974017311?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#leonardo-garcia-venegas-story"
+  },
+  {
+    order: 154,
+    slug: "iliana-lick-story",
+    images: [
+      "stories/iliana-lick-story/1.png",
+      "stories/iliana-lick-story/2.png",
+      "stories/iliana-lick-story/3.png",
+      "stories/iliana-lick-story/4.png",
+      "stories/iliana-lick-story/5.png",
+      "stories/iliana-lick-story/6.png",
+      "stories/iliana-lick-story/7.png",
+      "stories/iliana-lick-story/8.png",
+      "stories/iliana-lick-story/9.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Pennsylvania",
+    location: "Point Breeze, Philadelphia, Pennsylvania",
+    map: { state: "Pennsylvania" },
+    tags: ["Asylum", "Detention", "Deportation", "ICE", "Legal Status", "Worker"],
+    title: "Iliana Lick's Story",
+    summary: "Today, we are sharing the story of Iliana Lick. Lick came to the United States from Argentina in 2023 on a tourist visa. She later extended the visa, and she also has a pending asylum case and a valid work permit. She works as a nanny in her South Philadelphia neighborhood. While traveling to watch her home country, Argentina, play against Switzerland in the World Cup quarterfinals, Lick was detained at the airport. She was detained because she overstayed her visa even though she had a pending asylum case. She was taken to the Otero County Processing Center. She was placed with nine other detainees in a cell with only one toilet and one window. Thankfully, Lick was released on a $10,000 bond after her hearing. She still has to wear an ankle monitor and surrender her license and passport. Now, Lick awaits her court date, which will decide whether she will be deported or allowed to remain in the country. The sources we used for this post come from the organizations WHYY, CBS News, NBC Philadelphia, Audacy, and CNN News. If you would like to learn more about Lick’s story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has been set up to support Lick in paying her legal fees during this time of uncertainty. If you would like to donate, please feel free to do so at this link: https://gofund.me/3722d0159",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7674793863743147278?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#iliana-lick-story"
   }
 ];
 
