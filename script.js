@@ -4139,6 +4139,31 @@ const stories = [
     summary: "Today, we are sharing the story of Iliana Lick. Lick came to the United States from Argentina in 2023 on a tourist visa. She later extended the visa, and she also has a pending asylum case and a valid work permit. She works as a nanny in her South Philadelphia neighborhood. While traveling to watch her home country, Argentina, play against Switzerland in the World Cup quarterfinals, Lick was detained at the airport. She was detained because she overstayed her visa even though she had a pending asylum case. She was taken to the Otero County Processing Center. She was placed with nine other detainees in a cell with only one toilet and one window. Thankfully, Lick was released on a $10,000 bond after her hearing. She still has to wear an ankle monitor and surrender her license and passport. Now, Lick awaits her court date, which will decide whether she will be deported or allowed to remain in the country. The sources we used for this post come from the organizations WHYY, CBS News, NBC Philadelphia, Audacy, and CNN News. If you would like to learn more about Lick’s story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has been set up to support Lick in paying her legal fees during this time of uncertainty. If you would like to donate, please feel free to do so at this link: https://gofund.me/3722d0159",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7674793863743147278?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#iliana-lick-story"
+  },
+  {
+    order: 155,
+    slug: "jose-mejia-hernandez-story",
+    images: [
+      "stories/jose-mejia-hernandez-story/1.png",
+      "stories/jose-mejia-hernandez-story/2.png",
+      "stories/jose-mejia-hernandez-story/3.png",
+      "stories/jose-mejia-hernandez-story/4.png",
+      "stories/jose-mejia-hernandez-story/5.png",
+      "stories/jose-mejia-hernandez-story/6.png",
+      "stories/jose-mejia-hernandez-story/7.png",
+      "stories/jose-mejia-hernandez-story/8.png",
+      "stories/jose-mejia-hernandez-story/9.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Virginia",
+    location: "Columbia Pike, Arlington, Virginia",
+    map: { state: "Virginia" },
+    tags: ["Deportation", "Detention", "ICE", "Legal Status", "Medical/Humanitarian", "Mexican", "Worker"],
+    title: "José Mejía Hernández's Story",
+    summary: "Today, we are sharing the story of José Mejía Hernández. Hernández came to the United States from Mexico in 2006. He was deported shortly afterward and returned in 2008. According to DHS, he was convicted of public intoxication in 2020. He was in removal proceedings but had not been issued a deportation order. Forty-five-year-old Hernández was walking to a bus stop in Arlington, Virginia, to go to work when an unmarked vehicle pulled up beside him and two men who were not in uniform got out and approached him. Hernández did not know they were officers, so he fled. He remembers being struck in the back with what he believed was a Taser and waking up hours later in a hospital. He had bruises and injuries across his face and body and remained hospitalized for three days. During that time, his family had no idea where he was or what had happened to him. After his release, ICE agents fitted Hernández with an ankle monitor. When he sought further medical treatment, doctors explained that he needed an MRI, but the scan could not be performed while he was wearing the monitor. ICE initially denied a request to remove it, then later allowed it to be removed. Hernández was diagnosed with a traumatic brain injury and a brain bleed. His lawyers allege that ICE agents used excessive force during his arrest. DHS disputes parts of Hernández's account and says agents used necessary force after he fled. Hernández is now in removal proceedings and is working to recover from his injuries. The sources we used for this post come from The Guardian, The Washington Post, WUSA9, and Arlington County, Virginia. If you would like to learn more about Hernández's story, we encourage you to check out the stories published by these organizations. A GoFundMe has been set up for Hernández. If you would like to donate, please feel free to do so at this link: https://gofund.me/c9c5493f8",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7677022267699629325?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#jose-mejia-hernandez-story"
   }
 ];
 
