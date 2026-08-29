@@ -4164,6 +4164,30 @@ const stories = [
     summary: "Today, we are sharing the story of José Mejía Hernández. Hernández came to the United States from Mexico in 2006. He was deported shortly afterward and returned in 2008. According to DHS, he was convicted of public intoxication in 2020. He was in removal proceedings but had not been issued a deportation order. Forty-five-year-old Hernández was walking to a bus stop in Arlington, Virginia, to go to work when an unmarked vehicle pulled up beside him and two men who were not in uniform got out and approached him. Hernández did not know they were officers, so he fled. He remembers being struck in the back with what he believed was a Taser and waking up hours later in a hospital. He had bruises and injuries across his face and body and remained hospitalized for three days. During that time, his family had no idea where he was or what had happened to him. After his release, ICE agents fitted Hernández with an ankle monitor. When he sought further medical treatment, doctors explained that he needed an MRI, but the scan could not be performed while he was wearing the monitor. ICE initially denied a request to remove it, then later allowed it to be removed. Hernández was diagnosed with a traumatic brain injury and a brain bleed. His lawyers allege that ICE agents used excessive force during his arrest. DHS disputes parts of Hernández's account and says agents used necessary force after he fled. Hernández is now in removal proceedings and is working to recover from his injuries. The sources we used for this post come from The Guardian, The Washington Post, WUSA9, and Arlington County, Virginia. If you would like to learn more about Hernández's story, we encourage you to check out the stories published by these organizations. A GoFundMe has been set up for Hernández. If you would like to donate, please feel free to do so at this link: https://gofund.me/c9c5493f8",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7677022267699629325?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#jose-mejia-hernandez-story"
+  },
+  {
+    order: 156,
+    slug: "liam-tadeo-story",
+    images: [
+      "stories/liam-tadeo-story/1.png",
+      "stories/liam-tadeo-story/2.png",
+      "stories/liam-tadeo-story/3.png",
+      "stories/liam-tadeo-story/4.png",
+      "stories/liam-tadeo-story/5.png",
+      "stories/liam-tadeo-story/6.png",
+      "stories/liam-tadeo-story/7.png",
+      "stories/liam-tadeo-story/8.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Texas",
+    location: "Austin, Texas",
+    map: { state: "Texas" },
+    tags: ["Child", "Deportation", "Detention", "Family", "Family Separation", "ICE", "Mexican"],
+    title: "Liam Tadeo's Story",
+    summary: "Today, we are sharing the story of Liam Tadeo. Just a few days before starting kindergarten, five-year-old Liam was arrested along with his father while they were on their way to a soccer match. The two were pulled over during a traffic stop and transferred to the Dilley Detention Facility. Video recordings show Liam crying while being arrested alongside his father in Austin, Texas. Liam’s father came to the United States in 2022 and had no criminal record. Parents in family detention can either be removed with their children or assign them a primary caretaker. On August 25, 2026, Liam and his father were deported to Mexico after his father accepted voluntary departure rather than risk separation from his son. Liam loves cowboys and often wears a cowboy hat and boots. He also loves Spider-Man and has cologne to match the superhero. He has a pet chicken that was gifted to him by his aunt. The sources we used for this post come from the organizations Newsweek, The Independent, GoFundMe, and Instagram. If you would like to learn more about Liam’s story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has been set up to support Liam’s family during this time of hardship, as Liam’s father was the primary breadwinner. The money donated will go toward supporting their financial and legal fees. If you would like to donate, please feel free to do so using this link: https://gofund.me/823610164",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7677381527520447758?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#liam-tadeo-story"
   }
 ];
 
