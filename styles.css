@@ -1149,6 +1149,10 @@ textarea {
   overflow-wrap: anywhere;
 }
 
+.story-focus-copy p + p {
+  margin-top: 1rem;
+}
+
 .story-focus-actions {
   display: flex;
   flex-wrap: wrap;

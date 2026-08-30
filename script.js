@@ -4188,6 +4188,33 @@ const stories = [
     summary: "Today, we are sharing the story of Liam Tadeo. Just a few days before starting kindergarten, five-year-old Liam was arrested along with his father while they were on their way to a soccer match. The two were pulled over during a traffic stop and transferred to the Dilley Detention Facility. Video recordings show Liam crying while being arrested alongside his father in Austin, Texas. Liam’s father came to the United States in 2022 and had no criminal record. Parents in family detention can either be removed with their children or assign them a primary caretaker. On August 25, 2026, Liam and his father were deported to Mexico after his father accepted voluntary departure rather than risk separation from his son. Liam loves cowboys and often wears a cowboy hat and boots. He also loves Spider-Man and has cologne to match the superhero. He has a pet chicken that was gifted to him by his aunt. The sources we used for this post come from the organizations Newsweek, The Independent, GoFundMe, and Instagram. If you would like to learn more about Liam’s story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has been set up to support Liam’s family during this time of hardship, as Liam’s father was the primary breadwinner. The money donated will go toward supporting their financial and legal fees. If you would like to donate, please feel free to do so using this link: https://gofund.me/823610164",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7677381527520447758?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#liam-tadeo-story"
+  },
+  {
+    order: 157,
+    slug: "liam-tadeo-update-story",
+    images: [
+      "stories/liam-tadeo-update-story/1.png",
+      "stories/liam-tadeo-update-story/2.png",
+      "stories/liam-tadeo-update-story/3.png",
+      "stories/liam-tadeo-update-story/4.png",
+      "stories/liam-tadeo-update-story/5.png",
+      "stories/liam-tadeo-update-story/6.png",
+      "stories/liam-tadeo-update-story/7.png",
+      "stories/liam-tadeo-update-story/8.png",
+      "stories/liam-tadeo-update-story/9.png",
+      "stories/liam-tadeo-update-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Texas",
+    location: "Austin and Dilley, Texas",
+    map: { state: "Texas" },
+    tags: ["Child", "Deportation", "Detention", "Family", "Family Separation", "ICE", "Mexican"],
+    title: "Liam Tadeo Update",
+    preserveSummaryParagraphs: true,
+    summary: "Today, we are sharing a heartbreaking update to the story of Liam Tadeo. On August 25, Liam and his father were deported from Texas to Mexico. The two were detained after being pulled over while traveling to a soccer match. Liam’s father was handcuffed while Liam watched, crying, as his father was forced into the vehicle. His father repeatedly pleaded with the officers to release Liam to his mother, but the request was denied. Liam was sent to the infamous Dilley Detention Facility alongside his father. Requests to prevent Liam from being deported and to place him in his mother’s custody were also denied. Liam was supposed to start kindergarten a few days after his detention. Liam was never able to say goodbye to his mother face-to-face before being deported. Liam loved his Spider-Man cologne and cowboy boots and hat. He also took care of a pet chicken that was gifted to him by his aunt. Liam should have been in his first week of kindergarten; instead, he was thrown into a detention facility and removed from his home. The sources we used for this post come from the organizations Newsweek, The Independent, GoFundMe, Instagram, MS Now, KXAN, and Democracy Now. If you would like to learn more about Liam’s story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has also been set up to support Liam’s mother during this hard time. Liam’s father had been the primary breadwinner for the family. If you would like to donate, please feel free to do so using this link: https://gofund.me/58c18c1c0",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7679613425651092766?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#liam-tadeo-update-story"
   }
 ];
 
@@ -4565,6 +4592,12 @@ function renderStoryFocus() {
   const storyBadgeMarkup = getStoryBadgeMarkup(story, "story-focus-pill");
   const storyImages = getStoryImages(story);
   const storyTitle = escapeHtml(story.title);
+  const summaryParagraphs = story.preserveSummaryParagraphs
+    ? story.summary.split(/\n{2,}/).filter(Boolean)
+    : [story.summary];
+  const summaryMarkup = summaryParagraphs
+    .map((paragraph) => `<p>${escapeHtml(paragraph.trim())}</p>`)
+    .join("");
   const galleryMarkup = storyImages.length
     ? `
       <div class="story-gallery">
@@ -4587,7 +4620,7 @@ function renderStoryFocus() {
     <div class="story-focus-copy">
       ${storyBadgeMarkup}
       <h2>${storyTitle}</h2>
-      <p>${escapeHtml(story.summary)}</p>
+      ${summaryMarkup}
       ${actionsMarkup}
     </div>
     <div class="story-focus-meta">
