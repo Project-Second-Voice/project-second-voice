@@ -4215,6 +4215,33 @@ const stories = [
     summary: "Today, we are sharing a heartbreaking update to the story of Liam Tadeo. On August 25, Liam and his father were deported from Texas to Mexico. The two were detained after being pulled over while traveling to a soccer match. Liam’s father was handcuffed while Liam watched, crying, as his father was forced into the vehicle. His father repeatedly pleaded with the officers to release Liam to his mother, but the request was denied. Liam was sent to the infamous Dilley Detention Facility alongside his father. Requests to prevent Liam from being deported and to place him in his mother’s custody were also denied. Liam was supposed to start kindergarten a few days after his detention. Liam was never able to say goodbye to his mother face-to-face before being deported. Liam loved his Spider-Man cologne and cowboy boots and hat. He also took care of a pet chicken that was gifted to him by his aunt. Liam should have been in his first week of kindergarten; instead, he was thrown into a detention facility and removed from his home. The sources we used for this post come from the organizations Newsweek, The Independent, GoFundMe, Instagram, MS Now, KXAN, and Democracy Now. If you would like to learn more about Liam’s story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has also been set up to support Liam’s mother during this hard time. Liam’s father had been the primary breadwinner for the family. If you would like to donate, please feel free to do so using this link: https://gofund.me/58c18c1c0",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7679613425651092766?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#liam-tadeo-update-story"
+  },
+  {
+    order: 158,
+    slug: "homero-calderon-story",
+    images: [
+      "stories/homero-calderon-story/1.png",
+      "stories/homero-calderon-story/2.png",
+      "stories/homero-calderon-story/3.png",
+      "stories/homero-calderon-story/4.png",
+      "stories/homero-calderon-story/5.png",
+      "stories/homero-calderon-story/6.png",
+      "stories/homero-calderon-story/7.png",
+      "stories/homero-calderon-story/8.png",
+      "stories/homero-calderon-story/9.png",
+      "stories/homero-calderon-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Florida",
+    location: "Florida",
+    map: { state: "Florida" },
+    tags: ["Detention", "Family", "Family Separation", "ICE", "Legal Status", "Parent", "Venezuelan", "Worker"],
+    title: "Homero Calderón’s Story",
+    preserveSummaryParagraphs: true,
+    summary: "Today, we are sharing the story of Homero Calderón. Homero is a professional Venezuelan soccer player whom ICE detained. He has played for many clubs across Europe, most recently for a club in Italy. His life previously consisted of the soccer pitch, the gym, and his family. However, this has transformed into six long months sitting in a freezing detention facility. The father of two U.S. citizen children, aged 1 and 3, respectively, has started feeling hopeless that he will ever be released after missing his daughter’s first birthday. His wife explains that she has never heard Homero cry like this in the 17 years they have been together.\n\nHomero was arrested for speeding and driving without a valid license, then transferred to ICE custody. His wife says that Homero possessed an international driving permit. DHS said he had overstayed his visa. Homero had two pending immigration cases: one to extend his tourist visa and another for permanent residency based on extraordinary ability. Homero has no criminal record. Homero’s brother, who is a U.S. citizen, explains that Homero had followed every single step to get legal status and had never once overstayed his visa during his previous visits to the U.S. since childhood. Initially, they were very confident that Homero’s case was strong; however, after six months of waiting, the family has grown restless and hopes that a decision will be given soon.\n\nThe sources we used for this post come from the organizations NPR News, Univision, and Telemundo. If you would like to learn more about Homero’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7679986009098013965?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#homero-calderon-story"
   }
 ];
 
