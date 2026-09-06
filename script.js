@@ -22,6 +22,7 @@ const APPROVED_STORY_TAGS = [
   "Family",
   "Family Separation",
   "Guatemalan",
+  "Haitian",
   "Honduran",
   "ICE",
   "Journalist",
@@ -4242,6 +4243,36 @@ const stories = [
     summary: "Today, we are sharing the story of Homero Calderón. Homero is a professional Venezuelan soccer player whom ICE detained. He has played for many clubs across Europe, most recently for a club in Italy. His life previously consisted of the soccer pitch, the gym, and his family. However, this has transformed into six long months sitting in a freezing detention facility. The father of two U.S. citizen children, aged 1 and 3, respectively, has started feeling hopeless that he will ever be released after missing his daughter’s first birthday. His wife explains that she has never heard Homero cry like this in the 17 years they have been together.\n\nHomero was arrested for speeding and driving without a valid license, then transferred to ICE custody. His wife says that Homero possessed an international driving permit. DHS said he had overstayed his visa. Homero had two pending immigration cases: one to extend his tourist visa and another for permanent residency based on extraordinary ability. Homero has no criminal record. Homero’s brother, who is a U.S. citizen, explains that Homero had followed every single step to get legal status and had never once overstayed his visa during his previous visits to the U.S. since childhood. Initially, they were very confident that Homero’s case was strong; however, after six months of waiting, the family has grown restless and hopes that a decision will be given soon.\n\nThe sources we used for this post come from the organizations NPR News, Univision, and Telemundo. If you would like to learn more about Homero’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7679986009098013965?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#homero-calderon-story"
+  },
+  {
+    order: 159,
+    slug: "pierre-damas-story",
+    images: [
+      "stories/pierre-damas-story/1.png",
+      "stories/pierre-damas-story/2.png",
+      "stories/pierre-damas-story/3.png",
+      "stories/pierre-damas-story/4.png",
+      "stories/pierre-damas-story/5.png",
+      "stories/pierre-damas-story/6.png",
+      "stories/pierre-damas-story/7.png",
+      "stories/pierre-damas-story/8.png",
+      "stories/pierre-damas-story/9.png",
+      "stories/pierre-damas-story/10.png",
+      "stories/pierre-damas-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Ohio",
+    location: "Springfield, Ohio",
+    map: { state: "Ohio" },
+    tags: ["Asylum", "Deportation", "Haitian", "ICE", "Legal Status", "Student"],
+    title: "Pierre Damas’ Story",
+    preserveSummaryParagraphs: true,
+    summary: "Today, we are sharing the story of Pierre Damas. Damas came to the United States from Haiti in 2024, graduating from Springfield High School with honors only recently and starting college at Wright State University. He is a very talented soccer player, playing for his college, and a very active member of ROTC, a program training students to become officers in the Army. This Monday, Pierre passed away. His family believes that his passing was driven by the recent termination of TPS for the Haitian community. This led to Pierre having to wear an ankle monitor and live in constant fear of being deported to Haiti. Pierre’s pastor explains the stories he has heard of the rampant gang violence present in Haiti, and also the relentless bullying that Pierre was subjected to because of his ankle monitor. It prevented him from playing college soccer. Pierre had no criminal record. He was a joyful, smart young man who had aspirations of becoming a doctor. In his ROTC class, everyone received a uniform except for him because of his ankle monitor. This emotionally hurt him a lot. He told his dad that he felt humiliated. Pierre didn’t deserve the discrimination, the hate, and the prejudice that he faced because of his immigration status. He was a young man with a bright future that was stripped away from him because of the recent immigration policies. The sources we used for this post come from the organizations CNN, NPR News, Mother Jones, and The Washington Post. If you would like to learn more about Pierre’s story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has been set up for Pierre’s family following his loss. If you would like to support them, please feel free to do so at the link: https://gofund.me/85622fcc4",
+    supportLink: "https://gofund.me/85622fcc4",
+    supportLinkLabel: "Support Pierre’s Family",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7682219811073445150?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#pierre-damas-story"
   }
 ];
 
@@ -4639,8 +4670,11 @@ function renderStoryFocus() {
   const tiktokMarkup = story.tiktokLink
     ? `<a class="button button-secondary" href="${story.tiktokLink}" target="_blank" rel="${EXTERNAL_LINK_REL}">View on TikTok</a>`
     : "";
-  const actionsMarkup = tiktokMarkup
-    ? `<div class="story-focus-actions">${tiktokMarkup}</div>`
+  const supportLinkMarkup = story.supportLink
+    ? `<a class="button button-secondary" href="${story.supportLink}" target="_blank" rel="${EXTERNAL_LINK_REL}">${escapeHtml(story.supportLinkLabel || "Support This Story")}</a>`
+    : "";
+  const actionsMarkup = tiktokMarkup || supportLinkMarkup
+    ? `<div class="story-focus-actions">${tiktokMarkup}${supportLinkMarkup}</div>`
     : "";
 
   focus.innerHTML = `
