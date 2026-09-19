@@ -4311,6 +4311,36 @@ const stories = [
     summary: "Today, we are sharing the story of Brian José Morales García. Brian was born in Denver to two young Mexican parents seeking better opportunities. He was baptized at the local church and has a Social Security card. After Brian’s brother was born in 2002, the family returned to Mexico to raise their family. Brian would spend two decades there, learning Spanish and even getting married. As he prepared to become a father, Brian returned to the U.S. to find work to support his pregnant wife. Brian showed a border patrol officer his birth certificate and was let in.\n\nBrian got a job installing air-conditioning units. While he was carpooling to one of the jobs near Fredericksburg with his boss, a state trooper pulled over the truck because of its window tint. Brian repeatedly told the state troopers that he was a U.S. citizen, having other officers translate for him. He explained that he had copies of his birth certificate and Social Security card at home, asking if he could be given the opportunity to show them. The officers didn’t believe him, calling for ICE to detain him. In CBP custody, Brian tried to prove his citizenship, only to be shut down and warned that if he kept “lying,” he could face up to five years in prison. After more than four days of what Brian described as relentless abuse, he decided to sign the deportation papers they gave him instead of risking years in prison. DHS argued that Brian came to the country illegally. After more proof of his citizenship was shown by lawyers, Brian was finally allowed to return home after spending nearly five months in Mexico. Although he is finally back, Brian explains that the fear he has experienced will stay with him forever, and he is afraid of it happening again. Brian, along with his lawyers, is suing DHS and related officers, seeking justice and hoping that this will never happen to anyone ever again. The sources we used for this post come from the organizations KVUE, The Texas Tribune, Newsweek, and USA Today. If you would like to learn more about Brian’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7682586842864061709?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#brian-jose-morales-garcia-story"
+  },
+  {
+    order: 161,
+    slug: "wendy-domingo-story",
+    images: [
+      "stories/wendy-domingo-story/1.png",
+      "stories/wendy-domingo-story/2.png",
+      "stories/wendy-domingo-story/3.png",
+      "stories/wendy-domingo-story/4.png",
+      "stories/wendy-domingo-story/5.png",
+      "stories/wendy-domingo-story/6.png",
+      "stories/wendy-domingo-story/7.png",
+      "stories/wendy-domingo-story/8.png",
+      "stories/wendy-domingo-story/9.png",
+      "stories/wendy-domingo-story/10.png",
+      "stories/wendy-domingo-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Florida",
+    location: "Lake Worth Beach, Florida",
+    map: { state: "Florida" },
+    tags: ["Child", "Deportation", "Detention", "Family", "Family Separation", "Guatemalan", "Student", "U.S. Citizen", "Worker"],
+    title: "Wendy Domingo's Story",
+    preserveSummaryParagraphs: true,
+    summary: "Today, we are sharing the story of Wendy Domingo and her family. After church on a Sunday morning, the family was driving to buy shoes for the younger children before the school year began. Wendy, the oldest of five children, was driving while her parents were passengers. Border Patrol pulled the car over despite Wendy not violating any traffic laws. Wendy believes that her family was racially profiled. The agents detained her parents in front of their U.S.-born children, despite the parents having lived in the U.S. for nearly 20 years.\n\nAfter graduating from high school, Wendy worked two jobs to support her family and fund her education. She had financial aid for college and aspired to become an ultrasound technician at her local college. These dreams were put on hold after her parents were detained and deported. Wendy was left to work two jobs at once, leaving her no time to attend classes, so she could support the family by paying rent, buying groceries, and covering other necessities.\n\nAiden, the youngest sibling, was sent to Guatemala to live with his parents, separating him from his siblings, who remained in the U.S. Aiden was born in the U.S. and faced either remaining in the only country he had ever called home and being placed in foster care or going to a country he had never visited. Aiden was flown with seven other children. Six of the children, including Aiden, were born in the U.S. The sources we used for this post come from the organizations Palm Beach Post, Local 10, and Miami Herald. If you would like to learn more about Wendy Domingo’s family story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has been set up for Wendy and her siblings as she navigates this difficult time. If you would like to support her, please feel free to do so at this link: https://gofund.me/9c335beff",
+    supportLink: "https://gofund.me/9c335beff",
+    supportLinkLabel: "Support Wendy and Her Siblings",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7685164633489034509?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#wendy-domingo-story"
   }
 ];
 
