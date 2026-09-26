@@ -4341,6 +4341,36 @@ const stories = [
     supportLinkLabel: "Support Wendy and Her Siblings",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7685164633489034509?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#wendy-domingo-story"
+  },
+  {
+    order: 162,
+    slug: "andrea-velez-story",
+    images: [
+      "stories/andrea-velez-story/1.png",
+      "stories/andrea-velez-story/2.png",
+      "stories/andrea-velez-story/3.png",
+      "stories/andrea-velez-story/4.png",
+      "stories/andrea-velez-story/5.png",
+      "stories/andrea-velez-story/6.png",
+      "stories/andrea-velez-story/7.png",
+      "stories/andrea-velez-story/8.png",
+      "stories/andrea-velez-story/9.png",
+      "stories/andrea-velez-story/10.png",
+      "stories/andrea-velez-story/11.png",
+      "stories/andrea-velez-story/12.png",
+      "stories/andrea-velez-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "California",
+    location: "Downtown Los Angeles, California",
+    map: { state: "California" },
+    tags: ["Detention", "ICE", "U.S. Citizen", "Worker", "Wrongful Detention"],
+    title: "Andrea Velez's Story",
+    preserveSummaryParagraphs: true,
+    summary: "Today, we are sharing the story of Andrea Velez. Andrea is a lifelong United States citizen and L.A. resident. She was dropped off in downtown L.A. in front of her office by her mother and sister. Andrea worked as a production coordinator for a footwear company and had graduated from Cal Poly Pomona. Andrea remembers seeing men in masks chasing people across the streets. She felt frozen and couldn’t move. She then recalls these same men approaching her and slamming her onto the ground. Andrea thought she was being kidnapped. It turns out she was actually being detained by ICE officers. She was carried from the ground to unmarked ICE vehicles. Relief temporarily washed over her as she saw LAPD officers approaching the vehicle. After some conversation, however, they decided to trust the officers rather than her, despite her telling them that she was a U.S. citizen. Andrea had been detained because she was profiled and thought to be undocumented.\n\nAndrea was detained alongside a 23-year-old man named Luis. Luis had been violently detained by four ICE agents and pepper-sprayed. His face was swollen, his clothes were ripped, and he was evidently hyperventilating. Despite his state, Luis still tried to comfort Andrea. Andrea was forced to pose for an unusual mugshot with the ICE officers. She was portrayed as a horrible criminal when she was, in truth, an innocent U.S. citizen. This has been a trend with arrests by ICE officers, forcing their detainees to pose for mugshots. She was placed in the Metropolitan Detention Center. The conditions in the detention facility were abysmal, and she didn’t even have a bed. It was only with the help of other female detainees that she was able to eat her food, drink water, and have a bed.\n\nAfter two days, she was brought to court to face her charges. Andrea was accused of assaulting an ICE officer and interrupting an arrest. Andrea was shocked. She had never laid a hand on anyone. Sixteen days after she was arrested, the charges were dropped. Before the case was dropped, Andrea’s lawyer had requested body-camera footage of the alleged assault. They never received the footage, suggesting to Andrea that she had been unlawfully and unfairly detained. After being released, Andrea has worked remotely, fearing that she might be detained once again despite the fact that she is a U.S. citizen. The sources we used for this post come from the organizations PBS News, The Guardian, and NBC LA. If you would like to learn more about Andrea’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7687410754890304781?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#andrea-velez-story"
   }
 ];
 
