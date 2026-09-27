@@ -4371,6 +4371,35 @@ const stories = [
     summary: "Today, we are sharing the story of Andrea Velez. Andrea is a lifelong United States citizen and L.A. resident. She was dropped off in downtown L.A. in front of her office by her mother and sister. Andrea worked as a production coordinator for a footwear company and had graduated from Cal Poly Pomona. Andrea remembers seeing men in masks chasing people across the streets. She felt frozen and couldn’t move. She then recalls these same men approaching her and slamming her onto the ground. Andrea thought she was being kidnapped. It turns out she was actually being detained by ICE officers. She was carried from the ground to unmarked ICE vehicles. Relief temporarily washed over her as she saw LAPD officers approaching the vehicle. After some conversation, however, they decided to trust the officers rather than her, despite her telling them that she was a U.S. citizen. Andrea had been detained because she was profiled and thought to be undocumented.\n\nAndrea was detained alongside a 23-year-old man named Luis. Luis had been violently detained by four ICE agents and pepper-sprayed. His face was swollen, his clothes were ripped, and he was evidently hyperventilating. Despite his state, Luis still tried to comfort Andrea. Andrea was forced to pose for an unusual mugshot with the ICE officers. She was portrayed as a horrible criminal when she was, in truth, an innocent U.S. citizen. This has been a trend with arrests by ICE officers, forcing their detainees to pose for mugshots. She was placed in the Metropolitan Detention Center. The conditions in the detention facility were abysmal, and she didn’t even have a bed. It was only with the help of other female detainees that she was able to eat her food, drink water, and have a bed.\n\nAfter two days, she was brought to court to face her charges. Andrea was accused of assaulting an ICE officer and interrupting an arrest. Andrea was shocked. She had never laid a hand on anyone. Sixteen days after she was arrested, the charges were dropped. Before the case was dropped, Andrea’s lawyer had requested body-camera footage of the alleged assault. They never received the footage, suggesting to Andrea that she had been unlawfully and unfairly detained. After being released, Andrea has worked remotely, fearing that she might be detained once again despite the fact that she is a U.S. citizen. The sources we used for this post come from the organizations PBS News, The Guardian, and NBC LA. If you would like to learn more about Andrea’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7687410754890304781?is_from_webapp=1&sender_device=pc",
     link: "stories.html#andrea-velez-story"
+  },
+  {
+    order: 163,
+    slug: "watts-family-detention-story",
+    images: [
+      "stories/watts-family-detention-story/1.png",
+      "stories/watts-family-detention-story/2.png",
+      "stories/watts-family-detention-story/3.png",
+      "stories/watts-family-detention-story/4.png",
+      "stories/watts-family-detention-story/5.png",
+      "stories/watts-family-detention-story/6.png",
+      "stories/watts-family-detention-story/7.png",
+      "stories/watts-family-detention-story/8.png",
+      "stories/watts-family-detention-story/9.png",
+      "stories/watts-family-detention-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "California",
+    location: "Watts, Los Angeles, California",
+    map: { state: "California" },
+    tags: ["Child", "Detention", "Family", "Family Separation", "ICE", "Parent", "Worker"],
+    title: "A Watts' Family's Story with Detention",
+    preserveSummaryParagraphs: true,
+    summary: "Today, we are sharing a Watts family's story of battling the detention of their father. Each night before going to bed, seven-year-old José, named after his father, asked his mother why his dad had been taken away. His father, José Padilla, had been detained by ICE while working as a car washer in Los Angeles. He chose car-washing work to bring in money for the family while retaining the flexibility to support his children, especially his son Alex, who has autism and required extra care. The father of four had lived in the United States for more than 20 years and was the family's primary financial provider while Alma Ramirez, his partner, studied to become a phlebotomist. After José was detained, Ramirez had little time to study while caring for the family. The 31-year-old explained that, before being detained, José made time to play with the children even when he came home exhausted. He paid bills, helped with chores, and cared for the children. He was a very present father. His detention deeply affected the children, with José Jr. and Alex becoming disengaged at school and in other activities. José was first taken to the Adelanto detention facility and later held at the California City detention facility, about a three-hour drive from the family's home in Watts, California. Because of the distance, the family primarily communicated with José through regular video calls. Thankfully, after more than six months in detention, José was released. Although he is free, José is still fighting his case to remain in the country where he built his life. The sources that aided the creation of this post are The Guardian and ABC7 Los Angeles. If you would like to learn more about José's story, we encourage you to read the reporting published by these organizations.\n\nA GoFundMe has been set up for José to help pay his attorney fees. If you would like to support him, please feel free to donate at this link: https://gofund.me/c8cf982a2",
+    supportLink: "https://gofund.me/c8cf982a2",
+    supportLinkLabel: "Support José and His Family",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7690015129466883341?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#watts-family-detention-story"
   }
 ];
 
