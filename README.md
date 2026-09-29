@@ -14,6 +14,8 @@ Project Second Voice is a static website for a youth-led digital storytelling pl
 - `index.html` - homepage with project overview, impact highlights, and featured stories
 - `about.html` - mission, background, and founder section
 - `impact.html` - reach metrics and TikTok call to action
+- `camino.html` - Camino product, App Store marketing, and user support page
+- `camino-privacy.html` - Camino-specific privacy policy
 - `stories.html` - story archive, focus panel, and submission banner
 - `contact.html` - collaboration and media contact information
 - `script.js` - story data, archive rendering, navigation, and small interaction logic
