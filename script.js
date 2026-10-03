@@ -4400,6 +4400,35 @@ const stories = [
     supportLinkLabel: "Support José and His Family",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7690015129466883341?is_from_webapp=1&sender_device=pc",
     link: "stories.html#watts-family-detention-story"
+  },
+  {
+    order: 164,
+    slug: "alex-pereira-alves-story",
+    images: [
+      "stories/alex-pereira-alves-story/1.png",
+      "stories/alex-pereira-alves-story/2.png",
+      "stories/alex-pereira-alves-story/3.png",
+      "stories/alex-pereira-alves-story/4.png",
+      "stories/alex-pereira-alves-story/5.png",
+      "stories/alex-pereira-alves-story/6.png",
+      "stories/alex-pereira-alves-story/7.png",
+      "stories/alex-pereira-alves-story/8.png",
+      "stories/alex-pereira-alves-story/9.png",
+      "stories/alex-pereira-alves-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "California",
+    location: "West Hollywood, California",
+    map: { state: "California" },
+    tags: ["Asylum", "Deportation", "Detention", "ICE", "Legal Status", "Worker"],
+    title: "Alex Pereira-Alves' Story",
+    preserveSummaryParagraphs: true,
+    summary: "Today, we are sharing the story of Alex Pereira-Alves. Alex came to the United States from Brazil on a visa nearly 16 years ago and later applied for asylum. In 2018, a judge granted him withholding of removal, which allowed him to remain in the U.S. so long as he remained in good standing. He has lived in West Hollywood for nearly two decades and works full time. He works a night job as a security guard and as a fitness trainer. Alex has no criminal record, pays his rent on time, and also pays taxes. He also attends routine immigration check-ins. He would never expect to be detained during one of these appointments after he was spontaneously told to come in for an unscheduled appointment. Alex was held in the Adelanto Detention Center in California. The living conditions in the facility were abysmal: water shortages and inedible food were a common occurrence. Alex overheard that he would be deported to Equatorial Guinea, a country he had no ties to. After visiting Alex, his friends explained how horrible it was to see Alex so upset and desperate to find a way to prove how unfair his situation was. An attorney representing Alex challenged his detention and sought review of whether holding him was lawful. The sources that aided in the creation of the post come from the organizations KTLA, Beverly Press, and ABC7. If you would like to learn more about Alex’s story, we encourage you to check out the stories published by these organizations.\n\nA GoFundMe has been set up for Alex to support him in paying any urgent fees and potentially help him restart his life in a new country. If you would like to support him, please feel free to donate here: https://gofund.me/98f56e803",
+    supportLink: "https://gofund.me/98f56e803",
+    supportLinkLabel: "Support Alex",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7690370694022057229?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#alex-pereira-alves-story"
   }
 ];
 
