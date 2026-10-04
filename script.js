@@ -4429,6 +4429,34 @@ const stories = [
     supportLinkLabel: "Support Alex",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7690370694022057229?is_from_webapp=1&sender_device=pc",
     link: "stories.html#alex-pereira-alves-story"
+  },
+  {
+    order: 165,
+    slug: "elder-chavez-carranza-story",
+    images: [
+      "stories/elder-chavez-carranza-story/1.png",
+      "stories/elder-chavez-carranza-story/2.png",
+      "stories/elder-chavez-carranza-story/3.png",
+      "stories/elder-chavez-carranza-story/4.png",
+      "stories/elder-chavez-carranza-story/5.png",
+      "stories/elder-chavez-carranza-story/6.png",
+      "stories/elder-chavez-carranza-story/7.png",
+      "stories/elder-chavez-carranza-story/8.png",
+      "stories/elder-chavez-carranza-story/9.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Alabama",
+    location: "Albertville, Alabama",
+    map: { state: "Alabama" },
+    tags: ["Detention", "Family", "Honduran", "ICE", "Legal Status", "Student"],
+    title: "Elder Chavez Carranza's Story",
+    preserveSummaryParagraphs: true,
+    summary: "Today, we are sharing the story of Elder Chavez Carranza. Elder came to the United States from Honduras when he was only 14 years old, traveling more than 3,400 miles by car to escape the poverty and violence he faced where he was born. After arriving in the United States, Elder was granted Special Immigrant Juvenile classification, which provides a pathway to apply for a green card for certain young people who have been abused, neglected, or abandoned. Now 18, Elder was preparing for his last year of high school and was excited for graduation, prom, and planning for his future. He would never expect to spend more than 200 days in an ice-cold detention facility. While driving to buy food, Elder was pulled over by an officer who requested his identification. Elder had no ID with him, so the officer called ICE officers, who asked about his immigration papers. Elder explained his status and offered to show his documents, yet the officers did not give him time to do so before detaining him. He was then sent to the Winn Correctional Center in Louisiana, a detention facility where advocates and lawmakers have raised concerns about conditions. Reports have described unsanitary conditions and unsafe food storage practices, and two detainees died while being held there within two months. Elder’s guardian, his older sister, expressed her fear about his situation. Elder has been held in detention for more than 200 days. The sources that aided in producing this post include ABC News and Newsweek. If you would like to learn more about Elder’s story, we encourage you to read their reporting.\n\nA GoFundMe has been set up to fund Elder’s legal fees, with any additional money going toward his education. If you would like to donate, please feel free to do so here: https://gofund.me/cbc29f4b6",
+    supportLink: "https://gofund.me/cbc29f4b6",
+    supportLinkLabel: "Support Elder",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7692591919255276813?is_from_webapp=1&sender_device=pc",
+    link: "stories.html#elder-chavez-carranza-story"
   }
 ];
 
