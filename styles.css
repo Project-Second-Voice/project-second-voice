@@ -2686,7 +2686,7 @@ textarea {
 }
 
 .camino-actions {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .camino-button-primary,
@@ -2725,13 +2725,46 @@ textarea {
   background: var(--camino-cream);
 }
 
-.camino-availability {
-  display: inline-flex;
+.camino-download {
+  margin-top: 2rem;
+}
+
+.camino-download-label {
+  display: flex;
   align-items: center;
-  gap: 0.65rem;
-  margin-top: 1.3rem;
+  gap: 0.7rem;
+  margin: 0 0 1rem;
+  color: var(--camino-green-deep);
+  font-size: 0.85rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.camino-download-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.25rem;
+}
+
+.camino-store-link {
+  display: inline-flex;
+  width: 205px;
+  max-width: 100%;
+  flex: none;
+  border-radius: 12px;
+}
+
+.camino-store-link img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.camino-download-note {
   color: var(--camino-muted);
-  font-size: 0.88rem;
+  font-size: 0.9rem;
   font-weight: 700;
 }
 
@@ -2741,6 +2774,31 @@ textarea {
   border-radius: 50%;
   background: var(--camino-gold);
   box-shadow: 0 0 0 5px rgba(246, 199, 102, 0.22);
+}
+
+.camino-download-section {
+  border-top: 1px solid var(--camino-line);
+  background: rgba(220, 239, 232, 0.45);
+}
+
+.camino-download-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem 3rem;
+}
+
+.camino-download-bottom h2 {
+  margin: 0;
+  font-family: "Libre Baskerville", serif;
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  line-height: 1.2;
+}
+
+.camino-download-bottom p:last-child {
+  margin: 0.6rem 0 0;
+  color: var(--camino-muted);
 }
 
 .camino-icon-card {
@@ -3117,7 +3175,7 @@ textarea {
   gap: 1rem;
 }
 
-.camino-page :is(.camino-button-primary, .camino-button-secondary, .camino-button-light, .camino-inline-link, .camino-back-link, .camino-faq-list summary, .camino-policy-nav a):focus-visible {
+.camino-page :is(.camino-button-primary, .camino-button-secondary, .camino-button-light, .camino-store-link, .camino-inline-link, .camino-back-link, .camino-faq-list summary, .camino-policy-nav a):focus-visible {
   outline: 3px solid var(--camino-gold);
   outline-offset: 4px;
 }
