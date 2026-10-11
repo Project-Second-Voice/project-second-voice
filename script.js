@@ -4482,6 +4482,34 @@ const stories = [
     summary: "Today, we are sharing the story of Indi Veitia. Indi came to the United States from Venezuela on a visa in 2019. Shortly after, she applied for asylum and was granted a driver’s license and work permit. Her asylum case is pending, and an interview could take upwards of 10 years. During this time, Indi has stated that her application explicitly says she is allowed to remain in the United States while she waits. She and her wife settled down in Indiana, taking care of their puppies. She worked her way up from a warehouse job after coming to the U.S. and eventually traveled on business for a clothing firm. While boarding a plane for her job, Indi was slammed against a wall and detained by ICE officers. She was put into a detention facility in Georgia, where she had to share a windowless dorm with more than 60 other women. They shared only four toilet stalls and four showers, and Indi described the guards as rude. Finally, after being held for three weeks, Indi was released after her bond hearing with the help of her friends, employers, and lawyers. Indi had done everything the government asked of her, yet was still detained and now lives in fear of whether it will happen again. This is not right, and immigration policies need to change. The sources that aided in creating this post come from CNN and Hindustan Times. If you would like to learn more about Indi’s story, we encourage you to check out the stories published by these organizations.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7692960697382194446?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#indi-veitia-story"
+  },
+  {
+    order: 167,
+    slug: "salah-sarsour-story",
+    images: [
+      "stories/salah-sarsour-story/1.png",
+      "stories/salah-sarsour-story/2.png",
+      "stories/salah-sarsour-story/3.png",
+      "stories/salah-sarsour-story/4.png",
+      "stories/salah-sarsour-story/5.png",
+      "stories/salah-sarsour-story/6.png",
+      "stories/salah-sarsour-story/7.png",
+      "stories/salah-sarsour-story/8.png",
+      "stories/salah-sarsour-story/9.png",
+      "stories/salah-sarsour-story/10.png",
+      "stories/salah-sarsour-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Wisconsin",
+    location: "Milwaukee, Wisconsin",
+    map: { state: "Wisconsin" },
+    tags: ["Activist", "Community Leader", "Deportation", "Detention", "Family", "ICE", "Legal Status"],
+    title: "Salah Sarsour's Story",
+    preserveSummaryParagraphs: true,
+    summary: "Today, we are sharing the story of Salah Sarsour. Salah was born in the West Bank and came to the United States in 1993. He has lived in Milwaukee for more than three decades and is a lawful permanent resident with no criminal record in the United States. He is president of the Islamic Society of Milwaukee, Wisconsin’s largest mosque, and a board member of American Muslims for Palestine. He has long advocated for Palestinian rights.\n\nOn March 30, 2026, ICE agents detained Salah in Milwaukee. The Department of Homeland Security cited his decades-old Israeli military court convictions and accused him of making false statements on immigration forms. Salah disputes the allegations about his conduct as a teenager and says he was forced to sign documents in Hebrew that he could not understand while imprisoned. His attorneys and supporters argue that his detention was retaliation for his advocacy. A federal judge ordered his release in June after finding that he had raised a substantial claim of retaliation for protected speech.\n\nIn September, an immigration judge ruled that Salah could be deported on foreign policy grounds but rejected the government’s allegation that he lied on his green card application. Salah intends to appeal and fears for his safety if deported to the West Bank. He has six children and nine grandchildren, all U.S. citizens, and says he will continue defending his right to speak out and the rights of others. The sources that aided in producing this post include The Guardian, Wisconsin Muslim Journal, WTTW, WPR, and The Associated Press. If you would like to learn more about Salah’s story, we encourage you to read their reporting.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7695174816986483981?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#salah-sarsour-story"
   }
 ];
 
