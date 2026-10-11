@@ -4457,6 +4457,31 @@ const stories = [
     supportLinkLabel: "Support Elder",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7692591919255276813?is_from_webapp=1&sender_device=pc",
     link: "stories.html#elder-chavez-carranza-story"
+  },
+  {
+    order: 166,
+    slug: "indi-veitia-story",
+    images: [
+      "stories/indi-veitia-story/1.png",
+      "stories/indi-veitia-story/2.png",
+      "stories/indi-veitia-story/3.png",
+      "stories/indi-veitia-story/4.png",
+      "stories/indi-veitia-story/5.png",
+      "stories/indi-veitia-story/6.png",
+      "stories/indi-veitia-story/7.png",
+      "stories/indi-veitia-story/8.png",
+      "stories/indi-veitia-story/9.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Indiana",
+    location: "Indianapolis, Indiana",
+    map: { state: "Indiana" },
+    tags: ["Asylum", "Detention", "ICE", "Legal Status", "Venezuelan", "Worker"],
+    title: "Indi Veitia’s Story",
+    summary: "Today, we are sharing the story of Indi Veitia. Indi came to the United States from Venezuela on a visa in 2019. Shortly after, she applied for asylum and was granted a driver’s license and work permit. Her asylum case is pending, and an interview could take upwards of 10 years. During this time, Indi has stated that her application explicitly says she is allowed to remain in the United States while she waits. She and her wife settled down in Indiana, taking care of their puppies. She worked her way up from a warehouse job after coming to the U.S. and eventually traveled on business for a clothing firm. While boarding a plane for her job, Indi was slammed against a wall and detained by ICE officers. She was put into a detention facility in Georgia, where she had to share a windowless dorm with more than 60 other women. They shared only four toilet stalls and four showers, and Indi described the guards as rude. Finally, after being held for three weeks, Indi was released after her bond hearing with the help of her friends, employers, and lawyers. Indi had done everything the government asked of her, yet was still detained and now lives in fear of whether it will happen again. This is not right, and immigration policies need to change. The sources that aided in creating this post come from CNN and Hindustan Times. If you would like to learn more about Indi’s story, we encourage you to check out the stories published by these organizations.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7692960697382194446?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#indi-veitia-story"
   }
 ];
 

@@ -1268,6 +1268,10 @@ textarea {
   will-change: transform;
 }
 
+.story-gallery-item[href^="stories/indi-veitia-story/"] {
+  aspect-ratio: 4 / 5;
+}
+
 .story-gallery-item:hover {
   transform: translateY(-3px);
   box-shadow: 0 18px 30px rgba(103, 63, 71, 0.12);
