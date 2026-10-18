@@ -4510,6 +4510,38 @@ const stories = [
     summary: "Today, we are sharing the story of Salah Sarsour. Salah was born in the West Bank and came to the United States in 1993. He has lived in Milwaukee for more than three decades and is a lawful permanent resident with no criminal record in the United States. He is president of the Islamic Society of Milwaukee, Wisconsin’s largest mosque, and a board member of American Muslims for Palestine. He has long advocated for Palestinian rights.\n\nOn March 30, 2026, ICE agents detained Salah in Milwaukee. The Department of Homeland Security cited his decades-old Israeli military court convictions and accused him of making false statements on immigration forms. Salah disputes the allegations about his conduct as a teenager and says he was forced to sign documents in Hebrew that he could not understand while imprisoned. His attorneys and supporters argue that his detention was retaliation for his advocacy. A federal judge ordered his release in June after finding that he had raised a substantial claim of retaliation for protected speech.\n\nIn September, an immigration judge ruled that Salah could be deported on foreign policy grounds but rejected the government’s allegation that he lied on his green card application. Salah intends to appeal and fears for his safety if deported to the West Bank. He has six children and nine grandchildren, all U.S. citizens, and says he will continue defending his right to speak out and the rights of others. The sources that aided in producing this post include The Guardian, Wisconsin Muslim Journal, WTTW, WPR, and The Associated Press. If you would like to learn more about Salah’s story, we encourage you to read their reporting.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7695174816986483981?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#salah-sarsour-story"
+  },
+  {
+    order: 168,
+    slug: "ismael-ayala-uribe-story",
+    images: [
+      "stories/ismael-ayala-uribe-story/1.png",
+      "stories/ismael-ayala-uribe-story/2.png",
+      "stories/ismael-ayala-uribe-story/3.png",
+      "stories/ismael-ayala-uribe-story/4.png",
+      "stories/ismael-ayala-uribe-story/5.png",
+      "stories/ismael-ayala-uribe-story/6.png",
+      "stories/ismael-ayala-uribe-story/7.png",
+      "stories/ismael-ayala-uribe-story/8.png",
+      "stories/ismael-ayala-uribe-story/9.png",
+      "stories/ismael-ayala-uribe-story/10.png",
+      "stories/ismael-ayala-uribe-story/11.png",
+      "stories/ismael-ayala-uribe-story/12.png",
+      "stories/ismael-ayala-uribe-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "California",
+    location: "Westminster, California",
+    map: { state: "California" },
+    tags: ["DACA", "Detention", "Family", "ICE", "Medical/Humanitarian", "Mexican", "Worker"],
+    title: "Ismael Ayala-Uribe’s Story",
+    preserveSummaryParagraphs: true,
+    summary: "Today, we are sharing the story of Ismael Ayala-Uribe. Ismael came to the United States from Mexico when he was only four years old. He later qualified for Deferred Action for Childhood Arrivals (DACA). Living in Westminster, California, Ismael worked hard to support his family and was a role model for his niece and nephew. He lost his DACA protection after a driving under the influence conviction in 2015. Immigration officers detained Ismael while he was working at Fountain Valley Auto Wash, where he had worked for about 15 years. He was transferred between detention facilities before arriving at the Adelanto ICE Processing Center.\n\nOne Saturday, his mother visited and found that Ismael had a high fever. He told her he did not think he was going to make it. Holding back tears, she comforted him. It was the last time she saw him alive. Police officers later came to the family’s home to tell them that Ismael had died. He was one of more than 50 people who died in ICE custody during the first 500 days of the second Trump administration. His family and a medical expert who reviewed his case say timely medical care could have prevented his death. Records show that staff delayed responding to signs of his declining health before he went into cardiac arrest. The sources for this post are Al Jazeera and GoFundMe. If you would like to learn more about Ismael’s story, we encourage you to read their accounts.\n\nA GoFundMe was set up to help Ismael’s family with funeral arrangements. Visit the family’s fundraiser for details.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7697784269204180238?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    supportLink: "https://www.gofundme.com/f/ismael-ayalauribe",
+    supportLinkLabel: "View Family Fundraiser",
+    link: "stories.html#ismael-ayala-uribe-story"
   }
 ];
 
