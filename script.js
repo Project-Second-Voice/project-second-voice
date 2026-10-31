@@ -4542,6 +4542,35 @@ const stories = [
     supportLink: "https://www.gofundme.com/f/ismael-ayalauribe",
     supportLinkLabel: "View Family Fundraiser",
     link: "stories.html#ismael-ayala-uribe-story"
+  },
+  {
+    order: 169,
+    slug: "edward-nalwamba-story",
+    images: [
+      "stories/edward-nalwamba-story/1.png",
+      "stories/edward-nalwamba-story/2.png",
+      "stories/edward-nalwamba-story/3.png",
+      "stories/edward-nalwamba-story/4.png",
+      "stories/edward-nalwamba-story/5.png",
+      "stories/edward-nalwamba-story/6.png",
+      "stories/edward-nalwamba-story/7.png",
+      "stories/edward-nalwamba-story/8.png",
+      "stories/edward-nalwamba-story/9.png",
+      "stories/edward-nalwamba-story/10.png",
+      "stories/edward-nalwamba-story/11.png",
+      "stories/edward-nalwamba-story/12.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Colorado",
+    location: "Denver area, Colorado",
+    map: { state: "Colorado" },
+    tags: ["Activist", "Asylum", "Deportation", "Detention", "ICE", "Medical/Humanitarian", "Worker"],
+    title: "Edward Nalwamba’s Story",
+    preserveSummaryParagraphs: true,
+    summary: "Today, we are sharing Edward Nalwamba’s story. Edward was the pastor of an Anglican church with more than 300 members and an advocate for Uganda’s pro-democracy movement. Because of his political stances, government agents took him from his home in the middle of the night and threatened him if he tried to leave Uganda. Edward came to the United States in 2002. He spent years hiring lawyers to help him navigate the asylum process, but some made mistakes or disappeared with his money. Edward eventually applied for asylum on his own. His application and appeal were denied. Edward and his attorney say the courts did not properly consider the worsening human rights situation in Uganda.\n\nIn Colorado, Edward worked as a part-time pastor before retiring and as a health aide caring for a man with cerebral palsy and another person who was quadriplegic. He had no criminal record and believed he would be safe from immigration enforcement. ICE officers detained him while he was on his way to care for one of the men. During detention, Edward became seriously ill, including a bout of pneumonia that lasted about three weeks. Edward and his supporters say he repeatedly sought medical attention and waited more than three weeks to see a medical professional. DHS disputes that he was denied medical care. He became so weak that he needed a wheelchair and lost 35 pounds.\n\nAfter more than 13 months in detention, a federal judge ordered Edward’s release because the government had no concrete plan to deport him to Uganda and had held him beyond the presumptively reasonable six-month period. Edward and his supporters say staff would not let him use a wheelchair to reach the vehicle waiting outside, so other released detainees carried him to it. His underlying immigration case remains unresolved. The sources that aided in creating this post include The Washington Post, KCRA, and Davis Vanguard. If you would like to learn more about Edward’s story, we encourage you to read their reporting.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7700732070431051021?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#edward-nalwamba-story"
   }
 ];
 

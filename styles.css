@@ -1269,7 +1269,8 @@ textarea {
 }
 
 .story-gallery-item[href^="stories/indi-veitia-story/"],
-.story-gallery-item[href^="stories/salah-sarsour-story/"] {
+.story-gallery-item[href^="stories/salah-sarsour-story/"],
+.story-gallery-item[href^="stories/edward-nalwamba-story/"] {
   aspect-ratio: 4 / 5;
 }
 
