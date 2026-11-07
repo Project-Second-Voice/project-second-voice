@@ -4571,6 +4571,38 @@ const stories = [
     summary: "Today, we are sharing Edward Nalwamba’s story. Edward was the pastor of an Anglican church with more than 300 members and an advocate for Uganda’s pro-democracy movement. Because of his political stances, government agents took him from his home in the middle of the night and threatened him if he tried to leave Uganda. Edward came to the United States in 2002. He spent years hiring lawyers to help him navigate the asylum process, but some made mistakes or disappeared with his money. Edward eventually applied for asylum on his own. His application and appeal were denied. Edward and his attorney say the courts did not properly consider the worsening human rights situation in Uganda.\n\nIn Colorado, Edward worked as a part-time pastor before retiring and as a health aide caring for a man with cerebral palsy and another person who was quadriplegic. He had no criminal record and believed he would be safe from immigration enforcement. ICE officers detained him while he was on his way to care for one of the men. During detention, Edward became seriously ill, including a bout of pneumonia that lasted about three weeks. Edward and his supporters say he repeatedly sought medical attention and waited more than three weeks to see a medical professional. DHS disputes that he was denied medical care. He became so weak that he needed a wheelchair and lost 35 pounds.\n\nAfter more than 13 months in detention, a federal judge ordered Edward’s release because the government had no concrete plan to deport him to Uganda and had held him beyond the presumptively reasonable six-month period. Edward and his supporters say staff would not let him use a wheelchair to reach the vehicle waiting outside, so other released detainees carried him to it. His underlying immigration case remains unresolved. The sources that aided in creating this post include The Washington Post, KCRA, and Davis Vanguard. If you would like to learn more about Edward’s story, we encourage you to read their reporting.",
     tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7700732070431051021?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
     link: "stories.html#edward-nalwamba-story"
+  },
+  {
+    order: 170,
+    slug: "michelle-medina-update-story",
+    images: [
+      "stories/michelle-medina-update-story/1.png",
+      "stories/michelle-medina-update-story/2.png",
+      "stories/michelle-medina-update-story/3.png",
+      "stories/michelle-medina-update-story/4.png",
+      "stories/michelle-medina-update-story/5.png",
+      "stories/michelle-medina-update-story/6.png",
+      "stories/michelle-medina-update-story/7.png",
+      "stories/michelle-medina-update-story/8.png",
+      "stories/michelle-medina-update-story/9.png",
+      "stories/michelle-medina-update-story/10.png",
+      "stories/michelle-medina-update-story/11.png",
+      "stories/michelle-medina-update-story/12.png",
+      "stories/michelle-medina-update-story/13.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Texas",
+    location: "Texas",
+    map: { state: "Texas" },
+    tags: ["Asylum", "DACA", "Detention", "Dreamer", "ICE", "Legal Status", "Worker"],
+    title: "Michelle Update",
+    preserveSummaryParagraphs: true,
+    summary: "Today, we are sharing an update on Michelle Medina’s story. Michelle came to the United States when she was only 4 years old. Her parents settled in Texas, hoping to give Michelle a better life and more opportunities to succeed. She was detained by ICE while driving to the gym and locked up in a freezing detention facility for over 25 days. During this time, she was denied necessities such as pads and tampons, and her requests for new clothes were denied. She was also chained for over 12 hours before finally being released on bond. Michelle had no criminal record. Because of everything that happened, her dreams of pursuing a career in law enforcement were put on hold after graduating from UTSA and even getting an internship at her local police department. When she became eligible to apply for DACA, new applications had been halted amid pressure from the administration.\n\nThanks to supporters, Michelle was able to pay off her first immigration case and has begun two more cases: one to hopefully secure a green card, and another for a defensive asylum case. After months of uncertainty, she was also able to obtain a work permit and driver’s license. Michelle got married last December. The couple had dreamed of having a huge wedding; however, because of all that has happened, they had to settle for a small celebration and have a civil marriage. After being married, she began her green card application; however, because of recent legal changes, the $1,500 filing fee became $3,000. To bring in extra income to support her legal fees, Michelle also took on Ubering and Instacart jobs. She is now slowly regaining the independence she lost, going to the gym, running, and driving. She continues to pay her legal expenses while she works towards a long-term solution to stability as her work permit expires in February 2028.\n\nYour donations would help Michelle cover her legal expenses as she continues her immigration journey. If you would like to donate, please use the GoFundMe link below or the link in the Project Second Voice TikTok bio.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7703368473212128526?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    supportLink: "https://gofund.me/81217b198",
+    supportLinkLabel: "Support Michelle",
+    link: "stories.html#michelle-medina-update-story"
   }
 ];
 
