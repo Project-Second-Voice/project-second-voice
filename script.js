@@ -4603,6 +4603,35 @@ const stories = [
     supportLink: "https://gofund.me/81217b198",
     supportLinkLabel: "Support Michelle",
     link: "stories.html#michelle-medina-update-story"
+  },
+  {
+    order: 171,
+    slug: "luis-carlos-orta-story",
+    images: [
+      "stories/luis-carlos-orta-story/1.png",
+      "stories/luis-carlos-orta-story/2.png",
+      "stories/luis-carlos-orta-story/3.png",
+      "stories/luis-carlos-orta-story/4.png",
+      "stories/luis-carlos-orta-story/5.png",
+      "stories/luis-carlos-orta-story/6.png",
+      "stories/luis-carlos-orta-story/7.png",
+      "stories/luis-carlos-orta-story/8.png",
+      "stories/luis-carlos-orta-story/9.png",
+      "stories/luis-carlos-orta-story/10.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "Alabama",
+    location: "Lincoln and Pickens County, Alabama",
+    map: { state: "Alabama" },
+    tags: ["Asylum", "Detention", "Family", "ICE", "Legal Status", "Student", "Venezuelan"],
+    title: "Luis & Carlos Orta’s Story",
+    preserveSummaryParagraphs: true,
+    summary: "Today, we are sharing the story of Luis and Carlos Orta, 19-year-old twin brothers and college soccer players. While driving back to their college in Alabama after visiting their parents in Georgia, they were pulled over in Lincoln, Alabama, for allegedly failing to stop fully at a stop sign. According to their family, the officer asked for their driver's licenses, told them they were undocumented, and arrested them. They spent the night in county jail before being transferred between detention facilities, including the Pickens County Detention Center in Alabama. Subsequent reporting says they were transferred to ICE custody in Louisiana.\n\nThe family fled Venezuela because of safety and political concerns. Their parents say both brothers have valid driver's licenses and work permits, and pending asylum applications. The family has had difficulty communicating with them and learning about their conditions while working with attorneys to seek their release. Their teammates, coaches, teachers, and community have spoken in support of the brothers, highlighting their academic records and calling for their release. The sources used for this post include Telemundo and WBRC. If you would like to learn more, we encourage you to read their reporting and the family's GoFundMe.\n\nIf you would like to support Luis and Carlos during this difficult time, please consider donating through their family's GoFundMe below.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7705581699844869390?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    supportLink: "https://gofund.me/a7d67ea31",
+    supportLinkLabel: "Support Luis & Carlos",
+    link: "stories.html#luis-carlos-orta-story"
   }
 ];
 
