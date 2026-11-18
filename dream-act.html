@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project Second Voice | DREAM Act Resource</title>
-  <meta name="theme-color" content="#fff8f7">
+  <meta name="theme-color" content="#fbf7ef">
   <meta
     name="description"
     content="A hidden Project Second Voice educational slideshow resource about the DREAM Act, created as part of the United We Dream partnership."
@@ -16,19 +16,41 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Project Second Voice — DREAM Act Resource">
   <meta name="twitter:description" content="An educational resource about the DREAM Act and immigrant youth advocacy.">
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500..800&amp;family=DM+Sans:wght@400..700&amp;display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="assets/dream-act/slides/slide-01.webp" type="image/webp">
-  <link rel="stylesheet" href="styles.css?v=20260525-dream-act">
+  <link rel="stylesheet" href="styles.css?v=20261118">
+  <script src="site.js?v=20261118" defer></script>
 </head>
 <body data-page="dream-act">
   <a class="skip-link" href="#main-content">Skip to main content</a>
   <div class="site-shell dream-resource-shell">
+    <header class="site-header">
+      <nav class="container navbar" aria-label="Main navigation">
+        <a class="brand" href="index.html" aria-label="Project Second Voice home">
+          <img class="brand-mark" src="assets/project-second-voice-logo-web.png" alt="" width="44" height="44" decoding="async">
+          <span>Project<br>Second Voice</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+          <span>Menu</span>
+          <span class="nav-toggle-icon" aria-hidden="true"></span>
+        </button>
+        <div class="nav-links" id="site-menu">
+          <a href="index.html">Home</a>
+          <a href="stories.html">Stories</a>
+          <a href="about.html">About</a>
+          <a href="impact.html">Impact</a>
+          <a class="is-active" aria-current="location" href="partners.html">Partnerships</a>
+          <a href="camino.html">Camino</a>
+          <a class="nav-contact" href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
     <div class="dream-resource-top">
       <div class="container">
         <a class="button button-secondary dream-resource-back" href="partners.html">
@@ -46,7 +68,6 @@
             A focused educational presentation on the DREAM Act, Dreamer rights, immigrant youth advocacy, and
             community action.
           </p>
-          <span class="editorial-rule" aria-hidden="true"></span>
         </div>
       </section>
 
@@ -59,11 +80,11 @@
 
           <div class="dream-slideshow" data-dream-slideshow>
             <div class="dream-slide-toolbar" aria-label="Slide controls">
-              <button class="dream-slide-arrow" type="button" data-dream-prev aria-label="Previous slide">
+              <button class="icon-button dream-slide-arrow" type="button" data-dream-prev aria-label="Previous slide">
                 &larr;
               </button>
               <p class="dream-slide-indicator" data-dream-indicator aria-live="polite">1/8</p>
-              <button class="dream-slide-arrow" type="button" data-dream-next aria-label="Next slide">
+              <button class="icon-button dream-slide-arrow" type="button" data-dream-next aria-label="Next slide">
                 &rarr;
               </button>
             </div>
@@ -96,6 +117,33 @@
         </div>
       </section>
     </main>
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <div class="footer-identity">
+          <a class="brand" href="index.html" aria-label="Project Second Voice home">
+            <img class="brand-mark" src="assets/project-second-voice-logo-web.png" alt="" width="44" height="44" loading="lazy" decoding="async">
+            <span>Project<br>Second Voice</span>
+          </a>
+          <p>Youth-led storytelling and advocacy for immigrant communities.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <div>
+            <a href="about.html">About</a>
+            <a href="stories.html">Stories</a>
+            <a href="impact.html">Impact</a>
+          </div>
+          <div>
+            <a href="partners.html">Partnerships</a>
+            <a href="dream-act.html">DREAM Act</a>
+            <a href="camino.html">Camino</a>
+          </div>
+          <div>
+            <a href="contact.html">Contact</a>
+            <a href="https://www.tiktok.com/@projectsecondvoice" target="_blank" rel="noopener noreferrer">TikTok <span aria-hidden="true">↗</span></a>
+          </div>
+        </nav>
+      </div>
+    </footer>
   </div>
 
   <script>

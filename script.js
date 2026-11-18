@@ -1,5 +1,3 @@
-document.documentElement.classList.add("js");
-
 const STORY_SUBMISSION_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfCem22HQOIS5jlcQKeNLmisV8W1oXVRd6TmXMJii0-VJpMfw/viewform?usp=dialog";
 const CONTACT_EMAIL = "projectsecondvoice@gmail.com";
 const EXTERNAL_LINK_REL = "noopener noreferrer";
@@ -4959,11 +4957,13 @@ function createStoryCard(story, isArchive = false) {
     : `<div class="story-card-image story-card-image-placeholder" aria-hidden="true"></div>`;
 
   card.innerHTML = `
-    ${imageMarkup}
-    ${badgeMarkup}
-    <h3>${storyTitle}</h3>
-    <p>${escapeHtml(getStoryPreviewText(story.summary))}</p>
-    <a class="button button-secondary" href="${storyHref}" data-story-slug="${story.slug}" aria-label="${linkLabel}"${getExternalLinkAttributes(storyHref)}>Read Story</a>
+    <div class="story-card-cover">${imageMarkup}</div>
+    <div class="story-card-copy">
+      ${badgeMarkup}
+      <h3>${storyTitle}</h3>
+      <p>${escapeHtml(getStoryPreviewText(story.summary))}</p>
+      <a class="text-link story-card-link" href="${storyHref}" data-story-slug="${story.slug}" aria-label="${linkLabel}"${getExternalLinkAttributes(storyHref)}>Read story <span aria-hidden="true">↗</span></a>
+    </div>
   `;
   return card;
 }
@@ -4984,18 +4984,20 @@ function renderNewestStory() {
 
   newestContainer.innerHTML = `
     <article class="newest-story-card">
-      <div class="newest-story-copy">
-        <span class="story-focus-pill">Newest story</span>
-        <h3>${newestTitle}</h3>
-        <p>${escapeHtml(getStoryPreviewText(newestStory.summary, 260))}</p>
-        <a class="button button-primary" href="${newestHref}"${getExternalLinkAttributes(newestHref)}>Read Newest Story</a>
-      </div>
       <div class="newest-story-visual">
+        <span class="newest-story-label">Featured story</span>
         ${imageMarkup}
+      </div>
+      <div class="newest-story-copy">
+        <h2>${newestTitle}</h2>
+        <p>${escapeHtml(getStoryPreviewText(newestStory.summary, 260))}</p>
+        <a class="newest-story-link" href="${newestHref}" aria-label="Read ${newestTitle}"${getExternalLinkAttributes(newestHref)}><span aria-hidden="true">↗</span></a>
       </div>
     </article>
   `;
 }
+
+let storyGalleryResizeObserver;
 
 function renderStoryFocus() {
   const focus = document.querySelector("[data-story-focus]");
@@ -5017,13 +5019,22 @@ function renderStoryFocus() {
     .join("");
   const galleryMarkup = storyImages.length
     ? `
-      <div class="story-gallery">
-        ${storyImages.map((image, index) => `
-          <a class="story-gallery-item" href="${image}" target="_blank" rel="${EXTERNAL_LINK_REL}" aria-label="Open ${storyTitle} image ${index + 1}">
-            <img src="${image}" alt="${storyTitle} slide ${index + 1}" loading="lazy" decoding="async">
-          </a>
-        `).join("")}
-      </div>
+      <section class="story-gallery" aria-labelledby="story-slides-title">
+        <div class="story-gallery-toolbar">
+          <h3 id="story-slides-title">Story slides</h3>
+          <div class="story-gallery-controls">
+            <button class="icon-button" type="button" data-gallery-prev aria-label="Previous story slides" aria-controls="story-slides">←</button>
+            <button class="icon-button" type="button" data-gallery-next aria-label="Next story slides" aria-controls="story-slides">→</button>
+          </div>
+        </div>
+        <div class="story-gallery-track" id="story-slides" data-gallery-track>
+          ${storyImages.map((image, index) => `
+            <a class="story-gallery-item" href="${image}" target="_blank" rel="${EXTERNAL_LINK_REL}" aria-label="Open ${storyTitle} image ${index + 1}">
+              <img src="${image}" alt="${storyTitle} slide ${index + 1}" loading="lazy" decoding="async">
+            </a>
+          `).join("")}
+        </div>
+      </section>
     `
     : "";
   const tiktokMarkup = story.tiktokLink
@@ -5036,22 +5047,58 @@ function renderStoryFocus() {
     ? `<div class="story-focus-actions">${tiktokMarkup}${supportLinkMarkup}</div>`
     : "";
 
+  storyGalleryResizeObserver?.disconnect();
   focus.innerHTML = `
     <div class="story-focus-copy">
       ${storyBadgeMarkup}
-      <h2>${storyTitle}</h2>
+      <h2 id="story-focus-title">${storyTitle}</h2>
       ${summaryMarkup}
       ${actionsMarkup}
     </div>
     <div class="story-focus-meta">
-      <p>
-        This archive is structured to scale as Project Second Voice publishes more digital stories, interviews,
-        and narrative portraits over time.
-      </p>
-      <a class="button button-primary" href="contact.html">Inquire About Storytelling</a>
+      <a class="text-link" href="contact.html">Ask about storytelling <span aria-hidden="true">↗</span></a>
     </div>
     ${galleryMarkup}
   `;
+
+  initStoryGallery(focus);
+}
+
+function initStoryGallery(focus) {
+  const track = focus.querySelector("[data-gallery-track]");
+
+  if (!track) {
+    return;
+  }
+
+  const previous = focus.querySelector("[data-gallery-prev]");
+  const next = focus.querySelector("[data-gallery-next]");
+
+  function updateControls() {
+    const lastPosition = track.scrollWidth - track.clientWidth;
+    // Keep the focused control available to keyboard users on reaching either end.
+    previous.setAttribute("aria-disabled", String(track.scrollLeft <= 1));
+    next.setAttribute("aria-disabled", String(track.scrollLeft >= lastPosition - 1));
+  }
+
+  function moveGallery(button, direction) {
+    if (button.getAttribute("aria-disabled") === "true" || !track.firstElementChild) {
+      return;
+    }
+
+    const gap = Number.parseFloat(getComputedStyle(track).columnGap);
+    const step = track.firstElementChild.getBoundingClientRect().width + gap;
+    track.scrollBy({ left: step * direction, behavior: prefersReducedMotion() ? "auto" : "smooth" });
+  }
+
+  previous.addEventListener("click", () => moveGallery(previous, -1));
+  next.addEventListener("click", () => moveGallery(next, 1));
+  track.addEventListener("scroll", updateControls, { passive: true });
+  if ("ResizeObserver" in window) {
+    storyGalleryResizeObserver = new ResizeObserver(updateControls);
+    storyGalleryResizeObserver.observe(track);
+  }
+  updateControls();
 }
 
 function scrollStoryFocusIntoView() {
@@ -5061,7 +5108,7 @@ function scrollStoryFocusIntoView() {
     return;
   }
 
-  focus.classList.add("is-visible");
+  focus.classList.remove("reveal-pending");
   focus.setAttribute("tabindex", "-1");
   focus.scrollIntoView({ behavior: prefersReducedMotion() ? "auto" : "smooth", block: "start" });
   focus.focus({ preventScroll: true });
@@ -5138,8 +5185,6 @@ function renderStories() {
   const preview = document.querySelector("[data-stories-preview]");
   const featuredStories = getHomepagePreviewStories();
 
-  renderStoryArchive(getArchiveStories());
-
   if (preview) {
     preview.innerHTML = "";
     const previewFragment = document.createDocumentFragment();
@@ -5167,7 +5212,12 @@ function initStoryArchiveControls() {
   const controls = document.querySelector("[data-story-tools]");
   const archive = document.querySelector("[data-story-archive]");
 
-  if (!controls || !archive) {
+  if (!archive) {
+    return;
+  }
+
+  if (!controls) {
+    renderStoryArchive(getArchiveStories());
     return;
   }
 
@@ -5375,7 +5425,7 @@ function initStoryMap() {
     }).join("");
 
     svgHost.innerHTML = `
-      <svg class="story-map-svg" viewBox="0 0 ${svgWidth} ${svgHeight}" role="img" aria-label="U.S. story map by state">
+      <svg class="story-map-svg" viewBox="0 0 ${svgWidth} ${svgHeight}" role="group" aria-label="U.S. story map by state">
         ${tilesMarkup}
       </svg>
     `;
@@ -5481,89 +5531,6 @@ function initStats() {
   statGroups.forEach((group) => observer.observe(group));
 }
 
-function initReveal() {
-  const revealItems = document.querySelectorAll(".reveal");
-
-  if (!revealItems.length) {
-    return;
-  }
-
-  if (prefersReducedMotion() || !("IntersectionObserver" in window)) {
-    revealItems.forEach((item) => item.classList.add("is-visible"));
-    return;
-  }
-
-  const observer = new IntersectionObserver((entries, revealObserver) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("is-visible");
-        revealObserver.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.15 });
-
-  revealItems.forEach((item) => observer.observe(item));
-}
-
-function initNav() {
-  const toggle = document.querySelector(".nav-toggle");
-  const menu = document.querySelector(".nav-links");
-
-  if (!toggle || !menu) {
-    return;
-  }
-
-  function setMenuOpen(isOpen) {
-    menu.classList.toggle("is-open", isOpen);
-    toggle.setAttribute("aria-expanded", String(isOpen));
-    document.body.classList.toggle("nav-open", isOpen);
-
-    if (window.innerWidth <= 760) {
-      menu.setAttribute("aria-hidden", String(!isOpen));
-    } else {
-      menu.removeAttribute("aria-hidden");
-    }
-  }
-
-  setMenuOpen(false);
-
-  toggle.addEventListener("click", () => {
-    setMenuOpen(!menu.classList.contains("is-open"));
-  });
-
-  menu.querySelectorAll("a").forEach((link) => {
-    link.addEventListener("click", () => {
-      setMenuOpen(false);
-    });
-  });
-
-  document.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && menu.classList.contains("is-open")) {
-      setMenuOpen(false);
-      toggle.focus();
-    }
-  });
-
-  document.addEventListener("click", (event) => {
-    if (!menu.classList.contains("is-open")) {
-      return;
-    }
-
-    if (event.target.closest(".navbar")) {
-      return;
-    }
-
-    setMenuOpen(false);
-  });
-
-  window.addEventListener("resize", () => {
-    if (window.innerWidth > 760) {
-      setMenuOpen(false);
-      menu.removeAttribute("aria-hidden");
-    }
-  });
-}
-
 function initStoryFocus() {
   const focus = document.querySelector("[data-story-focus]");
   const archive = document.querySelector("[data-story-archive]");
@@ -5574,17 +5541,15 @@ function initStoryFocus() {
 
   renderStoryFocus();
 
-  if (window.location.hash) {
-    window.addEventListener("load", () => {
-      requestAnimationFrame(scrollStoryFocusIntoView);
-    }, { once: true });
+  if (getStoryBySlug(window.location.hash.slice(1))) {
+    requestAnimationFrame(scrollStoryFocusIntoView);
   }
 
   if (archive) {
     archive.addEventListener("click", (event) => {
       const link = event.target.closest("a[data-story-slug]");
 
-      if (!link || !link.getAttribute("href")?.startsWith("#")) {
+      if (!link || !link.getAttribute("href")?.startsWith("#") || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
         return;
       }
 
@@ -5603,8 +5568,13 @@ function initStoryFocus() {
   }
 
   window.addEventListener("hashchange", () => {
-    renderStoryFocus();
-    scrollStoryFocusIntoView();
+    const slug = window.location.hash.slice(1);
+    if (!slug || getStoryBySlug(slug)) {
+      renderStoryFocus();
+    }
+    if (getStoryBySlug(slug)) {
+      scrollStoryFocusIntoView();
+    }
   });
 }
 
@@ -5618,7 +5588,5 @@ document.addEventListener("DOMContentLoaded", () => {
   initStoryArchiveControls();
   initStoryMap();
   initStats();
-  initReveal();
-  initNav();
   initStoryFocus();
 });
