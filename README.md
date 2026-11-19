@@ -31,7 +31,7 @@ Each story entry includes:
 - `slug`
 - `images`
 - `featured`
-- `isNewest`
+- `isNewest` (selects the lead story)
 - `title`
 - `summary`
 - `tiktokLink`
@@ -39,9 +39,9 @@ Each story entry includes:
 
 The site renders:
 
-- the newest featured story on the homepage
+- the lead featured story on the homepage
 - additional featured stories on the homepage
-- the full archive and focus panel on `stories.html`
+- the full archive and focus panel with a slideshow on `stories.html`
 
 ## Local Preview
 

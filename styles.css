@@ -644,45 +644,32 @@ ul, ol { padding-inline-start: 1.25rem; }
 .story-focus-copy p { max-width: 76ch; color: var(--ink); }
 .story-focus-actions { margin-top: 1.15rem; }
 
-.story-gallery { grid-column: 1 / -1; min-width: 0; }
-
-.story-gallery-toolbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: .8rem;
-  margin-bottom: .6rem;
-}
-
-.story-gallery-controls { display: flex; gap: .5rem; }
-
-.story-gallery-track {
+.story-slideshow {
+  grid-column: 1 / -1;
   display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: minmax(0, 29%);
-  gap: .8rem;
-  overflow-x: auto;
-  padding: .35rem .35rem .7rem;
-  scroll-padding-inline: .35rem;
-  scroll-snap-type: x mandatory;
-  scrollbar-color: #a97776 transparent;
+  gap: .7rem;
+  width: min(100%, 40rem);
+  min-width: 0;
+  margin-inline: auto;
 }
 
-.story-gallery-item {
-  display: block;
-  scroll-snap-align: start;
-  border-radius: .65rem;
-  background: var(--rose);
-  transition: transform .28s var(--ease);
+.story-slide-frame {
+  display: grid;
+  grid-template: minmax(0, 1fr) / minmax(0, 1fr);
+  place-items: center;
+  aspect-ratio: 4 / 5;
+  background: var(--white);
+  touch-action: pan-y pinch-zoom;
+  -webkit-touch-callout: none;
 }
 
-.story-gallery-item img {
+.story-slide-frame img {
   width: 100%;
-  height: auto;
-  aspect-ratio: auto 4 / 5;
+  height: 100%;
   object-fit: contain;
-  border-radius: inherit;
 }
+
+.story-slide-unavailable { padding: 1rem; color: var(--muted); text-align: center; }
 
 .submission-banner { align-items: center; }
 .submission-copy p, .submission-note { margin-top: .75rem; color: var(--muted); }
@@ -939,7 +926,7 @@ ul, ol { padding-inline-start: 1.25rem; }
 .dream-slideshow-heading { margin-bottom: 1.5rem; }
 .dream-slideshow-heading .eyebrow { margin-bottom: .45rem; }
 .dream-slideshow { display: grid; gap: .7rem; max-width: 65rem; margin-inline: auto; }
-.dream-slide-toolbar {
+.dream-slide-toolbar, .story-slide-toolbar {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
@@ -947,7 +934,7 @@ ul, ol { padding-inline-start: 1.25rem; }
   background: var(--rose);
   border-radius: 999px;
 }
-.dream-slide-indicator { color: var(--plum); font-weight: 750; text-align: center; }
+.dream-slide-indicator, .story-slide-indicator { color: var(--plum); font-weight: 750; text-align: center; }
 .icon-button {
   display: grid;
   place-items: center;
@@ -963,7 +950,7 @@ ul, ol { padding-inline-start: 1.25rem; }
 }
 .icon-button:hover { background: var(--berry); }
 .icon-button:is(:disabled, [aria-disabled="true"]) { background: var(--white); color: #846b70; cursor: default; }
-.dream-slide-frame { overflow: hidden; border-radius: var(--radius); border: 1px solid var(--line); }
+.dream-slide-frame, .story-slide-frame { overflow: hidden; border-radius: var(--radius); border: 1px solid var(--line); }
 .dream-slide-image { width: 100%; aspect-ratio: 16 / 9; object-fit: contain; background: var(--white); }
 .dream-resource-actions { justify-content: center; margin-top: 1.5rem; }
 
@@ -1168,7 +1155,6 @@ ul, ol { padding-inline-start: 1.25rem; }
 
 @media (hover: hover) {
   .button:hover { translate: 0 -2px; }
-  .story-gallery-item:hover { transform: translateY(-3px); }
 }
 
 @media (max-width: 58rem) {
@@ -1220,7 +1206,6 @@ ul, ol { padding-inline-start: 1.25rem; }
   .hero-text { margin-top: 1rem; }
   .hero { padding-top: 2.45rem; }
   .newest-story-image { width: min(100%, 14rem); }
-  .story-gallery-track { grid-auto-columns: 46%; }
   .stats-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .stat-card { padding-top: .65rem; }
   .stat-label { font-size: .9rem; }
@@ -1236,7 +1221,6 @@ ul, ol { padding-inline-start: 1.25rem; }
   .story-grid, .advocacy-partner-grid, .spotlight-resource-grid,
   .resource-spotlight-details, .camino-feature-grid, .camino-support-grid { grid-template-columns: minmax(0, 1fr); }
   .story-card-cover { aspect-ratio: 1.5; }
-  .story-gallery-track { grid-auto-columns: 80%; }
   .hero-actions { gap: .6rem; }
   .hero-actions .button { padding-inline: .9rem; }
   .archive-search-input { flex-basis: 100%; }
@@ -1262,7 +1246,7 @@ ul, ol { padding-inline-start: 1.25rem; }
   .story-card:hover .story-card-image, .story-card:focus-within .story-card-image,
   .newest-story-card:hover .newest-story-image, .newest-story-card:focus-within .newest-story-image,
   .newest-story-card:hover .newest-story-visual::before,
-  .story-gallery-item:hover, .partner-logo-link:hover, .camino-store-link:hover {
+  .partner-logo-link:hover, .camino-store-link:hover {
     transform: none;
     translate: none;
   }

@@ -4917,15 +4917,7 @@ function getStoryHref(story, isArchive = false) {
 }
 
 function getStoryBadge(story) {
-  if (story.isNewest) {
-    return "Newest story";
-  }
-
-  if (story.featured) {
-    return "Featured story";
-  }
-
-  return "";
+  return story.featured || story.isNewest ? "Featured story" : "";
 }
 
 function getStoryBadgeMarkup(story, className) {
@@ -4997,8 +4989,6 @@ function renderNewestStory() {
   `;
 }
 
-let storyGalleryResizeObserver;
-
 function renderStoryFocus() {
   const focus = document.querySelector("[data-story-focus]");
 
@@ -5017,23 +5007,19 @@ function renderStoryFocus() {
   const summaryMarkup = summaryParagraphs
     .map((paragraph) => `<p>${escapeHtml(paragraph.trim())}</p>`)
     .join("");
-  const galleryMarkup = storyImages.length
+  const slideshowMarkup = storyImages.length
     ? `
-      <section class="story-gallery" aria-labelledby="story-slides-title">
-        <div class="story-gallery-toolbar">
-          <h3 id="story-slides-title">Story slides</h3>
-          <div class="story-gallery-controls">
-            <button class="icon-button" type="button" data-gallery-prev aria-label="Previous story slides" aria-controls="story-slides">←</button>
-            <button class="icon-button" type="button" data-gallery-next aria-label="Next story slides" aria-controls="story-slides">→</button>
-          </div>
+      <section class="story-slideshow" data-story-slideshow aria-labelledby="story-slides-title">
+        <h3 id="story-slides-title">Story slides</h3>
+        <div class="story-slide-toolbar" role="group" aria-label="Slide controls">
+          <button class="icon-button" type="button" data-story-slide-prev aria-label="Previous slide" aria-controls="story-slide-frame">←</button>
+          <p class="story-slide-indicator" data-story-slide-indicator role="status" aria-atomic="true"></p>
+          <button class="icon-button" type="button" data-story-slide-next aria-label="Next slide" aria-controls="story-slide-frame">→</button>
         </div>
-        <div class="story-gallery-track" id="story-slides" data-gallery-track>
-          ${storyImages.map((image, index) => `
-            <a class="story-gallery-item" href="${image}" target="_blank" rel="${EXTERNAL_LINK_REL}" aria-label="Open ${storyTitle} image ${index + 1}">
-              <img src="${image}" alt="${storyTitle} slide ${index + 1}" loading="lazy" decoding="async">
-            </a>
-          `).join("")}
-        </div>
+        <figure class="story-slide-frame" id="story-slide-frame" tabindex="0" aria-label="Story slide preview">
+          <img data-story-slide-image alt="" loading="lazy" decoding="async" draggable="false">
+          <p class="story-slide-unavailable" data-story-slide-unavailable role="status" hidden>This slide is unavailable.</p>
+        </figure>
       </section>
     `
     : "";
@@ -5047,7 +5033,6 @@ function renderStoryFocus() {
     ? `<div class="story-focus-actions">${tiktokMarkup}${supportLinkMarkup}</div>`
     : "";
 
-  storyGalleryResizeObserver?.disconnect();
   focus.innerHTML = `
     <div class="story-focus-copy">
       ${storyBadgeMarkup}
@@ -5058,47 +5043,83 @@ function renderStoryFocus() {
     <div class="story-focus-meta">
       <a class="text-link" href="contact.html">Ask about storytelling <span aria-hidden="true">↗</span></a>
     </div>
-    ${galleryMarkup}
+    ${slideshowMarkup}
   `;
 
-  initStoryGallery(focus);
+  if (storyImages.length) {
+    initStorySlideshow(focus.querySelector("[data-story-slideshow]"), storyImages, story.title);
+  }
 }
 
-function initStoryGallery(focus) {
-  const track = focus.querySelector("[data-gallery-track]");
+function initStorySlideshow(slideshow, images, title) {
+  const frame = slideshow.querySelector("#story-slide-frame");
+  const image = slideshow.querySelector("[data-story-slide-image]");
+  const unavailable = slideshow.querySelector("[data-story-slide-unavailable]");
+  const indicator = slideshow.querySelector("[data-story-slide-indicator]");
+  const previous = slideshow.querySelector("[data-story-slide-prev]");
+  const next = slideshow.querySelector("[data-story-slide-next]");
+  let currentIndex = -1;
+  let swipeStart;
 
-  if (!track) {
-    return;
-  }
-
-  const previous = focus.querySelector("[data-gallery-prev]");
-  const next = focus.querySelector("[data-gallery-next]");
-
-  function updateControls() {
-    const lastPosition = track.scrollWidth - track.clientWidth;
-    // Keep the focused control available to keyboard users on reaching either end.
-    previous.setAttribute("aria-disabled", String(track.scrollLeft <= 1));
-    next.setAttribute("aria-disabled", String(track.scrollLeft >= lastPosition - 1));
-  }
-
-  function moveGallery(button, direction) {
-    if (button.getAttribute("aria-disabled") === "true" || !track.firstElementChild) {
+  function showSlide(index) {
+    const nextIndex = Math.max(0, Math.min(index, images.length - 1));
+    if (nextIndex === currentIndex) {
       return;
     }
 
-    const gap = Number.parseFloat(getComputedStyle(track).columnGap);
-    const step = track.firstElementChild.getBoundingClientRect().width + gap;
-    track.scrollBy({ left: step * direction, behavior: prefersReducedMotion() ? "auto" : "smooth" });
+    currentIndex = nextIndex;
+    const position = `Slide ${currentIndex + 1} of ${images.length}`;
+    image.alt = `${title} — ${position}`;
+    image.hidden = false;
+    unavailable.hidden = true;
+    image.src = images[currentIndex];
+    indicator.textContent = position;
+
+    // Keep the focused control available to keyboard users on reaching either end.
+    previous.setAttribute("aria-disabled", String(currentIndex === 0));
+    next.setAttribute("aria-disabled", String(currentIndex === images.length - 1));
   }
 
-  previous.addEventListener("click", () => moveGallery(previous, -1));
-  next.addEventListener("click", () => moveGallery(next, 1));
-  track.addEventListener("scroll", updateControls, { passive: true });
-  if ("ResizeObserver" in window) {
-    storyGalleryResizeObserver = new ResizeObserver(updateControls);
-    storyGalleryResizeObserver.observe(track);
-  }
-  updateControls();
+  image.addEventListener("error", () => {
+    image.hidden = true;
+    unavailable.hidden = false;
+  });
+  image.addEventListener("load", () => {
+    const upcomingSlide = images[currentIndex + 1];
+    if (upcomingSlide) {
+      const preload = new Image();
+      preload.src = upcomingSlide;
+    }
+  });
+  previous.addEventListener("click", () => showSlide(currentIndex - 1));
+  next.addEventListener("click", () => showSlide(currentIndex + 1));
+
+  slideshow.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+      event.preventDefault();
+      showSlide(currentIndex + (event.key === "ArrowLeft" ? -1 : 1));
+    }
+  });
+  frame.addEventListener("contextmenu", (event) => event.preventDefault());
+  frame.addEventListener("pointerdown", (event) => {
+    if (event.isPrimary && event.pointerType === "touch") {
+      swipeStart = { id: event.pointerId, x: event.clientX, y: event.clientY };
+    }
+  });
+  frame.addEventListener("pointerup", (event) => {
+    if (swipeStart?.id !== event.pointerId) {
+      return;
+    }
+
+    const deltaX = event.clientX - swipeStart.x;
+    const deltaY = event.clientY - swipeStart.y;
+    swipeStart = undefined;
+    if (Math.abs(deltaX) >= 46 && Math.abs(deltaX) > Math.abs(deltaY)) {
+      showSlide(currentIndex + (deltaX < 0 ? 1 : -1));
+    }
+  });
+  frame.addEventListener("pointercancel", () => { swipeStart = undefined; });
+  showSlide(0);
 }
 
 function scrollStoryFocusIntoView() {
@@ -5134,18 +5155,7 @@ function initStoryImageFallbacks() {
   document.addEventListener("error", (event) => {
     const image = event.target;
 
-    if (!(image instanceof HTMLImageElement)) {
-      return;
-    }
-
-    const galleryItem = image.closest(".story-gallery-item");
-
-    if (galleryItem) {
-      galleryItem.remove();
-      return;
-    }
-
-    if (image.dataset.fallbackApplied) {
+    if (!(image instanceof HTMLImageElement) || image.matches("[data-story-slide-image]") || image.dataset.fallbackApplied) {
       return;
     }
 
