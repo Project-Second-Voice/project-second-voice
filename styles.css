@@ -731,6 +731,11 @@ ul, ol { padding-inline-start: 1.25rem; }
 .community-support-copy .button { margin-top: 1rem; }
 
 .policy-advocacy-section { background: var(--mint); }
+.advocacy-card + .advocacy-card {
+  margin-top: 2.5rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--line);
+}
 .advocacy-grid {
   display: grid;
   grid-template-columns: minmax(8rem, .42fr) minmax(0, 1fr);
