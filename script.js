@@ -4630,6 +4630,36 @@ const stories = [
     supportLink: "https://gofund.me/a7d67ea31",
     supportLinkLabel: "Support Luis & Carlos",
     link: "stories.html#luis-carlos-orta-story"
+  },
+  {
+    order: 172,
+    slug: "paula-valentina-albornoz-hernandez-story",
+    images: [
+      "stories/paula-valentina-albornoz-hernandez-story/1.png",
+      "stories/paula-valentina-albornoz-hernandez-story/2.png",
+      "stories/paula-valentina-albornoz-hernandez-story/3.png",
+      "stories/paula-valentina-albornoz-hernandez-story/4.png",
+      "stories/paula-valentina-albornoz-hernandez-story/5.png",
+      "stories/paula-valentina-albornoz-hernandez-story/6.png",
+      "stories/paula-valentina-albornoz-hernandez-story/7.png",
+      "stories/paula-valentina-albornoz-hernandez-story/8.png",
+      "stories/paula-valentina-albornoz-hernandez-story/9.png",
+      "stories/paula-valentina-albornoz-hernandez-story/10.png",
+      "stories/paula-valentina-albornoz-hernandez-story/11.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "California",
+    location: "Berkeley, California",
+    map: { state: "California" },
+    tags: ["Asylum", "Colombian", "Detention", "ICE", "Student", "Wrongful Detention"],
+    title: "Paula Valentina Albornoz Hernandez's Story",
+    preserveSummaryParagraphs: true,
+    summary: "Today, we are sharing the story of Paula Valentina Albornoz Hernandez. Paula came to the United States after fleeing gender-based violence in Colombia. Her asylum application was pending when ICE detained her at San Francisco International Airport as she was about to board a flight to Oregon for a vacation with her boyfriend. Paula, a UC Berkeley student, had attended her biometrics appointments and received a work permit on two separate occasions. The Department of Homeland Security cited a visa overstay as the reason for her detention. She had no criminal record.\n\nPaula’s detention sparked outrage across UC Berkeley, where students held rallies and protests calling for her release. Those who knew her described her as responsible and studious and said she loved nature, school, and her church. Students, UC Berkeley’s chancellor, immigration attorneys, and community organizations advocated for her release. A federal judge ruled that her detention violated her right to due process, and Paula was released after 10 days in custody.\n\nAfter her release, supporters remained concerned about the trauma Paula experienced in detention, including the facility’s cold conditions, inadequate medical care, and poor food quality. Paula is working with immigration attorneys as her asylum case progresses. The UC Berkeley community’s support showed her she wasn’t alone. The sources used for this post include CBS News, ABC7, Davis Vanguard, and Berkeleyside. We encourage you to read their reporting to learn more.\n\nPaula’s family set up a GoFundMe to help cover her legal representation and immigration court costs. If you would like to support Paula, you can donate using the link below.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7708216794300828942?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    supportLink: "https://gofund.me/fe81cb6dc",
+    supportLinkLabel: "Support Paula",
+    link: "stories.html#paula-valentina-albornoz-hernandez-story"
   }
 ];
 
