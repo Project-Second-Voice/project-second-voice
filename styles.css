@@ -751,6 +751,22 @@ ul, ol { padding-inline-start: 1.25rem; }
   background: var(--white);
 }
 
+.congress-team-link {
+  display: block;
+  width: min(100%, 15.5rem);
+  margin-top: 1rem;
+  border-radius: .65rem;
+  background: var(--white);
+  color: var(--green);
+  font-size: .88rem;
+  font-weight: 750;
+  text-align: center;
+  text-decoration: underline;
+}
+.congress-team-link:hover { background: var(--peach); }
+.congress-team-link img { width: 100%; border-radius: .65rem .65rem 0 0; }
+.congress-team-link span { display: block; padding: .45rem .6rem; }
+
 .advocacy-copy p { margin-top: .85rem; color: var(--muted); }
 .advocacy-copy .advocacy-date { margin-top: .35rem; color: var(--green); font-weight: 750; }
 .advocacy-copy .advocacy-disclaimer { font-size: .88rem; }
