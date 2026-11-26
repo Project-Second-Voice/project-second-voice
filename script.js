@@ -4660,6 +4660,35 @@ const stories = [
     supportLink: "https://gofund.me/fe81cb6dc",
     supportLinkLabel: "Support Paula",
     link: "stories.html#paula-valentina-albornoz-hernandez-story"
+  },
+  {
+    order: 173,
+    slug: "venkata-vasamsetty-story",
+    images: [
+      "stories/venkata-vasamsetty-story/1.png",
+      "stories/venkata-vasamsetty-story/2.png",
+      "stories/venkata-vasamsetty-story/3.png",
+      "stories/venkata-vasamsetty-story/4.png",
+      "stories/venkata-vasamsetty-story/5.png",
+      "stories/venkata-vasamsetty-story/6.png",
+      "stories/venkata-vasamsetty-story/7.png",
+      "stories/venkata-vasamsetty-story/8.png",
+      "stories/venkata-vasamsetty-story/9.png",
+      "stories/venkata-vasamsetty-story/10.png",
+      "stories/venkata-vasamsetty-story/11.png",
+      "stories/venkata-vasamsetty-story/12.png"
+    ],
+    featured: false,
+    isNewest: false,
+    state: "North Carolina",
+    location: "Cary, North Carolina",
+    map: { state: "North Carolina" },
+    tags: ["Deportation", "Detention", "Family", "ICE", "Legal Status", "Medical/Humanitarian"],
+    title: "Venkata Vasamsetty's Story",
+    preserveSummaryParagraphs: true,
+    summary: "Today, we are sharing the story of Venkata Vasamsetty. Venkata came to the United States from India on a visa in 1999 and later received a green card. She works in special education in North Carolina and has daughters and grandchildren.\n\nIn 2022, Venkata visited India to care for her elderly parents. A serious case of COVID-19 left her hospitalized for more than two weeks and delayed her return to the U.S. After she returned, the Department of Homeland Security (DHS) began deportation proceedings, arguing that her extended absence showed she had abandoned her permanent residency. Venkata challenged the case in court, and the judge dismissed it after DHS failed to provide evidence to support its claim.\n\nA few months later, Immigration and Customs Enforcement (ICE) detained Venkata without warning at a scheduled check-in and transferred her to the Irwin County Detention Center in Georgia. Venkata had no criminal record, and her family said she had never received even a traffic ticket. She has diabetes and had several abnormal blood sugar readings. Her daughters worried that she would struggle to get adequate medical care and suitable food in detention, and they feared for her life.\n\nVenkata was released on bond and could continue her immigration case outside detention. The sources used for this post include The Independent, NBC News, and ABC11. We encourage you to read their reporting to learn more about Venkata’s story.",
+    tiktokLink: "https://www.tiktok.com/@projectsecondvoice/photo/7711148789771324686?is_from_webapp=1&sender_device=pc&web_id=7441831609211422238",
+    link: "stories.html#venkata-vasamsetty-story"
   }
 ];
 
